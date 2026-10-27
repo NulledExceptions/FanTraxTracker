@@ -5,7 +5,7 @@
   "url": "https://www.fantrax.com/fxpa/req",
   "status_code": 200,
   "size_bytes": 4032,
-  "elapsed_ms": 62,
+  "elapsed_ms": 47,
   "auth_level": "none",
   "from_cache": false,
   "request_body": {
@@ -18,7 +18,7 @@
     }
    ]
   },
-  "fetched_at": "2026-10-27T04:21:10.921252+00:00"
+  "fetched_at": "2026-10-27T14:35:43.340577+00:00"
  },
  "payload": {
   "fantasySettings": {

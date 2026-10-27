@@ -4,8 +4,8 @@
   "endpoint": "fxpa:getTeamRosterInfo",
   "url": "https://www.fantrax.com/fxpa/req",
   "status_code": 200,
-  "size_bytes": 40401,
-  "elapsed_ms": 464,
+  "size_bytes": 40408,
+  "elapsed_ms": 205,
   "auth_level": "none",
   "from_cache": false,
   "request_body": {
@@ -20,7 +20,7 @@
     }
    ]
   },
-  "fetched_at": "2026-10-27T04:21:14.269905+00:00"
+  "fetched_at": "2026-10-27T14:35:38.482922+00:00"
  },
  "payload": {
   "settings": {
@@ -1141,8 +1141,8 @@
        "team": false,
        "icons": [
         {
-         "tooltip": "Oct 25, 5:32 PM: VanVleet (knee) is off the injury...",
-         "typeId": "9"
+         "tooltip": "Oct 27, 12:45 AM: VanVleet produced five points (2-7 FG,...",
+         "typeId": "14"
         }
        ],
        "rookie": false,
@@ -1451,10 +1451,10 @@
         "content": "9.8"
        },
        {
-        "content": "8.5"
+        "content": "8.3"
        },
        {
-        "content": "1.8"
+        "content": "1.5"
        },
        {
         "content": "0.8"

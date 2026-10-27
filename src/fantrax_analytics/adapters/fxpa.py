@@ -97,8 +97,25 @@ class FxpaClient:
         """
         return self.call("getStandings", view="SCHEDULE")
 
-    def team_roster(self, team_id: str, *, view: str = "STATS", period: int | None = None) -> RawResponse:
-        return self.call("getTeamRosterInfo", teamId=team_id, view=view, period=period)
+    def team_roster(
+        self,
+        team_id: str,
+        *,
+        view: str = "STATS",
+        period: int | None = None,
+        season_or_projection: str | None = None,
+    ) -> RawResponse:
+        """Roster table. ``season_or_projection`` selects the stat source, e.g.
+        ``PROJECTION_0_<seasonId>_EVENT_PROJECTED_WEEKLY`` (Fantrax projected per game; the GP
+        column then holds projected games this period) — codes come from
+        ``seasonOrProjections`` in any STATS payload."""
+        return self.call(
+            "getTeamRosterInfo",
+            teamId=team_id,
+            view=view,
+            period=period,
+            seasonOrProjection=season_or_projection,
+        )
 
     def team_roster_schedule(self, team_id: str, period: int | None = None) -> RawResponse:
         return self.call("getTeamRosterInfo", teamId=team_id, view="SCHEDULE_FULL", period=period)
@@ -139,11 +156,14 @@ class FxpaClient:
         position: str | None = None,
         page: int = 1,
         per_page: int = 50,
+        season_or_projection: str | None = None,
     ) -> RawResponse:
         """Player pool with stats — the web client's 'Players' page request.
 
-        ``timeframe`` values seen in the web client: YEAR_TO_DATE, LAST_7_DAYS, LAST_15_DAYS,
-        LAST_30_DAYS. ``status_filter``: ALL, ALL_AVAILABLE, ALL_TAKEN, or a team id.
+        ``timeframe``: this league only honours YEAR_TO_DATE and BY_PERIOD (``period=``); the
+        LAST_N_DAYS codes and ``goBackDays`` are silently ignored (verified in discovery).
+        ``status_filter``: ALL, ALL_AVAILABLE, ALL_TAKEN, or a team id. ``season_or_projection``
+        as for :meth:`team_roster` (``PROJECTION_0_<seasonId>_EVENT_PROJECTED_WEEKLY`` etc.).
         """
         return self.call(
             "getPlayerStats",
@@ -152,4 +172,5 @@ class FxpaClient:
             positionOrGroup=position,
             pageNumber=page,
             maxResultsPerPage=per_page,
+            seasonOrProjection=season_or_projection,
         )

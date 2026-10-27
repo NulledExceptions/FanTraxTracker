@@ -18,6 +18,23 @@ cp .env.example .env
 Then fill in `FANTRAX_USER_SECRET_ID`. Fantrax → your **User Profile** screen → *Secret ID*.
 It is only ever sent in a POST body, never in a URL, and `.env` is git-ignored.
 
+## Build the matchup dashboard
+
+```bash
+fantrax report            # fetch what the dashboard needs (rate-limited, cached 1h), write reports/dashboard.html
+fantrax report --open     # ...and open it in the browser
+fantrax report --offline  # rebuild from the saved discovery/*.json payloads, no network
+fantrax report --no-cache # force fresh fetches
+```
+
+One self-contained HTML page (no external assets, light/dark): current matchup with per-category
+gap bars, end-of-period category projections (current totals + Fantrax projected per-game x games
+left) next to Fantrax's own projected W-L-T, a games grid for the rest of the period with the
+per-day active count against the 10 slots and the period's max-games cap, available players ranked
+per category by what they'd add over their remaining games, the roster's per-game stats, and every
+matchup in the period. Data flows ``reports/payloads.py`` (fetch/load) → ``analytics/`` (pure
+parsing and projection) → ``reports/dashboard.py`` → ``reports/html.py``.
+
 ## Run discovery
 
 ```bash

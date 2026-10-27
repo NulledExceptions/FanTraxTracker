@@ -13,6 +13,9 @@ discover *ARGS:
 sync *ARGS:
     uv run fantrax sync {{ARGS}}
 
+report *ARGS:
+    uv run fantrax report {{ARGS}}
+
 test:
     uv run pytest
 

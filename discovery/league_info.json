@@ -5,11 +5,11 @@
   "url": "https://www.fantrax.com/fxea/general/getLeagueInfo",
   "status_code": 200,
   "size_bytes": 103665,
-  "elapsed_ms": 88,
+  "elapsed_ms": 145,
   "auth_level": "none",
   "from_cache": false,
   "request_body": null,
-  "fetched_at": "2026-10-27T04:20:57.830235+00:00"
+  "fetched_at": "2026-10-27T14:35:35.409474+00:00"
  },
  "payload": {
   "matchups": [

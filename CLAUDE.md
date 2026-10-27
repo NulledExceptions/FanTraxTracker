@@ -94,8 +94,27 @@ adapters → models (Pydantic) → repositories → analytics → reports
 - CLI exits non-zero on failure and prints a one-line summary on success.
 - Rate limit ~1 req/s by default. Be a good citizen.
 
+## Dashboard (built ahead of Phase 1, on the owner's request)
+
+`fantrax report` renders `reports/dashboard.html` straight from raw payloads: `reports/payloads.py`
+is the only I/O (fetch through adapters, save/load `discovery/<domain>.json` via `raw_store.py`),
+`analytics/` is pure parsing + projection over the UI-shaped Fantrax tables, `reports/html.py` is
+inline CSS/SVG with no external assets. When Phase 1 lands, point `reports/payloads.py` at
+repositories; the analytics signatures take plain dicts/dataclasses and should not change.
+
+Payload facts the dashboard relies on:
+- Period category totals + W/L/T: fxpa `getStandings view=SCHEDULE`, table captioned
+  "Scoring Period N", two rows per `matchupId` (away first), `fixedCells[0].teamId`.
+- Per-game projections: `seasonOrProjection=PROJECTION_0_<seasonId>_EVENT_PROJECTED_WEEKLY` on
+  `getTeamRosterInfo` / `getPlayerStats` (codes in `seasonOrProjections`); the roster GP column
+  then holds projected games this period. LAST_N_DAYS / `goBackDays` are ignored by this league.
+- Games played so far and the period max: `GAMES_PER_POS` → `scMinMaxData` "Games Played (GP)".
+- Period game dates: live-scoring `periods[].object2` ("2 (Oct 26 - Nov 1)"); the getLeagueInfo
+  end instant falls on the next period's first day.
+- The official API double-encodes non-ASCII team names; `repair_mojibake` undoes it.
+
 ## Things that are deliberately NOT built yet
 
 - `fantrax auth` (Selenium cookie capture) — only if discovery proves it is needed.
-- `sync`, `team`, `available`, `matchup`, `standings`, `report`, `db` commands.
+- `sync`, `team`, `available`, `matchup`, `standings`, `db` commands (`report` exists, see above).
 - Any ORM model, migration, or analytics function.

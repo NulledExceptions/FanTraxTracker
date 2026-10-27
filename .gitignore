@@ -1,3 +1,4 @@
 .env
 .fantrax_cookies.json
 .cache/
+/reports/

@@ -1,0 +1,6808 @@
+{
+ "meta": {
+  "source": "fxpa",
+  "endpoint": "fxpa:getPlayerStats",
+  "url": "https://www.fantrax.com/fxpa/req",
+  "status_code": 200,
+  "size_bytes": 88754,
+  "elapsed_ms": 108,
+  "auth_level": "none",
+  "from_cache": false,
+  "request_body": {
+   "msgs": [
+    {
+     "method": "getPlayerStats",
+     "data": {
+      "leagueId": "fqj3m6m8murmhnko",
+      "statusOrTeamFilter": "ALL_AVAILABLE",
+      "timeframeTypeCode": "YEAR_TO_DATE",
+      "pageNumber": "1",
+      "maxResultsPerPage": "50",
+      "seasonOrProjection": "PROJECTION_0_41n_EVENT_PROJECTED_WEEKLY"
+     }
+    }
+   ]
+  },
+  "fetched_at": "2026-10-27T14:35:55.449217+00:00"
+ },
+ "payload": {
+  "displayedStatusOrTeam": "ALL_AVAILABLE",
+  "paginatedResultSet": {
+   "totalNumPages": 23,
+   "pageNumber": 1,
+   "maxResultsPerPage": 50,
+   "totalNumResults": 1139
+  },
+  "statsTable": [
+   {
+    "scorer": {
+     "teamName": "Indiana Pacers",
+     "urlName": "kelly-oubre-jr",
+     "headshotUrl": "https://fantraximg.com/si/headshots/NBA/hs03nwk_96_10.png",
+     "scorerId": "03nwk",
+     "rank": 11,
+     "posIdsNoFlex": [
+      "303",
+      "304",
+      "306"
+     ],
+     "defaultPosId": "303",
+     "posShortNames": "SF,PF,F",
+     "team": false,
+     "icons": [
+      {
+       "tooltip": "Oct 26, 7:35 PM: Oubre will start Monday's game against...",
+       "typeId": "14"
+      }
+     ],
+     "rookie": false,
+     "minorsEligible": false,
+     "statusId": "4",
+     "posIds": [
+      "303",
+      "304",
+      "306",
+      "307"
+     ],
+     "teamId": "40080",
+     "name": "Kelly Oubre Jr.",
+     "teamShortName": "IND",
+     "shortName": "K. Oubre Jr."
+    },
+    "multiPositions": "SF,PF,F",
+    "cells": [
+     {
+      "content": "11"
+     },
+     {
+      "content": "FA",
+      "toolTip": "Free Agent"
+     },
+     {
+      "content": ""
+     },
+     {
+      "content": "94.98"
+     },
+     {
+      "content": "48%"
+     },
+     {
+      "gainColor": -1,
+      "content": "-12%"
+     },
+     {
+      "content": ".432"
+     },
+     {
+      "content": "1.8"
+     },
+     {
+      "content": ".750"
+     },
+     {
+      "content": "19.1"
+     },
+     {
+      "content": "6.0"
+     },
+     {
+      "content": "2.2"
+     },
+     {
+      "content": "1.4"
+     },
+     {
+      "content": "0.8"
+     },
+     {
+      "content": "1.6"
+     }
+    ],
+    "actions": [
+     {
+      "typeId": "1"
+     },
+     {
+      "typeId": "7"
+     }
+    ]
+   },
+   {
+    "scorer": {
+     "teamName": "Charlotte Hornets",
+     "urlName": "moussa-diabate",
+     "headshotUrl": "https://fantraximg.com/si/headshots/NBA/hs06226_96_5.png",
+     "scorerId": "06226",
+     "rank": 40,
+     "posIdsNoFlex": [
+      "305"
+     ],
+     "defaultPosId": "305",
+     "posShortNames": "C",
+     "team": false,
+     "icons": [
+      {
+       "tooltip": "Oct 24, 1:27 AM: Diabate registered five points (2-2 FG,...",
+       "typeId": "9"
+      }
+     ],
+     "rookie": false,
+     "minorsEligible": false,
+     "statusId": "4",
+     "posIds": [
+      "305",
+      "307"
+     ],
+     "teamId": "40110",
+     "name": "Moussa Diabate",
+     "teamShortName": "CHA",
+     "shortName": "M. Diabate"
+    },
+    "cells": [
+     {
+      "content": "40"
+     },
+     {
+      "content": "FA",
+      "toolTip": "Free Agent"
+     },
+     {
+      "content": ""
+     },
+     {
+      "content": "85.63"
+     },
+     {
+      "content": "90%"
+     },
+     {
+      "gainColor": -1,
+      "content": "-1%"
+     },
+     {
+      "content": ".517"
+     },
+     {
+      "content": "0.5"
+     },
+     {
+      "content": ".655"
+     },
+     {
+      "content": "11.5"
+     },
+     {
+      "content": "7.7"
+     },
+     {
+      "content": "1.4"
+     },
+     {
+      "content": "1.5"
+     },
+     {
+      "content": "1.0"
+     },
+     {
+      "content": "1.1"
+     }
+    ],
+    "actions": [
+     {
+      "typeId": "1"
+     },
+     {
+      "typeId": "7"
+     }
+    ]
+   },
+   {
+    "scorer": {
+     "teamName": "Minnesota Timberwolves",
+     "urlName": "jonathan-kuminga",
+     "headshotUrl": "https://fantraximg.com/si/headshots/NBA/hs05uih_96_7.png",
+     "scorerId": "05uih",
+     "rank": 48,
+     "posIdsNoFlex": [
+      "304",
+      "306",
+      "305"
+     ],
+     "defaultPosId": "304",
+     "posShortNames": "PF,F,C",
+     "team": false,
+     "icons": [
+      {
+       "tooltip": "Oct 27, 1:38 AM: Kuminga notched 10 points (4-10 FG, 0-4...",
+       "typeId": "14"
+      }
+     ],
+     "rookie": false,
+     "minorsEligible": false,
+     "statusId": "4",
+     "posIds": [
+      "304",
+      "306",
+      "305",
+      "307"
+     ],
+     "teamId": "40210",
+     "name": "Jonathan Kuminga",
+     "teamShortName": "MIN",
+     "shortName": "J. Kuminga"
+    },
+    "multiPositions": "PF,F,C",
+    "cells": [
+     {
+      "content": "48"
+     },
+     {
+      "content": "FA",
+      "toolTip": "Free Agent"
+     },
+     {
+      "content": ""
+     },
+     {
+      "content": "83.88"
+     },
+     {
+      "content": "87%"
+     },
+     {
+      "content": "0%"
+     },
+     {
+      "content": ".519"
+     },
+     {
+      "content": "0.7"
+     },
+     {
+      "content": ".756"
+     },
+     {
+      "content": "16.3"
+     },
+     {
+      "content": "5.0"
+     },
+     {
+      "content": "2.2"
+     },
+     {
+      "content": "0.8"
+     },
+     {
+      "content": "0.5"
+     },
+     {
+      "content": "1.7"
+     }
+    ],
+    "actions": [
+     {
+      "typeId": "1"
+     },
+     {
+      "typeId": "7"
+     }
+    ]
+   },
+   {
+    "scorer": {
+     "teamName": "Indiana Pacers",
+     "urlName": "aaron-nesmith",
+     "headshotUrl": "https://fantraximg.com/si/headshots/NBA/hs05qt4_96_7.png",
+     "scorerId": "05qt4",
+     "rank": 58,
+     "posIdsNoFlex": [
+      "303",
+      "304",
+      "306"
+     ],
+     "defaultPosId": "303",
+     "posShortNames": "SF,PF,F",
+     "team": false,
+     "icons": [
+      {
+       "tooltip": "Oct 26, 6:45 PM: Nesmith (hamstring) will play Monday...",
+       "typeId": "14"
+      }
+     ],
+     "rookie": false,
+     "minorsEligible": false,
+     "statusId": "4",
+     "posIds": [
+      "303",
+      "304",
+      "306",
+      "307"
+     ],
+     "teamId": "40080",
+     "name": "Aaron Nesmith",
+     "teamShortName": "IND",
+     "shortName": "A. Nesmith"
+    },
+    "multiPositions": "SF,PF,F",
+    "cells": [
+     {
+      "content": "58"
+     },
+     {
+      "content": "FA",
+      "toolTip": "Free Agent"
+     },
+     {
+      "content": ""
+     },
+     {
+      "content": "82.41"
+     },
+     {
+      "content": "56%"
+     },
+     {
+      "gainColor": -1,
+      "content": "-6%"
+     },
+     {
+      "content": ".473"
+     },
+     {
+      "content": "1.7"
+     },
+     {
+      "content": ".784"
+     },
+     {
+      "content": "11.4"
+     },
+     {
+      "content": "3.3"
+     },
+     {
+      "content": "1.5"
+     },
+     {
+      "content": "0.8"
+     },
+     {
+      "content": "0.6"
+     },
+     {
+      "content": "0.8"
+     }
+    ],
+    "actions": [
+     {
+      "typeId": "1"
+     },
+     {
+      "typeId": "7"
+     }
+    ]
+   },
+   {
+    "scorer": {
+     "teamName": "Atlanta Hawks",
+     "urlName": "luguentz-dort",
+     "headshotUrl": "https://fantraximg.com/si/headshots/NBA/hs0527l_96_8.png",
+     "scorerId": "0527l",
+     "rank": 61,
+     "posIdsNoFlex": [
+      "301",
+      "302",
+      "303",
+      "304",
+      "306"
+     ],
+     "defaultPosId": "303",
+     "posShortNames": "SG,G,SF,PF,F",
+     "team": false,
+     "icons": [
+      {
+       "tooltip": "Oct 22, 1:11 PM: Dort notched eight points (2-7 FG, 2-5...",
+       "typeId": "9"
+      }
+     ],
+     "rookie": false,
+     "minorsEligible": false,
+     "statusId": "4",
+     "posIds": [
+      "301",
+      "302",
+      "303",
+      "304",
+      "306",
+      "307"
+     ],
+     "teamId": "40100",
+     "name": "Luguentz Dort",
+     "teamShortName": "ATL",
+     "shortName": "L. Dort"
+    },
+    "multiPositions": "SG,G,SF,PF,F",
+    "cells": [
+     {
+      "content": "61"
+     },
+     {
+      "content": "FA",
+      "toolTip": "Free Agent"
+     },
+     {
+      "content": ""
+     },
+     {
+      "content": "81.55"
+     },
+     {
+      "content": "26%"
+     },
+     {
+      "gainColor": -1,
+      "content": "-2%"
+     },
+     {
+      "content": ".428"
+     },
+     {
+      "content": "2.0"
+     },
+     {
+      "content": ".829"
+     },
+     {
+      "content": "11.4"
+     },
+     {
+      "content": "3.3"
+     },
+     {
+      "content": "1.4"
+     },
+     {
+      "content": "0.8"
+     },
+     {
+      "content": "0.6"
+     },
+     {
+      "content": "0.9"
+     }
+    ],
+    "actions": [
+     {
+      "typeId": "1"
+     },
+     {
+      "typeId": "7"
+     }
+    ]
+   },
+   {
+    "scorer": {
+     "teamName": "Memphis Grizzlies",
+     "urlName": "jerami-grant",
+     "headshotUrl": "https://fantraximg.com/si/headshots/NBA/hs03aq2_96_10.png",
+     "scorerId": "03aq2",
+     "rank": 62,
+     "posIdsNoFlex": [
+      "303",
+      "304",
+      "306"
+     ],
+     "defaultPosId": "304",
+     "posShortNames": "SF,PF,F",
+     "team": false,
+     "icons": [
+      {
+       "tooltip": "Oct 22, 4:54 PM: Grant finished Wednesday's 123-103 win...",
+       "typeId": "9"
+      }
+     ],
+     "rookie": false,
+     "minorsEligible": false,
+     "statusId": "4",
+     "posIds": [
+      "303",
+      "304",
+      "306",
+      "307"
+     ],
+     "teamId": "40170",
+     "name": "Jerami Grant",
+     "teamShortName": "MEM",
+     "shortName": "J. Grant"
+    },
+    "multiPositions": "SF,PF,F",
+    "cells": [
+     {
+      "content": "62"
+     },
+     {
+      "content": "FA",
+      "toolTip": "Free Agent"
+     },
+     {
+      "content": ""
+     },
+     {
+      "content": "81.43"
+     },
+     {
+      "content": "57%"
+     },
+     {
+      "gainColor": -1,
+      "content": "-6%"
+     },
+     {
+      "content": ".442"
+     },
+     {
+      "content": "1.9"
+     },
+     {
+      "content": ".821"
+     },
+     {
+      "content": "20.9"
+     },
+     {
+      "content": "3.4"
+     },
+     {
+      "content": "2.8"
+     },
+     {
+      "content": "0.8"
+     },
+     {
+      "content": "0.6"
+     },
+     {
+      "content": "2.1"
+     }
+    ],
+    "actions": [
+     {
+      "typeId": "1"
+     },
+     {
+      "typeId": "7"
+     }
+    ]
+   },
+   {
+    "scorer": {
+     "teamName": "Milwaukee Bucks",
+     "urlName": "kyle-kuzma",
+     "headshotUrl": "https://fantraximg.com/si/headshots/NBA/hs04ewr_96_9.png",
+     "scorerId": "04ewr",
+     "rank": 71,
+     "posIdsNoFlex": [
+      "303",
+      "304",
+      "306"
+     ],
+     "defaultPosId": "304",
+     "posShortNames": "SF,PF,F",
+     "team": false,
+     "icons": [
+      {
+       "tooltip": "Oct 25, 8:56 AM: Kuzma posted 14 points (6-11 FG, 0-3...",
+       "typeId": "9"
+      }
+     ],
+     "rookie": false,
+     "minorsEligible": false,
+     "statusId": "4",
+     "posIds": [
+      "303",
+      "304",
+      "306",
+      "307"
+     ],
+     "teamId": "40090",
+     "name": "Kyle Kuzma",
+     "teamShortName": "MIL",
+     "shortName": "K. Kuzma"
+    },
+    "multiPositions": "SF,PF,F",
+    "cells": [
+     {
+      "content": "71"
+     },
+     {
+      "content": "FA",
+      "toolTip": "Free Agent"
+     },
+     {
+      "content": ""
+     },
+     {
+      "content": "80.21"
+     },
+     {
+      "content": "59%"
+     },
+     {
+      "content": "0%"
+     },
+     {
+      "content": ".459"
+     },
+     {
+      "content": "1.8"
+     },
+     {
+      "content": ".773"
+     },
+     {
+      "content": "18.4"
+     },
+     {
+      "content": "6.0"
+     },
+     {
+      "content": "3.8"
+     },
+     {
+      "content": "0.5"
+     },
+     {
+      "content": "0.7"
+     },
+     {
+      "content": "2.1"
+     }
+    ],
+    "actions": [
+     {
+      "typeId": "1"
+     },
+     {
+      "typeId": "7"
+     }
+    ]
+   },
+   {
+    "scorer": {
+     "teamName": "Indiana Pacers",
+     "urlName": "jay-huff",
+     "headshotUrl": "https://fantraximg.com/si/headshots/NBA/hs05uup_96_6.png",
+     "scorerId": "05uup",
+     "rank": 74,
+     "posIdsNoFlex": [
+      "305"
+     ],
+     "defaultPosId": "305",
+     "posShortNames": "C",
+     "team": false,
+     "icons": [
+      {
+       "tooltip": "Oct 26, 7:36 PM: Huff will start Monday's game against...",
+       "typeId": "14"
+      }
+     ],
+     "rookie": false,
+     "minorsEligible": false,
+     "statusId": "4",
+     "posIds": [
+      "305",
+      "307"
+     ],
+     "teamId": "40080",
+     "name": "Jay Huff",
+     "teamShortName": "IND",
+     "shortName": "J. Huff"
+    },
+    "cells": [
+     {
+      "content": "74"
+     },
+     {
+      "content": "FA",
+      "toolTip": "Free Agent"
+     },
+     {
+      "content": ""
+     },
+     {
+      "content": "79.85"
+     },
+     {
+      "content": "44%"
+     },
+     {
+      "gainColor": -1,
+      "content": "-3%"
+     },
+     {
+      "content": ".536"
+     },
+     {
+      "content": "0.8"
+     },
+     {
+      "content": ".757"
+     },
+     {
+      "content": "10.1"
+     },
+     {
+      "content": "5.3"
+     },
+     {
+      "content": "1.4"
+     },
+     {
+      "content": "0.6"
+     },
+     {
+      "content": "0.8"
+     },
+     {
+      "content": "1.0"
+     }
+    ],
+    "actions": [
+     {
+      "typeId": "1"
+     },
+     {
+      "typeId": "7"
+     }
+    ]
+   },
+   {
+    "scorer": {
+     "teamName": "Los Angeles Clippers",
+     "urlName": "isaiah-jackson",
+     "headshotUrl": "https://fantraximg.com/si/headshots/NBA/hs05uiw_96_6.png",
+     "scorerId": "05uiw",
+     "rank": 81,
+     "posIdsNoFlex": [
+      "305"
+     ],
+     "defaultPosId": "305",
+     "posShortNames": "C",
+     "team": false,
+     "icons": [
+      {
+       "tooltip": "Oct 26, 11:09 AM: Jackson had 10 points (5-8 FG, 0-2 FT),...",
+       "typeId": "14"
+      }
+     ],
+     "rookie": false,
+     "minorsEligible": false,
+     "statusId": "4",
+     "posIds": [
+      "305",
+      "307"
+     ],
+     "teamId": "40260",
+     "name": "Isaiah Jackson",
+     "teamShortName": "LAC",
+     "shortName": "I. Jackson"
+    },
+    "cells": [
+     {
+      "content": "81"
+     },
+     {
+      "content": "FA",
+      "toolTip": "Free Agent"
+     },
+     {
+      "content": ""
+     },
+     {
+      "content": "78.65"
+     },
+     {
+      "content": "61%"
+     },
+     {
+      "gainColor": -1,
+      "content": "-5%"
+     },
+     {
+      "content": ".615"
+     },
+     {
+      "content": "0.1"
+     },
+     {
+      "content": ".717"
+     },
+     {
+      "content": "14.0"
+     },
+     {
+      "content": "8.4"
+     },
+     {
+      "content": "1.8"
+     },
+     {
+      "content": "1.2"
+     },
+     {
+      "content": "2.1"
+     },
+     {
+      "content": "1.6"
+     }
+    ],
+    "actions": [
+     {
+      "typeId": "1"
+     },
+     {
+      "typeId": "7"
+     }
+    ]
+   },
+   {
+    "scorer": {
+     "teamName": "Orlando Magic",
+     "urlName": "nikola-vucevic",
+     "headshotUrl": "https://fantraximg.com/si/headshots/NBA/hs027p0_96_10.png",
+     "scorerId": "027p0",
+     "rank": 83,
+     "posIdsNoFlex": [
+      "305"
+     ],
+     "defaultPosId": "305",
+     "posShortNames": "C",
+     "team": false,
+     "icons": [
+      {
+       "tooltip": "Oct 23, 10:54 PM: Vucevic racked up zero points (0-1 FG,...",
+       "typeId": "9"
+      }
+     ],
+     "rookie": false,
+     "minorsEligible": false,
+     "statusId": "4",
+     "posIds": [
+      "305",
+      "307"
+     ],
+     "teamId": "40130",
+     "name": "Nikola Vucevic",
+     "teamShortName": "ORL",
+     "shortName": "N. Vucevic"
+    },
+    "cells": [
+     {
+      "content": "83"
+     },
+     {
+      "content": "FA",
+      "toolTip": "Free Agent"
+     },
+     {
+      "content": ""
+     },
+     {
+      "content": "78.27"
+     },
+     {
+      "content": "46%"
+     },
+     {
+      "gainColor": -1,
+      "content": "-24%"
+     },
+     {
+      "content": ".474"
+     },
+     {
+      "content": "1.1"
+     },
+     {
+      "content": ".805"
+     },
+     {
+      "content": "16.8"
+     },
+     {
+      "content": "9.2"
+     },
+     {
+      "content": "3.0"
+     },
+     {
+      "content": "0.6"
+     },
+     {
+      "content": "0.7"
+     },
+     {
+      "content": "1.5"
+     }
+    ],
+    "actions": [
+     {
+      "typeId": "1"
+     },
+     {
+      "typeId": "7"
+     }
+    ]
+   },
+   {
+    "scorer": {
+     "teamName": "Boston Celtics",
+     "urlName": "sam-hauser",
+     "headshotUrl": "https://fantraximg.com/si/headshots/NBA/hs05uug_96_6.png",
+     "scorerId": "05uug",
+     "rank": 84,
+     "posIdsNoFlex": [
+      "303",
+      "304",
+      "306"
+     ],
+     "defaultPosId": "304",
+     "posShortNames": "SF,PF,F",
+     "team": false,
+     "icons": [
+      {
+       "tooltip": "Oct 21, 1:07 PM: Hauser chipped in 11 points (4-7 FG,...",
+       "typeId": "9"
+      }
+     ],
+     "rookie": false,
+     "minorsEligible": false,
+     "statusId": "4",
+     "posIds": [
+      "303",
+      "304",
+      "306",
+      "307"
+     ],
+     "teamId": "40000",
+     "name": "Sam Hauser",
+     "teamShortName": "BOS",
+     "shortName": "S. Hauser"
+    },
+    "multiPositions": "SF,PF,F",
+    "cells": [
+     {
+      "content": "84"
+     },
+     {
+      "content": "FA",
+      "toolTip": "Free Agent"
+     },
+     {
+      "content": "BOS 113<br/>@DET 121 F",
+      "eventId": "06oov"
+     },
+     {
+      "content": "77.99"
+     },
+     {
+      "content": "28%"
+     },
+     {
+      "gainColor": -1,
+      "content": "-2%"
+     },
+     {
+      "content": ".465"
+     },
+     {
+      "content": "2.7"
+     },
+     {
+      "content": ".859"
+     },
+     {
+      "content": "11.2"
+     },
+     {
+      "content": "3.7"
+     },
+     {
+      "content": "1.1"
+     },
+     {
+      "content": "0.5"
+     },
+     {
+      "content": "0.4"
+     },
+     {
+      "content": "0.4"
+     }
+    ],
+    "actions": [
+     {
+      "typeId": "1"
+     },
+     {
+      "typeId": "7"
+     }
+    ]
+   },
+   {
+    "scorer": {
+     "teamName": "Charlotte Hornets",
+     "urlName": "dennis-schroder",
+     "headshotUrl": "https://fantraximg.com/si/headshots/NBA/hs031m4_96_13.png",
+     "scorerId": "031m4",
+     "rank": 87,
+     "posIdsNoFlex": [
+      "300",
+      "301",
+      "302"
+     ],
+     "defaultPosId": "300",
+     "posShortNames": "PG,SG,G",
+     "team": false,
+     "icons": [
+      {
+       "tooltip": "Oct 24, 9:42 PM: Schroder supplied 25 points (8-17 FG,...",
+       "typeId": "9"
+      }
+     ],
+     "rookie": false,
+     "minorsEligible": false,
+     "statusId": "4",
+     "posIds": [
+      "300",
+      "301",
+      "302",
+      "307"
+     ],
+     "teamId": "40110",
+     "name": "Dennis Schroder",
+     "teamShortName": "CHA",
+     "shortName": "D. Schroder"
+    },
+    "multiPositions": "PG,SG,G",
+    "cells": [
+     {
+      "content": "87"
+     },
+     {
+      "content": "FA",
+      "toolTip": "Free Agent"
+     },
+     {
+      "content": ""
+     },
+     {
+      "content": "77.34"
+     },
+     {
+      "content": "56%"
+     },
+     {
+      "gainColor": -1,
+      "content": "-1%"
+     },
+     {
+      "content": ".431"
+     },
+     {
+      "content": "1.7"
+     },
+     {
+      "content": ".826"
+     },
+     {
+      "content": "13.4"
+     },
+     {
+      "content": "2.7"
+     },
+     {
+      "content": "5.5"
+     },
+     {
+      "content": "0.7"
+     },
+     {
+      "content": "0.2"
+     },
+     {
+      "content": "1.9"
+     }
+    ],
+    "actions": [
+     {
+      "typeId": "1"
+     },
+     {
+      "typeId": "7"
+     }
+    ]
+   },
+   {
+    "scorer": {
+     "teamName": "Los Angeles Lakers",
+     "urlName": "quentin-grimes",
+     "headshotUrl": "https://fantraximg.com/si/headshots/NBA/hs05uiz_96_6.png",
+     "scorerId": "05uiz",
+     "rank": 89,
+     "posIdsNoFlex": [
+      "301",
+      "302",
+      "303",
+      "306"
+     ],
+     "defaultPosId": "301",
+     "posShortNames": "SG,G,SF,F",
+     "team": false,
+     "icons": [
+      {
+       "tooltip": "Oct 26, 1:22 PM: Grimes provided three points (1-2 FG,...",
+       "typeId": "14"
+      }
+     ],
+     "rookie": false,
+     "minorsEligible": false,
+     "statusId": "4",
+     "posIds": [
+      "301",
+      "302",
+      "303",
+      "306",
+      "307"
+     ],
+     "teamId": "40270",
+     "name": "Quentin Grimes",
+     "teamShortName": "LAL",
+     "shortName": "Q. Grimes"
+    },
+    "multiPositions": "SG,G,SF,F",
+    "cells": [
+     {
+      "content": "89"
+     },
+     {
+      "content": "FA",
+      "toolTip": "Free Agent"
+     },
+     {
+      "content": ""
+     },
+     {
+      "content": "77.29"
+     },
+     {
+      "content": "69%"
+     },
+     {
+      "gainColor": -1,
+      "content": "-8%"
+     },
+     {
+      "content": ".369"
+     },
+     {
+      "content": "2.1"
+     },
+     {
+      "content": ".779"
+     },
+     {
+      "content": "10.5"
+     },
+     {
+      "content": "2.7"
+     },
+     {
+      "content": "1.9"
+     },
+     {
+      "content": "0.9"
+     },
+     {
+      "content": "0.2"
+     },
+     {
+      "content": "0.8"
+     }
+    ],
+    "actions": [
+     {
+      "typeId": "1"
+     },
+     {
+      "typeId": "7"
+     }
+    ]
+   },
+   {
+    "scorer": {
+     "teamName": "Los Angeles Lakers",
+     "urlName": "collin-sexton",
+     "headshotUrl": "https://fantraximg.com/si/headshots/NBA/hs04qrm_96_10.png",
+     "scorerId": "04qrm",
+     "rank": 90,
+     "posIdsNoFlex": [
+      "300",
+      "301",
+      "302"
+     ],
+     "defaultPosId": "301",
+     "posShortNames": "PG,SG,G",
+     "team": false,
+     "icons": [
+      {
+       "tooltip": "Oct 22, 8:03 PM: Sexton (calf) isn't listed on the...",
+       "typeId": "9"
+      }
+     ],
+     "rookie": false,
+     "minorsEligible": false,
+     "statusId": "4",
+     "posIds": [
+      "300",
+      "301",
+      "302",
+      "307"
+     ],
+     "teamId": "40270",
+     "name": "Collin Sexton",
+     "teamShortName": "LAL",
+     "shortName": "C. Sexton"
+    },
+    "multiPositions": "PG,SG,G",
+    "cells": [
+     {
+      "content": "90"
+     },
+     {
+      "content": "FA",
+      "toolTip": "Free Agent"
+     },
+     {
+      "content": ""
+     },
+     {
+      "content": "77.28"
+     },
+     {
+      "content": "54%"
+     },
+     {
+      "gainColor": -1,
+      "content": "-6%"
+     },
+     {
+      "content": ".476"
+     },
+     {
+      "content": "1.4"
+     },
+     {
+      "content": ".853"
+     },
+     {
+      "content": "15.5"
+     },
+     {
+      "content": "2.2"
+     },
+     {
+      "content": "4.2"
+     },
+     {
+      "content": "0.7"
+     },
+     {
+      "content": "0.2"
+     },
+     {
+      "content": "1.9"
+     }
+    ],
+    "actions": [
+     {
+      "typeId": "1"
+     },
+     {
+      "typeId": "7"
+     }
+    ]
+   },
+   {
+    "scorer": {
+     "teamName": "Brooklyn Nets",
+     "urlName": "egor-demin",
+     "headshotUrl": "https://fantraximg.com/si/headshots/NBA/hs06v5r_96_3.png",
+     "scorerId": "06v5r",
+     "rank": 93,
+     "posIdsNoFlex": [
+      "300",
+      "302"
+     ],
+     "defaultPosId": "300",
+     "posShortNames": "PG,G",
+     "team": false,
+     "icons": [
+      {
+       "tooltip": "Oct 25, 8:37 AM: Demin posted 22 points (5-10 FG, 5-10...",
+       "typeId": "9"
+      }
+     ],
+     "rookie": false,
+     "minorsEligible": false,
+     "statusId": "5",
+     "posIds": [
+      "300",
+      "302",
+      "307"
+     ],
+     "teamId": "40011",
+     "name": "Egor Demin",
+     "teamShortName": "BKN",
+     "shortName": "E. Demin"
+    },
+    "multiPositions": "PG,G",
+    "cells": [
+     {
+      "content": "93"
+     },
+     {
+      "content": "W <small>(Wed)</small>",
+      "toolTip": "Waiver Wire - Off Wed Oct 28, 10:55 AM EDT"
+     },
+     {
+      "content": ""
+     },
+     {
+      "content": "77.01"
+     },
+     {
+      "content": "86%"
+     },
+     {
+      "gainColor": -1,
+      "content": "-5%"
+     },
+     {
+      "content": ".451"
+     },
+     {
+      "content": "1.9"
+     },
+     {
+      "content": ".837"
+     },
+     {
+      "content": "14.8"
+     },
+     {
+      "content": "3.8"
+     },
+     {
+      "content": "5.0"
+     },
+     {
+      "content": "1.1"
+     },
+     {
+      "content": "0.3"
+     },
+     {
+      "content": "1.8"
+     }
+    ],
+    "actions": [
+     {
+      "typeId": "9"
+     },
+     {
+      "typeId": "7"
+     }
+    ]
+   },
+   {
+    "scorer": {
+     "teamName": "Cleveland Cavaliers",
+     "urlName": "sam-merrill",
+     "headshotUrl": "https://fantraximg.com/si/headshots/NBA/hs05qtb_96_7.png",
+     "scorerId": "05qtb",
+     "rank": 101,
+     "posIdsNoFlex": [
+      "301",
+      "302",
+      "303",
+      "306"
+     ],
+     "defaultPosId": "301",
+     "posShortNames": "SG,G,SF,F",
+     "team": false,
+     "icons": [
+      {
+       "tooltip": "Oct 23, 1:11 PM: Merrill chipped in five points (2-5 FG,...",
+       "typeId": "9"
+      }
+     ],
+     "rookie": false,
+     "minorsEligible": false,
+     "statusId": "4",
+     "posIds": [
+      "301",
+      "302",
+      "303",
+      "306",
+      "307"
+     ],
+     "teamId": "40060",
+     "name": "Sam Merrill",
+     "teamShortName": "CLE",
+     "shortName": "S. Merrill"
+    },
+    "multiPositions": "SG,G,SF,F",
+    "cells": [
+     {
+      "content": "101"
+     },
+     {
+      "content": "FA",
+      "toolTip": "Free Agent"
+     },
+     {
+      "content": ""
+     },
+     {
+      "content": "75.85"
+     },
+     {
+      "content": "24%"
+     },
+     {
+      "gainColor": -1,
+      "content": "-5%"
+     },
+     {
+      "content": ".411"
+     },
+     {
+      "content": "3.2"
+     },
+     {
+      "content": ".920"
+     },
+     {
+      "content": "12.9"
+     },
+     {
+      "content": "2.8"
+     },
+     {
+      "content": "2.6"
+     },
+     {
+      "content": "0.5"
+     },
+     {
+      "content": "0.1"
+     },
+     {
+      "content": "0.6"
+     }
+    ],
+    "actions": [
+     {
+      "typeId": "1"
+     },
+     {
+      "typeId": "7"
+     }
+    ]
+   },
+   {
+    "scorer": {
+     "teamName": "Denver Nuggets",
+     "urlName": "christian-braun",
+     "headshotUrl": "https://fantraximg.com/si/headshots/NBA/hs0621k_96_5.png",
+     "scorerId": "0621k",
+     "rank": 105,
+     "posIdsNoFlex": [
+      "301",
+      "302",
+      "303",
+      "306"
+     ],
+     "defaultPosId": "301",
+     "posShortNames": "SG,G,SF,F",
+     "team": false,
+     "icons": [
+      {
+       "tooltip": "Oct 23, 10:29 AM: Braun recorded seven points (3-10 FG,...",
+       "typeId": "9"
+      }
+     ],
+     "rookie": false,
+     "minorsEligible": false,
+     "statusId": "4",
+     "posIds": [
+      "301",
+      "302",
+      "303",
+      "306",
+      "307"
+     ],
+     "teamId": "40200",
+     "name": "Christian Braun",
+     "teamShortName": "DEN",
+     "shortName": "C. Braun"
+    },
+    "multiPositions": "SG,G,SF,F",
+    "cells": [
+     {
+      "content": "105"
+     },
+     {
+      "content": "FA",
+      "toolTip": "Free Agent"
+     },
+     {
+      "content": ""
+     },
+     {
+      "content": "75.05"
+     },
+     {
+      "content": "72%"
+     },
+     {
+      "gainColor": -1,
+      "content": "-3%"
+     },
+     {
+      "content": ".442"
+     },
+     {
+      "content": "1.3"
+     },
+     {
+      "content": ".684"
+     },
+     {
+      "content": "11.6"
+     },
+     {
+      "content": "6.3"
+     },
+     {
+      "content": "2.6"
+     },
+     {
+      "content": "0.9"
+     },
+     {
+      "content": "0.7"
+     },
+     {
+      "content": "1.2"
+     }
+    ],
+    "actions": [
+     {
+      "typeId": "1"
+     },
+     {
+      "typeId": "7"
+     }
+    ]
+   },
+   {
+    "scorer": {
+     "teamName": "Miami Heat",
+     "urlName": "klay-thompson",
+     "headshotUrl": "https://fantraximg.com/si/headshots/NBA/hs027ou_96_10.png",
+     "scorerId": "027ou",
+     "rank": 107,
+     "posIdsNoFlex": [
+      "301",
+      "302",
+      "303",
+      "306"
+     ],
+     "defaultPosId": "303",
+     "posShortNames": "SG,G,SF,F",
+     "team": false,
+     "icons": [
+      {
+       "tooltip": "Oct 21, 11:41 PM: Thompson tallied 10 points (3-6 FG, 3-6...",
+       "typeId": "9"
+      }
+     ],
+     "rookie": false,
+     "minorsEligible": false,
+     "statusId": "4",
+     "posIds": [
+      "301",
+      "302",
+      "303",
+      "306",
+      "307"
+     ],
+     "teamId": "40120",
+     "name": "Klay Thompson",
+     "teamShortName": "MIA",
+     "shortName": "K. Thompson"
+    },
+    "multiPositions": "SG,G,SF,F",
+    "cells": [
+     {
+      "content": "107"
+     },
+     {
+      "content": "FA",
+      "toolTip": "Free Agent"
+     },
+     {
+      "content": ""
+     },
+     {
+      "content": "74.68"
+     },
+     {
+      "content": "31%"
+     },
+     {
+      "gainColor": -1,
+      "content": "-4%"
+     },
+     {
+      "content": ".433"
+     },
+     {
+      "content": "3.6"
+     },
+     {
+      "content": ".927"
+     },
+     {
+      "content": "18.2"
+     },
+     {
+      "content": "3.3"
+     },
+     {
+      "content": "2.4"
+     },
+     {
+      "content": "0.7"
+     },
+     {
+      "content": "0.4"
+     },
+     {
+      "content": "1.4"
+     }
+    ],
+    "actions": [
+     {
+      "typeId": "1"
+     },
+     {
+      "typeId": "7"
+     }
+    ]
+   },
+   {
+    "scorer": {
+     "teamName": "Miami Heat",
+     "urlName": "andrew-wiggins",
+     "headshotUrl": "https://fantraximg.com/si/headshots/NBA/hs02ym0_96_10.png",
+     "scorerId": "02ym0",
+     "rank": 109,
+     "posIdsNoFlex": [
+      "301",
+      "302",
+      "303",
+      "306"
+     ],
+     "defaultPosId": "303",
+     "posShortNames": "SG,G,SF,F",
+     "team": false,
+     "icons": [
+      {
+       "tooltip": "Oct 22, 2:59 PM: Wiggins racked up 11 points (5-11 FG,...",
+       "typeId": "9"
+      }
+     ],
+     "rookie": false,
+     "minorsEligible": false,
+     "statusId": "4",
+     "posIds": [
+      "301",
+      "302",
+      "303",
+      "306",
+      "307"
+     ],
+     "teamId": "40120",
+     "name": "Andrew Wiggins",
+     "teamShortName": "MIA",
+     "shortName": "A. Wiggins"
+    },
+    "multiPositions": "SG,G,SF,F",
+    "cells": [
+     {
+      "content": "109"
+     },
+     {
+      "content": "FA",
+      "toolTip": "Free Agent"
+     },
+     {
+      "content": ""
+     },
+     {
+      "content": "74.37"
+     },
+     {
+      "content": "87%"
+     },
+     {
+      "gainColor": -1,
+      "content": "-6%"
+     },
+     {
+      "content": ".454"
+     },
+     {
+      "content": "1.5"
+     },
+     {
+      "content": ".761"
+     },
+     {
+      "content": "14.5"
+     },
+     {
+      "content": "5.0"
+     },
+     {
+      "content": "1.9"
+     },
+     {
+      "content": "0.7"
+     },
+     {
+      "content": "0.6"
+     },
+     {
+      "content": "1.2"
+     }
+    ],
+    "actions": [
+     {
+      "typeId": "1"
+     },
+     {
+      "typeId": "7"
+     }
+    ]
+   },
+   {
+    "scorer": {
+     "teamName": "Charlotte Hornets",
+     "urlName": "sion-james",
+     "headshotUrl": "https://fantraximg.com/si/headshots/NBA/hs06v7z_96_2.png",
+     "scorerId": "06v7z",
+     "rank": 110,
+     "posIdsNoFlex": [
+      "301",
+      "302",
+      "303",
+      "306"
+     ],
+     "defaultPosId": "301",
+     "posShortNames": "SG,G,SF,F",
+     "team": false,
+     "icons": [
+      {
+       "tooltip": "Oct 21, 7:07 PM: James will start in Wednesday's game...",
+       "typeId": "9"
+      }
+     ],
+     "rookie": false,
+     "minorsEligible": false,
+     "statusId": "4",
+     "posIds": [
+      "301",
+      "302",
+      "303",
+      "306",
+      "307"
+     ],
+     "teamId": "40110",
+     "name": "Sion James",
+     "teamShortName": "CHA",
+     "shortName": "S. James"
+    },
+    "multiPositions": "SG,G,SF,F",
+    "cells": [
+     {
+      "content": "110"
+     },
+     {
+      "content": "FA",
+      "toolTip": "Free Agent"
+     },
+     {
+      "content": ""
+     },
+     {
+      "content": "74.2"
+     },
+     {
+      "content": "15%"
+     },
+     {
+      "gainColor": -1,
+      "content": "-1%"
+     },
+     {
+      "content": ".445"
+     },
+     {
+      "content": "1.6"
+     },
+     {
+      "content": ".816"
+     },
+     {
+      "content": "10.9"
+     },
+     {
+      "content": "3.1"
+     },
+     {
+      "content": "2.6"
+     },
+     {
+      "content": "0.7"
+     },
+     {
+      "content": "0.2"
+     },
+     {
+      "content": "1.2"
+     }
+    ],
+    "actions": [
+     {
+      "typeId": "1"
+     },
+     {
+      "typeId": "7"
+     }
+    ]
+   },
+   {
+    "scorer": {
+     "teamName": "Memphis Grizzlies",
+     "urlName": "jaylen-wells",
+     "headshotUrl": "https://fantraximg.com/si/headshots/NBA/hs06mll_96_3.png",
+     "scorerId": "06mll",
+     "rank": 111,
+     "posIdsNoFlex": [
+      "301",
+      "302",
+      "303",
+      "306"
+     ],
+     "defaultPosId": "301",
+     "posShortNames": "SG,G,SF,F",
+     "team": false,
+     "icons": [
+      {
+       "tooltip": "Oct 27, 1:05 AM: Wells accumulated 14 points (5-9 FG,...",
+       "typeId": "14"
+      }
+     ],
+     "rookie": false,
+     "minorsEligible": false,
+     "statusId": "4",
+     "posIds": [
+      "301",
+      "302",
+      "303",
+      "306",
+      "307"
+     ],
+     "teamId": "40170",
+     "name": "Jaylen Wells",
+     "teamShortName": "MEM",
+     "shortName": "J. Wells"
+    },
+    "multiPositions": "SG,G,SF,F",
+    "cells": [
+     {
+      "content": "111"
+     },
+     {
+      "content": "FA",
+      "toolTip": "Free Agent"
+     },
+     {
+      "content": ""
+     },
+     {
+      "content": "73.99"
+     },
+     {
+      "content": "68%"
+     },
+     {
+      "content": "0%"
+     },
+     {
+      "content": ".457"
+     },
+     {
+      "content": "1.5"
+     },
+     {
+      "content": ".804"
+     },
+     {
+      "content": "12.1"
+     },
+     {
+      "content": "4.2"
+     },
+     {
+      "content": "2.1"
+     },
+     {
+      "content": "1.0"
+     },
+     {
+      "content": "0.5"
+     },
+     {
+      "content": "1.0"
+     }
+    ],
+    "actions": [
+     {
+      "typeId": "1"
+     },
+     {
+      "typeId": "7"
+     }
+    ]
+   },
+   {
+    "scorer": {
+     "teamName": "Indiana Pacers",
+     "urlName": "obi-toppin",
+     "headshotUrl": "https://fantraximg.com/si/headshots/NBA/hs05qsx_96_7.png",
+     "scorerId": "05qsx",
+     "rank": 112,
+     "posIdsNoFlex": [
+      "304",
+      "306",
+      "305"
+     ],
+     "defaultPosId": "304",
+     "posShortNames": "PF,F,C",
+     "team": false,
+     "icons": [
+      {
+       "tooltip": "Oct 26, 1:57 PM: Toppin posted 16 points (6-9 FG, 4-7...",
+       "typeId": "14"
+      }
+     ],
+     "rookie": false,
+     "minorsEligible": false,
+     "statusId": "4",
+     "posIds": [
+      "304",
+      "306",
+      "305",
+      "307"
+     ],
+     "teamId": "40080",
+     "name": "Obi Toppin",
+     "teamShortName": "IND",
+     "shortName": "O. Toppin"
+    },
+    "multiPositions": "PF,F,C",
+    "cells": [
+     {
+      "content": "112"
+     },
+     {
+      "content": "FA",
+      "toolTip": "Free Agent"
+     },
+     {
+      "content": ""
+     },
+     {
+      "content": "73.94"
+     },
+     {
+      "content": "61%"
+     },
+     {
+      "gainColor": 1,
+      "content": "+1%"
+     },
+     {
+      "content": ".543"
+     },
+     {
+      "content": "1.2"
+     },
+     {
+      "content": ".760"
+     },
+     {
+      "content": "9.9"
+     },
+     {
+      "content": "3.8"
+     },
+     {
+      "content": "1.4"
+     },
+     {
+      "content": "0.5"
+     },
+     {
+      "content": "0.5"
+     },
+     {
+      "content": "0.8"
+     }
+    ],
+    "actions": [
+     {
+      "typeId": "1"
+     },
+     {
+      "typeId": "7"
+     }
+    ]
+   },
+   {
+    "scorer": {
+     "teamName": "Oklahoma City Thunder",
+     "urlName": "alex-caruso",
+     "headshotUrl": "https://fantraximg.com/si/headshots/NBA/hs0496e_96_9.png",
+     "scorerId": "0496e",
+     "rank": 113,
+     "posIdsNoFlex": [
+      "300",
+      "301",
+      "302",
+      "303",
+      "306"
+     ],
+     "defaultPosId": "301",
+     "posShortNames": "PG,SG,G,SF,F",
+     "team": false,
+     "icons": [
+      {
+       "tooltip": "Ankle - Game-time decision - Expected return Oct 28",
+       "typeId": "1"
+      },
+      {
+       "tooltip": "Oct 26, 9:36 PM: Caruso won't return to Monday's game...",
+       "typeId": "14"
+      }
+     ],
+     "rookie": false,
+     "minorsEligible": false,
+     "statusId": "4",
+     "posIds": [
+      "300",
+      "301",
+      "302",
+      "303",
+      "306",
+      "307"
+     ],
+     "teamId": "40230",
+     "name": "Alex Caruso",
+     "teamShortName": "OKC",
+     "shortName": "A. Caruso"
+    },
+    "multiPositions": "PG,SG,G,SF,F",
+    "cells": [
+     {
+      "content": "113"
+     },
+     {
+      "content": "FA",
+      "toolTip": "Free Agent"
+     },
+     {
+      "content": "OKC 116<br/>@SA 104 F",
+      "eventId": "06oot"
+     },
+     {
+      "content": "73.54"
+     },
+     {
+      "content": "63%"
+     },
+     {
+      "content": "0%"
+     },
+     {
+      "content": ".451"
+     },
+     {
+      "content": "1.8"
+     },
+     {
+      "content": ".754"
+     },
+     {
+      "content": "9.6"
+     },
+     {
+      "content": "3.3"
+     },
+     {
+      "content": "3.2"
+     },
+     {
+      "content": "1.4"
+     },
+     {
+      "content": "0.9"
+     },
+     {
+      "content": "1.3"
+     }
+    ],
+    "actions": [
+     {
+      "typeId": "1"
+     },
+     {
+      "typeId": "7"
+     }
+    ]
+   },
+   {
+    "scorer": {
+     "teamName": "Brooklyn Nets",
+     "urlName": "keon-ellis",
+     "headshotUrl": "https://fantraximg.com/si/headshots/NBA/hs0623m_96_5.png",
+     "scorerId": "0623m",
+     "rank": 117,
+     "posIdsNoFlex": [
+      "300",
+      "301",
+      "302"
+     ],
+     "defaultPosId": "301",
+     "posShortNames": "PG,SG,G",
+     "team": false,
+     "icons": [
+      {
+       "tooltip": "Oct 25, 9:19 PM: Ellis registered nine points (4-4 FG,...",
+       "typeId": "9"
+      }
+     ],
+     "rookie": false,
+     "minorsEligible": false,
+     "statusId": "5",
+     "posIds": [
+      "300",
+      "301",
+      "302",
+      "307"
+     ],
+     "teamId": "40011",
+     "name": "Keon Ellis",
+     "teamShortName": "BKN",
+     "shortName": "K. Ellis"
+    },
+    "multiPositions": "PG,SG,G",
+    "cells": [
+     {
+      "content": "117"
+     },
+     {
+      "content": "W <small>(Wed)</small>",
+      "toolTip": "Waiver Wire - Off Wed Oct 28, 10:55 AM EDT"
+     },
+     {
+      "content": ""
+     },
+     {
+      "content": "73.29"
+     },
+     {
+      "content": "39%"
+     },
+     {
+      "gainColor": -1,
+      "content": "-2%"
+     },
+     {
+      "content": ".445"
+     },
+     {
+      "content": "1.7"
+     },
+     {
+      "content": ".754"
+     },
+     {
+      "content": "9.0"
+     },
+     {
+      "content": "3.6"
+     },
+     {
+      "content": "2.3"
+     },
+     {
+      "content": "1.4"
+     },
+     {
+      "content": "0.8"
+     },
+     {
+      "content": "1.0"
+     }
+    ],
+    "actions": [
+     {
+      "typeId": "9"
+     },
+     {
+      "typeId": "7"
+     }
+    ]
+   },
+   {
+    "scorer": {
+     "teamName": "Toronto Raptors",
+     "urlName": "jakob-poeltl",
+     "headshotUrl": "https://fantraximg.com/si/headshots/NBA/hs042n6_96_10.png",
+     "scorerId": "042n6",
+     "rank": 122,
+     "posIdsNoFlex": [
+      "305"
+     ],
+     "defaultPosId": "305",
+     "posShortNames": "C",
+     "team": false,
+     "icons": [
+      {
+       "tooltip": "Oct 25, 11:14 PM: Poeltl ended with zero points (0-2 FG)...",
+       "typeId": "9"
+      }
+     ],
+     "rookie": false,
+     "minorsEligible": false,
+     "statusId": "4",
+     "posIds": [
+      "305",
+      "307"
+     ],
+     "teamId": "40040",
+     "name": "Jakob Poeltl",
+     "teamShortName": "TOR",
+     "shortName": "J. Poeltl"
+    },
+    "cells": [
+     {
+      "content": "122"
+     },
+     {
+      "content": "FA",
+      "toolTip": "Free Agent"
+     },
+     {
+      "content": ""
+     },
+     {
+      "content": "72.7"
+     },
+     {
+      "content": "77%"
+     },
+     {
+      "gainColor": -1,
+      "content": "-9%"
+     },
+     {
+      "content": ".619"
+     },
+     {
+      "content": "0.0"
+     },
+     {
+      "content": ".560"
+     },
+     {
+      "content": "11.9"
+     },
+     {
+      "content": "9.4"
+     },
+     {
+      "content": "2.9"
+     },
+     {
+      "content": "0.8"
+     },
+     {
+      "content": "1.7"
+     },
+     {
+      "content": "1.7"
+     }
+    ],
+    "actions": [
+     {
+      "typeId": "1"
+     },
+     {
+      "typeId": "7"
+     }
+    ]
+   },
+   {
+    "scorer": {
+     "teamName": "Sacramento Kings",
+     "urlName": "deandre-hunter",
+     "headshotUrl": "https://fantraximg.com/si/headshots/NBA/hs051ok_96_8.png",
+     "scorerId": "051ok",
+     "rank": 123,
+     "posIdsNoFlex": [
+      "303",
+      "304",
+      "306"
+     ],
+     "defaultPosId": "303",
+     "posShortNames": "SF,PF,F",
+     "team": false,
+     "icons": [
+      {
+       "tooltip": "Oct 26, 1:15 PM: Hunter chipped in seven points (2-7 FG,...",
+       "typeId": "14"
+      }
+     ],
+     "rookie": false,
+     "minorsEligible": false,
+     "statusId": "4",
+     "posIds": [
+      "303",
+      "304",
+      "306",
+      "307"
+     ],
+     "teamId": "40290",
+     "name": "De'Andre Hunter",
+     "teamShortName": "SAC",
+     "shortName": "D. Hunter"
+    },
+    "multiPositions": "SF,PF,F",
+    "cells": [
+     {
+      "content": "123"
+     },
+     {
+      "content": "FA",
+      "toolTip": "Free Agent"
+     },
+     {
+      "content": ""
+     },
+     {
+      "content": "72.55"
+     },
+     {
+      "content": "32%"
+     },
+     {
+      "gainColor": -1,
+      "content": "-4%"
+     },
+     {
+      "content": ".462"
+     },
+     {
+      "content": "2.3"
+     },
+     {
+      "content": ".825"
+     },
+     {
+      "content": "17.0"
+     },
+     {
+      "content": "3.8"
+     },
+     {
+      "content": "1.6"
+     },
+     {
+      "content": "0.7"
+     },
+     {
+      "content": "0.2"
+     },
+     {
+      "content": "1.5"
+     }
+    ],
+    "actions": [
+     {
+      "typeId": "1"
+     },
+     {
+      "typeId": "7"
+     }
+    ]
+   },
+   {
+    "scorer": {
+     "teamName": "New Orleans Pelicans",
+     "urlName": "herbert-jones",
+     "headshotUrl": "https://fantraximg.com/si/headshots/NBA/hs05uj9_96_6.png",
+     "scorerId": "05uj9",
+     "rank": 124,
+     "posIdsNoFlex": [
+      "301",
+      "302",
+      "303",
+      "304",
+      "306"
+     ],
+     "defaultPosId": "303",
+     "posShortNames": "SG,G,SF,PF,F",
+     "team": false,
+     "icons": [
+      {
+       "tooltip": "Oct 25, 1:16 AM: Jones supplied two points (1-3 FG, 0-2...",
+       "typeId": "9"
+      }
+     ],
+     "rookie": false,
+     "minorsEligible": false,
+     "statusId": "4",
+     "posIds": [
+      "301",
+      "302",
+      "303",
+      "304",
+      "306",
+      "307"
+     ],
+     "teamId": "40180",
+     "name": "Herbert Jones",
+     "teamShortName": "NO",
+     "shortName": "H. Jones"
+    },
+    "multiPositions": "SG,G,SF,PF,F",
+    "cells": [
+     {
+      "content": "124"
+     },
+     {
+      "content": "FA",
+      "toolTip": "Free Agent"
+     },
+     {
+      "content": ""
+     },
+     {
+      "content": "72.51"
+     },
+     {
+      "content": "48%"
+     },
+     {
+      "gainColor": -1,
+      "content": "-14%"
+     },
+     {
+      "content": ".502"
+     },
+     {
+      "content": "1.3"
+     },
+     {
+      "content": ".866"
+     },
+     {
+      "content": "9.6"
+     },
+     {
+      "content": "3.0"
+     },
+     {
+      "content": "2.3"
+     },
+     {
+      "content": "1.2"
+     },
+     {
+      "content": "0.7"
+     },
+     {
+      "content": "0.9"
+     }
+    ],
+    "actions": [
+     {
+      "typeId": "1"
+     },
+     {
+      "typeId": "7"
+     }
+    ]
+   },
+   {
+    "scorer": {
+     "teamName": "Washington Wizards",
+     "urlName": "bilal-coulibaly",
+     "headshotUrl": "https://fantraximg.com/si/headshots/NBA/hs06cc1_96_4.png",
+     "scorerId": "06cc1",
+     "rank": 126,
+     "posIdsNoFlex": [
+      "301",
+      "302",
+      "303",
+      "304",
+      "306"
+     ],
+     "defaultPosId": "303",
+     "posShortNames": "SG,G,SF,PF,F",
+     "team": false,
+     "icons": [
+      {
+       "tooltip": "Oct 21, 6:34 PM: Coulibaly is in the starting lineup for...",
+       "typeId": "9"
+      }
+     ],
+     "rookie": false,
+     "minorsEligible": false,
+     "statusId": "5",
+     "posIds": [
+      "301",
+      "302",
+      "303",
+      "304",
+      "306",
+      "307"
+     ],
+     "teamId": "40140",
+     "name": "Bilal Coulibaly",
+     "teamShortName": "WAS",
+     "shortName": "B. Coulibaly"
+    },
+    "multiPositions": "SG,G,SF,PF,F",
+    "cells": [
+     {
+      "content": "126"
+     },
+     {
+      "content": "W <small>(Tue)</small>",
+      "toolTip": "Waiver Wire - Off Tue Oct 27, 10:55 AM EDT"
+     },
+     {
+      "content": ""
+     },
+     {
+      "content": "71.55"
+     },
+     {
+      "content": "59%"
+     },
+     {
+      "gainColor": -1,
+      "content": "-6%"
+     },
+     {
+      "content": ".422"
+     },
+     {
+      "content": "1.2"
+     },
+     {
+      "content": ".718"
+     },
+     {
+      "content": "9.5"
+     },
+     {
+      "content": "4.6"
+     },
+     {
+      "content": "2.0"
+     },
+     {
+      "content": "1.0"
+     },
+     {
+      "content": "0.9"
+     },
+     {
+      "content": "1.4"
+     }
+    ],
+    "actions": [
+     {
+      "typeId": "9"
+     },
+     {
+      "typeId": "7"
+     }
+    ]
+   },
+   {
+    "scorer": {
+     "teamName": "Oklahoma City Thunder",
+     "urlName": "jared-mccain",
+     "headshotUrl": "https://fantraximg.com/si/headshots/NBA/hs06mk8_96_3.png",
+     "scorerId": "06mk8",
+     "rank": 129,
+     "posIdsNoFlex": [
+      "301",
+      "302"
+     ],
+     "defaultPosId": "301",
+     "posShortNames": "SG,G",
+     "team": false,
+     "icons": [
+      {
+       "tooltip": "Oct 26, 7:37 PM: McCain will start Monday's game against...",
+       "typeId": "14"
+      }
+     ],
+     "rookie": false,
+     "minorsEligible": false,
+     "statusId": "4",
+     "posIds": [
+      "301",
+      "302",
+      "307"
+     ],
+     "teamId": "40230",
+     "name": "Jared McCain",
+     "teamShortName": "OKC",
+     "shortName": "J. McCain"
+    },
+    "multiPositions": "SG,G",
+    "cells": [
+     {
+      "content": "129"
+     },
+     {
+      "content": "FA",
+      "toolTip": "Free Agent"
+     },
+     {
+      "content": "OKC 116<br/>@SA 104 F",
+      "eventId": "06oot"
+     },
+     {
+      "content": "71.21"
+     },
+     {
+      "content": "70%"
+     },
+     {
+      "gainColor": -1,
+      "content": "-5%"
+     },
+     {
+      "content": ".455"
+     },
+     {
+      "content": "1.6"
+     },
+     {
+      "content": ".823"
+     },
+     {
+      "content": "13.2"
+     },
+     {
+      "content": "3.5"
+     },
+     {
+      "content": "3.9"
+     },
+     {
+      "content": "1.0"
+     },
+     {
+      "content": "0.3"
+     },
+     {
+      "content": "1.9"
+     }
+    ],
+    "actions": [
+     {
+      "typeId": "1"
+     },
+     {
+      "typeId": "7"
+     }
+    ]
+   },
+   {
+    "scorer": {
+     "teamName": "New Orleans Pelicans",
+     "urlName": "bennedict-mathurin",
+     "headshotUrl": "https://fantraximg.com/si/headshots/NBA/hs06215_96_5.png",
+     "scorerId": "06215",
+     "rank": 130,
+     "posIdsNoFlex": [
+      "301",
+      "302",
+      "303",
+      "306"
+     ],
+     "defaultPosId": "303",
+     "posShortNames": "SG,G,SF,F",
+     "team": false,
+     "icons": [
+      {
+       "tooltip": "Oct 22, 4:34 PM: Mathurin notched 11 points (3-7 FG, 0-3...",
+       "typeId": "9"
+      }
+     ],
+     "rookie": false,
+     "minorsEligible": false,
+     "statusId": "4",
+     "posIds": [
+      "301",
+      "302",
+      "303",
+      "306",
+      "307"
+     ],
+     "teamId": "40180",
+     "name": "Bennedict Mathurin",
+     "teamShortName": "NO",
+     "shortName": "B. Mathurin"
+    },
+    "multiPositions": "SG,G,SF,F",
+    "cells": [
+     {
+      "content": "130"
+     },
+     {
+      "content": "FA",
+      "toolTip": "Free Agent"
+     },
+     {
+      "content": ""
+     },
+     {
+      "content": "71.15"
+     },
+     {
+      "content": "59%"
+     },
+     {
+      "gainColor": -1,
+      "content": "-8%"
+     },
+     {
+      "content": ".435"
+     },
+     {
+      "content": "1.6"
+     },
+     {
+      "content": ".817"
+     },
+     {
+      "content": "15.8"
+     },
+     {
+      "content": "4.4"
+     },
+     {
+      "content": "2.3"
+     },
+     {
+      "content": "0.7"
+     },
+     {
+      "content": "0.3"
+     },
+     {
+      "content": "1.7"
+     }
+    ],
+    "actions": [
+     {
+      "typeId": "1"
+     },
+     {
+      "typeId": "7"
+     }
+    ]
+   },
+   {
+    "scorer": {
+     "teamName": "Houston Rockets",
+     "urlName": "tari-eason",
+     "headshotUrl": "https://fantraximg.com/si/headshots/NBA/hs0621g_96_5.png",
+     "scorerId": "0621g",
+     "rank": 134,
+     "posIdsNoFlex": [
+      "303",
+      "304",
+      "306"
+     ],
+     "defaultPosId": "304",
+     "posShortNames": "SF,PF,F",
+     "team": false,
+     "icons": [
+      {
+       "tooltip": "Oct 27, 12:55 AM: Eason closed Monday's 120-110 win over...",
+       "typeId": "14"
+      }
+     ],
+     "rookie": false,
+     "minorsEligible": false,
+     "statusId": "4",
+     "posIds": [
+      "303",
+      "304",
+      "306",
+      "307"
+     ],
+     "teamId": "40160",
+     "name": "Tari Eason",
+     "teamShortName": "HOU",
+     "shortName": "T. Eason"
+    },
+    "multiPositions": "SF,PF,F",
+    "cells": [
+     {
+      "content": "134"
+     },
+     {
+      "content": "FA",
+      "toolTip": "Free Agent"
+     },
+     {
+      "content": ""
+     },
+     {
+      "content": "70.23"
+     },
+     {
+      "content": "78%"
+     },
+     {
+      "gainColor": -1,
+      "content": "-1%"
+     },
+     {
+      "content": ".461"
+     },
+     {
+      "content": "0.6"
+     },
+     {
+      "content": ".661"
+     },
+     {
+      "content": "6.7"
+     },
+     {
+      "content": "4.8"
+     },
+     {
+      "content": "0.8"
+     },
+     {
+      "content": "1.0"
+     },
+     {
+      "content": "0.6"
+     },
+     {
+      "content": "0.6"
+     }
+    ],
+    "actions": [
+     {
+      "typeId": "1"
+     },
+     {
+      "typeId": "7"
+     }
+    ]
+   },
+   {
+    "scorer": {
+     "teamName": "Sacramento Kings",
+     "urlName": "malik-monk",
+     "headshotUrl": "https://fantraximg.com/si/headshots/NBA/hs049kc_96_9.png",
+     "scorerId": "049kc",
+     "rank": 135,
+     "posIdsNoFlex": [
+      "300",
+      "301",
+      "302"
+     ],
+     "defaultPosId": "301",
+     "posShortNames": "PG,SG,G",
+     "team": false,
+     "icons": [
+      {
+       "tooltip": "Oct 23, 3:54 PM: Monk (ankle) is available for Friday's...",
+       "typeId": "9"
+      }
+     ],
+     "rookie": false,
+     "minorsEligible": false,
+     "statusId": "4",
+     "posIds": [
+      "300",
+      "301",
+      "302",
+      "307"
+     ],
+     "teamId": "40290",
+     "name": "Malik Monk",
+     "teamShortName": "SAC",
+     "shortName": "M. Monk"
+    },
+    "multiPositions": "PG,SG,G",
+    "cells": [
+     {
+      "content": "135"
+     },
+     {
+      "content": "FA",
+      "toolTip": "Free Agent"
+     },
+     {
+      "content": ""
+     },
+     {
+      "content": "70.21"
+     },
+     {
+      "content": "32%"
+     },
+     {
+      "gainColor": -1,
+      "content": "-7%"
+     },
+     {
+      "content": ".440"
+     },
+     {
+      "content": "1.8"
+     },
+     {
+      "content": ".816"
+     },
+     {
+      "content": "14.2"
+     },
+     {
+      "content": "2.6"
+     },
+     {
+      "content": "4.4"
+     },
+     {
+      "content": "0.6"
+     },
+     {
+      "content": "0.5"
+     },
+     {
+      "content": "1.9"
+     }
+    ],
+    "actions": [
+     {
+      "typeId": "1"
+     },
+     {
+      "typeId": "7"
+     }
+    ]
+   },
+   {
+    "scorer": {
+     "teamName": "Charlotte Hornets",
+     "urlName": "ryan-kalkbrenner",
+     "headshotUrl": "https://fantraximg.com/si/headshots/NBA/hs06v80_96_2.png",
+     "scorerId": "06v80",
+     "rank": 137,
+     "posIdsNoFlex": [
+      "305"
+     ],
+     "defaultPosId": "305",
+     "posShortNames": "C",
+     "team": false,
+     "icons": [
+      {
+       "tooltip": "Oct 22, 2:02 PM: Kalkbrenner ended with four points (2-3...",
+       "typeId": "9"
+      }
+     ],
+     "rookie": false,
+     "minorsEligible": false,
+     "statusId": "4",
+     "posIds": [
+      "305",
+      "307"
+     ],
+     "teamId": "40110",
+     "name": "Ryan Kalkbrenner",
+     "teamShortName": "CHA",
+     "shortName": "R. Kalkbrenner"
+    },
+    "cells": [
+     {
+      "content": "137"
+     },
+     {
+      "content": "FA",
+      "toolTip": "Free Agent"
+     },
+     {
+      "content": ""
+     },
+     {
+      "content": "69.83"
+     },
+     {
+      "content": "38%"
+     },
+     {
+      "gainColor": -1,
+      "content": "-2%"
+     },
+     {
+      "content": ".560"
+     },
+     {
+      "content": "0.3"
+     },
+     {
+      "content": ".729"
+     },
+     {
+      "content": "8.4"
+     },
+     {
+      "content": "5.2"
+     },
+     {
+      "content": "1.3"
+     },
+     {
+      "content": "0.5"
+     },
+     {
+      "content": "0.7"
+     },
+     {
+      "content": "1.0"
+     }
+    ],
+    "actions": [
+     {
+      "typeId": "1"
+     },
+     {
+      "typeId": "7"
+     }
+    ]
+   },
+   {
+    "scorer": {
+     "teamName": "Charlotte Hornets",
+     "urlName": "tidjane-salaun",
+     "headshotUrl": "https://fantraximg.com/si/headshots/NBA/hs06mjy_96_3.png",
+     "scorerId": "06mjy",
+     "rank": 144,
+     "posIdsNoFlex": [
+      "304",
+      "306"
+     ],
+     "defaultPosId": "304",
+     "posShortNames": "PF,F",
+     "team": false,
+     "icons": [
+      {
+       "tooltip": "Oct 24, 1:28 AM: Salaun contributed 11 points (5-9 FG,...",
+       "typeId": "9"
+      }
+     ],
+     "rookie": false,
+     "minorsEligible": false,
+     "statusId": "4",
+     "posIds": [
+      "304",
+      "306",
+      "307"
+     ],
+     "teamId": "40110",
+     "name": "Tidjane Salaun",
+     "teamShortName": "CHA",
+     "shortName": "T. Salaun"
+    },
+    "multiPositions": "PF,F",
+    "cells": [
+     {
+      "content": "144"
+     },
+     {
+      "content": "FA",
+      "toolTip": "Free Agent"
+     },
+     {
+      "content": ""
+     },
+     {
+      "content": "68.71"
+     },
+     {
+      "content": "16%"
+     },
+     {
+      "content": "0%"
+     },
+     {
+      "content": ".487"
+     },
+     {
+      "content": "0.8"
+     },
+     {
+      "content": ".755"
+     },
+     {
+      "content": "8.6"
+     },
+     {
+      "content": "3.7"
+     },
+     {
+      "content": "1.3"
+     },
+     {
+      "content": "0.5"
+     },
+     {
+      "content": "0.5"
+     },
+     {
+      "content": "1.0"
+     }
+    ],
+    "actions": [
+     {
+      "typeId": "1"
+     },
+     {
+      "typeId": "7"
+     }
+    ]
+   },
+   {
+    "scorer": {
+     "teamName": "Milwaukee Bucks",
+     "urlName": "caris-levert",
+     "headshotUrl": "https://fantraximg.com/si/headshots/NBA/hs042nf_96_10.png",
+     "scorerId": "042nf",
+     "rank": 146,
+     "posIdsNoFlex": [
+      "301",
+      "302",
+      "303",
+      "306"
+     ],
+     "defaultPosId": "301",
+     "posShortNames": "SG,G,SF,F",
+     "team": false,
+     "icons": [
+      {
+       "tooltip": "Oct 22, 12:18 PM: LeVert (coach's decision) did not play...",
+       "typeId": "9"
+      }
+     ],
+     "rookie": false,
+     "minorsEligible": false,
+     "statusId": "4",
+     "posIds": [
+      "301",
+      "302",
+      "303",
+      "306",
+      "307"
+     ],
+     "teamId": "40090",
+     "name": "Caris LeVert",
+     "teamShortName": "MIL",
+     "shortName": "C. LeVert"
+    },
+    "multiPositions": "SG,G,SF,F",
+    "cells": [
+     {
+      "content": "146"
+     },
+     {
+      "content": "FA",
+      "toolTip": "Free Agent"
+     },
+     {
+      "content": ""
+     },
+     {
+      "content": "68.22"
+     },
+     {
+      "content": "10%"
+     },
+     {
+      "gainColor": -1,
+      "content": "-1%"
+     },
+     {
+      "content": ".419"
+     },
+     {
+      "content": "1.2"
+     },
+     {
+      "content": ".770"
+     },
+     {
+      "content": "10.1"
+     },
+     {
+      "content": "3.3"
+     },
+     {
+      "content": "4.0"
+     },
+     {
+      "content": "0.9"
+     },
+     {
+      "content": "0.4"
+     },
+     {
+      "content": "1.2"
+     }
+    ],
+    "actions": [
+     {
+      "typeId": "1"
+     },
+     {
+      "typeId": "7"
+     }
+    ]
+   },
+   {
+    "scorer": {
+     "teamName": "Los Angeles Clippers",
+     "urlName": "derrick-jones",
+     "headshotUrl": "https://fantraximg.com/si/headshots/NBA/hs048zt_96_10.png",
+     "scorerId": "048zt",
+     "rank": 147,
+     "posIdsNoFlex": [
+      "303",
+      "304",
+      "306"
+     ],
+     "defaultPosId": "303",
+     "posShortNames": "SF,PF,F",
+     "team": false,
+     "icons": [
+      {
+       "tooltip": "Oct 24, 4:46 AM: Jones closed Friday's 125-117 loss to...",
+       "typeId": "9"
+      }
+     ],
+     "rookie": false,
+     "minorsEligible": false,
+     "statusId": "4",
+     "posIds": [
+      "303",
+      "304",
+      "306",
+      "307"
+     ],
+     "teamId": "40260",
+     "name": "Derrick Jones",
+     "teamShortName": "LAC",
+     "shortName": "D. Jones"
+    },
+    "multiPositions": "SF,PF,F",
+    "cells": [
+     {
+      "content": "147"
+     },
+     {
+      "content": "FA",
+      "toolTip": "Free Agent"
+     },
+     {
+      "content": ""
+     },
+     {
+      "content": "68.19"
+     },
+     {
+      "content": "34%"
+     },
+     {
+      "gainColor": -1,
+      "content": "-3%"
+     },
+     {
+      "content": ".470"
+     },
+     {
+      "content": "1.3"
+     },
+     {
+      "content": ".711"
+     },
+     {
+      "content": "10.4"
+     },
+     {
+      "content": "3.8"
+     },
+     {
+      "content": "1.1"
+     },
+     {
+      "content": "0.8"
+     },
+     {
+      "content": "0.7"
+     },
+     {
+      "content": "1.1"
+     }
+    ],
+    "actions": [
+     {
+      "typeId": "1"
+     },
+     {
+      "typeId": "7"
+     }
+    ]
+   },
+   {
+    "scorer": {
+     "teamName": "Washington Wizards",
+     "urlName": "deandre-ayton",
+     "headshotUrl": "https://fantraximg.com/si/headshots/NBA/hs049kd_96_10.png",
+     "scorerId": "049kd",
+     "rank": 148,
+     "posIdsNoFlex": [
+      "305"
+     ],
+     "defaultPosId": "305",
+     "posShortNames": "C",
+     "team": false,
+     "icons": [
+      {
+       "tooltip": "Oct 22, 2:35 PM: Ayton accumulated 11 points (5-6 FG,...",
+       "typeId": "9"
+      }
+     ],
+     "rookie": false,
+     "minorsEligible": false,
+     "statusId": "4",
+     "posIds": [
+      "305",
+      "307"
+     ],
+     "teamId": "40140",
+     "name": "Deandre Ayton",
+     "teamShortName": "WAS",
+     "shortName": "D. Ayton"
+    },
+    "cells": [
+     {
+      "content": "148"
+     },
+     {
+      "content": "FA",
+      "toolTip": "Free Agent"
+     },
+     {
+      "content": ""
+     },
+     {
+      "content": "67.84"
+     },
+     {
+      "content": "49%"
+     },
+     {
+      "gainColor": -1,
+      "content": "-6%"
+     },
+     {
+      "content": ".563"
+     },
+     {
+      "content": "0.0"
+     },
+     {
+      "content": ".829"
+     },
+     {
+      "content": "13.3"
+     },
+     {
+      "content": "9.0"
+     },
+     {
+      "content": "1.3"
+     },
+     {
+      "content": "0.8"
+     },
+     {
+      "content": "0.6"
+     },
+     {
+      "content": "1.3"
+     }
+    ],
+    "actions": [
+     {
+      "typeId": "1"
+     },
+     {
+      "typeId": "7"
+     }
+    ]
+   },
+   {
+    "scorer": {
+     "teamName": "Chicago Bulls",
+     "urlName": "zach-collins",
+     "headshotUrl": "https://fantraximg.com/si/headshots/NBA/hs04ewc_96_9.png",
+     "scorerId": "04ewc",
+     "rank": 149,
+     "posIdsNoFlex": [
+      "304",
+      "306",
+      "305"
+     ],
+     "defaultPosId": "304",
+     "posShortNames": "PF,F,C",
+     "team": false,
+     "icons": [
+      {
+       "tooltip": "Oct 23, 11:29 PM: Head coach Tiago Splitter said he...",
+       "typeId": "9"
+      }
+     ],
+     "rookie": false,
+     "minorsEligible": false,
+     "statusId": "4",
+     "posIds": [
+      "304",
+      "306",
+      "305",
+      "307"
+     ],
+     "teamId": "40050",
+     "name": "Zach Collins",
+     "teamShortName": "CHI",
+     "shortName": "Z. Collins"
+    },
+    "multiPositions": "PF,F,C",
+    "cells": [
+     {
+      "content": "149"
+     },
+     {
+      "content": "FA",
+      "toolTip": "Free Agent"
+     },
+     {
+      "content": ""
+     },
+     {
+      "content": "67.45"
+     },
+     {
+      "content": "11%"
+     },
+     {
+      "gainColor": -1,
+      "content": "-2%"
+     },
+     {
+      "content": ".477"
+     },
+     {
+      "content": "0.8"
+     },
+     {
+      "content": ".726"
+     },
+     {
+      "content": "11.9"
+     },
+     {
+      "content": "5.0"
+     },
+     {
+      "content": "2.8"
+     },
+     {
+      "content": "0.5"
+     },
+     {
+      "content": "0.7"
+     },
+     {
+      "content": "1.8"
+     }
+    ],
+    "actions": [
+     {
+      "typeId": "1"
+     },
+     {
+      "typeId": "7"
+     }
+    ]
+   },
+   {
+    "scorer": {
+     "teamName": "Boston Celtics",
+     "urlName": "mitchell-robinson",
+     "headshotUrl": "https://fantraximg.com/si/headshots/NBA/hs04qsd_96_9.png",
+     "scorerId": "04qsd",
+     "rank": 150,
+     "posIdsNoFlex": [
+      "305"
+     ],
+     "defaultPosId": "305",
+     "posShortNames": "C",
+     "team": false,
+     "icons": [
+      {
+       "tooltip": "Oct 23, 11:03 PM: Robinson accumulated four points (2-4...",
+       "typeId": "9"
+      }
+     ],
+     "rookie": false,
+     "minorsEligible": false,
+     "statusId": "4",
+     "posIds": [
+      "305",
+      "307"
+     ],
+     "teamId": "40000",
+     "name": "Mitchell Robinson",
+     "teamShortName": "BOS",
+     "shortName": "M. Robinson"
+    },
+    "cells": [
+     {
+      "content": "150"
+     },
+     {
+      "content": "FA",
+      "toolTip": "Free Agent"
+     },
+     {
+      "content": "BOS 113<br/>@DET 121 F",
+      "eventId": "06oov"
+     },
+     {
+      "content": "67.42"
+     },
+     {
+      "content": "58%"
+     },
+     {
+      "gainColor": -1,
+      "content": "-13%"
+     },
+     {
+      "content": ".548"
+     },
+     {
+      "content": "0.0"
+     },
+     {
+      "content": ".381"
+     },
+     {
+      "content": "5.6"
+     },
+     {
+      "content": "7.6"
+     },
+     {
+      "content": "0.6"
+     },
+     {
+      "content": "1.0"
+     },
+     {
+      "content": "1.1"
+     },
+     {
+      "content": "0.7"
+     }
+    ],
+    "actions": [
+     {
+      "typeId": "1"
+     },
+     {
+      "typeId": "7"
+     }
+    ]
+   },
+   {
+    "scorer": {
+     "teamName": "Portland Trail Blazers",
+     "urlName": "jrue-holiday",
+     "headshotUrl": "https://fantraximg.com/si/headshots/NBA/hs01eo9_96_10.png",
+     "scorerId": "01eo9",
+     "rank": 151,
+     "posIdsNoFlex": [
+      "300",
+      "301",
+      "302"
+     ],
+     "defaultPosId": "300",
+     "posShortNames": "PG,SG,G",
+     "team": false,
+     "icons": [
+      {
+       "tooltip": "Oct 20, 7:40 PM: Holiday (hand) isn't listed on the...",
+       "typeId": "9"
+      }
+     ],
+     "rookie": false,
+     "minorsEligible": false,
+     "statusId": "4",
+     "posIds": [
+      "300",
+      "301",
+      "302",
+      "307"
+     ],
+     "teamId": "40220",
+     "name": "Jrue Holiday",
+     "teamShortName": "POR",
+     "shortName": "J. Holiday"
+    },
+    "multiPositions": "PG,SG,G",
+    "cells": [
+     {
+      "content": "151"
+     },
+     {
+      "content": "FA",
+      "toolTip": "Free Agent"
+     },
+     {
+      "content": ""
+     },
+     {
+      "content": "67.19"
+     },
+     {
+      "content": "73%"
+     },
+     {
+      "gainColor": -1,
+      "content": "-2%"
+     },
+     {
+      "content": ".481"
+     },
+     {
+      "content": "1.6"
+     },
+     {
+      "content": ".846"
+     },
+     {
+      "content": "10.3"
+     },
+     {
+      "content": "4.0"
+     },
+     {
+      "content": "3.8"
+     },
+     {
+      "content": "0.7"
+     },
+     {
+      "content": "0.6"
+     },
+     {
+      "content": "1.4"
+     }
+    ],
+    "actions": [
+     {
+      "typeId": "1"
+     },
+     {
+      "typeId": "7"
+     }
+    ]
+   },
+   {
+    "scorer": {
+     "teamName": "Utah Jazz",
+     "urlName": "isaiah-collier",
+     "headshotUrl": "https://fantraximg.com/si/headshots/NBA/hs06mkl_96_3.png",
+     "scorerId": "06mkl",
+     "rank": 152,
+     "posIdsNoFlex": [
+      "300",
+      "301",
+      "302"
+     ],
+     "defaultPosId": "300",
+     "posShortNames": "PG,SG,G",
+     "team": false,
+     "icons": [
+      {
+       "tooltip": "Oct 26, 1:42 PM: Collier recorded six points (2-6 FG,...",
+       "typeId": "14"
+      }
+     ],
+     "rookie": false,
+     "minorsEligible": false,
+     "statusId": "4",
+     "posIds": [
+      "300",
+      "301",
+      "302",
+      "307"
+     ],
+     "teamId": "40240",
+     "name": "Isaiah Collier",
+     "teamShortName": "UTA",
+     "shortName": "I. Collier"
+    },
+    "multiPositions": "PG,SG,G",
+    "cells": [
+     {
+      "content": "152"
+     },
+     {
+      "content": "FA",
+      "toolTip": "Free Agent"
+     },
+     {
+      "content": ""
+     },
+     {
+      "content": "66.7"
+     },
+     {
+      "content": "41%"
+     },
+     {
+      "gainColor": -1,
+      "content": "-3%"
+     },
+     {
+      "content": ".462"
+     },
+     {
+      "content": "1.5"
+     },
+     {
+      "content": ".827"
+     },
+     {
+      "content": "11.4"
+     },
+     {
+      "content": "3.1"
+     },
+     {
+      "content": "3.6"
+     },
+     {
+      "content": "0.9"
+     },
+     {
+      "content": "0.3"
+     },
+     {
+      "content": "1.7"
+     }
+    ],
+    "actions": [
+     {
+      "typeId": "1"
+     },
+     {
+      "typeId": "7"
+     }
+    ]
+   },
+   {
+    "scorer": {
+     "teamName": "Phoenix Suns",
+     "urlName": "jalen-green",
+     "headshotUrl": "https://fantraximg.com/si/headshots/NBA/hs05uic_96_6.png",
+     "scorerId": "05uic",
+     "rank": 153,
+     "posIdsNoFlex": [
+      "300",
+      "301",
+      "302"
+     ],
+     "defaultPosId": "301",
+     "posShortNames": "PG,SG,G",
+     "team": false,
+     "icons": [
+      {
+       "tooltip": "Oct 22, 1:43 PM: Green registered 10 points (4-12 FG,...",
+       "typeId": "9"
+      }
+     ],
+     "rookie": false,
+     "minorsEligible": false,
+     "statusId": "5",
+     "posIds": [
+      "300",
+      "301",
+      "302",
+      "307"
+     ],
+     "teamId": "40280",
+     "name": "Jalen Green",
+     "teamShortName": "PHO",
+     "shortName": "J. Green"
+    },
+    "multiPositions": "PG,SG,G",
+    "cells": [
+     {
+      "content": "153"
+     },
+     {
+      "content": "W <small>(Tue)</small>",
+      "toolTip": "Waiver Wire - Off Tue Oct 27, 10:55 AM EDT"
+     },
+     {
+      "content": ""
+     },
+     {
+      "content": "66.54"
+     },
+     {
+      "content": "93%"
+     },
+     {
+      "gainColor": -1,
+      "content": "-3%"
+     },
+     {
+      "content": ".425"
+     },
+     {
+      "content": "2.5"
+     },
+     {
+      "content": ".811"
+     },
+     {
+      "content": "19.9"
+     },
+     {
+      "content": "5.3"
+     },
+     {
+      "content": "3.8"
+     },
+     {
+      "content": "0.8"
+     },
+     {
+      "content": "0.4"
+     },
+     {
+      "content": "2.3"
+     }
+    ],
+    "actions": [
+     {
+      "typeId": "9"
+     },
+     {
+      "typeId": "7"
+     }
+    ]
+   },
+   {
+    "scorer": {
+     "teamName": "Utah Jazz",
+     "urlName": "kyle-filipowski",
+     "headshotUrl": "https://fantraximg.com/si/headshots/NBA/hs06mle_96_3.png",
+     "scorerId": "06mle",
+     "rank": 154,
+     "posIdsNoFlex": [
+      "304",
+      "306",
+      "305"
+     ],
+     "defaultPosId": "305",
+     "posShortNames": "PF,F,C",
+     "team": false,
+     "icons": [
+      {
+       "tooltip": "Oct 20, 6:07 PM: Filipowski (back) isn't listed on the...",
+       "typeId": "9"
+      }
+     ],
+     "rookie": false,
+     "minorsEligible": false,
+     "statusId": "4",
+     "posIds": [
+      "304",
+      "306",
+      "305",
+      "307"
+     ],
+     "teamId": "40240",
+     "name": "Kyle Filipowski",
+     "teamShortName": "UTA",
+     "shortName": "K. Filipowski"
+    },
+    "multiPositions": "PF,F,C",
+    "cells": [
+     {
+      "content": "154"
+     },
+     {
+      "content": "FA",
+      "toolTip": "Free Agent"
+     },
+     {
+      "content": ""
+     },
+     {
+      "content": "66.36"
+     },
+     {
+      "content": "45%"
+     },
+     {
+      "gainColor": -1,
+      "content": "-11%"
+     },
+     {
+      "content": ".563"
+     },
+     {
+      "content": "0.4"
+     },
+     {
+      "content": ".732"
+     },
+     {
+      "content": "9.1"
+     },
+     {
+      "content": "6.1"
+     },
+     {
+      "content": "1.4"
+     },
+     {
+      "content": "0.6"
+     },
+     {
+      "content": "1.0"
+     },
+     {
+      "content": "1.0"
+     }
+    ],
+    "actions": [
+     {
+      "typeId": "1"
+     },
+     {
+      "typeId": "7"
+     }
+    ]
+   },
+   {
+    "scorer": {
+     "teamName": "Dallas Mavericks",
+     "urlName": "zaccharie-risacher",
+     "headshotUrl": "https://fantraximg.com/si/headshots/NBA/hs06mjt_96_3.png",
+     "scorerId": "06mjt",
+     "rank": 155,
+     "posIdsNoFlex": [
+      "303",
+      "306"
+     ],
+     "defaultPosId": "303",
+     "posShortNames": "SF,F",
+     "team": false,
+     "icons": [
+      {
+       "tooltip": "Oct 26, 7:08 PM: Risacher won't start Monday's game...",
+       "typeId": "14"
+      }
+     ],
+     "rookie": false,
+     "minorsEligible": false,
+     "statusId": "4",
+     "posIds": [
+      "303",
+      "306",
+      "307"
+     ],
+     "teamId": "40150",
+     "name": "Zaccharie Risacher",
+     "teamShortName": "DAL",
+     "shortName": "Z. Risacher"
+    },
+    "multiPositions": "SF,F",
+    "cells": [
+     {
+      "content": "155"
+     },
+     {
+      "content": "FA",
+      "toolTip": "Free Agent"
+     },
+     {
+      "content": ""
+     },
+     {
+      "content": "66.35"
+     },
+     {
+      "content": "65%"
+     },
+     {
+      "gainColor": -1,
+      "content": "-2%"
+     },
+     {
+      "content": ".458"
+     },
+     {
+      "content": "1.4"
+     },
+     {
+      "content": ".806"
+     },
+     {
+      "content": "11.8"
+     },
+     {
+      "content": "3.8"
+     },
+     {
+      "content": "1.8"
+     },
+     {
+      "content": "0.8"
+     },
+     {
+      "content": "0.3"
+     },
+     {
+      "content": "1.1"
+     }
+    ],
+    "actions": [
+     {
+      "typeId": "1"
+     },
+     {
+      "typeId": "7"
+     }
+    ]
+   },
+   {
+    "scorer": {
+     "teamName": "Los Angeles Lakers",
+     "urlName": "jake-laravia",
+     "headshotUrl": "https://fantraximg.com/si/headshots/NBA/hs0621i_96_6.png",
+     "scorerId": "0621i",
+     "rank": 156,
+     "posIdsNoFlex": [
+      "304",
+      "306"
+     ],
+     "defaultPosId": "304",
+     "posShortNames": "PF,F",
+     "team": false,
+     "icons": [
+      {
+       "tooltip": "Oct 24, 7:12 PM: LaRavia (ankle) is not listed on the...",
+       "typeId": "9"
+      }
+     ],
+     "rookie": false,
+     "minorsEligible": false,
+     "statusId": "4",
+     "posIds": [
+      "304",
+      "306",
+      "307"
+     ],
+     "teamId": "40270",
+     "name": "Jake LaRavia",
+     "teamShortName": "LAL",
+     "shortName": "J. LaRavia"
+    },
+    "multiPositions": "PF,F",
+    "cells": [
+     {
+      "content": "156"
+     },
+     {
+      "content": "FA",
+      "toolTip": "Free Agent"
+     },
+     {
+      "content": ""
+     },
+     {
+      "content": "66.33"
+     },
+     {
+      "content": "26%"
+     },
+     {
+      "gainColor": -1,
+      "content": "-3%"
+     },
+     {
+      "content": ".379"
+     },
+     {
+      "content": "0.9"
+     },
+     {
+      "content": ".807"
+     },
+     {
+      "content": "7.3"
+     },
+     {
+      "content": "2.7"
+     },
+     {
+      "content": "1.2"
+     },
+     {
+      "content": "0.6"
+     },
+     {
+      "content": "0.3"
+     },
+     {
+      "content": "0.9"
+     }
+    ],
+    "actions": [
+     {
+      "typeId": "1"
+     },
+     {
+      "typeId": "7"
+     }
+    ]
+   },
+   {
+    "scorer": {
+     "teamName": "Memphis Grizzlies",
+     "urlName": "scotty-pippen",
+     "headshotUrl": "https://fantraximg.com/si/headshots/NBA/hs0623a_96_5.png",
+     "scorerId": "0623a",
+     "rank": 158,
+     "posIdsNoFlex": [
+      "300",
+      "302"
+     ],
+     "defaultPosId": "300",
+     "posShortNames": "PG,G",
+     "team": false,
+     "icons": [
+      {
+       "tooltip": "Oct 22, 4:51 PM: Pippen supplied nine points (2-7 FG,...",
+       "typeId": "9"
+      }
+     ],
+     "rookie": false,
+     "minorsEligible": false,
+     "statusId": "4",
+     "posIds": [
+      "300",
+      "302",
+      "307"
+     ],
+     "teamId": "40170",
+     "name": "Scotty Pippen",
+     "teamShortName": "MEM",
+     "shortName": "S. Pippen"
+    },
+    "multiPositions": "PG,G",
+    "cells": [
+     {
+      "content": "158"
+     },
+     {
+      "content": "FA",
+      "toolTip": "Free Agent"
+     },
+     {
+      "content": ""
+     },
+     {
+      "content": "66.17"
+     },
+     {
+      "content": "49%"
+     },
+     {
+      "gainColor": -1,
+      "content": "-7%"
+     },
+     {
+      "content": ".476"
+     },
+     {
+      "content": "1.3"
+     },
+     {
+      "content": ".727"
+     },
+     {
+      "content": "10.4"
+     },
+     {
+      "content": "2.4"
+     },
+     {
+      "content": "3.7"
+     },
+     {
+      "content": "1.4"
+     },
+     {
+      "content": "0.5"
+     },
+     {
+      "content": "2.3"
+     }
+    ],
+    "actions": [
+     {
+      "typeId": "1"
+     },
+     {
+      "typeId": "7"
+     }
+    ]
+   },
+   {
+    "scorer": {
+     "teamName": "Atlanta Hawks",
+     "urlName": "aaron-wiggins",
+     "headshotUrl": "https://fantraximg.com/si/headshots/NBA/hs05ujt_96_6.png",
+     "scorerId": "05ujt",
+     "rank": 161,
+     "posIdsNoFlex": [
+      "301",
+      "302",
+      "303",
+      "306"
+     ],
+     "defaultPosId": "301",
+     "posShortNames": "SG,G,SF,F",
+     "team": false,
+     "icons": [
+      {
+       "tooltip": "Oct 25, 11:54 AM: Wiggins posted 16 points (6-13 FG, 4-9...",
+       "typeId": "9"
+      }
+     ],
+     "rookie": false,
+     "minorsEligible": false,
+     "statusId": "4",
+     "posIds": [
+      "301",
+      "302",
+      "303",
+      "306",
+      "307"
+     ],
+     "teamId": "40100",
+     "name": "Aaron Wiggins",
+     "teamShortName": "ATL",
+     "shortName": "A. Wiggins"
+    },
+    "multiPositions": "SG,G,SF,F",
+    "cells": [
+     {
+      "content": "161"
+     },
+     {
+      "content": "FA",
+      "toolTip": "Free Agent"
+     },
+     {
+      "content": ""
+     },
+     {
+      "content": "65.35"
+     },
+     {
+      "content": "67%"
+     },
+     {
+      "content": "0%"
+     },
+     {
+      "content": ".523"
+     },
+     {
+      "content": "0.9"
+     },
+     {
+      "content": ".806"
+     },
+     {
+      "content": "8.5"
+     },
+     {
+      "content": "2.4"
+     },
+     {
+      "content": "1.4"
+     },
+     {
+      "content": "0.8"
+     },
+     {
+      "content": "0.3"
+     },
+     {
+      "content": "0.9"
+     }
+    ],
+    "actions": [
+     {
+      "typeId": "1"
+     },
+     {
+      "typeId": "7"
+     }
+    ]
+   },
+   {
+    "scorer": {
+     "teamName": "Orlando Magic",
+     "urlName": "tristan-da-silva",
+     "headshotUrl": "https://fantraximg.com/si/headshots/NBA/hs06mka_96_3.png",
+     "scorerId": "06mka",
+     "rank": 162,
+     "posIdsNoFlex": [
+      "303",
+      "304",
+      "306"
+     ],
+     "defaultPosId": "303",
+     "posShortNames": "SF,PF,F",
+     "team": false,
+     "icons": [
+      {
+       "tooltip": "Oct 26, 1:51 PM: Da Silva closed Sunday's 111-102...",
+       "typeId": "14"
+      }
+     ],
+     "rookie": false,
+     "minorsEligible": false,
+     "statusId": "4",
+     "posIds": [
+      "303",
+      "304",
+      "306",
+      "307"
+     ],
+     "teamId": "40130",
+     "name": "Tristan da Silva",
+     "teamShortName": "ORL",
+     "shortName": "T. da Silva"
+    },
+    "multiPositions": "SF,PF,F",
+    "cells": [
+     {
+      "content": "162"
+     },
+     {
+      "content": "FA",
+      "toolTip": "Free Agent"
+     },
+     {
+      "content": ""
+     },
+     {
+      "content": "65.2"
+     },
+     {
+      "content": "51%"
+     },
+     {
+      "gainColor": -1,
+      "content": "-1%"
+     },
+     {
+      "content": ".479"
+     },
+     {
+      "content": "1.0"
+     },
+     {
+      "content": ".754"
+     },
+     {
+      "content": "10.7"
+     },
+     {
+      "content": "4.8"
+     },
+     {
+      "content": "1.6"
+     },
+     {
+      "content": "0.6"
+     },
+     {
+      "content": "0.6"
+     },
+     {
+      "content": "1.3"
+     }
+    ],
+    "actions": [
+     {
+      "typeId": "1"
+     },
+     {
+      "typeId": "7"
+     }
+    ]
+   },
+   {
+    "scorer": {
+     "teamName": "Los Angeles Lakers",
+     "urlName": "ziaire-williams",
+     "headshotUrl": "https://fantraximg.com/si/headshots/NBA/hs05uik_96_6.png",
+     "scorerId": "05uik",
+     "rank": 164,
+     "posIdsNoFlex": [
+      "301",
+      "302",
+      "303",
+      "306"
+     ],
+     "defaultPosId": "303",
+     "posShortNames": "SG,G,SF,F",
+     "team": false,
+     "icons": [
+      {
+       "tooltip": "Oct 24, 4:39 AM: Williams notched 14 points (5-7 FG, 1-3...",
+       "typeId": "9"
+      }
+     ],
+     "rookie": false,
+     "minorsEligible": false,
+     "statusId": "4",
+     "posIds": [
+      "301",
+      "302",
+      "303",
+      "306",
+      "307"
+     ],
+     "teamId": "40270",
+     "name": "Ziaire Williams",
+     "teamShortName": "LAL",
+     "shortName": "Z. Williams"
+    },
+    "multiPositions": "SG,G,SF,F",
+    "cells": [
+     {
+      "content": "164"
+     },
+     {
+      "content": "FA",
+      "toolTip": "Free Agent"
+     },
+     {
+      "content": ""
+     },
+     {
+      "content": "64.18"
+     },
+     {
+      "content": "36%"
+     },
+     {
+      "gainColor": 1,
+      "content": "+3%"
+     },
+     {
+      "content": ".394"
+     },
+     {
+      "content": "1.1"
+     },
+     {
+      "content": ".819"
+     },
+     {
+      "content": "8.0"
+     },
+     {
+      "content": "3.5"
+     },
+     {
+      "content": "1.4"
+     },
+     {
+      "content": "0.7"
+     },
+     {
+      "content": "0.2"
+     },
+     {
+      "content": "1.3"
+     }
+    ],
+    "actions": [
+     {
+      "typeId": "1"
+     },
+     {
+      "typeId": "7"
+     }
+    ]
+   },
+   {
+    "scorer": {
+     "teamName": "Los Angeles Lakers",
+     "urlName": "sandro-mamukelashvili",
+     "headshotUrl": "https://fantraximg.com/si/headshots/NBA/hs05ujs_96_6.png",
+     "scorerId": "05ujs",
+     "rank": 165,
+     "posIdsNoFlex": [
+      "304",
+      "306",
+      "305"
+     ],
+     "defaultPosId": "304",
+     "posShortNames": "PF,F,C",
+     "team": false,
+     "icons": [
+      {
+       "tooltip": "Oct 26, 1:16 PM: Mamukelashvili chipped in nine points...",
+       "typeId": "14"
+      }
+     ],
+     "rookie": false,
+     "minorsEligible": false,
+     "statusId": "4",
+     "posIds": [
+      "304",
+      "306",
+      "305",
+      "307"
+     ],
+     "teamId": "40270",
+     "name": "Sandro Mamukelashvili",
+     "teamShortName": "LAL",
+     "shortName": "S. Mamukelashvili"
+    },
+    "multiPositions": "PF,F,C",
+    "cells": [
+     {
+      "content": "165"
+     },
+     {
+      "content": "FA",
+      "toolTip": "Free Agent"
+     },
+     {
+      "content": ""
+     },
+     {
+      "content": "64.07"
+     },
+     {
+      "content": "71%"
+     },
+     {
+      "gainColor": -1,
+      "content": "-12%"
+     },
+     {
+      "content": ".483"
+     },
+     {
+      "content": "0.6"
+     },
+     {
+      "content": ".752"
+     },
+     {
+      "content": "6.4"
+     },
+     {
+      "content": "4.5"
+     },
+     {
+      "content": "1.5"
+     },
+     {
+      "content": "0.3"
+     },
+     {
+      "content": "0.4"
+     },
+     {
+      "content": "0.5"
+     }
+    ],
+    "actions": [
+     {
+      "typeId": "1"
+     },
+     {
+      "typeId": "7"
+     }
+    ]
+   }
+  ],
+  "scoringCategoryTypes": [
+   {
+    "value": "Tracked",
+    "key": "5"
+   },
+   {
+    "value": "Tracked (Per-Game)",
+    "key": "7"
+   },
+   {
+    "value": "Standard",
+    "key": "1"
+   },
+   {
+    "value": "Extra",
+    "key": "2"
+   }
+  ],
+  "displayedSchedulePageAdj": 0,
+  "numScoringPeriods": 22,
+  "miscDisplayTypes": [
+   {
+    "value": "All",
+    "key": "1"
+   },
+   {
+    "value": "Rookie",
+    "key": "2"
+   }
+  ],
+  "tabs": [
+   {
+    "code": "STATS",
+    "text": "Stats"
+   },
+   {
+    "code": "SCHEDULE_PERIOD",
+    "text": "Schedule"
+   },
+   {
+    "code": "OVERVIEW",
+    "text": "Trends"
+   }
+  ],
+  "displayedView": "STATS",
+  "displayedTimeStartType": "PERIOD_ONLY",
+  "posOrGroupList": [
+   {
+    "name": "All Players",
+    "id": "BASKETBALL_PLAYER",
+    "shortName": "All"
+   },
+   {
+    "name": "Point Guard",
+    "id": "POS_300",
+    "shortName": "PG"
+   },
+   {
+    "name": "Shooting Guard",
+    "id": "POS_301",
+    "shortName": "SG"
+   },
+   {
+    "name": "Guard",
+    "id": "POS_302",
+    "shortName": "G"
+   },
+   {
+    "name": "Small Forward",
+    "id": "POS_303",
+    "shortName": "SF"
+   },
+   {
+    "name": "Power Forward",
+    "id": "POS_304",
+    "shortName": "PF"
+   },
+   {
+    "name": "Forward",
+    "id": "POS_306",
+    "shortName": "F"
+   },
+   {
+    "name": "Center",
+    "id": "POS_305",
+    "shortName": "C"
+   }
+  ],
+  "goBackDays": [
+   1,
+   7,
+   14,
+   30,
+   60
+  ],
+  "playerNewsIconRecencyLegend": [
+   {
+    "PLAYER_NEWS_HOT": "News was posted within the past <b>24</b> hours"
+   },
+   {
+    "PLAYER_NEWS_RECENT": "News was posted within the past <b>7</b> days"
+   },
+   {
+    "PLAYER_NEWS": "News was posted within the past <b>30</b> days"
+   }
+  ],
+  "statisticsViewTypeIds": [
+   "1",
+   "3"
+  ],
+  "numPeriods": 22,
+  "displayedPosOrGroup": "BASKETBALL_PLAYER",
+  "displayedLists": {
+   "goBackDays": [
+    1,
+    7,
+    14,
+    30,
+    60
+   ],
+   "scoringCategoryTypes": [
+    {
+     "value": "Tracked",
+     "key": "5"
+    },
+    {
+     "value": "Tracked (Per-Game)",
+     "key": "7"
+    },
+    {
+     "value": "Standard",
+     "key": "1"
+    },
+    {
+     "value": "Extra",
+     "key": "2"
+    }
+   ],
+   "datePlayingDates": [
+    {
+     "name": "All",
+     "id": "ALL"
+    },
+    {
+     "name": "Tue Oct 27",
+     "id": "2026-10-27"
+    },
+    {
+     "name": "Wed Oct 28",
+     "id": "2026-10-28"
+    },
+    {
+     "name": "Thu Oct 29",
+     "id": "2026-10-29"
+    },
+    {
+     "name": "Fri Oct 30",
+     "id": "2026-10-30"
+    },
+    {
+     "name": "Sat Oct 31",
+     "id": "2026-10-31"
+    },
+    {
+     "name": "Sun Nov 1",
+     "id": "2026-11-01"
+    },
+    {
+     "name": "Mon Nov 2",
+     "id": "2026-11-02"
+    },
+    {
+     "name": "Tue Nov 3",
+     "id": "2026-11-03"
+    },
+    {
+     "name": "Wed Nov 4",
+     "id": "2026-11-04"
+    },
+    {
+     "name": "Thu Nov 5",
+     "id": "2026-11-05"
+    },
+    {
+     "name": "Fri Nov 6",
+     "id": "2026-11-06"
+    },
+    {
+     "name": "Sat Nov 7",
+     "id": "2026-11-07"
+    },
+    {
+     "name": "Sun Nov 8",
+     "id": "2026-11-08"
+    },
+    {
+     "name": "Mon Nov 9",
+     "id": "2026-11-09"
+    },
+    {
+     "name": "Tue Nov 10",
+     "id": "2026-11-10"
+    },
+    {
+     "name": "Wed Nov 11",
+     "id": "2026-11-11"
+    },
+    {
+     "name": "Thu Nov 12",
+     "id": "2026-11-12"
+    },
+    {
+     "name": "Fri Nov 13",
+     "id": "2026-11-13"
+    },
+    {
+     "name": "Sat Nov 14",
+     "id": "2026-11-14"
+    },
+    {
+     "name": "Sun Nov 15",
+     "id": "2026-11-15"
+    },
+    {
+     "name": "Mon Nov 16",
+     "id": "2026-11-16"
+    },
+    {
+     "name": "Tue Nov 17",
+     "id": "2026-11-17"
+    },
+    {
+     "name": "Wed Nov 18",
+     "id": "2026-11-18"
+    },
+    {
+     "name": "Thu Nov 19",
+     "id": "2026-11-19"
+    },
+    {
+     "name": "Fri Nov 20",
+     "id": "2026-11-20"
+    },
+    {
+     "name": "Sat Nov 21",
+     "id": "2026-11-21"
+    },
+    {
+     "name": "Sun Nov 22",
+     "id": "2026-11-22"
+    },
+    {
+     "name": "Mon Nov 23",
+     "id": "2026-11-23"
+    },
+    {
+     "name": "Tue Nov 24",
+     "id": "2026-11-24"
+    },
+    {
+     "name": "Wed Nov 25",
+     "id": "2026-11-25"
+    }
+   ],
+   "displayedSeasonOrProjections": [
+    {
+     "code": "PROJECTION_0_41n_EVENT_PROJECTED_WEEKLY",
+     "endDate": 1807502399000,
+     "name": "Projected - Per Game",
+     "shortName": "Proj - Per Game",
+     "timeframeTypeCode": "PROJECTED_WEEKLY",
+     "startDate": 1792468800000
+    },
+    {
+     "code": "PROJECTION_0_41n_SEASON",
+     "endDate": 1807502399000,
+     "name": "Projected - Season",
+     "shortName": "Proj - Season",
+     "timeframeTypeCode": "PROJECTED_SEASON",
+     "startDate": 1792468800000
+    },
+    {
+     "code": "SEASON_41n_YEAR_TO_DATE",
+     "endDate": 1807502399000,
+     "name": "2026-27 Reg Season - YTD",
+     "showGoBackDays": true,
+     "shortName": "2026-27 Reg - YTD",
+     "timeframeTypeCode": "YEAR_TO_DATE",
+     "startDate": 1792468800000
+    },
+    {
+     "code": "SEASON_41n_BY_PERIOD",
+     "endDate": 1807502399000,
+     "name": "2026-27 Reg Season - Period",
+     "showGoBackDays": true,
+     "shortName": "2026-27 Reg - Period",
+     "timeframeTypeCode": "BY_PERIOD",
+     "startDate": 1792468800000
+    },
+    {
+     "code": "SEASON_41n_BY_DATE",
+     "endDate": 1807502399000,
+     "name": "2026-27 Reg Season - Dates",
+     "showGoBackDays": true,
+     "shortName": "2026-27 Reg - Dates",
+     "timeframeTypeCode": "BY_DATE",
+     "startDate": 1792468800000
+    },
+    {
+     "code": "SEASON_41l_YEAR_TO_DATE",
+     "endDate": 1776052799000,
+     "name": "2025-26 Reg Season - YTD",
+     "shortName": "2025-26 Reg - YTD",
+     "timeframeTypeCode": "YEAR_TO_DATE",
+     "startDate": 1761019200000
+    },
+    {
+     "code": "SEASON_41l_BY_DATE",
+     "endDate": 1776052799000,
+     "name": "2025-26 Reg Season - Dates",
+     "shortName": "2025-26 Reg - Dates",
+     "timeframeTypeCode": "BY_DATE",
+     "startDate": 1761019200000
+    },
+    {
+     "code": "SEASON_41j_YEAR_TO_DATE",
+     "endDate": 1744603199000,
+     "name": "2024-25 Reg Season - YTD",
+     "shortName": "2024-25 Reg - YTD",
+     "timeframeTypeCode": "YEAR_TO_DATE",
+     "startDate": 1729569600000
+    },
+    {
+     "code": "SEASON_41j_BY_DATE",
+     "endDate": 1744603199000,
+     "name": "2024-25 Reg Season - Dates",
+     "shortName": "2024-25 Reg - Dates",
+     "timeframeTypeCode": "BY_DATE",
+     "startDate": 1729569600000
+    },
+    {
+     "code": "SEASON_41h_YEAR_TO_DATE",
+     "endDate": 1713153599000,
+     "name": "2023-24 Reg Season - YTD",
+     "shortName": "2023-24 Reg - YTD",
+     "timeframeTypeCode": "YEAR_TO_DATE",
+     "startDate": 1698120000000
+    },
+    {
+     "code": "SEASON_41h_BY_DATE",
+     "endDate": 1713153599000,
+     "name": "2023-24 Reg Season - Dates",
+     "shortName": "2023-24 Reg - Dates",
+     "timeframeTypeCode": "BY_DATE",
+     "startDate": 1698120000000
+    },
+    {
+     "code": "SEASON_41f_YEAR_TO_DATE",
+     "endDate": 1681099199000,
+     "name": "2022-23 Reg Season - YTD",
+     "shortName": "2022-23 Reg - YTD",
+     "timeframeTypeCode": "YEAR_TO_DATE",
+     "startDate": 1666065600000
+    },
+    {
+     "code": "SEASON_41f_BY_DATE",
+     "endDate": 1681099199000,
+     "name": "2022-23 Reg Season - Dates",
+     "shortName": "2022-23 Reg - Dates",
+     "timeframeTypeCode": "BY_DATE",
+     "startDate": 1666065600000
+    },
+    {
+     "code": "SEASON_41d_YEAR_TO_DATE",
+     "endDate": 1649649599000,
+     "name": "2021-22 Reg Season - YTD",
+     "shortName": "2021-22 Reg - YTD",
+     "timeframeTypeCode": "YEAR_TO_DATE",
+     "startDate": 1634616000000
+    },
+    {
+     "code": "SEASON_41d_BY_DATE",
+     "endDate": 1649649599000,
+     "name": "2021-22 Reg Season - Dates",
+     "shortName": "2021-22 Reg - Dates",
+     "timeframeTypeCode": "BY_DATE",
+     "startDate": 1634616000000
+    },
+    {
+     "code": "SEASON_41b_YEAR_TO_DATE",
+     "endDate": 1621223999000,
+     "name": "2020-21 Reg Season - YTD",
+     "shortName": "2020-21 Reg - YTD",
+     "timeframeTypeCode": "YEAR_TO_DATE",
+     "startDate": 1608613200000
+    },
+    {
+     "code": "SEASON_41b_BY_DATE",
+     "endDate": 1621223999000,
+     "name": "2020-21 Reg Season - Dates",
+     "shortName": "2020-21 Reg - Dates",
+     "timeframeTypeCode": "BY_DATE",
+     "startDate": 1608613200000
+    },
+    {
+     "code": "SEASON_40z_YEAR_TO_DATE",
+     "endDate": 1597463999000,
+     "name": "2019-20 Reg Season - YTD",
+     "shortName": "2019-20 Reg - YTD",
+     "timeframeTypeCode": "YEAR_TO_DATE",
+     "startDate": 1571716800000
+    },
+    {
+     "code": "SEASON_40z_BY_DATE",
+     "endDate": 1597463999000,
+     "name": "2019-20 Reg Season - Dates",
+     "shortName": "2019-20 Reg - Dates",
+     "timeframeTypeCode": "BY_DATE",
+     "startDate": 1571716800000
+    },
+    {
+     "code": "SEASON_40x_YEAR_TO_DATE",
+     "endDate": 1554955199000,
+     "name": "2018-19 Reg Season - YTD",
+     "shortName": "2018-19 Reg - YTD",
+     "timeframeTypeCode": "YEAR_TO_DATE",
+     "startDate": 1539662400000
+    },
+    {
+     "code": "SEASON_40x_BY_DATE",
+     "endDate": 1554955199000,
+     "name": "2018-19 Reg Season - Dates",
+     "shortName": "2018-19 Reg - Dates",
+     "timeframeTypeCode": "BY_DATE",
+     "startDate": 1539662400000
+    },
+    {
+     "code": "SEASON_40v_YEAR_TO_DATE",
+     "endDate": 1523505599000,
+     "name": "2017-18 Reg Season - YTD",
+     "shortName": "2017-18 Reg - YTD",
+     "timeframeTypeCode": "YEAR_TO_DATE",
+     "startDate": 1508212800000
+    },
+    {
+     "code": "SEASON_40v_BY_DATE",
+     "endDate": 1523505599000,
+     "name": "2017-18 Reg Season - Dates",
+     "shortName": "2017-18 Reg - Dates",
+     "timeframeTypeCode": "BY_DATE",
+     "startDate": 1508212800000
+    },
+    {
+     "code": "SEASON_40t_YEAR_TO_DATE",
+     "endDate": 1492055999000,
+     "name": "2016-17 Reg Season - YTD",
+     "shortName": "2016-17 Reg - YTD",
+     "timeframeTypeCode": "YEAR_TO_DATE",
+     "startDate": 1477368000000
+    },
+    {
+     "code": "SEASON_40t_BY_DATE",
+     "endDate": 1492055999000,
+     "name": "2016-17 Reg Season - Dates",
+     "shortName": "2016-17 Reg - Dates",
+     "timeframeTypeCode": "BY_DATE",
+     "startDate": 1477368000000
+    },
+    {
+     "code": "SEASON_40r_YEAR_TO_DATE",
+     "endDate": 1460606399000,
+     "name": "2015-16 Reg Season - YTD",
+     "shortName": "2015-16 Reg - YTD",
+     "timeframeTypeCode": "YEAR_TO_DATE",
+     "startDate": 1445918400000
+    },
+    {
+     "code": "SEASON_40r_BY_DATE",
+     "endDate": 1460606399000,
+     "name": "2015-16 Reg Season - Dates",
+     "shortName": "2015-16 Reg - Dates",
+     "timeframeTypeCode": "BY_DATE",
+     "startDate": 1445918400000
+    },
+    {
+     "code": "SEASON_40p_YEAR_TO_DATE",
+     "endDate": 1429156799000,
+     "name": "2014-15 Reg Season - YTD",
+     "shortName": "2014-15 Reg - YTD",
+     "timeframeTypeCode": "YEAR_TO_DATE",
+     "startDate": 1414468800000
+    },
+    {
+     "code": "SEASON_40p_BY_DATE",
+     "endDate": 1429156799000,
+     "name": "2014-15 Reg Season - Dates",
+     "shortName": "2014-15 Reg - Dates",
+     "timeframeTypeCode": "BY_DATE",
+     "startDate": 1414468800000
+    },
+    {
+     "code": "SEASON_40n_YEAR_TO_DATE",
+     "endDate": 1397707199000,
+     "name": "2013-14 Reg Season - YTD",
+     "shortName": "2013-14 Reg - YTD",
+     "timeframeTypeCode": "YEAR_TO_DATE",
+     "startDate": 1383019200000
+    },
+    {
+     "code": "SEASON_40n_BY_DATE",
+     "endDate": 1397707199000,
+     "name": "2013-14 Reg Season - Dates",
+     "shortName": "2013-14 Reg - Dates",
+     "timeframeTypeCode": "BY_DATE",
+     "startDate": 1383019200000
+    },
+    {
+     "code": "SEASON_40l_YEAR_TO_DATE",
+     "endDate": 1366257599000,
+     "name": "2012-13 Reg Season - YTD",
+     "shortName": "2012-13 Reg - YTD",
+     "timeframeTypeCode": "YEAR_TO_DATE",
+     "startDate": 1351569600000
+    },
+    {
+     "code": "SEASON_40l_BY_DATE",
+     "endDate": 1366257599000,
+     "name": "2012-13 Reg Season - Dates",
+     "shortName": "2012-13 Reg - Dates",
+     "timeframeTypeCode": "BY_DATE",
+     "startDate": 1351569600000
+    },
+    {
+     "code": "SEASON_40j_YEAR_TO_DATE",
+     "endDate": 1335499199000,
+     "name": "2011-12 Reg Season - YTD",
+     "shortName": "2011-12 Reg - YTD",
+     "timeframeTypeCode": "YEAR_TO_DATE",
+     "startDate": 1324789200000
+    },
+    {
+     "code": "SEASON_40j_BY_DATE",
+     "endDate": 1335499199000,
+     "name": "2011-12 Reg Season - Dates",
+     "shortName": "2011-12 Reg - Dates",
+     "timeframeTypeCode": "BY_DATE",
+     "startDate": 1324789200000
+    },
+    {
+     "code": "SEASON_40h_YEAR_TO_DATE",
+     "endDate": 1302753599000,
+     "name": "2010-11 Reg Season - YTD",
+     "shortName": "2010-11 Reg - YTD",
+     "timeframeTypeCode": "YEAR_TO_DATE",
+     "startDate": 1288065600000
+    },
+    {
+     "code": "SEASON_40h_BY_DATE",
+     "endDate": 1302753599000,
+     "name": "2010-11 Reg Season - Dates",
+     "shortName": "2010-11 Reg - Dates",
+     "timeframeTypeCode": "BY_DATE",
+     "startDate": 1288065600000
+    },
+    {
+     "code": "SEASON_40f_YEAR_TO_DATE",
+     "endDate": 1271303999000,
+     "name": "2009-10 Reg Season - YTD",
+     "shortName": "2009-10 Reg - YTD",
+     "timeframeTypeCode": "YEAR_TO_DATE",
+     "startDate": 1256616000000
+    },
+    {
+     "code": "SEASON_40f_BY_DATE",
+     "endDate": 1271303999000,
+     "name": "2009-10 Reg Season - Dates",
+     "shortName": "2009-10 Reg - Dates",
+     "timeframeTypeCode": "BY_DATE",
+     "startDate": 1256616000000
+    },
+    {
+     "code": "SEASON_40c_YEAR_TO_DATE",
+     "endDate": 1239854399000,
+     "name": "2008-09 Reg Season - YTD",
+     "shortName": "2008-09 Reg - YTD",
+     "timeframeTypeCode": "YEAR_TO_DATE",
+     "startDate": 1225166400000
+    },
+    {
+     "code": "SEASON_40c_BY_DATE",
+     "endDate": 1239854399000,
+     "name": "2008-09 Reg Season - Dates",
+     "shortName": "2008-09 Reg - Dates",
+     "timeframeTypeCode": "BY_DATE",
+     "startDate": 1225166400000
+    },
+    {
+     "code": "SEASON_409_YEAR_TO_DATE",
+     "endDate": 1208404799000,
+     "name": "2007-08 Reg Season - YTD",
+     "shortName": "2007-08 Reg - YTD",
+     "timeframeTypeCode": "YEAR_TO_DATE",
+     "startDate": 1194148800000
+    },
+    {
+     "code": "SEASON_409_BY_DATE",
+     "endDate": 1208404799000,
+     "name": "2007-08 Reg Season - Dates",
+     "shortName": "2007-08 Reg - Dates",
+     "timeframeTypeCode": "BY_DATE",
+     "startDate": 1194148800000
+    },
+    {
+     "code": "SEASON_41m_YEAR_TO_DATE",
+     "endDate": 1782100799000,
+     "name": "2025-26 Playoffs - YTD",
+     "shortName": "2025-26 Plyff - YTD",
+     "timeframeTypeCode": "YEAR_TO_DATE",
+     "startDate": 1776139200000
+    },
+    {
+     "code": "SEASON_41m_BY_DATE",
+     "endDate": 1782100799000,
+     "name": "2025-26 Playoffs - Dates",
+     "shortName": "2025-26 Plyff - Dates",
+     "timeframeTypeCode": "BY_DATE",
+     "startDate": 1776139200000
+    },
+    {
+     "code": "SEASON_41k_YEAR_TO_DATE",
+     "endDate": 1750651199000,
+     "name": "2024-25 Playoffs - YTD",
+     "shortName": "2024-25 Plyff - YTD",
+     "timeframeTypeCode": "YEAR_TO_DATE",
+     "startDate": 1745035200000
+    },
+    {
+     "code": "SEASON_41k_BY_DATE",
+     "endDate": 1750651199000,
+     "name": "2024-25 Playoffs - Dates",
+     "shortName": "2024-25 Plyff - Dates",
+     "timeframeTypeCode": "BY_DATE",
+     "startDate": 1745035200000
+    },
+    {
+     "code": "SEASON_41i_YEAR_TO_DATE",
+     "endDate": 1719201599000,
+     "name": "2023-24 Playoffs - YTD",
+     "shortName": "2023-24 Plyff - YTD",
+     "timeframeTypeCode": "YEAR_TO_DATE",
+     "startDate": 1713585600000
+    },
+    {
+     "code": "SEASON_41i_BY_DATE",
+     "endDate": 1719201599000,
+     "name": "2023-24 Playoffs - Dates",
+     "shortName": "2023-24 Plyff - Dates",
+     "timeframeTypeCode": "BY_DATE",
+     "startDate": 1713585600000
+    },
+    {
+     "code": "SEASON_41g_YEAR_TO_DATE",
+     "endDate": 1687147199000,
+     "name": "2022-23 Playoffs - YTD",
+     "shortName": "2022-23 Plyff - YTD",
+     "timeframeTypeCode": "YEAR_TO_DATE",
+     "startDate": 1681531200000
+    },
+    {
+     "code": "SEASON_41g_BY_DATE",
+     "endDate": 1687147199000,
+     "name": "2022-23 Playoffs - Dates",
+     "shortName": "2022-23 Plyff - Dates",
+     "timeframeTypeCode": "BY_DATE",
+     "startDate": 1681531200000
+    },
+    {
+     "code": "SEASON_41e_YEAR_TO_DATE",
+     "endDate": 1655697599000,
+     "name": "2021-22 Playoffs - YTD",
+     "shortName": "2021-22 Plyff - YTD",
+     "timeframeTypeCode": "YEAR_TO_DATE",
+     "startDate": 1650081600000
+    },
+    {
+     "code": "SEASON_41e_BY_DATE",
+     "endDate": 1655697599000,
+     "name": "2021-22 Playoffs - Dates",
+     "shortName": "2021-22 Plyff - Dates",
+     "timeframeTypeCode": "BY_DATE",
+     "startDate": 1650081600000
+    },
+    {
+     "code": "SEASON_41c_YEAR_TO_DATE",
+     "endDate": 1627012799000,
+     "name": "2020-21 Playoffs - YTD",
+     "shortName": "2020-21 Plyff - YTD",
+     "timeframeTypeCode": "YEAR_TO_DATE",
+     "startDate": 1621310400000
+    },
+    {
+     "code": "SEASON_41c_BY_DATE",
+     "endDate": 1627012799000,
+     "name": "2020-21 Playoffs - Dates",
+     "shortName": "2020-21 Plyff - Dates",
+     "timeframeTypeCode": "BY_DATE",
+     "startDate": 1621310400000
+    },
+    {
+     "code": "SEASON_41a_YEAR_TO_DATE",
+     "endDate": 1602647999000,
+     "name": "2019-20 Playoffs - YTD",
+     "shortName": "2019-20 Plyff - YTD",
+     "timeframeTypeCode": "YEAR_TO_DATE",
+     "startDate": 1597636800000
+    },
+    {
+     "code": "SEASON_41a_BY_DATE",
+     "endDate": 1602647999000,
+     "name": "2019-20 Playoffs - Dates",
+     "shortName": "2019-20 Plyff - Dates",
+     "timeframeTypeCode": "BY_DATE",
+     "startDate": 1597636800000
+    },
+    {
+     "code": "SEASON_40y_YEAR_TO_DATE",
+     "endDate": 1560743999000,
+     "name": "2018-19 Playoffs - YTD",
+     "shortName": "2018-19 Plyff - YTD",
+     "timeframeTypeCode": "YEAR_TO_DATE",
+     "startDate": 1555128000000
+    },
+    {
+     "code": "SEASON_40y_BY_DATE",
+     "endDate": 1560743999000,
+     "name": "2018-19 Playoffs - Dates",
+     "shortName": "2018-19 Plyff - Dates",
+     "timeframeTypeCode": "BY_DATE",
+     "startDate": 1555128000000
+    },
+    {
+     "code": "SEASON_40w_YEAR_TO_DATE",
+     "endDate": 1529294399000,
+     "name": "2017-18 Playoffs - YTD",
+     "shortName": "2017-18 Plyff - YTD",
+     "timeframeTypeCode": "YEAR_TO_DATE",
+     "startDate": 1523678400000
+    },
+    {
+     "code": "SEASON_40w_BY_DATE",
+     "endDate": 1529294399000,
+     "name": "2017-18 Playoffs - Dates",
+     "shortName": "2017-18 Plyff - Dates",
+     "timeframeTypeCode": "BY_DATE",
+     "startDate": 1523678400000
+    },
+    {
+     "code": "SEASON_40u_YEAR_TO_DATE",
+     "endDate": 1497844799000,
+     "name": "2016-17 Playoffs - YTD",
+     "shortName": "2016-17 Plyff - YTD",
+     "timeframeTypeCode": "YEAR_TO_DATE",
+     "startDate": 1492228800000
+    },
+    {
+     "code": "SEASON_40u_BY_DATE",
+     "endDate": 1497844799000,
+     "name": "2016-17 Playoffs - Dates",
+     "shortName": "2016-17 Plyff - Dates",
+     "timeframeTypeCode": "BY_DATE",
+     "startDate": 1492228800000
+    },
+    {
+     "code": "SEASON_40s_YEAR_TO_DATE",
+     "endDate": 1466395199000,
+     "name": "2015-16 Playoffs - YTD",
+     "shortName": "2015-16 Plyff - YTD",
+     "timeframeTypeCode": "YEAR_TO_DATE",
+     "startDate": 1460779200000
+    },
+    {
+     "code": "SEASON_40s_BY_DATE",
+     "endDate": 1466395199000,
+     "name": "2015-16 Playoffs - Dates",
+     "shortName": "2015-16 Plyff - Dates",
+     "timeframeTypeCode": "BY_DATE",
+     "startDate": 1460779200000
+    },
+    {
+     "code": "SEASON_40q_YEAR_TO_DATE",
+     "endDate": 1434686399000,
+     "name": "2014-15 Playoffs - YTD",
+     "shortName": "2014-15 Plyff - YTD",
+     "timeframeTypeCode": "YEAR_TO_DATE",
+     "startDate": 1429329600000
+    },
+    {
+     "code": "SEASON_40q_BY_DATE",
+     "endDate": 1434686399000,
+     "name": "2014-15 Playoffs - Dates",
+     "shortName": "2014-15 Plyff - Dates",
+     "timeframeTypeCode": "BY_DATE",
+     "startDate": 1429329600000
+    },
+    {
+     "code": "SEASON_40o_YEAR_TO_DATE",
+     "endDate": 1403063999000,
+     "name": "2013-14 Playoffs - YTD",
+     "shortName": "2013-14 Plyff - YTD",
+     "timeframeTypeCode": "YEAR_TO_DATE",
+     "startDate": 1397880000000
+    },
+    {
+     "code": "SEASON_40o_BY_DATE",
+     "endDate": 1403063999000,
+     "name": "2013-14 Playoffs - Dates",
+     "shortName": "2013-14 Plyff - Dates",
+     "timeframeTypeCode": "BY_DATE",
+     "startDate": 1397880000000
+    },
+    {
+     "code": "SEASON_40m_YEAR_TO_DATE",
+     "endDate": 1371787199000,
+     "name": "2012-13 Playoffs - YTD",
+     "shortName": "2012-13 Plyff - YTD",
+     "timeframeTypeCode": "YEAR_TO_DATE",
+     "startDate": 1366430400000
+    },
+    {
+     "code": "SEASON_40m_BY_DATE",
+     "endDate": 1371787199000,
+     "name": "2012-13 Playoffs - Dates",
+     "shortName": "2012-13 Plyff - Dates",
+     "timeframeTypeCode": "BY_DATE",
+     "startDate": 1366430400000
+    },
+    {
+     "code": "SEASON_40k_YEAR_TO_DATE",
+     "endDate": 1340769599000,
+     "name": "2011-12 Playoffs - YTD",
+     "shortName": "2011-12 Plyff - YTD",
+     "timeframeTypeCode": "YEAR_TO_DATE",
+     "startDate": 1335585600000
+    },
+    {
+     "code": "SEASON_40k_BY_DATE",
+     "endDate": 1340769599000,
+     "name": "2011-12 Playoffs - Dates",
+     "shortName": "2011-12 Plyff - Dates",
+     "timeframeTypeCode": "BY_DATE",
+     "startDate": 1335585600000
+    },
+    {
+     "code": "SEASON_40i_YEAR_TO_DATE",
+     "endDate": 1308283199000,
+     "name": "2010-11 Playoffs - YTD",
+     "shortName": "2010-11 Plyff - YTD",
+     "timeframeTypeCode": "YEAR_TO_DATE",
+     "startDate": 1302926400000
+    },
+    {
+     "code": "SEASON_40i_BY_DATE",
+     "endDate": 1308283199000,
+     "name": "2010-11 Playoffs - Dates",
+     "shortName": "2010-11 Plyff - Dates",
+     "timeframeTypeCode": "BY_DATE",
+     "startDate": 1302926400000
+    },
+    {
+     "code": "SEASON_40g_YEAR_TO_DATE",
+     "endDate": 1277956799000,
+     "name": "2009-10 Playoffs - YTD",
+     "shortName": "2009-10 Plyff - YTD",
+     "timeframeTypeCode": "YEAR_TO_DATE",
+     "startDate": 1271476800000
+    },
+    {
+     "code": "SEASON_40g_BY_DATE",
+     "endDate": 1277956799000,
+     "name": "2009-10 Playoffs - Dates",
+     "shortName": "2009-10 Plyff - Dates",
+     "timeframeTypeCode": "BY_DATE",
+     "startDate": 1271476800000
+    },
+    {
+     "code": "SEASON_40d_YEAR_TO_DATE",
+     "endDate": 1245643199000,
+     "name": "2008-09 Playoffs - YTD",
+     "shortName": "2008-09 Plyff - YTD",
+     "timeframeTypeCode": "YEAR_TO_DATE",
+     "startDate": 1239940800000
+    },
+    {
+     "code": "SEASON_40d_BY_DATE",
+     "endDate": 1245643199000,
+     "name": "2008-09 Playoffs - Dates",
+     "shortName": "2008-09 Plyff - Dates",
+     "timeframeTypeCode": "BY_DATE",
+     "startDate": 1239940800000
+    },
+    {
+     "code": "SEASON_40a_YEAR_TO_DATE",
+     "endDate": 1213761599000,
+     "name": "2007-08 Playoffs - YTD",
+     "shortName": "2007-08 Plyff - YTD",
+     "timeframeTypeCode": "YEAR_TO_DATE",
+     "startDate": 1208577600000
+    },
+    {
+     "code": "SEASON_40a_BY_DATE",
+     "endDate": 1213761599000,
+     "name": "2007-08 Playoffs - Dates",
+     "shortName": "2007-08 Plyff - Dates",
+     "timeframeTypeCode": "BY_DATE",
+     "startDate": 1208577600000
+    }
+   ]
+  },
+  "seasonOrProjections": [
+   {
+    "code": "PROJECTION_0_41n_EVENT_PROJECTED_WEEKLY",
+    "endDate": 1807502399000,
+    "name": "Projected - Per Game",
+    "shortName": "Proj - Per Game",
+    "timeframeTypeCode": "PROJECTED_WEEKLY",
+    "startDate": 1792468800000
+   },
+   {
+    "code": "PROJECTION_0_41n_SEASON",
+    "endDate": 1807502399000,
+    "name": "Projected - Season",
+    "shortName": "Proj - Season",
+    "timeframeTypeCode": "PROJECTED_SEASON",
+    "startDate": 1792468800000
+   },
+   {
+    "code": "SEASON_41n_YEAR_TO_DATE",
+    "endDate": 1807502399000,
+    "name": "2026-27 Reg Season - YTD",
+    "showGoBackDays": true,
+    "shortName": "2026-27 Reg - YTD",
+    "timeframeTypeCode": "YEAR_TO_DATE",
+    "startDate": 1792468800000
+   },
+   {
+    "code": "SEASON_41n_BY_PERIOD",
+    "endDate": 1807502399000,
+    "name": "2026-27 Reg Season - Period",
+    "showGoBackDays": true,
+    "shortName": "2026-27 Reg - Period",
+    "timeframeTypeCode": "BY_PERIOD",
+    "startDate": 1792468800000
+   },
+   {
+    "code": "SEASON_41n_BY_DATE",
+    "endDate": 1807502399000,
+    "name": "2026-27 Reg Season - Dates",
+    "showGoBackDays": true,
+    "shortName": "2026-27 Reg - Dates",
+    "timeframeTypeCode": "BY_DATE",
+    "startDate": 1792468800000
+   },
+   {
+    "code": "SEASON_41l_YEAR_TO_DATE",
+    "endDate": 1776052799000,
+    "name": "2025-26 Reg Season - YTD",
+    "shortName": "2025-26 Reg - YTD",
+    "timeframeTypeCode": "YEAR_TO_DATE",
+    "startDate": 1761019200000
+   },
+   {
+    "code": "SEASON_41l_BY_DATE",
+    "endDate": 1776052799000,
+    "name": "2025-26 Reg Season - Dates",
+    "shortName": "2025-26 Reg - Dates",
+    "timeframeTypeCode": "BY_DATE",
+    "startDate": 1761019200000
+   },
+   {
+    "code": "SEASON_41j_YEAR_TO_DATE",
+    "endDate": 1744603199000,
+    "name": "2024-25 Reg Season - YTD",
+    "shortName": "2024-25 Reg - YTD",
+    "timeframeTypeCode": "YEAR_TO_DATE",
+    "startDate": 1729569600000
+   },
+   {
+    "code": "SEASON_41j_BY_DATE",
+    "endDate": 1744603199000,
+    "name": "2024-25 Reg Season - Dates",
+    "shortName": "2024-25 Reg - Dates",
+    "timeframeTypeCode": "BY_DATE",
+    "startDate": 1729569600000
+   },
+   {
+    "code": "SEASON_41h_YEAR_TO_DATE",
+    "endDate": 1713153599000,
+    "name": "2023-24 Reg Season - YTD",
+    "shortName": "2023-24 Reg - YTD",
+    "timeframeTypeCode": "YEAR_TO_DATE",
+    "startDate": 1698120000000
+   },
+   {
+    "code": "SEASON_41h_BY_DATE",
+    "endDate": 1713153599000,
+    "name": "2023-24 Reg Season - Dates",
+    "shortName": "2023-24 Reg - Dates",
+    "timeframeTypeCode": "BY_DATE",
+    "startDate": 1698120000000
+   },
+   {
+    "code": "SEASON_41f_YEAR_TO_DATE",
+    "endDate": 1681099199000,
+    "name": "2022-23 Reg Season - YTD",
+    "shortName": "2022-23 Reg - YTD",
+    "timeframeTypeCode": "YEAR_TO_DATE",
+    "startDate": 1666065600000
+   },
+   {
+    "code": "SEASON_41f_BY_DATE",
+    "endDate": 1681099199000,
+    "name": "2022-23 Reg Season - Dates",
+    "shortName": "2022-23 Reg - Dates",
+    "timeframeTypeCode": "BY_DATE",
+    "startDate": 1666065600000
+   },
+   {
+    "code": "SEASON_41d_YEAR_TO_DATE",
+    "endDate": 1649649599000,
+    "name": "2021-22 Reg Season - YTD",
+    "shortName": "2021-22 Reg - YTD",
+    "timeframeTypeCode": "YEAR_TO_DATE",
+    "startDate": 1634616000000
+   },
+   {
+    "code": "SEASON_41d_BY_DATE",
+    "endDate": 1649649599000,
+    "name": "2021-22 Reg Season - Dates",
+    "shortName": "2021-22 Reg - Dates",
+    "timeframeTypeCode": "BY_DATE",
+    "startDate": 1634616000000
+   },
+   {
+    "code": "SEASON_41b_YEAR_TO_DATE",
+    "endDate": 1621223999000,
+    "name": "2020-21 Reg Season - YTD",
+    "shortName": "2020-21 Reg - YTD",
+    "timeframeTypeCode": "YEAR_TO_DATE",
+    "startDate": 1608613200000
+   },
+   {
+    "code": "SEASON_41b_BY_DATE",
+    "endDate": 1621223999000,
+    "name": "2020-21 Reg Season - Dates",
+    "shortName": "2020-21 Reg - Dates",
+    "timeframeTypeCode": "BY_DATE",
+    "startDate": 1608613200000
+   },
+   {
+    "code": "SEASON_40z_YEAR_TO_DATE",
+    "endDate": 1597463999000,
+    "name": "2019-20 Reg Season - YTD",
+    "shortName": "2019-20 Reg - YTD",
+    "timeframeTypeCode": "YEAR_TO_DATE",
+    "startDate": 1571716800000
+   },
+   {
+    "code": "SEASON_40z_BY_DATE",
+    "endDate": 1597463999000,
+    "name": "2019-20 Reg Season - Dates",
+    "shortName": "2019-20 Reg - Dates",
+    "timeframeTypeCode": "BY_DATE",
+    "startDate": 1571716800000
+   },
+   {
+    "code": "SEASON_40x_YEAR_TO_DATE",
+    "endDate": 1554955199000,
+    "name": "2018-19 Reg Season - YTD",
+    "shortName": "2018-19 Reg - YTD",
+    "timeframeTypeCode": "YEAR_TO_DATE",
+    "startDate": 1539662400000
+   },
+   {
+    "code": "SEASON_40x_BY_DATE",
+    "endDate": 1554955199000,
+    "name": "2018-19 Reg Season - Dates",
+    "shortName": "2018-19 Reg - Dates",
+    "timeframeTypeCode": "BY_DATE",
+    "startDate": 1539662400000
+   },
+   {
+    "code": "SEASON_40v_YEAR_TO_DATE",
+    "endDate": 1523505599000,
+    "name": "2017-18 Reg Season - YTD",
+    "shortName": "2017-18 Reg - YTD",
+    "timeframeTypeCode": "YEAR_TO_DATE",
+    "startDate": 1508212800000
+   },
+   {
+    "code": "SEASON_40v_BY_DATE",
+    "endDate": 1523505599000,
+    "name": "2017-18 Reg Season - Dates",
+    "shortName": "2017-18 Reg - Dates",
+    "timeframeTypeCode": "BY_DATE",
+    "startDate": 1508212800000
+   },
+   {
+    "code": "SEASON_40t_YEAR_TO_DATE",
+    "endDate": 1492055999000,
+    "name": "2016-17 Reg Season - YTD",
+    "shortName": "2016-17 Reg - YTD",
+    "timeframeTypeCode": "YEAR_TO_DATE",
+    "startDate": 1477368000000
+   },
+   {
+    "code": "SEASON_40t_BY_DATE",
+    "endDate": 1492055999000,
+    "name": "2016-17 Reg Season - Dates",
+    "shortName": "2016-17 Reg - Dates",
+    "timeframeTypeCode": "BY_DATE",
+    "startDate": 1477368000000
+   },
+   {
+    "code": "SEASON_40r_YEAR_TO_DATE",
+    "endDate": 1460606399000,
+    "name": "2015-16 Reg Season - YTD",
+    "shortName": "2015-16 Reg - YTD",
+    "timeframeTypeCode": "YEAR_TO_DATE",
+    "startDate": 1445918400000
+   },
+   {
+    "code": "SEASON_40r_BY_DATE",
+    "endDate": 1460606399000,
+    "name": "2015-16 Reg Season - Dates",
+    "shortName": "2015-16 Reg - Dates",
+    "timeframeTypeCode": "BY_DATE",
+    "startDate": 1445918400000
+   },
+   {
+    "code": "SEASON_40p_YEAR_TO_DATE",
+    "endDate": 1429156799000,
+    "name": "2014-15 Reg Season - YTD",
+    "shortName": "2014-15 Reg - YTD",
+    "timeframeTypeCode": "YEAR_TO_DATE",
+    "startDate": 1414468800000
+   },
+   {
+    "code": "SEASON_40p_BY_DATE",
+    "endDate": 1429156799000,
+    "name": "2014-15 Reg Season - Dates",
+    "shortName": "2014-15 Reg - Dates",
+    "timeframeTypeCode": "BY_DATE",
+    "startDate": 1414468800000
+   },
+   {
+    "code": "SEASON_40n_YEAR_TO_DATE",
+    "endDate": 1397707199000,
+    "name": "2013-14 Reg Season - YTD",
+    "shortName": "2013-14 Reg - YTD",
+    "timeframeTypeCode": "YEAR_TO_DATE",
+    "startDate": 1383019200000
+   },
+   {
+    "code": "SEASON_40n_BY_DATE",
+    "endDate": 1397707199000,
+    "name": "2013-14 Reg Season - Dates",
+    "shortName": "2013-14 Reg - Dates",
+    "timeframeTypeCode": "BY_DATE",
+    "startDate": 1383019200000
+   },
+   {
+    "code": "SEASON_40l_YEAR_TO_DATE",
+    "endDate": 1366257599000,
+    "name": "2012-13 Reg Season - YTD",
+    "shortName": "2012-13 Reg - YTD",
+    "timeframeTypeCode": "YEAR_TO_DATE",
+    "startDate": 1351569600000
+   },
+   {
+    "code": "SEASON_40l_BY_DATE",
+    "endDate": 1366257599000,
+    "name": "2012-13 Reg Season - Dates",
+    "shortName": "2012-13 Reg - Dates",
+    "timeframeTypeCode": "BY_DATE",
+    "startDate": 1351569600000
+   },
+   {
+    "code": "SEASON_40j_YEAR_TO_DATE",
+    "endDate": 1335499199000,
+    "name": "2011-12 Reg Season - YTD",
+    "shortName": "2011-12 Reg - YTD",
+    "timeframeTypeCode": "YEAR_TO_DATE",
+    "startDate": 1324789200000
+   },
+   {
+    "code": "SEASON_40j_BY_DATE",
+    "endDate": 1335499199000,
+    "name": "2011-12 Reg Season - Dates",
+    "shortName": "2011-12 Reg - Dates",
+    "timeframeTypeCode": "BY_DATE",
+    "startDate": 1324789200000
+   },
+   {
+    "code": "SEASON_40h_YEAR_TO_DATE",
+    "endDate": 1302753599000,
+    "name": "2010-11 Reg Season - YTD",
+    "shortName": "2010-11 Reg - YTD",
+    "timeframeTypeCode": "YEAR_TO_DATE",
+    "startDate": 1288065600000
+   },
+   {
+    "code": "SEASON_40h_BY_DATE",
+    "endDate": 1302753599000,
+    "name": "2010-11 Reg Season - Dates",
+    "shortName": "2010-11 Reg - Dates",
+    "timeframeTypeCode": "BY_DATE",
+    "startDate": 1288065600000
+   },
+   {
+    "code": "SEASON_40f_YEAR_TO_DATE",
+    "endDate": 1271303999000,
+    "name": "2009-10 Reg Season - YTD",
+    "shortName": "2009-10 Reg - YTD",
+    "timeframeTypeCode": "YEAR_TO_DATE",
+    "startDate": 1256616000000
+   },
+   {
+    "code": "SEASON_40f_BY_DATE",
+    "endDate": 1271303999000,
+    "name": "2009-10 Reg Season - Dates",
+    "shortName": "2009-10 Reg - Dates",
+    "timeframeTypeCode": "BY_DATE",
+    "startDate": 1256616000000
+   },
+   {
+    "code": "SEASON_40c_YEAR_TO_DATE",
+    "endDate": 1239854399000,
+    "name": "2008-09 Reg Season - YTD",
+    "shortName": "2008-09 Reg - YTD",
+    "timeframeTypeCode": "YEAR_TO_DATE",
+    "startDate": 1225166400000
+   },
+   {
+    "code": "SEASON_40c_BY_DATE",
+    "endDate": 1239854399000,
+    "name": "2008-09 Reg Season - Dates",
+    "shortName": "2008-09 Reg - Dates",
+    "timeframeTypeCode": "BY_DATE",
+    "startDate": 1225166400000
+   },
+   {
+    "code": "SEASON_409_YEAR_TO_DATE",
+    "endDate": 1208404799000,
+    "name": "2007-08 Reg Season - YTD",
+    "shortName": "2007-08 Reg - YTD",
+    "timeframeTypeCode": "YEAR_TO_DATE",
+    "startDate": 1194148800000
+   },
+   {
+    "code": "SEASON_409_BY_DATE",
+    "endDate": 1208404799000,
+    "name": "2007-08 Reg Season - Dates",
+    "shortName": "2007-08 Reg - Dates",
+    "timeframeTypeCode": "BY_DATE",
+    "startDate": 1194148800000
+   },
+   {
+    "code": "SEASON_41m_YEAR_TO_DATE",
+    "endDate": 1782100799000,
+    "name": "2025-26 Playoffs - YTD",
+    "shortName": "2025-26 Plyff - YTD",
+    "timeframeTypeCode": "YEAR_TO_DATE",
+    "startDate": 1776139200000
+   },
+   {
+    "code": "SEASON_41m_BY_DATE",
+    "endDate": 1782100799000,
+    "name": "2025-26 Playoffs - Dates",
+    "shortName": "2025-26 Plyff - Dates",
+    "timeframeTypeCode": "BY_DATE",
+    "startDate": 1776139200000
+   },
+   {
+    "code": "SEASON_41k_YEAR_TO_DATE",
+    "endDate": 1750651199000,
+    "name": "2024-25 Playoffs - YTD",
+    "shortName": "2024-25 Plyff - YTD",
+    "timeframeTypeCode": "YEAR_TO_DATE",
+    "startDate": 1745035200000
+   },
+   {
+    "code": "SEASON_41k_BY_DATE",
+    "endDate": 1750651199000,
+    "name": "2024-25 Playoffs - Dates",
+    "shortName": "2024-25 Plyff - Dates",
+    "timeframeTypeCode": "BY_DATE",
+    "startDate": 1745035200000
+   },
+   {
+    "code": "SEASON_41i_YEAR_TO_DATE",
+    "endDate": 1719201599000,
+    "name": "2023-24 Playoffs - YTD",
+    "shortName": "2023-24 Plyff - YTD",
+    "timeframeTypeCode": "YEAR_TO_DATE",
+    "startDate": 1713585600000
+   },
+   {
+    "code": "SEASON_41i_BY_DATE",
+    "endDate": 1719201599000,
+    "name": "2023-24 Playoffs - Dates",
+    "shortName": "2023-24 Plyff - Dates",
+    "timeframeTypeCode": "BY_DATE",
+    "startDate": 1713585600000
+   },
+   {
+    "code": "SEASON_41g_YEAR_TO_DATE",
+    "endDate": 1687147199000,
+    "name": "2022-23 Playoffs - YTD",
+    "shortName": "2022-23 Plyff - YTD",
+    "timeframeTypeCode": "YEAR_TO_DATE",
+    "startDate": 1681531200000
+   },
+   {
+    "code": "SEASON_41g_BY_DATE",
+    "endDate": 1687147199000,
+    "name": "2022-23 Playoffs - Dates",
+    "shortName": "2022-23 Plyff - Dates",
+    "timeframeTypeCode": "BY_DATE",
+    "startDate": 1681531200000
+   },
+   {
+    "code": "SEASON_41e_YEAR_TO_DATE",
+    "endDate": 1655697599000,
+    "name": "2021-22 Playoffs - YTD",
+    "shortName": "2021-22 Plyff - YTD",
+    "timeframeTypeCode": "YEAR_TO_DATE",
+    "startDate": 1650081600000
+   },
+   {
+    "code": "SEASON_41e_BY_DATE",
+    "endDate": 1655697599000,
+    "name": "2021-22 Playoffs - Dates",
+    "shortName": "2021-22 Plyff - Dates",
+    "timeframeTypeCode": "BY_DATE",
+    "startDate": 1650081600000
+   },
+   {
+    "code": "SEASON_41c_YEAR_TO_DATE",
+    "endDate": 1627012799000,
+    "name": "2020-21 Playoffs - YTD",
+    "shortName": "2020-21 Plyff - YTD",
+    "timeframeTypeCode": "YEAR_TO_DATE",
+    "startDate": 1621310400000
+   },
+   {
+    "code": "SEASON_41c_BY_DATE",
+    "endDate": 1627012799000,
+    "name": "2020-21 Playoffs - Dates",
+    "shortName": "2020-21 Plyff - Dates",
+    "timeframeTypeCode": "BY_DATE",
+    "startDate": 1621310400000
+   },
+   {
+    "code": "SEASON_41a_YEAR_TO_DATE",
+    "endDate": 1602647999000,
+    "name": "2019-20 Playoffs - YTD",
+    "shortName": "2019-20 Plyff - YTD",
+    "timeframeTypeCode": "YEAR_TO_DATE",
+    "startDate": 1597636800000
+   },
+   {
+    "code": "SEASON_41a_BY_DATE",
+    "endDate": 1602647999000,
+    "name": "2019-20 Playoffs - Dates",
+    "shortName": "2019-20 Plyff - Dates",
+    "timeframeTypeCode": "BY_DATE",
+    "startDate": 1597636800000
+   },
+   {
+    "code": "SEASON_40y_YEAR_TO_DATE",
+    "endDate": 1560743999000,
+    "name": "2018-19 Playoffs - YTD",
+    "shortName": "2018-19 Plyff - YTD",
+    "timeframeTypeCode": "YEAR_TO_DATE",
+    "startDate": 1555128000000
+   },
+   {
+    "code": "SEASON_40y_BY_DATE",
+    "endDate": 1560743999000,
+    "name": "2018-19 Playoffs - Dates",
+    "shortName": "2018-19 Plyff - Dates",
+    "timeframeTypeCode": "BY_DATE",
+    "startDate": 1555128000000
+   },
+   {
+    "code": "SEASON_40w_YEAR_TO_DATE",
+    "endDate": 1529294399000,
+    "name": "2017-18 Playoffs - YTD",
+    "shortName": "2017-18 Plyff - YTD",
+    "timeframeTypeCode": "YEAR_TO_DATE",
+    "startDate": 1523678400000
+   },
+   {
+    "code": "SEASON_40w_BY_DATE",
+    "endDate": 1529294399000,
+    "name": "2017-18 Playoffs - Dates",
+    "shortName": "2017-18 Plyff - Dates",
+    "timeframeTypeCode": "BY_DATE",
+    "startDate": 1523678400000
+   },
+   {
+    "code": "SEASON_40u_YEAR_TO_DATE",
+    "endDate": 1497844799000,
+    "name": "2016-17 Playoffs - YTD",
+    "shortName": "2016-17 Plyff - YTD",
+    "timeframeTypeCode": "YEAR_TO_DATE",
+    "startDate": 1492228800000
+   },
+   {
+    "code": "SEASON_40u_BY_DATE",
+    "endDate": 1497844799000,
+    "name": "2016-17 Playoffs - Dates",
+    "shortName": "2016-17 Plyff - Dates",
+    "timeframeTypeCode": "BY_DATE",
+    "startDate": 1492228800000
+   },
+   {
+    "code": "SEASON_40s_YEAR_TO_DATE",
+    "endDate": 1466395199000,
+    "name": "2015-16 Playoffs - YTD",
+    "shortName": "2015-16 Plyff - YTD",
+    "timeframeTypeCode": "YEAR_TO_DATE",
+    "startDate": 1460779200000
+   },
+   {
+    "code": "SEASON_40s_BY_DATE",
+    "endDate": 1466395199000,
+    "name": "2015-16 Playoffs - Dates",
+    "shortName": "2015-16 Plyff - Dates",
+    "timeframeTypeCode": "BY_DATE",
+    "startDate": 1460779200000
+   },
+   {
+    "code": "SEASON_40q_YEAR_TO_DATE",
+    "endDate": 1434686399000,
+    "name": "2014-15 Playoffs - YTD",
+    "shortName": "2014-15 Plyff - YTD",
+    "timeframeTypeCode": "YEAR_TO_DATE",
+    "startDate": 1429329600000
+   },
+   {
+    "code": "SEASON_40q_BY_DATE",
+    "endDate": 1434686399000,
+    "name": "2014-15 Playoffs - Dates",
+    "shortName": "2014-15 Plyff - Dates",
+    "timeframeTypeCode": "BY_DATE",
+    "startDate": 1429329600000
+   },
+   {
+    "code": "SEASON_40o_YEAR_TO_DATE",
+    "endDate": 1403063999000,
+    "name": "2013-14 Playoffs - YTD",
+    "shortName": "2013-14 Plyff - YTD",
+    "timeframeTypeCode": "YEAR_TO_DATE",
+    "startDate": 1397880000000
+   },
+   {
+    "code": "SEASON_40o_BY_DATE",
+    "endDate": 1403063999000,
+    "name": "2013-14 Playoffs - Dates",
+    "shortName": "2013-14 Plyff - Dates",
+    "timeframeTypeCode": "BY_DATE",
+    "startDate": 1397880000000
+   },
+   {
+    "code": "SEASON_40m_YEAR_TO_DATE",
+    "endDate": 1371787199000,
+    "name": "2012-13 Playoffs - YTD",
+    "shortName": "2012-13 Plyff - YTD",
+    "timeframeTypeCode": "YEAR_TO_DATE",
+    "startDate": 1366430400000
+   },
+   {
+    "code": "SEASON_40m_BY_DATE",
+    "endDate": 1371787199000,
+    "name": "2012-13 Playoffs - Dates",
+    "shortName": "2012-13 Plyff - Dates",
+    "timeframeTypeCode": "BY_DATE",
+    "startDate": 1366430400000
+   },
+   {
+    "code": "SEASON_40k_YEAR_TO_DATE",
+    "endDate": 1340769599000,
+    "name": "2011-12 Playoffs - YTD",
+    "shortName": "2011-12 Plyff - YTD",
+    "timeframeTypeCode": "YEAR_TO_DATE",
+    "startDate": 1335585600000
+   },
+   {
+    "code": "SEASON_40k_BY_DATE",
+    "endDate": 1340769599000,
+    "name": "2011-12 Playoffs - Dates",
+    "shortName": "2011-12 Plyff - Dates",
+    "timeframeTypeCode": "BY_DATE",
+    "startDate": 1335585600000
+   },
+   {
+    "code": "SEASON_40i_YEAR_TO_DATE",
+    "endDate": 1308283199000,
+    "name": "2010-11 Playoffs - YTD",
+    "shortName": "2010-11 Plyff - YTD",
+    "timeframeTypeCode": "YEAR_TO_DATE",
+    "startDate": 1302926400000
+   },
+   {
+    "code": "SEASON_40i_BY_DATE",
+    "endDate": 1308283199000,
+    "name": "2010-11 Playoffs - Dates",
+    "shortName": "2010-11 Plyff - Dates",
+    "timeframeTypeCode": "BY_DATE",
+    "startDate": 1302926400000
+   },
+   {
+    "code": "SEASON_40g_YEAR_TO_DATE",
+    "endDate": 1277956799000,
+    "name": "2009-10 Playoffs - YTD",
+    "shortName": "2009-10 Plyff - YTD",
+    "timeframeTypeCode": "YEAR_TO_DATE",
+    "startDate": 1271476800000
+   },
+   {
+    "code": "SEASON_40g_BY_DATE",
+    "endDate": 1277956799000,
+    "name": "2009-10 Playoffs - Dates",
+    "shortName": "2009-10 Plyff - Dates",
+    "timeframeTypeCode": "BY_DATE",
+    "startDate": 1271476800000
+   },
+   {
+    "code": "SEASON_40d_YEAR_TO_DATE",
+    "endDate": 1245643199000,
+    "name": "2008-09 Playoffs - YTD",
+    "shortName": "2008-09 Plyff - YTD",
+    "timeframeTypeCode": "YEAR_TO_DATE",
+    "startDate": 1239940800000
+   },
+   {
+    "code": "SEASON_40d_BY_DATE",
+    "endDate": 1245643199000,
+    "name": "2008-09 Playoffs - Dates",
+    "shortName": "2008-09 Plyff - Dates",
+    "timeframeTypeCode": "BY_DATE",
+    "startDate": 1239940800000
+   },
+   {
+    "code": "SEASON_40a_YEAR_TO_DATE",
+    "endDate": 1213761599000,
+    "name": "2007-08 Playoffs - YTD",
+    "shortName": "2007-08 Plyff - YTD",
+    "timeframeTypeCode": "YEAR_TO_DATE",
+    "startDate": 1208577600000
+   },
+   {
+    "code": "SEASON_40a_BY_DATE",
+    "endDate": 1213761599000,
+    "name": "2007-08 Playoffs - Dates",
+    "shortName": "2007-08 Plyff - Dates",
+    "timeframeTypeCode": "BY_DATE",
+    "startDate": 1208577600000
+   }
+  ],
+  "prevSchedPageAllowed": true,
+  "periodList": [
+   "1 (Oct 20 - Oct 25)",
+   "2 (Oct 26 - Nov 1)",
+   "3 (Nov 2 - Nov 8)",
+   "4 (Nov 9 - Nov 15)",
+   "5 (Nov 16 - Nov 22)",
+   "6 (Nov 23 - Nov 29)",
+   "7 (Nov 30 - Dec 6)",
+   "8 (Dec 7 - Dec 13)",
+   "9 (Dec 14 - Dec 20)",
+   "10 (Dec 21 - Dec 27)",
+   "11 (Dec 28 - Jan 3)",
+   "12 (Jan 4 - Jan 10)",
+   "13 (Jan 11 - Jan 17)",
+   "14 (Jan 18 - Jan 24)",
+   "15 (Jan 25 - Jan 31)",
+   "16 (Feb 1 - Feb 7)",
+   "17 (Feb 8 - Feb 14)",
+   "18 (Feb 15 - Feb 28)",
+   "19 (Mar 1 - Mar 7)",
+   "20 (Mar 8 - Mar 14)",
+   "21 (Mar 15 - Mar 28)",
+   "22 (Mar 29 - Apr 11)"
+  ],
+  "displayedSortReversed": false,
+  "statisticsTimeframeTypes": [
+   {
+    "id": "2",
+    "code": "BY_PERIOD",
+    "name": "Period",
+    "shortName": "Period"
+   }
+  ],
+  "miscData": {
+   "displayedMinDate": 1792468800000,
+   "displayedMaxDate": 1807502399000,
+   "pageTitle": "Players",
+   "periodName": "Period",
+   "allowMultipleClaimPerStatus": {
+    "4": true,
+    "5": true
+   },
+   "transactionSalaryBudgetInfo": [],
+   "claimProcessingUsed": true,
+   "claimTypePerStatus": {
+    "4": "BIDDING",
+    "5": "BIDDING"
+   }
+  },
+  "displayedSortType": "SCORE",
+  "tableHeader": {
+   "cells": [
+    {
+     "sortDirection": 1,
+     "name": "Ranking based on fantasy points among all players",
+     "width": 4.0,
+     "shortName": "Rk",
+     "key": "rankOv"
+    },
+    {
+     "sortDirection": 1,
+     "sortKey": "STATUS",
+     "sortType": "STATUS",
+     "name": "Status",
+     "width": 8.5,
+     "shortName": "Sta",
+     "key": "status"
+    },
+    {
+     "eventStr": true,
+     "sortDirection": 1,
+     "name": "Opponent",
+     "shortName": "Opp",
+     "key": "opponent"
+    },
+    {
+     "sortDirection": 1,
+     "sortKey": "SCORE",
+     "sortType": "SCORE",
+     "name": "Formula assessing player value tailored to your league settings, used for comparing players",
+     "shortName": "Score",
+     "key": "score"
+    },
+    {
+     "sortDirection": 1,
+     "sortKey": "OVERVIEW_PERCENT_OWNED_2",
+     "sortType": "OVERVIEW_PERCENT_OWNED_2",
+     "name": "% of Fantrax leagues that have this player on their roster this week",
+     "shortName": "Ros"
+    },
+    {
+     "sortDirection": 1,
+     "sortKey": "OVERVIEW_PLUS_MINUS_PERCENT_OWNED_2",
+     "sortType": "OVERVIEW_PLUS_MINUS_PERCENT_OWNED_2",
+     "name": "Change in percent Rostered from previous week",
+     "shortName": "+/-"
+    },
+    {
+     "sortDirection": 1,
+     "sortKey": "SCORING_CATEGORY_3010#1520#-1",
+     "scipId": "3010#1520#-1",
+     "sortType": "SCORING_CATEGORY",
+     "name": "Field Goal %",
+     "width": 3.5,
+     "shortName": "FG%",
+     "key": "3010#1520#-1",
+     "maxWidth": 3.8
+    },
+    {
+     "sortDirection": 1,
+     "sortKey": "SCORING_CATEGORY_3010#1620#-1",
+     "scipId": "3010#1620#-1",
+     "sortType": "SCORING_CATEGORY",
+     "name": "Three Pointers Made Per Game",
+     "width": 4.5,
+     "shortName": "3PTM",
+     "key": "3010#1620#-1",
+     "maxWidth": 4.0
+    },
+    {
+     "sortDirection": 1,
+     "sortKey": "SCORING_CATEGORY_3010#1550#-1",
+     "scipId": "3010#1550#-1",
+     "sortType": "SCORING_CATEGORY",
+     "name": "Free Throw %",
+     "width": 3.5,
+     "shortName": "FT%",
+     "key": "3010#1550#-1",
+     "maxWidth": 4.0
+    },
+    {
+     "sortDirection": 1,
+     "sortKey": "SCORING_CATEGORY_3010#1590#-1",
+     "scipId": "3010#1590#-1",
+     "sortType": "SCORING_CATEGORY",
+     "name": "Points Per Game",
+     "width": 3.5,
+     "shortName": "PTS",
+     "key": "3010#1590#-1",
+     "maxWidth": 3.0
+    },
+    {
+     "sortDirection": 1,
+     "sortKey": "SCORING_CATEGORY_3010#1600#-1",
+     "scipId": "3010#1600#-1",
+     "sortType": "SCORING_CATEGORY",
+     "name": "Rebounds Per Game",
+     "width": 3.5,
+     "shortName": "REB",
+     "key": "3010#1600#-1",
+     "maxWidth": 3.0
+    },
+    {
+     "sortDirection": 1,
+     "sortKey": "SCORING_CATEGORY_3010#1470#-1",
+     "scipId": "3010#1470#-1",
+     "sortType": "SCORING_CATEGORY",
+     "name": "Assists Per Game",
+     "width": 3.5,
+     "shortName": "AST",
+     "key": "3010#1470#-1",
+     "maxWidth": 3.0
+    },
+    {
+     "sortDirection": 1,
+     "sortKey": "SCORING_CATEGORY_3010#1610#-1",
+     "scipId": "3010#1610#-1",
+     "sortType": "SCORING_CATEGORY",
+     "name": "Steals Per Game",
+     "width": 2.5,
+     "shortName": "ST",
+     "key": "3010#1610#-1",
+     "maxWidth": 3.0
+    },
+    {
+     "sortDirection": 1,
+     "sortKey": "SCORING_CATEGORY_3010#1480#-1",
+     "scipId": "3010#1480#-1",
+     "sortType": "SCORING_CATEGORY",
+     "name": "Blocks Per Game -- The number of an opponent's shots the player blocked, per game. This is the usual blocks stat.",
+     "width": 3.5,
+     "shortName": "BLK",
+     "key": "3010#1480#-1",
+     "maxWidth": 3.0
+    },
+    {
+     "sortDirection": -1,
+     "sortKey": "SCORING_CATEGORY_3010#1650#-1",
+     "scipId": "3010#1650#-1",
+     "sortType": "SCORING_CATEGORY",
+     "name": "Turnovers Per Game",
+     "width": 2.5,
+     "shortName": "TO",
+     "key": "3010#1650#-1",
+     "maxWidth": 3.0
+    }
+   ]
+  },
+  "nextSchedPageAllowed": true,
+  "displayedPeriod": 2,
+  "sortOptions": [
+   {
+    "object2": "SCORE",
+    "object1": "Score"
+   },
+   {
+    "object2": "SC_1520#-1",
+    "object1": "Field Goal % (FG%)"
+   },
+   {
+    "object2": "SC_1620#-1",
+    "object1": "Three Pointers Made Per Game (3PTM)"
+   },
+   {
+    "object2": "SC_1550#-1",
+    "object1": "Free Throw % (FT%)"
+   },
+   {
+    "object2": "SC_1590#-1",
+    "object1": "Points Per Game (PTS)"
+   },
+   {
+    "object2": "SC_1600#-1",
+    "object1": "Rebounds Per Game (REB)"
+   },
+   {
+    "object2": "SC_1470#-1",
+    "object1": "Assists Per Game (AST)"
+   },
+   {
+    "object2": "SC_1610#-1",
+    "object1": "Steals Per Game (ST)"
+   },
+   {
+    "object2": "SC_1480#-1",
+    "object1": "Blocks Per Game -- The number of an opponent's shots the player blocked, per game. This is the usual blocks stat. (BLK)"
+   },
+   {
+    "object2": "SC_1650#-1",
+    "object1": "Turnovers Per Game (TO)"
+   }
+  ],
+  "displayedSelections": {
+   "datePlaying": "ALL",
+   "searchName": "",
+   "displayedMiscDisplayType": "1",
+   "displayedView": "STATS",
+   "displayedStartDate": 1793111755538,
+   "displayedScoringCategoryType": "7",
+   "displayedEndDate": 1807502399000,
+   "displayedSeasonOrProjection": {
+    "code": "PROJECTION_0_41n_EVENT_YEAR_TO_DATE",
+    "endDate": 1807502399000,
+    "name": "Projected - Per Game",
+    "shortName": "Proj - Per Game",
+    "timeframeTypeCode": "YEAR_TO_DATE",
+    "startDate": 1792468800000
+   }
+  },
+  "hideGoBackDays": true,
+  "displayedMiscDisplayType": "1",
+  "displayedScoringCategoryType": "7",
+  "claimsDropsAllowed": true,
+  "statusOrTeamList": [
+   {
+    "name": "All players in the league in this category",
+    "id": "ALL",
+    "shortName": "All"
+   },
+   {
+    "name": "All players who are not on any fantasy team in this league",
+    "id": "ALL_AVAILABLE",
+    "shortName": "All Available Players"
+   },
+   {
+    "name": "All players who are currently on a fantasy team in this league",
+    "id": "ALL_TAKEN",
+    "shortName": "All Taken Players"
+   },
+   {
+    "name": "",
+    "id": "FREE_AGENT",
+    "shortName": "Free Agent"
+   },
+   {
+    "name": "???playersStatistics.status.waiverWire.description: en_US???",
+    "id": "WAIVER_WIRE",
+    "shortName": "Waiver Wire"
+   },
+   {
+    "name": "???playersStatistics.status.tradeBlock.description: en_US???",
+    "id": "TRADE_BLOCK",
+    "shortName": "Trade Block"
+   },
+   {
+    "name": "Active players who are not on any fantasy team in this league",
+    "id": "ACTIVE_AVAILABLE",
+    "shortName": "Active - Available"
+   },
+   {
+    "name": "Active players who are currently on a fantasy team in this league",
+    "id": "ACTIVE_TAKEN",
+    "shortName": "Active - Taken"
+   },
+   {
+    "name": "Injured players who are not on any fantasy team in this league",
+    "id": "INJURED_AVAILABLE",
+    "shortName": "Injured - Available"
+   },
+   {
+    "name": "Injured players who are currently on a fantasy team in this league",
+    "id": "INJURED_TAKEN",
+    "shortName": "Injured - Taken"
+   },
+   {
+    "name": "Players in the NBA minor leagues that are not on any fantasy team",
+    "id": "MINOR_INACTIVE_AVAILABLE",
+    "shortName": "Minors (NBA) - Available"
+   },
+   {
+    "name": "Players in the NBA minor leagues that are on a fantasy team ",
+    "id": "MINOR_INACTIVE_TAKEN",
+    "shortName": "Minors (NBA) - Taken"
+   },
+   {
+    "name": "Shows players you've added to your Compare list.",
+    "id": "COMPARE_LIST",
+    "shortName": "Compare List"
+   },
+   {
+    "name": "All players except ones that I own",
+    "id": "ALL_EXCEPT_MINE",
+    "shortName": "All Except Mine"
+   },
+   {
+    "separator": true
+   },
+   {
+    "id": "FANTASY_TEAM_0j15rgscmurmhnn2",
+    "shortName": "bADa bing bong blok"
+   },
+   {
+    "id": "FANTASY_TEAM_6wdc0v27murmhnn2",
+    "shortName": "Bye Week"
+   },
+   {
+    "id": "FANTASY_TEAM_ozju7nsmmurmhnn2",
+    "shortName": "Conflict of Interest"
+   },
+   {
+    "id": "FANTASY_TEAM_om35rt8imurmhnn2",
+    "shortName": "Let's Go Brandon Ingram"
+   },
+   {
+    "id": "FANTASY_TEAM_0tjisxjpmurmhnn2",
+    "shortName": "No Mercy, Just Usage Rate"
+   },
+   {
+    "id": "FANTASY_TEAM_owvgfdvnmurmhnn2",
+    "shortName": "Practical"
+   },
+   {
+    "id": "FANTASY_TEAM_rdl7dlplmurmhnn2",
+    "shortName": "Suggs to be You"
+   },
+   {
+    "id": "FANTASY_TEAM_p8lde4xbmusl24sh",
+    "shortName": "The 2026 Revenge Tour"
+   },
+   {
+    "id": "FANTASY_TEAM_f310mnh8murmhnn2",
+    "shortName": "The Fun Guys"
+   },
+   {
+    "id": "FANTASY_TEAM_t5zv7h5emurmhnn2",
+    "shortName": "The Rollin\u2019 Treys"
+   },
+   {
+    "separator": true
+   },
+   {
+    "id": "TEAM_40100",
+    "shortName": "Atlanta Hawks"
+   },
+   {
+    "id": "TEAM_40000",
+    "shortName": "Boston Celtics"
+   },
+   {
+    "id": "TEAM_40011",
+    "shortName": "Brooklyn Nets"
+   },
+   {
+    "id": "TEAM_40110",
+    "shortName": "Charlotte Hornets"
+   },
+   {
+    "id": "TEAM_40050",
+    "shortName": "Chicago Bulls"
+   },
+   {
+    "id": "TEAM_40060",
+    "shortName": "Cleveland Cavaliers"
+   },
+   {
+    "id": "TEAM_40150",
+    "shortName": "Dallas Mavericks"
+   },
+   {
+    "id": "TEAM_40200",
+    "shortName": "Denver Nuggets"
+   },
+   {
+    "id": "TEAM_40070",
+    "shortName": "Detroit Pistons"
+   },
+   {
+    "id": "TEAM_40250",
+    "shortName": "Golden State Warriors"
+   },
+   {
+    "id": "TEAM_40160",
+    "shortName": "Houston Rockets"
+   },
+   {
+    "id": "TEAM_40080",
+    "shortName": "Indiana Pacers"
+   },
+   {
+    "id": "TEAM_40260",
+    "shortName": "Los Angeles Clippers"
+   },
+   {
+    "id": "TEAM_40270",
+    "shortName": "Los Angeles Lakers"
+   },
+   {
+    "id": "TEAM_40170",
+    "shortName": "Memphis Grizzlies"
+   },
+   {
+    "id": "TEAM_40120",
+    "shortName": "Miami Heat"
+   },
+   {
+    "id": "TEAM_40090",
+    "shortName": "Milwaukee Bucks"
+   },
+   {
+    "id": "TEAM_40210",
+    "shortName": "Minnesota Timberwolves"
+   },
+   {
+    "id": "TEAM_40180",
+    "shortName": "New Orleans Pelicans"
+   },
+   {
+    "id": "TEAM_40020",
+    "shortName": "New York Knicks"
+   },
+   {
+    "id": "TEAM_40230",
+    "shortName": "Oklahoma City Thunder"
+   },
+   {
+    "id": "TEAM_40130",
+    "shortName": "Orlando Magic"
+   },
+   {
+    "id": "TEAM_40030",
+    "shortName": "Philadelphia 76ers"
+   },
+   {
+    "id": "TEAM_40280",
+    "shortName": "Phoenix Suns"
+   },
+   {
+    "id": "TEAM_40220",
+    "shortName": "Portland Trail Blazers"
+   },
+   {
+    "id": "TEAM_40290",
+    "shortName": "Sacramento Kings"
+   },
+   {
+    "id": "TEAM_40190",
+    "shortName": "San Antonio Spurs"
+   },
+   {
+    "id": "TEAM_40040",
+    "shortName": "Toronto Raptors"
+   },
+   {
+    "id": "TEAM_40240",
+    "shortName": "Utah Jazz"
+   },
+   {
+    "id": "TEAM_40140",
+    "shortName": "Washington Wizards"
+   }
+  ],
+  "displayedSeasonOrProjection": {
+   "code": "PROJECTION_0_41n_EVENT_YEAR_TO_DATE",
+   "endDate": 1807502399000,
+   "name": "Projected - Per Game",
+   "shortName": "Proj - Per Game",
+   "timeframeTypeCode": "YEAR_TO_DATE",
+   "startDate": 1792468800000
+  }
+ }
+}

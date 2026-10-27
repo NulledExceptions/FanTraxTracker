@@ -42,6 +42,7 @@ class Settings(BaseSettings):
     cache_dir: Path = Path(".cache")
     cache_ttl_seconds: int = Field(default=3600, ge=0)
     discovery_dir: Path = Path("discovery")
+    report_dir: Path = Path("reports")
     log_dir: Path = Path("logs")
     db_path: Path = Path("data/fantrax.sqlite")
     cookie_file: Path = Path(".fantrax_cookies.json")

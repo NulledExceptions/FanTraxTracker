@@ -6,7 +6,10 @@ Phase 0 commands only. `sync`, `team`, `available`, `matchup`, `standings`, `rep
 
 from __future__ import annotations
 
+import datetime as dt
 import json
+import webbrowser
+from pathlib import Path
 from typing import Annotated
 
 import typer
@@ -20,6 +23,9 @@ from fantrax_analytics.config import Settings, load_settings
 from fantrax_analytics.discover import Discovery
 from fantrax_analytics.exceptions import FantraxError
 from fantrax_analytics.logging_setup import bind_run_context, configure_logging, get_logger, new_run_id
+from fantrax_analytics.reports.dashboard import build_dashboard
+from fantrax_analytics.reports.html import render
+from fantrax_analytics.reports.payloads import ReportFetcher, load_payloads
 
 app = typer.Typer(
     name="fantrax",
@@ -127,6 +133,51 @@ def discover(
     core = {"league_info", "rosters_current", "standings", "matchups_current"}
     if any(r.domain in core and r.status == "UNAVAILABLE" for r in results):
         raise typer.Exit(code=1)
+
+
+@app.command()
+def report(
+    out: Annotated[Path | None, typer.Option("--out", "-o", help="Output HTML path")] = None,
+    offline: Annotated[
+        bool, typer.Option("--offline", help="Use saved discovery payloads; no network")
+    ] = False,
+    no_cache: Annotated[bool, typer.Option("--no-cache", help="Bypass the disk cache when fetching")] = False,
+    open_browser: Annotated[
+        bool, typer.Option("--open", help="Open the report in the default browser")
+    ] = False,
+) -> None:
+    """Build the matchup dashboard (current matchup, projections, games, available players) as HTML."""
+    settings = state.settings
+    if not settings.my_team_id:
+        err_console.print("[red]FANTRAX_MY_TEAM_ID is not set — run `fantrax discover` first.[/red]")
+        raise typer.Exit(code=2)
+    now = dt.datetime.now().astimezone()
+    try:
+        if offline:
+            payloads = load_payloads(settings.discovery_dir, now=now, my_team_id=settings.my_team_id)
+        else:
+            factory = ClientFactory(settings, use_cache=not no_cache)
+            payloads = ReportFetcher(settings, factory, now=now).fetch()
+    except FantraxError as exc:
+        err_console.print(f"[red]Report aborted:[/red] {exc}")
+        raise typer.Exit(code=1) from exc
+    dashboard = build_dashboard(payloads, my_team_id=settings.my_team_id, now=now)
+    path = out or settings.report_dir / "dashboard.html"
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(render(dashboard), encoding="utf-8")
+    for domain, error in payloads.errors.items():
+        err_console.print(f"[yellow]{domain}: {error}[/yellow]")
+    record = dashboard.projected_record
+    summary = (
+        f"period {dashboard.period} vs {dashboard.opponent_name}: "
+        f"projected {record[0]}-{record[1]}-{record[2]}"
+        if record
+        else "no matchup data"
+    )
+    console.print(f"Report: [bold]{path}[/bold] ({summary})")
+    log.info("report.done", path=str(path), errors=len(payloads.errors))
+    if open_browser:
+        webbrowser.open(path.resolve().as_uri())
 
 
 @app.command()

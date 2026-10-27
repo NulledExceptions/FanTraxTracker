@@ -25,6 +25,7 @@ from fantrax_analytics.adapters.official import OfficialApiClient
 from fantrax_analytics.config import Settings, write_env_var
 from fantrax_analytics.exceptions import AuthError, ConfigError, EdgeRejectedError, FantraxError
 from fantrax_analytics.logging_setup import get_logger
+from fantrax_analytics.raw_store import save_raw
 
 log = get_logger(__name__)
 
@@ -770,11 +771,7 @@ class Discovery:
         result.saved_to = self._save(spec.domain, raw)
 
     def _save(self, domain: str, raw: RawResponse) -> str:
-        path = self.out_dir / f"{domain}.json"
-        meta = {k: v for k, v in asdict(raw).items() if k != "payload"}
-        meta["fetched_at"] = dt.datetime.now(dt.UTC).isoformat()
-        path.write_text(json.dumps({"meta": meta, "payload": raw.payload}, indent=1, default=str), "utf-8")
-        return str(path)
+        return str(save_raw(self.out_dir, domain, raw))
 
     # ---------------------------------------------------------- post-process
     def _post_process(self, domain: str) -> None:

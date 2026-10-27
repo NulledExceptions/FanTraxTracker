@@ -4,8 +4,8 @@
   "endpoint": "fxpa:getStandings",
   "url": "https://www.fantrax.com/fxpa/req",
   "status_code": 200,
-  "size_bytes": 149628,
-  "elapsed_ms": 142,
+  "size_bytes": 149622,
+  "elapsed_ms": 115,
   "auth_level": "none",
   "from_cache": false,
   "request_body": {
@@ -19,7 +19,7 @@
     }
    ]
   },
-  "fetched_at": "2026-10-27T04:21:04.928559+00:00"
+  "fetched_at": "2026-10-27T14:35:37.394518+00:00"
  },
  "payload": {
   "goBackDays": [
@@ -1263,8 +1263,8 @@
        },
        {
         "gainColor": 1,
-        "content": "13",
-        "toolTip": "13"
+        "content": "14",
+        "toolTip": "14"
        }
       ],
       "matchupId": "rdl7dlplmurmhnn2_f310mnh8murmhnn2",
@@ -1293,8 +1293,8 @@
        },
        {
         "gainColor": 1,
-        "content": ".493",
-        "toolTip": "0.493151"
+        "content": ".490",
+        "toolTip": "0.489796"
        },
        {
         "gainColor": 1,
@@ -1313,8 +1313,8 @@
        },
        {
         "gainColor": 1,
-        "content": "52",
-        "toolTip": "52"
+        "content": "53",
+        "toolTip": "53"
        },
        {
         "gainColor": 1,
@@ -1350,16 +1350,16 @@
      {
       "cells": [
        {
-        "content": "2"
+        "content": "3"
        },
        {
         "content": "6"
        },
        {
-        "content": "1"
+        "content": "0"
        },
        {
-        "content": "2.5"
+        "content": "3"
        },
        {
         "gainColor": 1,
@@ -1392,9 +1392,9 @@
         "toolTip": "19"
        },
        {
-        "gainColor": 0,
-        "content": "7",
-        "toolTip": "7"
+        "gainColor": 1,
+        "content": "8",
+        "toolTip": "8"
        },
        {
         "gainColor": -1,
@@ -1424,18 +1424,18 @@
         "content": "6"
        },
        {
-        "content": "2"
+        "content": "3"
        },
        {
-        "content": "1"
+        "content": "0"
        },
        {
-        "content": "6.5"
+        "content": "6"
        },
        {
         "gainColor": -1,
-        "content": ".473",
-        "toolTip": "0.473214"
+        "content": ".478",
+        "toolTip": "0.477876"
        },
        {
         "gainColor": 1,
@@ -1449,13 +1449,13 @@
        },
        {
         "gainColor": 1,
-        "content": "140",
-        "toolTip": "140"
+        "content": "142",
+        "toolTip": "142"
        },
        {
         "gainColor": 1,
-        "content": "58",
-        "toolTip": "58"
+        "content": "59",
+        "toolTip": "59"
        },
        {
         "gainColor": 1,
@@ -1463,7 +1463,7 @@
         "toolTip": "33"
        },
        {
-        "gainColor": 0,
+        "gainColor": -1,
         "content": "7",
         "toolTip": "7"
        },
@@ -1492,16 +1492,16 @@
      {
       "cells": [
        {
-        "content": "2"
+        "content": "3"
        },
        {
         "content": "6"
        },
        {
-        "content": "1"
+        "content": "0"
        },
        {
-        "content": "2.5"
+        "content": "3"
        },
        {
         "gainColor": -1,
@@ -1534,7 +1534,7 @@
         "toolTip": "23"
        },
        {
-        "gainColor": 0,
+        "gainColor": 1,
         "content": "9",
         "toolTip": "9"
        },
@@ -1565,13 +1565,13 @@
         "content": "6"
        },
        {
-        "content": "2"
+        "content": "3"
        },
        {
-        "content": "1"
+        "content": "0"
        },
        {
-        "content": "6.5"
+        "content": "6"
        },
        {
         "gainColor": 1,
@@ -1600,13 +1600,13 @@
        },
        {
         "gainColor": 1,
-        "content": "29",
-        "toolTip": "29"
+        "content": "28",
+        "toolTip": "28"
        },
        {
-        "gainColor": 0,
-        "content": "9",
-        "toolTip": "9"
+        "gainColor": -1,
+        "content": "8",
+        "toolTip": "8"
        },
        {
         "gainColor": 1,
@@ -1882,8 +1882,8 @@
        },
        {
         "gainColor": -1,
-        "content": "29",
-        "toolTip": "29"
+        "content": "30",
+        "toolTip": "30"
        },
        {
         "gainColor": 1,

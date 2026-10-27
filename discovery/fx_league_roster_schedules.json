@@ -1,11 +1,11 @@
 {
  "meta": {
   "source": "fxpa",
-  "endpoint": "fxpa:getTeamRosterInfo(SCHEDULE_FULL) x10",
+  "endpoint": "fxpa:getTeamRosterInfo",
   "url": "https://www.fantrax.com/fxpa/req",
   "status_code": 200,
-  "size_bytes": 551322,
-  "elapsed_ms": 739,
+  "size_bytes": 58328,
+  "elapsed_ms": 76,
   "auth_level": "none",
   "from_cache": false,
   "request_body": {
@@ -21,7 +21,7 @@
     }
    ]
   },
-  "fetched_at": "2026-10-27T04:21:24.920362+00:00"
+  "fetched_at": "2026-10-27T14:35:53.429287+00:00"
  },
  "payload": {
   "6wdc0v27murmhnn2": {
@@ -443,8 +443,8 @@
         "team": false,
         "icons": [
          {
-          "tooltip": "Oct 25, 11:26 PM: Ball chipped in 15 points (5-8 FG, 4-5...",
-          "typeId": "9"
+          "tooltip": "Oct 27, 1:33 AM: Ball finished with 11 points (5-11 FG,...",
+          "typeId": "14"
          }
         ],
         "rookie": false,
@@ -920,8 +920,8 @@
         "team": false,
         "icons": [
          {
-          "tooltip": "Oct 23, 10:59 PM: Washington chipped in 20 points (6-11...",
-          "typeId": "9"
+          "tooltip": "Oct 27, 1:56 AM: Washington posted 20 points (6-15 FG,...",
+          "typeId": "14"
          }
         ],
         "rookie": false,
@@ -1560,8 +1560,8 @@
         "team": false,
         "icons": [
          {
-          "tooltip": "Oct 24, 11:30 AM: Lendeborg accumulated 18 points (4-11...",
-          "typeId": "9"
+          "tooltip": "Oct 27, 1:09 AM: Lendeborg totaled 31 points (9-19 FG,...",
+          "typeId": "14"
          }
         ],
         "rookie": true,
@@ -2199,7 +2199,7 @@
         "icons": [
          {
           "tooltip": "Oct 26, 10:32 AM: Robinson delivered 21 points (6-12 FG,...",
-          "typeId": "14"
+          "typeId": "9"
          }
         ],
         "rookie": false,
@@ -6194,8 +6194,8 @@
         "team": false,
         "icons": [
          {
-          "tooltip": "Oct 23, 2:57 AM: Harden contributed 16 points (5-12 FG,...",
-          "typeId": "9"
+          "tooltip": "Oct 27, 1:26 AM: Harden tallied 19 points (7-17 FG, 3-9...",
+          "typeId": "14"
          }
         ],
         "rookie": false,
@@ -6524,8 +6524,8 @@
         "team": false,
         "icons": [
          {
-          "tooltip": "Knee - Out Indefinitely - Expected return Oct 28",
-          "typeId": "30"
+          "tooltip": "Knee - Game-time decision - Expected return Oct 28",
+          "typeId": "1"
          },
          {
           "tooltip": "Oct 26, 2:22 PM: Holmgren (knee) is out for Monday's...",
@@ -9095,7 +9095,7 @@
         "icons": [
          {
           "tooltip": "Oct 26, 10:19 AM: Collins registered 16 points (7-15 FG,...",
-          "typeId": "14"
+          "typeId": "9"
          }
         ],
         "rookie": false,
@@ -9563,8 +9563,8 @@
         "team": false,
         "icons": [
          {
-          "tooltip": "Oct 22, 3:08 PM: Gobert registered five points (0-2 FG,...",
-          "typeId": "9"
+          "tooltip": "Oct 27, 1:36 AM: Gobert registered five points (0-9 FG,...",
+          "typeId": "14"
          }
         ],
         "rookie": false,
@@ -12912,8 +12912,8 @@
         "team": false,
         "icons": [
          {
-          "tooltip": "Oct 25, 11:12 AM: Davis supplied 19 points (8-21 FG, 0-1...",
-          "typeId": "9"
+          "tooltip": "Oct 27, 12:37 AM: Davis finished with 29 points (11-22...",
+          "typeId": "14"
          }
         ],
         "rookie": false,
@@ -13228,11 +13228,11 @@
         "team": false,
         "icons": [
          {
-          "tooltip": "Ankle - Out Indefinitely - Expected return Oct 28",
-          "typeId": "30"
+          "tooltip": "Ankle - Game-time decision - Expected return Oct 28",
+          "typeId": "1"
          },
          {
-          "tooltip": "Oct 26, 2:20 PM: Zubac (ankle) is out for Monday's game...",
+          "tooltip": "Oct 27, 12:41 AM: The Pacers don't have a timetable for...",
           "typeId": "14"
          }
         ],
@@ -17536,7 +17536,7 @@
         "team": false,
         "icons": [
          {
-          "tooltip": "Oct 26, 3:14 PM: Edey (ankle) is off the injury report...",
+          "tooltip": "Oct 27, 1:00 AM: Edey produced four points (0-2 FG, 4-4...",
           "typeId": "14"
          }
         ],
@@ -18328,8 +18328,8 @@
         "team": false,
         "icons": [
          {
-          "tooltip": "Oct 23, 12:42 AM: Gordon totaled 20 points (6-9 FG, 3-4...",
-          "typeId": "9"
+          "tooltip": "Oct 27, 12:13 AM: Gordon was ejected from Monday's game...",
+          "typeId": "14"
          }
         ],
         "rookie": false,
@@ -25512,8 +25512,8 @@
         "team": false,
         "icons": [
          {
-          "tooltip": "Oct 25, 5:32 PM: VanVleet (knee) is off the injury...",
-          "typeId": "9"
+          "tooltip": "Oct 27, 12:45 AM: VanVleet produced five points (2-7 FG,...",
+          "typeId": "14"
          }
         ],
         "rookie": false,
@@ -28065,8 +28065,8 @@
         "team": false,
         "icons": [
          {
-          "tooltip": "Oct 25, 4:23 PM: Irving (knee) isn't listed on the...",
-          "typeId": "9"
+          "tooltip": "Oct 27, 1:59 AM: Irving tallied 18 points (7-17 FG, 2-11...",
+          "typeId": "14"
          }
         ],
         "rookie": false,
@@ -28549,8 +28549,8 @@
         "team": false,
         "icons": [
          {
-          "tooltip": "Oct 24, 10:29 PM: Mobley tallied 20 points (7-12 FG, 2-3...",
-          "typeId": "9"
+          "tooltip": "Oct 27, 1:24 AM: Mobley posted 18 points (6-12 FG, 4-5...",
+          "typeId": "14"
          }
         ],
         "rookie": false,
@@ -28870,8 +28870,8 @@
         "team": false,
         "icons": [
          {
-          "tooltip": "Oct 24, 9:45 PM: Adebayo had 20 points (7-17 FG, 2-6...",
-          "typeId": "9"
+          "tooltip": "Oct 27, 2:08 AM: Adebayo finished with eight points...",
+          "typeId": "14"
          }
         ],
         "rookie": false,
@@ -29190,8 +29190,8 @@
         "team": false,
         "icons": [
          {
-          "tooltip": "Oct 22, 1:02 PM: McCollum amassed 19 points (7-9 FG, 4-6...",
-          "typeId": "9"
+          "tooltip": "Oct 27, 12:40 AM: McCollum amassed 20 points (8-16 FG,...",
+          "typeId": "14"
          }
         ],
         "rookie": false,
@@ -32865,7 +32865,7 @@
         "team": false,
         "icons": [
          {
-          "tooltip": "Oct 26, 11:09 AM: Coward delivered 15 points (6-11 FG,...",
+          "tooltip": "Oct 27, 1:03 AM: Coward finished with 16 points (6-12...",
           "typeId": "14"
          }
         ],
@@ -36393,8 +36393,8 @@
         "team": false,
         "icons": [
          {
-          "tooltip": "Oct 22, 1:03 PM: Okongwu contributed eight points (3-8...",
-          "typeId": "9"
+          "tooltip": "Oct 27, 12:37 AM: Okongwu notched 11 points (5-10 FG, 1-4...",
+          "typeId": "14"
          }
         ],
         "rookie": false,
@@ -36717,8 +36717,8 @@
         "team": false,
         "icons": [
          {
-          "tooltip": "Oct 21, 11:58 PM: Smith supplied 30 points (11-17 FG, 4-8...",
-          "typeId": "9"
+          "tooltip": "Oct 27, 12:57 AM: Smith posted 16 points (6-13 FG, 2-6...",
+          "typeId": "14"
          }
         ],
         "rookie": false,
