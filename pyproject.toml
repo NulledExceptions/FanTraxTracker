@@ -1,0 +1,61 @@
+[project]
+name = "fantrax-analytics"
+version = "0.1.0"
+description = "Local analytics for a Fantrax NBA fantasy league"
+readme = "README.md"
+requires-python = ">=3.12"
+license = { text = "MIT" }
+dependencies = [
+    "pydantic>=2.7",
+    "pydantic-settings>=2.3",
+    "requests>=2.32",
+    "tenacity>=8.3",
+    "structlog>=24.1",
+    "typer>=0.12",
+    "rich>=13.7",
+    "fantraxapi>=1.0,<2",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.2",
+    "responses>=0.25",
+    "ruff>=0.5",
+    "mypy>=1.10",
+    "types-requests",
+]
+
+[project.scripts]
+fantrax = "fantrax_analytics.cli:app"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/fantrax_analytics"]
+
+[tool.ruff]
+line-length = 110
+target-version = "py312"
+src = ["src", "tests"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP", "N", "W", "SIM", "RUF"]
+ignore = ["RUF012"]
+
+[tool.mypy]
+python_version = "3.12"
+strict = true
+mypy_path = "src"
+packages = ["fantrax_analytics"]
+warn_unreachable = true
+
+[[tool.mypy.overrides]]
+module = ["fantraxapi", "fantraxapi.*", "responses", "responses.*"]
+ignore_missing_imports = true
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+addopts = "-q"

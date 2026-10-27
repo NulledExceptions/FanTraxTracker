@@ -1,0 +1,19 @@
+{
+  "leagueName": "The No Toms League",
+  "sport": "NBA",
+  "teamInfo": {
+    "tm1": {"name": "bADa bing bong blok", "id": "tm1"},
+    "tm5marc": {"name": "No Mercy, Just Usage Rate", "id": "tm5marc"}
+  },
+  "scoringSystem": {"type": "H2H_CATEGORIES", "categories": [{"code": "PTS"}, {"code": "REB"}]},
+  "rosterInfo": {"positionConstraints": {"PG": {"maxActive": 1}, "C": {"maxActive": 2}}},
+  "scoringPeriods": [
+    {"periodNumber": 1, "startDate": "2026-10-20", "endDate": "2026-10-25"},
+    {"periodNumber": 2, "startDate": "2026-10-26", "endDate": "2026-11-01"}
+  ],
+  "rosterPeriods": [
+    {"periodNumber": 6, "startDate": "2026-10-25", "endDate": "2026-10-25"},
+    {"periodNumber": 7, "startDate": "2026-10-26", "endDate": "2026-10-26"}
+  ],
+  "playerInfo": {"p1": {"name": "Some Player", "team": "CHI", "status": "FA"}}
+}
