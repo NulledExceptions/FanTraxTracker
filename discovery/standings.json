@@ -1,0 +1,96 @@
+{
+ "meta": {
+  "source": "official",
+  "endpoint": "getStandings",
+  "url": "https://www.fantrax.com/fxea/general/getStandings",
+  "status_code": 200,
+  "size_bytes": 1258,
+  "elapsed_ms": 44,
+  "auth_level": "none",
+  "from_cache": false,
+  "request_body": null,
+  "fetched_at": "2026-10-27T04:21:01.791698+00:00"
+ },
+ "payload": [
+  {
+   "teamName": "Practical",
+   "teamId": "owvgfdvnmurmhnn2",
+   "gamesBack": 0.0,
+   "rank": 1,
+   "points": "6-3-0",
+   "winPercentage": 0.667
+  },
+  {
+   "teamName": "The Rollin\u00e2\u0080\u0099 Treys",
+   "teamId": "t5zv7h5emurmhnn2",
+   "gamesBack": 0.0,
+   "rank": 2,
+   "points": "6-3-0",
+   "winPercentage": 0.667
+  },
+  {
+   "teamName": "bADa bing bong blok",
+   "teamId": "0j15rgscmurmhnn2",
+   "gamesBack": 1.0,
+   "rank": 3,
+   "points": "5-4-0",
+   "winPercentage": 0.556
+  },
+  {
+   "teamName": "No Mercy, Just Usage Rate",
+   "teamId": "0tjisxjpmurmhnn2",
+   "gamesBack": 1.0,
+   "rank": 3,
+   "points": "5-4-0",
+   "winPercentage": 0.556
+  },
+  {
+   "teamName": "Conflict of Interest",
+   "teamId": "ozju7nsmmurmhnn2",
+   "gamesBack": 1.0,
+   "rank": 5,
+   "points": "5-4-0",
+   "winPercentage": 0.556
+  },
+  {
+   "teamName": "Let's Go Brandon Ingram",
+   "teamId": "om35rt8imurmhnn2",
+   "gamesBack": 2.0,
+   "rank": 6,
+   "points": "4-5-0",
+   "winPercentage": 0.444
+  },
+  {
+   "teamName": "Suggs to be You",
+   "teamId": "rdl7dlplmurmhnn2",
+   "gamesBack": 2.0,
+   "rank": 7,
+   "points": "4-5-0",
+   "winPercentage": 0.444
+  },
+  {
+   "teamName": "The 2026 Revenge Tour",
+   "teamId": "p8lde4xbmusl24sh",
+   "gamesBack": 2.0,
+   "rank": 7,
+   "points": "4-5-0",
+   "winPercentage": 0.444
+  },
+  {
+   "teamName": "The Fun Guys",
+   "teamId": "f310mnh8murmhnn2",
+   "gamesBack": 3.0,
+   "rank": 9,
+   "points": "3-6-0",
+   "winPercentage": 0.333
+  },
+  {
+   "teamName": "Bye Week",
+   "teamId": "6wdc0v27murmhnn2",
+   "gamesBack": 3.0,
+   "rank": 10,
+   "points": "3-6-0",
+   "winPercentage": 0.333
+  }
+ ]
+}

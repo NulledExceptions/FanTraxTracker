@@ -1,0 +1,17 @@
+{
+ "meta": {
+  "source": "official",
+  "endpoint": "getLeagues",
+  "url": "https://www.fantrax.com/fxea/general/getLeagues",
+  "status_code": 200,
+  "size_bytes": 2,
+  "elapsed_ms": 139,
+  "auth_level": "none",
+  "from_cache": false,
+  "request_body": {
+   "userSecretId": "0tjisxjpmurmhnn2"
+  },
+  "fetched_at": "2026-10-27T04:20:56.867779+00:00"
+ },
+ "payload": {}
+}

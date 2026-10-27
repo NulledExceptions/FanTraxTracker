@@ -1,0 +1,4 @@
+{"responses": [{"data": {
+  "fantasySettings": {"isMember": false, "myTeamIds": [], "leagueName": "The No Toms League", "sport": "NBA"},
+  "positionMap": {"300": {"id": "300", "name": "Point Guard", "shortName": "PG"}}
+}}]}

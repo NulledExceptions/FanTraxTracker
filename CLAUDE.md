@@ -45,8 +45,24 @@ adapters → models (Pydantic) → repositories → analytics → reports
   HTML page (Cloudflare error 1010). Treat 403+HTML as `EdgeRejectedError`, not auth.
 - `getLeagues` takes `userSecretId` — send it in the POST body only, never a URL.
 - `getLeagueInfo` has distinct `rosterPeriods` and `scoringPeriods` with separate numbering.
-  `getTeamRosters?period=` is a roster period; `getTeamStatsForMatchups?period=` is a
-  scoring period. Never mix them.
+  `getTeamRosters?period=` is a roster period; fxpa `getLiveScoringStats` `period=` is a
+  scoring period. Never mix them. Period bounds are instants with a UTC offset
+  (`2026-10-26T18:59:59.0-0400`; the next period starts 19:00 ET the same day), so resolve
+  "current period" from an aware datetime, never a calendar date.
+- The official API has **no** matchup method: `getTeamStatsForMatchups`, `getMatchups`,
+  `getMatchupResults`, `getTeamStats`, `getScoringPeriodResults` all answer HTTP 200 with
+  `{"error": {"message": "Unable to find method ..."}}`. Matchups come from fxpa:
+  `getLiveScoringStats` (date + scoring period) for live/daily, `getStandings view=SCHEDULE`
+  for per-period category W/L/T results.
+- NBA schedule source (decided in discovery): fxpa `getTeamRosterInfo view=SCHEDULE_FULL`
+  per fantasy team — a dated opponent/tip-off/`eventId` grid ~30 days ahead per rostered
+  player, keyed by `scorer.teamShortName`. All 30 NBA teams are rostered across the league,
+  so the union of the ten grids is complete. NBA.com's static schedule JSON 403s non-browser
+  user agents; do not spoof a browser to fetch it.
+- Transaction rules (claim limits, FA budget, days-used) are member-only: fxpa
+  `getLeagueSettings` / `getLeagueSetup` answer `WARNING_NOT_LOGGED_IN` and
+  `getFantasyLeagueInfo` serves `isMember=false` without cookies. This is the only domain
+  that justifies the cookie level / Selenium `auth` command.
 - `/fxpa/req`: `POST ?leagueId=<id>` with `{"msgs":[{"method": M, "data": {"leagueId":..}}]}`,
   all data values as strings. Response `responses[0].data`. `pageError.code` of
   `WARNING_NOT_LOGGED_IN` / `NOT_MEMBER_OF_LEAGUE` → `AuthError`.

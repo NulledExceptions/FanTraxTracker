@@ -1,0 +1,7759 @@
+{
+ "meta": {
+  "source": "official",
+  "endpoint": "getLeagueInfo",
+  "url": "https://www.fantrax.com/fxea/general/getLeagueInfo",
+  "status_code": 200,
+  "size_bytes": 103665,
+  "elapsed_ms": 88,
+  "auth_level": "none",
+  "from_cache": false,
+  "request_body": null,
+  "fetched_at": "2026-10-27T04:20:57.830235+00:00"
+ },
+ "payload": {
+  "matchups": [
+   {
+    "period": 1,
+    "matchupList": [
+     {
+      "away": {
+       "name": "Conflict of Interest",
+       "id": "ozju7nsmmurmhnn2",
+       "shortName": "Walker"
+      },
+      "home": {
+       "name": "Suggs to be You",
+       "id": "rdl7dlplmurmhnn2",
+       "shortName": "Eric"
+      }
+     },
+     {
+      "away": {
+       "name": "The Fun Guys",
+       "id": "f310mnh8murmhnn2",
+       "shortName": "FUNGUY"
+      },
+      "home": {
+       "name": "The Rollin\u00e2\u0080\u0099 Treys",
+       "id": "t5zv7h5emurmhnn2",
+       "shortName": "Tristan"
+      }
+     },
+     {
+      "away": {
+       "name": "bADa bing bong blok",
+       "id": "0j15rgscmurmhnn2",
+       "shortName": "Masi"
+      },
+      "home": {
+       "name": "The 2026 Revenge Tour",
+       "id": "p8lde4xbmusl24sh",
+       "shortName": "REVENGER"
+      }
+     },
+     {
+      "away": {
+       "name": "No Mercy, Just Usage Rate",
+       "id": "0tjisxjpmurmhnn2",
+       "shortName": "Mark"
+      },
+      "home": {
+       "name": "Let's Go Brandon Ingram",
+       "id": "om35rt8imurmhnn2",
+       "shortName": "Catron"
+      }
+     },
+     {
+      "away": {
+       "name": "Practical",
+       "id": "owvgfdvnmurmhnn2",
+       "shortName": "Jokic"
+      },
+      "home": {
+       "name": "Bye Week",
+       "id": "6wdc0v27murmhnn2",
+       "shortName": "Ian"
+      }
+     }
+    ]
+   },
+   {
+    "period": 2,
+    "matchupList": [
+     {
+      "away": {
+       "name": "Suggs to be You",
+       "id": "rdl7dlplmurmhnn2",
+       "shortName": "Eric"
+      },
+      "home": {
+       "name": "The Fun Guys",
+       "id": "f310mnh8murmhnn2",
+       "shortName": "FUNGUY"
+      }
+     },
+     {
+      "away": {
+       "name": "Conflict of Interest",
+       "id": "ozju7nsmmurmhnn2",
+       "shortName": "Walker"
+      },
+      "home": {
+       "name": "bADa bing bong blok",
+       "id": "0j15rgscmurmhnn2",
+       "shortName": "Masi"
+      }
+     },
+     {
+      "away": {
+       "name": "The Rollin\u00e2\u0080\u0099 Treys",
+       "id": "t5zv7h5emurmhnn2",
+       "shortName": "Tristan"
+      },
+      "home": {
+       "name": "No Mercy, Just Usage Rate",
+       "id": "0tjisxjpmurmhnn2",
+       "shortName": "Mark"
+      }
+     },
+     {
+      "away": {
+       "name": "The 2026 Revenge Tour",
+       "id": "p8lde4xbmusl24sh",
+       "shortName": "REVENGER"
+      },
+      "home": {
+       "name": "Practical",
+       "id": "owvgfdvnmurmhnn2",
+       "shortName": "Jokic"
+      }
+     },
+     {
+      "away": {
+       "name": "Let's Go Brandon Ingram",
+       "id": "om35rt8imurmhnn2",
+       "shortName": "Catron"
+      },
+      "home": {
+       "name": "Bye Week",
+       "id": "6wdc0v27murmhnn2",
+       "shortName": "Ian"
+      }
+     }
+    ]
+   },
+   {
+    "period": 3,
+    "matchupList": [
+     {
+      "away": {
+       "name": "bADa bing bong blok",
+       "id": "0j15rgscmurmhnn2",
+       "shortName": "Masi"
+      },
+      "home": {
+       "name": "Suggs to be You",
+       "id": "rdl7dlplmurmhnn2",
+       "shortName": "Eric"
+      }
+     },
+     {
+      "away": {
+       "name": "No Mercy, Just Usage Rate",
+       "id": "0tjisxjpmurmhnn2",
+       "shortName": "Mark"
+      },
+      "home": {
+       "name": "The Fun Guys",
+       "id": "f310mnh8murmhnn2",
+       "shortName": "FUNGUY"
+      }
+     },
+     {
+      "away": {
+       "name": "Practical",
+       "id": "owvgfdvnmurmhnn2",
+       "shortName": "Jokic"
+      },
+      "home": {
+       "name": "Conflict of Interest",
+       "id": "ozju7nsmmurmhnn2",
+       "shortName": "Walker"
+      }
+     },
+     {
+      "away": {
+       "name": "Bye Week",
+       "id": "6wdc0v27murmhnn2",
+       "shortName": "Ian"
+      },
+      "home": {
+       "name": "The Rollin\u00e2\u0080\u0099 Treys",
+       "id": "t5zv7h5emurmhnn2",
+       "shortName": "Tristan"
+      }
+     },
+     {
+      "away": {
+       "name": "Let's Go Brandon Ingram",
+       "id": "om35rt8imurmhnn2",
+       "shortName": "Catron"
+      },
+      "home": {
+       "name": "The 2026 Revenge Tour",
+       "id": "p8lde4xbmusl24sh",
+       "shortName": "REVENGER"
+      }
+     }
+    ]
+   },
+   {
+    "period": 4,
+    "matchupList": [
+     {
+      "away": {
+       "name": "Suggs to be You",
+       "id": "rdl7dlplmurmhnn2",
+       "shortName": "Eric"
+      },
+      "home": {
+       "name": "No Mercy, Just Usage Rate",
+       "id": "0tjisxjpmurmhnn2",
+       "shortName": "Mark"
+      }
+     },
+     {
+      "away": {
+       "name": "bADa bing bong blok",
+       "id": "0j15rgscmurmhnn2",
+       "shortName": "Masi"
+      },
+      "home": {
+       "name": "Practical",
+       "id": "owvgfdvnmurmhnn2",
+       "shortName": "Jokic"
+      }
+     },
+     {
+      "away": {
+       "name": "The Fun Guys",
+       "id": "f310mnh8murmhnn2",
+       "shortName": "FUNGUY"
+      },
+      "home": {
+       "name": "Bye Week",
+       "id": "6wdc0v27murmhnn2",
+       "shortName": "Ian"
+      }
+     },
+     {
+      "away": {
+       "name": "Conflict of Interest",
+       "id": "ozju7nsmmurmhnn2",
+       "shortName": "Walker"
+      },
+      "home": {
+       "name": "Let's Go Brandon Ingram",
+       "id": "om35rt8imurmhnn2",
+       "shortName": "Catron"
+      }
+     },
+     {
+      "away": {
+       "name": "The Rollin\u00e2\u0080\u0099 Treys",
+       "id": "t5zv7h5emurmhnn2",
+       "shortName": "Tristan"
+      },
+      "home": {
+       "name": "The 2026 Revenge Tour",
+       "id": "p8lde4xbmusl24sh",
+       "shortName": "REVENGER"
+      }
+     }
+    ]
+   },
+   {
+    "period": 5,
+    "matchupList": [
+     {
+      "away": {
+       "name": "Practical",
+       "id": "owvgfdvnmurmhnn2",
+       "shortName": "Jokic"
+      },
+      "home": {
+       "name": "Suggs to be You",
+       "id": "rdl7dlplmurmhnn2",
+       "shortName": "Eric"
+      }
+     },
+     {
+      "away": {
+       "name": "Bye Week",
+       "id": "6wdc0v27murmhnn2",
+       "shortName": "Ian"
+      },
+      "home": {
+       "name": "No Mercy, Just Usage Rate",
+       "id": "0tjisxjpmurmhnn2",
+       "shortName": "Mark"
+      }
+     },
+     {
+      "away": {
+       "name": "Let's Go Brandon Ingram",
+       "id": "om35rt8imurmhnn2",
+       "shortName": "Catron"
+      },
+      "home": {
+       "name": "bADa bing bong blok",
+       "id": "0j15rgscmurmhnn2",
+       "shortName": "Masi"
+      }
+     },
+     {
+      "away": {
+       "name": "The 2026 Revenge Tour",
+       "id": "p8lde4xbmusl24sh",
+       "shortName": "REVENGER"
+      },
+      "home": {
+       "name": "The Fun Guys",
+       "id": "f310mnh8murmhnn2",
+       "shortName": "FUNGUY"
+      }
+     },
+     {
+      "away": {
+       "name": "The Rollin\u00e2\u0080\u0099 Treys",
+       "id": "t5zv7h5emurmhnn2",
+       "shortName": "Tristan"
+      },
+      "home": {
+       "name": "Conflict of Interest",
+       "id": "ozju7nsmmurmhnn2",
+       "shortName": "Walker"
+      }
+     }
+    ]
+   },
+   {
+    "period": 6,
+    "matchupList": [
+     {
+      "away": {
+       "name": "Suggs to be You",
+       "id": "rdl7dlplmurmhnn2",
+       "shortName": "Eric"
+      },
+      "home": {
+       "name": "Bye Week",
+       "id": "6wdc0v27murmhnn2",
+       "shortName": "Ian"
+      }
+     },
+     {
+      "away": {
+       "name": "Practical",
+       "id": "owvgfdvnmurmhnn2",
+       "shortName": "Jokic"
+      },
+      "home": {
+       "name": "Let's Go Brandon Ingram",
+       "id": "om35rt8imurmhnn2",
+       "shortName": "Catron"
+      }
+     },
+     {
+      "away": {
+       "name": "No Mercy, Just Usage Rate",
+       "id": "0tjisxjpmurmhnn2",
+       "shortName": "Mark"
+      },
+      "home": {
+       "name": "The 2026 Revenge Tour",
+       "id": "p8lde4xbmusl24sh",
+       "shortName": "REVENGER"
+      }
+     },
+     {
+      "away": {
+       "name": "bADa bing bong blok",
+       "id": "0j15rgscmurmhnn2",
+       "shortName": "Masi"
+      },
+      "home": {
+       "name": "The Rollin\u00e2\u0080\u0099 Treys",
+       "id": "t5zv7h5emurmhnn2",
+       "shortName": "Tristan"
+      }
+     },
+     {
+      "away": {
+       "name": "The Fun Guys",
+       "id": "f310mnh8murmhnn2",
+       "shortName": "FUNGUY"
+      },
+      "home": {
+       "name": "Conflict of Interest",
+       "id": "ozju7nsmmurmhnn2",
+       "shortName": "Walker"
+      }
+     }
+    ]
+   },
+   {
+    "period": 7,
+    "matchupList": [
+     {
+      "away": {
+       "name": "Let's Go Brandon Ingram",
+       "id": "om35rt8imurmhnn2",
+       "shortName": "Catron"
+      },
+      "home": {
+       "name": "Suggs to be You",
+       "id": "rdl7dlplmurmhnn2",
+       "shortName": "Eric"
+      }
+     },
+     {
+      "away": {
+       "name": "The 2026 Revenge Tour",
+       "id": "p8lde4xbmusl24sh",
+       "shortName": "REVENGER"
+      },
+      "home": {
+       "name": "Bye Week",
+       "id": "6wdc0v27murmhnn2",
+       "shortName": "Ian"
+      }
+     },
+     {
+      "away": {
+       "name": "The Rollin\u00e2\u0080\u0099 Treys",
+       "id": "t5zv7h5emurmhnn2",
+       "shortName": "Tristan"
+      },
+      "home": {
+       "name": "Practical",
+       "id": "owvgfdvnmurmhnn2",
+       "shortName": "Jokic"
+      }
+     },
+     {
+      "away": {
+       "name": "Conflict of Interest",
+       "id": "ozju7nsmmurmhnn2",
+       "shortName": "Walker"
+      },
+      "home": {
+       "name": "No Mercy, Just Usage Rate",
+       "id": "0tjisxjpmurmhnn2",
+       "shortName": "Mark"
+      }
+     },
+     {
+      "away": {
+       "name": "The Fun Guys",
+       "id": "f310mnh8murmhnn2",
+       "shortName": "FUNGUY"
+      },
+      "home": {
+       "name": "bADa bing bong blok",
+       "id": "0j15rgscmurmhnn2",
+       "shortName": "Masi"
+      }
+     }
+    ]
+   },
+   {
+    "period": 8,
+    "matchupList": [
+     {
+      "away": {
+       "name": "Suggs to be You",
+       "id": "rdl7dlplmurmhnn2",
+       "shortName": "Eric"
+      },
+      "home": {
+       "name": "The 2026 Revenge Tour",
+       "id": "p8lde4xbmusl24sh",
+       "shortName": "REVENGER"
+      }
+     },
+     {
+      "away": {
+       "name": "Let's Go Brandon Ingram",
+       "id": "om35rt8imurmhnn2",
+       "shortName": "Catron"
+      },
+      "home": {
+       "name": "The Rollin\u00e2\u0080\u0099 Treys",
+       "id": "t5zv7h5emurmhnn2",
+       "shortName": "Tristan"
+      }
+     },
+     {
+      "away": {
+       "name": "Bye Week",
+       "id": "6wdc0v27murmhnn2",
+       "shortName": "Ian"
+      },
+      "home": {
+       "name": "Conflict of Interest",
+       "id": "ozju7nsmmurmhnn2",
+       "shortName": "Walker"
+      }
+     },
+     {
+      "away": {
+       "name": "Practical",
+       "id": "owvgfdvnmurmhnn2",
+       "shortName": "Jokic"
+      },
+      "home": {
+       "name": "The Fun Guys",
+       "id": "f310mnh8murmhnn2",
+       "shortName": "FUNGUY"
+      }
+     },
+     {
+      "away": {
+       "name": "No Mercy, Just Usage Rate",
+       "id": "0tjisxjpmurmhnn2",
+       "shortName": "Mark"
+      },
+      "home": {
+       "name": "bADa bing bong blok",
+       "id": "0j15rgscmurmhnn2",
+       "shortName": "Masi"
+      }
+     }
+    ]
+   },
+   {
+    "period": 9,
+    "matchupList": [
+     {
+      "away": {
+       "name": "The Rollin\u00e2\u0080\u0099 Treys",
+       "id": "t5zv7h5emurmhnn2",
+       "shortName": "Tristan"
+      },
+      "home": {
+       "name": "Suggs to be You",
+       "id": "rdl7dlplmurmhnn2",
+       "shortName": "Eric"
+      }
+     },
+     {
+      "away": {
+       "name": "Conflict of Interest",
+       "id": "ozju7nsmmurmhnn2",
+       "shortName": "Walker"
+      },
+      "home": {
+       "name": "The 2026 Revenge Tour",
+       "id": "p8lde4xbmusl24sh",
+       "shortName": "REVENGER"
+      }
+     },
+     {
+      "away": {
+       "name": "The Fun Guys",
+       "id": "f310mnh8murmhnn2",
+       "shortName": "FUNGUY"
+      },
+      "home": {
+       "name": "Let's Go Brandon Ingram",
+       "id": "om35rt8imurmhnn2",
+       "shortName": "Catron"
+      }
+     },
+     {
+      "away": {
+       "name": "bADa bing bong blok",
+       "id": "0j15rgscmurmhnn2",
+       "shortName": "Masi"
+      },
+      "home": {
+       "name": "Bye Week",
+       "id": "6wdc0v27murmhnn2",
+       "shortName": "Ian"
+      }
+     },
+     {
+      "away": {
+       "name": "No Mercy, Just Usage Rate",
+       "id": "0tjisxjpmurmhnn2",
+       "shortName": "Mark"
+      },
+      "home": {
+       "name": "Practical",
+       "id": "owvgfdvnmurmhnn2",
+       "shortName": "Jokic"
+      }
+     }
+    ]
+   },
+   {
+    "period": 10,
+    "matchupList": [
+     {
+      "away": {
+       "name": "Suggs to be You",
+       "id": "rdl7dlplmurmhnn2",
+       "shortName": "Eric"
+      },
+      "home": {
+       "name": "Conflict of Interest",
+       "id": "ozju7nsmmurmhnn2",
+       "shortName": "Walker"
+      }
+     },
+     {
+      "away": {
+       "name": "The Rollin\u00e2\u0080\u0099 Treys",
+       "id": "t5zv7h5emurmhnn2",
+       "shortName": "Tristan"
+      },
+      "home": {
+       "name": "The Fun Guys",
+       "id": "f310mnh8murmhnn2",
+       "shortName": "FUNGUY"
+      }
+     },
+     {
+      "away": {
+       "name": "The 2026 Revenge Tour",
+       "id": "p8lde4xbmusl24sh",
+       "shortName": "REVENGER"
+      },
+      "home": {
+       "name": "bADa bing bong blok",
+       "id": "0j15rgscmurmhnn2",
+       "shortName": "Masi"
+      }
+     },
+     {
+      "away": {
+       "name": "Let's Go Brandon Ingram",
+       "id": "om35rt8imurmhnn2",
+       "shortName": "Catron"
+      },
+      "home": {
+       "name": "No Mercy, Just Usage Rate",
+       "id": "0tjisxjpmurmhnn2",
+       "shortName": "Mark"
+      }
+     },
+     {
+      "away": {
+       "name": "Bye Week",
+       "id": "6wdc0v27murmhnn2",
+       "shortName": "Ian"
+      },
+      "home": {
+       "name": "Practical",
+       "id": "owvgfdvnmurmhnn2",
+       "shortName": "Jokic"
+      }
+     }
+    ]
+   },
+   {
+    "period": 11,
+    "matchupList": [
+     {
+      "away": {
+       "name": "The Fun Guys",
+       "id": "f310mnh8murmhnn2",
+       "shortName": "FUNGUY"
+      },
+      "home": {
+       "name": "Suggs to be You",
+       "id": "rdl7dlplmurmhnn2",
+       "shortName": "Eric"
+      }
+     },
+     {
+      "away": {
+       "name": "bADa bing bong blok",
+       "id": "0j15rgscmurmhnn2",
+       "shortName": "Masi"
+      },
+      "home": {
+       "name": "Conflict of Interest",
+       "id": "ozju7nsmmurmhnn2",
+       "shortName": "Walker"
+      }
+     },
+     {
+      "away": {
+       "name": "No Mercy, Just Usage Rate",
+       "id": "0tjisxjpmurmhnn2",
+       "shortName": "Mark"
+      },
+      "home": {
+       "name": "The Rollin\u00e2\u0080\u0099 Treys",
+       "id": "t5zv7h5emurmhnn2",
+       "shortName": "Tristan"
+      }
+     },
+     {
+      "away": {
+       "name": "Practical",
+       "id": "owvgfdvnmurmhnn2",
+       "shortName": "Jokic"
+      },
+      "home": {
+       "name": "The 2026 Revenge Tour",
+       "id": "p8lde4xbmusl24sh",
+       "shortName": "REVENGER"
+      }
+     },
+     {
+      "away": {
+       "name": "Bye Week",
+       "id": "6wdc0v27murmhnn2",
+       "shortName": "Ian"
+      },
+      "home": {
+       "name": "Let's Go Brandon Ingram",
+       "id": "om35rt8imurmhnn2",
+       "shortName": "Catron"
+      }
+     }
+    ]
+   },
+   {
+    "period": 12,
+    "matchupList": [
+     {
+      "away": {
+       "name": "Suggs to be You",
+       "id": "rdl7dlplmurmhnn2",
+       "shortName": "Eric"
+      },
+      "home": {
+       "name": "bADa bing bong blok",
+       "id": "0j15rgscmurmhnn2",
+       "shortName": "Masi"
+      }
+     },
+     {
+      "away": {
+       "name": "The Fun Guys",
+       "id": "f310mnh8murmhnn2",
+       "shortName": "FUNGUY"
+      },
+      "home": {
+       "name": "No Mercy, Just Usage Rate",
+       "id": "0tjisxjpmurmhnn2",
+       "shortName": "Mark"
+      }
+     },
+     {
+      "away": {
+       "name": "Conflict of Interest",
+       "id": "ozju7nsmmurmhnn2",
+       "shortName": "Walker"
+      },
+      "home": {
+       "name": "Practical",
+       "id": "owvgfdvnmurmhnn2",
+       "shortName": "Jokic"
+      }
+     },
+     {
+      "away": {
+       "name": "The Rollin\u00e2\u0080\u0099 Treys",
+       "id": "t5zv7h5emurmhnn2",
+       "shortName": "Tristan"
+      },
+      "home": {
+       "name": "Bye Week",
+       "id": "6wdc0v27murmhnn2",
+       "shortName": "Ian"
+      }
+     },
+     {
+      "away": {
+       "name": "The 2026 Revenge Tour",
+       "id": "p8lde4xbmusl24sh",
+       "shortName": "REVENGER"
+      },
+      "home": {
+       "name": "Let's Go Brandon Ingram",
+       "id": "om35rt8imurmhnn2",
+       "shortName": "Catron"
+      }
+     }
+    ]
+   },
+   {
+    "period": 13,
+    "matchupList": [
+     {
+      "away": {
+       "name": "No Mercy, Just Usage Rate",
+       "id": "0tjisxjpmurmhnn2",
+       "shortName": "Mark"
+      },
+      "home": {
+       "name": "Suggs to be You",
+       "id": "rdl7dlplmurmhnn2",
+       "shortName": "Eric"
+      }
+     },
+     {
+      "away": {
+       "name": "Practical",
+       "id": "owvgfdvnmurmhnn2",
+       "shortName": "Jokic"
+      },
+      "home": {
+       "name": "bADa bing bong blok",
+       "id": "0j15rgscmurmhnn2",
+       "shortName": "Masi"
+      }
+     },
+     {
+      "away": {
+       "name": "Bye Week",
+       "id": "6wdc0v27murmhnn2",
+       "shortName": "Ian"
+      },
+      "home": {
+       "name": "The Fun Guys",
+       "id": "f310mnh8murmhnn2",
+       "shortName": "FUNGUY"
+      }
+     },
+     {
+      "away": {
+       "name": "Let's Go Brandon Ingram",
+       "id": "om35rt8imurmhnn2",
+       "shortName": "Catron"
+      },
+      "home": {
+       "name": "Conflict of Interest",
+       "id": "ozju7nsmmurmhnn2",
+       "shortName": "Walker"
+      }
+     },
+     {
+      "away": {
+       "name": "The 2026 Revenge Tour",
+       "id": "p8lde4xbmusl24sh",
+       "shortName": "REVENGER"
+      },
+      "home": {
+       "name": "The Rollin\u00e2\u0080\u0099 Treys",
+       "id": "t5zv7h5emurmhnn2",
+       "shortName": "Tristan"
+      }
+     }
+    ]
+   },
+   {
+    "period": 14,
+    "matchupList": [
+     {
+      "away": {
+       "name": "Suggs to be You",
+       "id": "rdl7dlplmurmhnn2",
+       "shortName": "Eric"
+      },
+      "home": {
+       "name": "Practical",
+       "id": "owvgfdvnmurmhnn2",
+       "shortName": "Jokic"
+      }
+     },
+     {
+      "away": {
+       "name": "No Mercy, Just Usage Rate",
+       "id": "0tjisxjpmurmhnn2",
+       "shortName": "Mark"
+      },
+      "home": {
+       "name": "Bye Week",
+       "id": "6wdc0v27murmhnn2",
+       "shortName": "Ian"
+      }
+     },
+     {
+      "away": {
+       "name": "bADa bing bong blok",
+       "id": "0j15rgscmurmhnn2",
+       "shortName": "Masi"
+      },
+      "home": {
+       "name": "Let's Go Brandon Ingram",
+       "id": "om35rt8imurmhnn2",
+       "shortName": "Catron"
+      }
+     },
+     {
+      "away": {
+       "name": "The Fun Guys",
+       "id": "f310mnh8murmhnn2",
+       "shortName": "FUNGUY"
+      },
+      "home": {
+       "name": "The 2026 Revenge Tour",
+       "id": "p8lde4xbmusl24sh",
+       "shortName": "REVENGER"
+      }
+     },
+     {
+      "away": {
+       "name": "Conflict of Interest",
+       "id": "ozju7nsmmurmhnn2",
+       "shortName": "Walker"
+      },
+      "home": {
+       "name": "The Rollin\u00e2\u0080\u0099 Treys",
+       "id": "t5zv7h5emurmhnn2",
+       "shortName": "Tristan"
+      }
+     }
+    ]
+   },
+   {
+    "period": 15,
+    "matchupList": [
+     {
+      "away": {
+       "name": "Bye Week",
+       "id": "6wdc0v27murmhnn2",
+       "shortName": "Ian"
+      },
+      "home": {
+       "name": "Suggs to be You",
+       "id": "rdl7dlplmurmhnn2",
+       "shortName": "Eric"
+      }
+     },
+     {
+      "away": {
+       "name": "Let's Go Brandon Ingram",
+       "id": "om35rt8imurmhnn2",
+       "shortName": "Catron"
+      },
+      "home": {
+       "name": "Practical",
+       "id": "owvgfdvnmurmhnn2",
+       "shortName": "Jokic"
+      }
+     },
+     {
+      "away": {
+       "name": "The 2026 Revenge Tour",
+       "id": "p8lde4xbmusl24sh",
+       "shortName": "REVENGER"
+      },
+      "home": {
+       "name": "No Mercy, Just Usage Rate",
+       "id": "0tjisxjpmurmhnn2",
+       "shortName": "Mark"
+      }
+     },
+     {
+      "away": {
+       "name": "The Rollin\u00e2\u0080\u0099 Treys",
+       "id": "t5zv7h5emurmhnn2",
+       "shortName": "Tristan"
+      },
+      "home": {
+       "name": "bADa bing bong blok",
+       "id": "0j15rgscmurmhnn2",
+       "shortName": "Masi"
+      }
+     },
+     {
+      "away": {
+       "name": "Conflict of Interest",
+       "id": "ozju7nsmmurmhnn2",
+       "shortName": "Walker"
+      },
+      "home": {
+       "name": "The Fun Guys",
+       "id": "f310mnh8murmhnn2",
+       "shortName": "FUNGUY"
+      }
+     }
+    ]
+   },
+   {
+    "period": 16,
+    "matchupList": [
+     {
+      "away": {
+       "name": "Suggs to be You",
+       "id": "rdl7dlplmurmhnn2",
+       "shortName": "Eric"
+      },
+      "home": {
+       "name": "Let's Go Brandon Ingram",
+       "id": "om35rt8imurmhnn2",
+       "shortName": "Catron"
+      }
+     },
+     {
+      "away": {
+       "name": "Bye Week",
+       "id": "6wdc0v27murmhnn2",
+       "shortName": "Ian"
+      },
+      "home": {
+       "name": "The 2026 Revenge Tour",
+       "id": "p8lde4xbmusl24sh",
+       "shortName": "REVENGER"
+      }
+     },
+     {
+      "away": {
+       "name": "Practical",
+       "id": "owvgfdvnmurmhnn2",
+       "shortName": "Jokic"
+      },
+      "home": {
+       "name": "The Rollin\u00e2\u0080\u0099 Treys",
+       "id": "t5zv7h5emurmhnn2",
+       "shortName": "Tristan"
+      }
+     },
+     {
+      "away": {
+       "name": "No Mercy, Just Usage Rate",
+       "id": "0tjisxjpmurmhnn2",
+       "shortName": "Mark"
+      },
+      "home": {
+       "name": "Conflict of Interest",
+       "id": "ozju7nsmmurmhnn2",
+       "shortName": "Walker"
+      }
+     },
+     {
+      "away": {
+       "name": "bADa bing bong blok",
+       "id": "0j15rgscmurmhnn2",
+       "shortName": "Masi"
+      },
+      "home": {
+       "name": "The Fun Guys",
+       "id": "f310mnh8murmhnn2",
+       "shortName": "FUNGUY"
+      }
+     }
+    ]
+   },
+   {
+    "period": 17,
+    "matchupList": [
+     {
+      "away": {
+       "name": "The 2026 Revenge Tour",
+       "id": "p8lde4xbmusl24sh",
+       "shortName": "REVENGER"
+      },
+      "home": {
+       "name": "Suggs to be You",
+       "id": "rdl7dlplmurmhnn2",
+       "shortName": "Eric"
+      }
+     },
+     {
+      "away": {
+       "name": "The Rollin\u00e2\u0080\u0099 Treys",
+       "id": "t5zv7h5emurmhnn2",
+       "shortName": "Tristan"
+      },
+      "home": {
+       "name": "Let's Go Brandon Ingram",
+       "id": "om35rt8imurmhnn2",
+       "shortName": "Catron"
+      }
+     },
+     {
+      "away": {
+       "name": "Conflict of Interest",
+       "id": "ozju7nsmmurmhnn2",
+       "shortName": "Walker"
+      },
+      "home": {
+       "name": "Bye Week",
+       "id": "6wdc0v27murmhnn2",
+       "shortName": "Ian"
+      }
+     },
+     {
+      "away": {
+       "name": "The Fun Guys",
+       "id": "f310mnh8murmhnn2",
+       "shortName": "FUNGUY"
+      },
+      "home": {
+       "name": "Practical",
+       "id": "owvgfdvnmurmhnn2",
+       "shortName": "Jokic"
+      }
+     },
+     {
+      "away": {
+       "name": "bADa bing bong blok",
+       "id": "0j15rgscmurmhnn2",
+       "shortName": "Masi"
+      },
+      "home": {
+       "name": "No Mercy, Just Usage Rate",
+       "id": "0tjisxjpmurmhnn2",
+       "shortName": "Mark"
+      }
+     }
+    ]
+   },
+   {
+    "period": 18,
+    "matchupList": [
+     {
+      "away": {
+       "name": "Suggs to be You",
+       "id": "rdl7dlplmurmhnn2",
+       "shortName": "Eric"
+      },
+      "home": {
+       "name": "The Rollin\u00e2\u0080\u0099 Treys",
+       "id": "t5zv7h5emurmhnn2",
+       "shortName": "Tristan"
+      }
+     },
+     {
+      "away": {
+       "name": "The 2026 Revenge Tour",
+       "id": "p8lde4xbmusl24sh",
+       "shortName": "REVENGER"
+      },
+      "home": {
+       "name": "Conflict of Interest",
+       "id": "ozju7nsmmurmhnn2",
+       "shortName": "Walker"
+      }
+     },
+     {
+      "away": {
+       "name": "Let's Go Brandon Ingram",
+       "id": "om35rt8imurmhnn2",
+       "shortName": "Catron"
+      },
+      "home": {
+       "name": "The Fun Guys",
+       "id": "f310mnh8murmhnn2",
+       "shortName": "FUNGUY"
+      }
+     },
+     {
+      "away": {
+       "name": "Bye Week",
+       "id": "6wdc0v27murmhnn2",
+       "shortName": "Ian"
+      },
+      "home": {
+       "name": "bADa bing bong blok",
+       "id": "0j15rgscmurmhnn2",
+       "shortName": "Masi"
+      }
+     },
+     {
+      "away": {
+       "name": "Practical",
+       "id": "owvgfdvnmurmhnn2",
+       "shortName": "Jokic"
+      },
+      "home": {
+       "name": "No Mercy, Just Usage Rate",
+       "id": "0tjisxjpmurmhnn2",
+       "shortName": "Mark"
+      }
+     }
+    ]
+   },
+   {
+    "period": 19,
+    "matchupList": [
+     {
+      "away": {
+       "name": "Conflict of Interest",
+       "id": "ozju7nsmmurmhnn2",
+       "shortName": "Walker"
+      },
+      "home": {
+       "name": "Suggs to be You",
+       "id": "rdl7dlplmurmhnn2",
+       "shortName": "Eric"
+      }
+     },
+     {
+      "away": {
+       "name": "The Fun Guys",
+       "id": "f310mnh8murmhnn2",
+       "shortName": "FUNGUY"
+      },
+      "home": {
+       "name": "The Rollin\u00e2\u0080\u0099 Treys",
+       "id": "t5zv7h5emurmhnn2",
+       "shortName": "Tristan"
+      }
+     },
+     {
+      "away": {
+       "name": "bADa bing bong blok",
+       "id": "0j15rgscmurmhnn2",
+       "shortName": "Masi"
+      },
+      "home": {
+       "name": "The 2026 Revenge Tour",
+       "id": "p8lde4xbmusl24sh",
+       "shortName": "REVENGER"
+      }
+     },
+     {
+      "away": {
+       "name": "No Mercy, Just Usage Rate",
+       "id": "0tjisxjpmurmhnn2",
+       "shortName": "Mark"
+      },
+      "home": {
+       "name": "Let's Go Brandon Ingram",
+       "id": "om35rt8imurmhnn2",
+       "shortName": "Catron"
+      }
+     },
+     {
+      "away": {
+       "name": "Practical",
+       "id": "owvgfdvnmurmhnn2",
+       "shortName": "Jokic"
+      },
+      "home": {
+       "name": "Bye Week",
+       "id": "6wdc0v27murmhnn2",
+       "shortName": "Ian"
+      }
+     }
+    ]
+   },
+   {
+    "period": 20,
+    "matchupList": [
+     {
+      "away": {
+       "name": "Suggs to be You",
+       "id": "rdl7dlplmurmhnn2",
+       "shortName": "Eric"
+      },
+      "home": {
+       "name": "The Fun Guys",
+       "id": "f310mnh8murmhnn2",
+       "shortName": "FUNGUY"
+      }
+     },
+     {
+      "away": {
+       "name": "Conflict of Interest",
+       "id": "ozju7nsmmurmhnn2",
+       "shortName": "Walker"
+      },
+      "home": {
+       "name": "bADa bing bong blok",
+       "id": "0j15rgscmurmhnn2",
+       "shortName": "Masi"
+      }
+     },
+     {
+      "away": {
+       "name": "The Rollin\u00e2\u0080\u0099 Treys",
+       "id": "t5zv7h5emurmhnn2",
+       "shortName": "Tristan"
+      },
+      "home": {
+       "name": "No Mercy, Just Usage Rate",
+       "id": "0tjisxjpmurmhnn2",
+       "shortName": "Mark"
+      }
+     },
+     {
+      "away": {
+       "name": "The 2026 Revenge Tour",
+       "id": "p8lde4xbmusl24sh",
+       "shortName": "REVENGER"
+      },
+      "home": {
+       "name": "Practical",
+       "id": "owvgfdvnmurmhnn2",
+       "shortName": "Jokic"
+      }
+     },
+     {
+      "away": {
+       "name": "Let's Go Brandon Ingram",
+       "id": "om35rt8imurmhnn2",
+       "shortName": "Catron"
+      },
+      "home": {
+       "name": "Bye Week",
+       "id": "6wdc0v27murmhnn2",
+       "shortName": "Ian"
+      }
+     }
+    ]
+   },
+   {
+    "period": 21,
+    "matchupList": [
+     {
+      "away": {
+       "seed": 4
+      },
+      "home": {
+       "seed": 1
+      }
+     },
+     {
+      "away": {
+       "seed": 3
+      },
+      "home": {
+       "seed": 2
+      }
+     }
+    ]
+   },
+   {
+    "period": 22,
+    "matchupList": [
+     {
+      "away": {
+       "TBD": true
+      },
+      "home": {
+       "TBD": true
+      }
+     }
+    ]
+   }
+  ],
+  "rosterInfo": {
+   "positionConstraints": {
+    "SF": {
+     "maxActive": 1
+    },
+    "C": {
+     "maxActive": 1
+    },
+    "Flx": {
+     "maxActive": 3
+    },
+    "SG": {
+     "maxActive": 1
+    },
+    "PF": {
+     "maxActive": 1
+    },
+    "F": {
+     "maxActive": 1
+    },
+    "G": {
+     "maxActive": 1
+    },
+    "PG": {
+     "maxActive": 1
+    }
+   },
+   "maxTotalPlayers": 13,
+   "maxTotalActivePlayers": 10
+  },
+  "endDate": "2027-04-11",
+  "playerInfo": {
+   "06mkb": {
+    "eligiblePos": "PG,SG,G,Flx",
+    "status": "FA"
+   },
+   "0722e": {
+    "eligiblePos": "PG,SG,G,Flx",
+    "status": "FA"
+   },
+   "06mkc": {
+    "eligiblePos": "SG,G,SF,F,Flx",
+    "status": "FA"
+   },
+   "07apr": {
+    "eligiblePos": "PG,SG,G,Flx",
+    "status": "FA"
+   },
+   "06mka": {
+    "eligiblePos": "SF,PF,F,Flx",
+    "status": "FA"
+   },
+   "07aps": {
+    "eligiblePos": "PG,SG,G,Flx",
+    "status": "FA"
+   },
+   "05wah": {
+    "eligiblePos": "SG,G,Flx",
+    "status": "FA"
+   },
+   "06mjy": {
+    "eligiblePos": "PF,F,Flx",
+    "status": "FA"
+   },
+   "07apl": {
+    "eligiblePos": "SF,PF,F,Flx",
+    "status": "FA"
+   },
+   "06mjz": {
+    "eligiblePos": "C,Flx",
+    "status": "T"
+   },
+   "07apm": {
+    "eligiblePos": "PG,G,Flx",
+    "status": "FA"
+   },
+   "06mjw": {
+    "eligiblePos": "PG,SG,G,Flx",
+    "status": "T"
+   },
+   "07apj": {
+    "eligiblePos": "SF,PF,F,Flx",
+    "status": "FA"
+   },
+   "06mjx": {
+    "eligiblePos": "SF,PF,F,Flx",
+    "status": "FA"
+   },
+   "07apk": {
+    "eligiblePos": "SF,PF,F,Flx",
+    "status": "FA"
+   },
+   "06mju": {
+    "eligiblePos": "PF,C,F,Flx",
+    "status": "T"
+   },
+   "07aph": {
+    "eligiblePos": "SF,PF,F,Flx",
+    "status": "FA"
+   },
+   "06mjv": {
+    "eligiblePos": "PG,SG,G,Flx",
+    "status": "FA"
+   },
+   "07api": {
+    "eligiblePos": "C,Flx",
+    "status": "FA"
+   },
+   "07apf": {
+    "eligiblePos": "C,Flx",
+    "status": "FA"
+   },
+   "06mjt": {
+    "eligiblePos": "SF,F,Flx",
+    "status": "FA"
+   },
+   "07apg": {
+    "eligiblePos": "SF,PF,F,Flx",
+    "status": "FA"
+   },
+   "07apd": {
+    "eligiblePos": "SG,G,Flx",
+    "status": "FA"
+   },
+   "07ape": {
+    "eligiblePos": "SF,F,Flx",
+    "status": "FA"
+   },
+   "07234": {
+    "eligiblePos": "SG,G,Flx",
+    "status": "FA"
+   },
+   "07235": {
+    "eligiblePos": "SF,PF,F,Flx",
+    "status": "FA"
+   },
+   "07232": {
+    "eligiblePos": "C,Flx",
+    "status": "FA"
+   },
+   "059fz": {
+    "eligiblePos": "PG,G,Flx",
+    "status": "FA"
+   },
+   "07apa": {
+    "eligiblePos": "SF,PF,F,Flx",
+    "status": "FA"
+   },
+   "07231": {
+    "eligiblePos": "SF,PF,F,Flx",
+    "status": "FA"
+   },
+   "059fy": {
+    "eligiblePos": "SG,G,Flx",
+    "status": "FA"
+   },
+   "05293": {
+    "eligiblePos": "SG,G,Flx",
+    "status": "FA"
+   },
+   "059fx": {
+    "eligiblePos": "PG,G,Flx",
+    "status": "FA"
+   },
+   "07aoz": {
+    "eligiblePos": "PG,SG,G,Flx",
+    "status": "FA"
+   },
+   "059fu": {
+    "eligiblePos": "SF,F,Flx",
+    "status": "FA"
+   },
+   "0527l": {
+    "eligiblePos": "SG,G,SF,PF,F,Flx",
+    "status": "FA"
+   },
+   "07aoq": {
+    "eligiblePos": "PG,SG,G,Flx",
+    "status": "FA"
+   },
+   "07aor": {
+    "eligiblePos": "SF,PF,F,Flx",
+    "status": "FA"
+   },
+   "0527h": {
+    "eligiblePos": "PF,C,F,Flx",
+    "status": "T"
+   },
+   "06mk8": {
+    "eligiblePos": "SG,G,Flx",
+    "status": "FA"
+   },
+   "06mk9": {
+    "eligiblePos": "SG,G,SF,F,Flx",
+    "status": "FA"
+   },
+   "07aog": {
+    "eligiblePos": "SF,PF,F,Flx",
+    "status": "FA"
+   },
+   "06mk6": {
+    "eligiblePos": "PG,G,Flx",
+    "status": "FA"
+   },
+   "06mk7": {
+    "eligiblePos": "PF,C,F,Flx",
+    "status": "T"
+   },
+   "07aoe": {
+    "eligiblePos": "C,Flx",
+    "status": "FA"
+   },
+   "06mk4": {
+    "eligiblePos": "PG,G,Flx",
+    "status": "FA"
+   },
+   "06mk5": {
+    "eligiblePos": "PG,G,Flx",
+    "status": "FA"
+   },
+   "07aoc": {
+    "eligiblePos": "SF,PF,F,Flx",
+    "status": "FA"
+   },
+   "06mk2": {
+    "eligiblePos": "SG,G,Flx",
+    "status": "FA"
+   },
+   "07aod": {
+    "eligiblePos": "PG,SG,G,Flx",
+    "status": "FA"
+   },
+   "06mk3": {
+    "eligiblePos": "SF,PF,F,Flx",
+    "status": "T"
+   },
+   "06376": {
+    "eligiblePos": "SF,PF,F,Flx",
+    "status": "FA"
+   },
+   "06mk0": {
+    "eligiblePos": "PG,G,Flx",
+    "status": "FA"
+   },
+   "06mk1": {
+    "eligiblePos": "C,Flx",
+    "status": "T"
+   },
+   "06375": {
+    "eligiblePos": "PG,SG,G,Flx",
+    "status": "FA"
+   },
+   "05ycx": {
+    "eligiblePos": "SF,F,Flx",
+    "status": "FA"
+   },
+   "04xdu": {
+    "eligiblePos": "C,Flx",
+    "status": "FA"
+   },
+   "04xdt": {
+    "eligiblePos": "SF,F,Flx",
+    "status": "FA"
+   },
+   "059g4": {
+    "eligiblePos": "PG,SG,G,Flx",
+    "status": "FA"
+   },
+   "07ap8": {
+    "eligiblePos": "PG,SG,G,Flx",
+    "status": "FA"
+   },
+   "07anw": {
+    "eligiblePos": "SF,PF,F,Flx",
+    "status": "FA"
+   },
+   "07ap6": {
+    "eligiblePos": "SF,PF,F,Flx",
+    "status": "FA"
+   },
+   "059g5": {
+    "eligiblePos": "PF,C,F,Flx",
+    "status": "FA"
+   },
+   "06mmd": {
+    "eligiblePos": "SF,F,Flx",
+    "status": "FA"
+   },
+   "06mme": {
+    "eligiblePos": "SF,PF,F,Flx",
+    "status": "FA"
+   },
+   "06mmb": {
+    "eligiblePos": "PG,G,Flx",
+    "status": "FA"
+   },
+   "07a24": {
+    "eligiblePos": "PG,G,Flx",
+    "status": "FA"
+   },
+   "06mmc": {
+    "eligiblePos": "SG,G,SF,PF,F,Flx",
+    "status": "FA"
+   },
+   "07a22": {
+    "eligiblePos": "SG,G,Flx",
+    "status": "FA"
+   },
+   "06mma": {
+    "eligiblePos": "SF,F,Flx",
+    "status": "FA"
+   },
+   "07a23": {
+    "eligiblePos": "PG,G,Flx",
+    "status": "FA"
+   },
+   "07a21": {
+    "eligiblePos": "SG,G,Flx",
+    "status": "FA"
+   },
+   "059ij": {
+    "eligiblePos": "PG,G,Flx",
+    "status": "FA"
+   },
+   "06mly": {
+    "eligiblePos": "C,Flx",
+    "status": "FA"
+   },
+   "059ik": {
+    "eligiblePos": "PG,G,Flx",
+    "status": "FA"
+   },
+   "06mlz": {
+    "eligiblePos": "PG,SG,G,Flx",
+    "status": "FA"
+   },
+   "06mlw": {
+    "eligiblePos": "PF,F,Flx",
+    "status": "FA"
+   },
+   "06mlx": {
+    "eligiblePos": "SF,PF,F,Flx",
+    "status": "FA"
+   },
+   "07ark": {
+    "eligiblePos": "SF,PF,F,Flx",
+    "status": "FA"
+   },
+   "06mlu": {
+    "eligiblePos": "SF,F,Flx",
+    "status": "FA"
+   },
+   "06mlv": {
+    "eligiblePos": "SG,G,Flx",
+    "status": "FA"
+   },
+   "07ari": {
+    "eligiblePos": "SF,F,Flx",
+    "status": "FA"
+   },
+   "06mls": {
+    "eligiblePos": "SG,G,Flx",
+    "status": "FA"
+   },
+   "06mlt": {
+    "eligiblePos": "SG,G,SF,F,Flx",
+    "status": "FA"
+   },
+   "06mlq": {
+    "eligiblePos": "SG,G,SF,F,Flx",
+    "status": "FA"
+   },
+   "07ard": {
+    "eligiblePos": "SG,G,Flx",
+    "status": "FA"
+   },
+   "06mlr": {
+    "eligiblePos": "PG,G,Flx",
+    "status": "FA"
+   },
+   "07are": {
+    "eligiblePos": "PG,G,Flx",
+    "status": "FA"
+   },
+   "06mlo": {
+    "eligiblePos": "PG,G,Flx",
+    "status": "FA"
+   },
+   "06mlp": {
+    "eligiblePos": "SF,PF,F,Flx",
+    "status": "FA"
+   },
+   "06mlm": {
+    "eligiblePos": "PF,C,F,Flx",
+    "status": "FA"
+   },
+   "06mln": {
+    "eligiblePos": "C,Flx",
+    "status": "FA"
+   },
+   "03nwq": {
+    "eligiblePos": "PF,F,Flx",
+    "status": "FA"
+   },
+   "06mlk": {
+    "eligiblePos": "PG,SG,G,SF,F,Flx",
+    "status": "T"
+   },
+   "06mll": {
+    "eligiblePos": "SG,G,SF,F,Flx",
+    "status": "FA"
+   },
+   "06mli": {
+    "eligiblePos": "PG,SG,G,Flx",
+    "status": "FA"
+   },
+   "06mlj": {
+    "eligiblePos": "SF,PF,F,Flx",
+    "status": "FA"
+   },
+   "0723j": {
+    "eligiblePos": "PG,SG,G,Flx",
+    "status": "FA"
+   },
+   "06mlg": {
+    "eligiblePos": "PG,G,Flx",
+    "status": "FA"
+   },
+   "03nwm": {
+    "eligiblePos": "PG,SG,G,SF,F,Flx",
+    "status": "T"
+   },
+   "0723k": {
+    "eligiblePos": "SF,PF,F,Flx",
+    "status": "FA"
+   },
+   "06mlh": {
+    "eligiblePos": "SG,G,SF,F,Flx",
+    "status": "FA"
+   },
+   "03nwl": {
+    "eligiblePos": "PG,G,Flx",
+    "status": "FA"
+   },
+   "06mle": {
+    "eligiblePos": "PF,C,F,Flx",
+    "status": "FA"
+   },
+   "0723h": {
+    "eligiblePos": "SF,PF,F,Flx",
+    "status": "FA"
+   },
+   "03nwn": {
+    "eligiblePos": "PF,C,F,Flx",
+    "status": "FA"
+   },
+   "06mlf": {
+    "eligiblePos": "PF,F,Flx",
+    "status": "FA"
+   },
+   "0723i": {
+    "eligiblePos": "PG,SG,G,SF,PF,F,Flx",
+    "status": "FA"
+   },
+   "0723f": {
+    "eligiblePos": "PG,SG,G,Flx",
+    "status": "FA"
+   },
+   "06q2e": {
+    "eligiblePos": "SF,PF,F,Flx",
+    "status": "FA"
+   },
+   "06mld": {
+    "eligiblePos": "PF,C,F,Flx",
+    "status": "FA"
+   },
+   "0723g": {
+    "eligiblePos": "SG,G,SF,PF,F,Flx",
+    "status": "FA"
+   },
+   "03nwk": {
+    "eligiblePos": "SF,PF,F,Flx",
+    "status": "FA"
+   },
+   "0723e": {
+    "eligiblePos": "SF,PF,F,Flx",
+    "status": "FA"
+   },
+   "0723c": {
+    "eligiblePos": "PG,SG,G,Flx",
+    "status": "FA"
+   },
+   "0529c": {
+    "eligiblePos": "PF,F,Flx",
+    "status": "FA"
+   },
+   "06mm8": {
+    "eligiblePos": "SF,F,Flx",
+    "status": "FA"
+   },
+   "06mm9": {
+    "eligiblePos": "SF,PF,F,Flx",
+    "status": "FA"
+   },
+   "06mm6": {
+    "eligiblePos": "C,Flx",
+    "status": "FA"
+   },
+   "06mm4": {
+    "eligiblePos": "C,Flx",
+    "status": "FA"
+   },
+   "06mm5": {
+    "eligiblePos": "C,Flx",
+    "status": "FA"
+   },
+   "04ik2": {
+    "eligiblePos": "SG,G,Flx",
+    "status": "FA"
+   },
+   "07aqf": {
+    "eligiblePos": "SF,F,Flx",
+    "status": "FA"
+   },
+   "07245": {
+    "eligiblePos": "SF,PF,F,Flx",
+    "status": "FA"
+   },
+   "0722s": {
+    "eligiblePos": "SF,PF,F,Flx",
+    "status": "FA"
+   },
+   "06mm2": {
+    "eligiblePos": "SF,F,Flx",
+    "status": "FA"
+   },
+   "07aqd": {
+    "eligiblePos": "PG,SG,G,Flx",
+    "status": "FA"
+   },
+   "06mm3": {
+    "eligiblePos": "PF,F,Flx",
+    "status": "FA"
+   },
+   "07243": {
+    "eligiblePos": "PG,SG,G,Flx",
+    "status": "FA"
+   },
+   "06mm0": {
+    "eligiblePos": "SF,F,Flx",
+    "status": "FA"
+   },
+   "06mm1": {
+    "eligiblePos": "PG,SG,G,Flx",
+    "status": "FA"
+   },
+   "07244": {
+    "eligiblePos": "SF,PF,F,Flx",
+    "status": "FA"
+   },
+   "06mkl": {
+    "eligiblePos": "PG,SG,G,Flx",
+    "status": "FA"
+   },
+   "07241": {
+    "eligiblePos": "SF,PF,C,F,Flx",
+    "status": "FA"
+   },
+   "07242": {
+    "eligiblePos": "SG,G,SF,PF,F,Flx",
+    "status": "FA"
+   },
+   "0722p": {
+    "eligiblePos": "SF,PF,F,Flx",
+    "status": "FA"
+   },
+   "06mkm": {
+    "eligiblePos": "SG,G,SF,F,Flx",
+    "status": "FA"
+   },
+   "06mkj": {
+    "eligiblePos": "SG,G,SF,PF,F,Flx",
+    "status": "FA"
+   },
+   "06mkk": {
+    "eligiblePos": "SF,PF,F,Flx",
+    "status": "FA"
+   },
+   "07240": {
+    "eligiblePos": "SF,PF,F,Flx",
+    "status": "FA"
+   },
+   "06mkh": {
+    "eligiblePos": "SG,G,Flx",
+    "status": "FA"
+   },
+   "07apz": {
+    "eligiblePos": "PG,SG,G,Flx",
+    "status": "FA"
+   },
+   "06mki": {
+    "eligiblePos": "SF,F,Flx",
+    "status": "FA"
+   },
+   "05wc6": {
+    "eligiblePos": "PG,G,Flx",
+    "status": "FA"
+   },
+   "06mkf": {
+    "eligiblePos": "PG,SG,G,Flx",
+    "status": "FA"
+   },
+   "07apx": {
+    "eligiblePos": "PG,SG,G,Flx",
+    "status": "FA"
+   },
+   "06mkg": {
+    "eligiblePos": "SG,G,SF,PF,F,Flx",
+    "status": "T"
+   },
+   "06mkd": {
+    "eligiblePos": "PF,C,F,Flx",
+    "status": "T"
+   },
+   "06mke": {
+    "eligiblePos": "PF,C,F,Flx",
+    "status": "FA"
+   },
+   "07apw": {
+    "eligiblePos": "SF,PF,F,Flx",
+    "status": "FA"
+   },
+   "059cl": {
+    "eligiblePos": "SG,G,Flx",
+    "status": "FA"
+   },
+   "059ck": {
+    "eligiblePos": "PG,G,Flx",
+    "status": "FA"
+   },
+   "059cn": {
+    "eligiblePos": "PF,F,Flx",
+    "status": "FA"
+   },
+   "059cd": {
+    "eligiblePos": "SG,G,Flx",
+    "status": "FA"
+   },
+   "059cc": {
+    "eligiblePos": "PF,F,Flx",
+    "status": "FA"
+   },
+   "05yab": {
+    "eligiblePos": "C,Flx",
+    "status": "FA"
+   },
+   "059ce": {
+    "eligiblePos": "SG,G,SF,F,Flx",
+    "status": "FA"
+   },
+   "059cb": {
+    "eligiblePos": "SF,F,Flx",
+    "status": "FA"
+   },
+   "04kj6": {
+    "eligiblePos": "PG,SG,G,Flx",
+    "status": "T"
+   },
+   "074sv": {
+    "eligiblePos": "SG,G,Flx",
+    "status": "FA"
+   },
+   "03r7z": {
+    "eligiblePos": "SG,G,SF,F,Flx",
+    "status": "T"
+   },
+   "059ca": {
+    "eligiblePos": "SF,F,Flx",
+    "status": "FA"
+   },
+   "04sxx": {
+    "eligiblePos": "SG,G,Flx",
+    "status": "FA"
+   },
+   "03r7v": {
+    "eligiblePos": "SG,G,SF,F,Flx",
+    "status": "FA"
+   },
+   "03r7r": {
+    "eligiblePos": "PF,C,F,Flx",
+    "status": "FA"
+   },
+   "03r7m": {
+    "eligiblePos": "SF,F,Flx",
+    "status": "FA"
+   },
+   "03r7l": {
+    "eligiblePos": "PF,C,F,Flx",
+    "status": "FA"
+   },
+   "03r7h": {
+    "eligiblePos": "PG,SG,G,Flx",
+    "status": "FA"
+   },
+   "03r7e": {
+    "eligiblePos": "PG,G,Flx",
+    "status": "FA"
+   },
+   "076wf": {
+    "eligiblePos": "PG,G,Flx",
+    "status": "FA"
+   },
+   "03r7d": {
+    "eligiblePos": "SG,G,SF,PF,F,Flx",
+    "status": "FA"
+   },
+   "076we": {
+    "eligiblePos": "SF,F,Flx",
+    "status": "FA"
+   },
+   "03llw": {
+    "eligiblePos": "PG,SG,G,Flx",
+    "status": "FA"
+   },
+   "03llt": {
+    "eligiblePos": "C,Flx",
+    "status": "FA"
+   },
+   "04qsw": {
+    "eligiblePos": "PF,F,Flx",
+    "status": "FA"
+   },
+   "03lls": {
+    "eligiblePos": "SG,G,SF,F,Flx",
+    "status": "T"
+   },
+   "04qsv": {
+    "eligiblePos": "SF,F,Flx",
+    "status": "FA"
+   },
+   "0522u": {
+    "eligiblePos": "SF,PF,F,Flx",
+    "status": "FA"
+   },
+   "063u8": {
+    "eligiblePos": "PF,F,Flx",
+    "status": "FA"
+   },
+   "04qsr": {
+    "eligiblePos": "PG,G,Flx",
+    "status": "FA"
+   },
+   "04qsu": {
+    "eligiblePos": "SG,G,Flx",
+    "status": "FA"
+   },
+   "04qsn": {
+    "eligiblePos": "SF,F,Flx",
+    "status": "FA"
+   },
+   "04qsp": {
+    "eligiblePos": "C,Flx",
+    "status": "FA"
+   },
+   "04qsk": {
+    "eligiblePos": "PF,F,Flx",
+    "status": "FA"
+   },
+   "04qsj": {
+    "eligiblePos": "PG,SG,G,Flx",
+    "status": "FA"
+   },
+   "04qsm": {
+    "eligiblePos": "PG,SG,G,Flx",
+    "status": "FA"
+   },
+   "05ya2": {
+    "eligiblePos": "SG,G,Flx",
+    "status": "FA"
+   },
+   "04qsl": {
+    "eligiblePos": "PG,G,Flx",
+    "status": "FA"
+   },
+   "04qsg": {
+    "eligiblePos": "SG,G,Flx",
+    "status": "FA"
+   },
+   "05r0e": {
+    "eligiblePos": "SG,G,Flx",
+    "status": "FA"
+   },
+   "05ya0": {
+    "eligiblePos": "SG,G,Flx",
+    "status": "FA"
+   },
+   "05r0f": {
+    "eligiblePos": "PG,G,Flx",
+    "status": "FA"
+   },
+   "05r0c": {
+    "eligiblePos": "PF,F,Flx",
+    "status": "FA"
+   },
+   "04qsi": {
+    "eligiblePos": "PF,F,Flx",
+    "status": "FA"
+   },
+   "04qsh": {
+    "eligiblePos": "SF,PF,F,Flx",
+    "status": "FA"
+   },
+   "059g0": {
+    "eligiblePos": "SG,G,SF,PF,F,Flx",
+    "status": "FA"
+   },
+   "07215": {
+    "eligiblePos": "C,Flx",
+    "status": "FA"
+   },
+   "07ao9": {
+    "eligiblePos": "SF,F,Flx",
+    "status": "FA"
+   },
+   "07ao8": {
+    "eligiblePos": "SG,G,Flx",
+    "status": "FA"
+   },
+   "06fzs": {
+    "eligiblePos": "SG,G,Flx",
+    "status": "FA"
+   },
+   "06qq7": {
+    "eligiblePos": "PG,SG,G,Flx",
+    "status": "FA"
+   },
+   "059cx": {
+    "eligiblePos": "SG,G,Flx",
+    "status": "FA"
+   },
+   "07an8": {
+    "eligiblePos": "C,Flx",
+    "status": "FA"
+   },
+   "0524h": {
+    "eligiblePos": "PG,SG,G,Flx",
+    "status": "FA"
+   },
+   "07an7": {
+    "eligiblePos": "PG,SG,G,Flx",
+    "status": "FA"
+   },
+   "0633h": {
+    "eligiblePos": "PG,G,Flx",
+    "status": "FA"
+   },
+   "0524i": {
+    "eligiblePos": "SG,G,Flx",
+    "status": "FA"
+   },
+   "06q9l": {
+    "eligiblePos": "SF,PF,F,Flx",
+    "status": "FA"
+   },
+   "059q7": {
+    "eligiblePos": "SF,F,Flx",
+    "status": "FA"
+   },
+   "059q2": {
+    "eligiblePos": "C,Flx",
+    "status": "FA"
+   },
+   "059q4": {
+    "eligiblePos": "SF,PF,F,Flx",
+    "status": "FA"
+   },
+   "0729i": {
+    "eligiblePos": "SF,PF,F,Flx",
+    "status": "FA"
+   },
+   "0729d": {
+    "eligiblePos": "SF,PF,F,Flx",
+    "status": "FA"
+   },
+   "0729e": {
+    "eligiblePos": "PG,SG,G,Flx",
+    "status": "FA"
+   },
+   "06q8b": {
+    "eligiblePos": "PG,G,Flx",
+    "status": "FA"
+   },
+   "0728u": {
+    "eligiblePos": "PG,SG,G,Flx",
+    "status": "FA"
+   },
+   "0728s": {
+    "eligiblePos": "PG,SG,G,Flx",
+    "status": "FA"
+   },
+   "0728q": {
+    "eligiblePos": "SF,F,Flx",
+    "status": "FA"
+   },
+   "0728o": {
+    "eligiblePos": "PG,SG,G,Flx",
+    "status": "FA"
+   },
+   "06cab": {
+    "eligiblePos": "SF,PF,F,Flx",
+    "status": "FA"
+   },
+   "06cac": {
+    "eligiblePos": "PG,SG,G,SF,F,Flx",
+    "status": "T"
+   },
+   "06caa": {
+    "eligiblePos": "SG,G,SF,F,Flx",
+    "status": "FA"
+   },
+   "05yoh": {
+    "eligiblePos": "SG,G,SF,F,Flx",
+    "status": "FA"
+   },
+   "05wkc": {
+    "eligiblePos": "SG,G,Flx",
+    "status": "FA"
+   },
+   "059qe": {
+    "eligiblePos": "SG,G,Flx",
+    "status": "FA"
+   },
+   "05wkd": {
+    "eligiblePos": "PG,G,Flx",
+    "status": "FA"
+   },
+   "059qb": {
+    "eligiblePos": "PF,F,Flx",
+    "status": "FA"
+   },
+   "059qc": {
+    "eligiblePos": "SF,F,Flx",
+    "status": "FA"
+   },
+   "06ca8": {
+    "eligiblePos": "PG,SG,G,SF,PF,F,Flx",
+    "status": "T"
+   },
+   "06ca9": {
+    "eligiblePos": "SG,G,Flx",
+    "status": "FA"
+   },
+   "03wr4": {
+    "eligiblePos": "PG,G,Flx",
+    "status": "FA"
+   },
+   "06ca7": {
+    "eligiblePos": "SF,PF,F,Flx",
+    "status": "FA"
+   },
+   "06ca4": {
+    "eligiblePos": "SG,G,Flx",
+    "status": "FA"
+   },
+   "06ca5": {
+    "eligiblePos": "SF,F,Flx",
+    "status": "FA"
+   },
+   "06ca2": {
+    "eligiblePos": "PF,F,Flx",
+    "status": "FA"
+   },
+   "06ca3": {
+    "eligiblePos": "SG,G,SF,F,Flx",
+    "status": "FA"
+   },
+   "04is8": {
+    "eligiblePos": "PG,G,Flx",
+    "status": "FA"
+   },
+   "06mof": {
+    "eligiblePos": "PG,G,Flx",
+    "status": "FA"
+   },
+   "06mog": {
+    "eligiblePos": "SF,F,Flx",
+    "status": "FA"
+   },
+   "06mod": {
+    "eligiblePos": "PG,G,Flx",
+    "status": "FA"
+   },
+   "06moe": {
+    "eligiblePos": "PF,F,Flx",
+    "status": "FA"
+   },
+   "06mob": {
+    "eligiblePos": "PG,G,Flx",
+    "status": "FA"
+   },
+   "070te": {
+    "eligiblePos": "SF,PF,F,Flx",
+    "status": "FA"
+   },
+   "06moc": {
+    "eligiblePos": "PG,SG,G,Flx",
+    "status": "FA"
+   },
+   "07atl": {
+    "eligiblePos": "PG,SG,G,Flx",
+    "status": "FA"
+   },
+   "06mnw": {
+    "eligiblePos": "PG,SG,G,Flx",
+    "status": "FA"
+   },
+   "07atj": {
+    "eligiblePos": "PG,SG,G,Flx",
+    "status": "FA"
+   },
+   "06mnx": {
+    "eligiblePos": "SF,PF,F,Flx",
+    "status": "FA"
+   },
+   "07atk": {
+    "eligiblePos": "PG,SG,G,Flx",
+    "status": "FA"
+   },
+   "06mnu": {
+    "eligiblePos": "SF,PF,F,Flx",
+    "status": "FA"
+   },
+   "07ath": {
+    "eligiblePos": "SF,PF,F,Flx",
+    "status": "FA"
+   },
+   "06mnv": {
+    "eligiblePos": "SF,PF,F,Flx",
+    "status": "FA"
+   },
+   "06mns": {
+    "eligiblePos": "PG,SG,G,Flx",
+    "status": "FA"
+   },
+   "07atf": {
+    "eligiblePos": "SF,F,Flx",
+    "status": "FA"
+   },
+   "06mnt": {
+    "eligiblePos": "PG,SG,G,Flx",
+    "status": "FA"
+   },
+   "07atg": {
+    "eligiblePos": "PG,SG,G,Flx",
+    "status": "FA"
+   },
+   "06mnq": {
+    "eligiblePos": "SF,PF,F,Flx",
+    "status": "FA"
+   },
+   "06mnr": {
+    "eligiblePos": "SF,PF,F,Flx",
+    "status": "FA"
+   },
+   "06mp4": {
+    "eligiblePos": "SG,G,Flx",
+    "status": "FA"
+   },
+   "06mp1": {
+    "eligiblePos": "SF,PF,F,Flx",
+    "status": "FA"
+   },
+   "06mp0": {
+    "eligiblePos": "PG,G,Flx",
+    "status": "FA"
+   },
+   "06va1": {
+    "eligiblePos": "SG,G,Flx",
+    "status": "FA"
+   },
+   "06va2": {
+    "eligiblePos": "SF,PF,F,Flx",
+    "status": "FA"
+   },
+   "0725e": {
+    "eligiblePos": "SF,PF,F,Flx",
+    "status": "FA"
+   },
+   "0725c": {
+    "eligiblePos": "PG,SG,G,Flx",
+    "status": "FA"
+   },
+   "07asl": {
+    "eligiblePos": "SG,G,Flx",
+    "status": "FA"
+   },
+   "06mo8": {
+    "eligiblePos": "PF,F,Flx",
+    "status": "FA"
+   },
+   "06mo9": {
+    "eligiblePos": "PG,G,Flx",
+    "status": "FA"
+   },
+   "06mo6": {
+    "eligiblePos": "PG,G,Flx",
+    "status": "FA"
+   },
+   "06mo7": {
+    "eligiblePos": "PF,F,Flx",
+    "status": "FA"
+   },
+   "06mmr": {
+    "eligiblePos": "SG,G,Flx",
+    "status": "FA"
+   },
+   "06mo4": {
+    "eligiblePos": "PG,G,Flx",
+    "status": "FA"
+   },
+   "06mo5": {
+    "eligiblePos": "PG,G,Flx",
+    "status": "FA"
+   },
+   "07asf": {
+    "eligiblePos": "SF,PF,F,Flx",
+    "status": "FA"
+   },
+   "07asc": {
+    "eligiblePos": "PG,SG,G,Flx",
+    "status": "FA"
+   },
+   "04ggl": {
+    "eligiblePos": "PG,G,Flx",
+    "status": "FA"
+   },
+   "06mo3": {
+    "eligiblePos": "PG,G,Flx",
+    "status": "FA"
+   },
+   "07asd": {
+    "eligiblePos": "PG,SG,G,Flx",
+    "status": "FA"
+   },
+   "07asa": {
+    "eligiblePos": "SF,F,Flx",
+    "status": "FA"
+   },
+   "07asb": {
+    "eligiblePos": "SF,PF,F,Flx",
+    "status": "FA"
+   },
+   "04xhy": {
+    "eligiblePos": "SF,F,Flx",
+    "status": "FA"
+   },
+   "0724o": {
+    "eligiblePos": "PG,SG,G,Flx",
+    "status": "FA"
+   },
+   "06iei": {
+    "eligiblePos": "C,Flx",
+    "status": "FA"
+   },
+   "06mmj": {
+    "eligiblePos": "SG,G,SF,F,Flx",
+    "status": "FA"
+   },
+   "04xhz": {
+    "eligiblePos": "PG,G,Flx",
+    "status": "FA"
+   },
+   "06mmh": {
+    "eligiblePos": "PF,F,Flx",
+    "status": "FA"
+   },
+   "06mmi": {
+    "eligiblePos": "C,Flx",
+    "status": "FA"
+   },
+   "055c6": {
+    "eligiblePos": "PF,F,Flx",
+    "status": "FA"
+   },
+   "06mmf": {
+    "eligiblePos": "PG,G,Flx",
+    "status": "FA"
+   },
+   "06mmg": {
+    "eligiblePos": "SF,F,Flx",
+    "status": "FA"
+   },
+   "04xlp": {
+    "eligiblePos": "PF,F,Flx",
+    "status": "FA"
+   },
+   "04k0q": {
+    "eligiblePos": "SF,PF,F,Flx",
+    "status": "FA"
+   },
+   "06mpg": {
+    "eligiblePos": "PG,G,Flx",
+    "status": "FA"
+   },
+   "04xm0": {
+    "eligiblePos": "PG,G,Flx",
+    "status": "FA"
+   },
+   "06moz": {
+    "eligiblePos": "C,Flx",
+    "status": "FA"
+   },
+   "06moy": {
+    "eligiblePos": "SF,PF,F,Flx",
+    "status": "FA"
+   },
+   "06mov": {
+    "eligiblePos": "SF,PF,F,Flx",
+    "status": "FA"
+   },
+   "06mot": {
+    "eligiblePos": "SF,PF,F,Flx",
+    "status": "FA"
+   },
+   "06mou": {
+    "eligiblePos": "PG,SG,G,Flx",
+    "status": "FA"
+   },
+   "06mor": {
+    "eligiblePos": "SF,F,Flx",
+    "status": "FA"
+   },
+   "06mos": {
+    "eligiblePos": "SF,PF,F,Flx",
+    "status": "FA"
+   },
+   "06mop": {
+    "eligiblePos": "C,Flx",
+    "status": "FA"
+   },
+   "06moq": {
+    "eligiblePos": "PG,SG,G,Flx",
+    "status": "FA"
+   },
+   "06mon": {
+    "eligiblePos": "PG,SG,G,Flx",
+    "status": "FA"
+   },
+   "06moo": {
+    "eligiblePos": "PG,SG,G,Flx",
+    "status": "FA"
+   },
+   "06mq1": {
+    "eligiblePos": "C,Flx",
+    "status": "FA"
+   },
+   "06mol": {
+    "eligiblePos": "SF,F,Flx",
+    "status": "FA"
+   },
+   "06moj": {
+    "eligiblePos": "PG,G,Flx",
+    "status": "FA"
+   },
+   "06mok": {
+    "eligiblePos": "SF,F,Flx",
+    "status": "FA"
+   },
+   "06moh": {
+    "eligiblePos": "PG,G,Flx",
+    "status": "FA"
+   },
+   "06moi": {
+    "eligiblePos": "SG,G,Flx",
+    "status": "FA"
+   },
+   "074gu": {
+    "eligiblePos": "SF,F,Flx",
+    "status": "FA"
+   },
+   "07aa7": {
+    "eligiblePos": "SG,G,Flx",
+    "status": "FA"
+   },
+   "07aa6": {
+    "eligiblePos": "PG,SG,G,Flx",
+    "status": "FA"
+   },
+   "06y0j": {
+    "eligiblePos": "SG,G,Flx",
+    "status": "FA"
+   },
+   "06hpm": {
+    "eligiblePos": "PG,G,Flx",
+    "status": "FA"
+   },
+   "04uq7": {
+    "eligiblePos": "C,Flx",
+    "status": "FA"
+   },
+   "03ajv": {
+    "eligiblePos": "PF,F,Flx",
+    "status": "T"
+   },
+   "03al2": {
+    "eligiblePos": "C,Flx",
+    "status": "T"
+   },
+   "03al1": {
+    "eligiblePos": "PG,SG,G,Flx",
+    "status": "FA"
+   },
+   "03al0": {
+    "eligiblePos": "PF,C,F,Flx",
+    "status": "T"
+   },
+   "06hso": {
+    "eligiblePos": "C,Flx",
+    "status": "FA"
+   },
+   "06qf9": {
+    "eligiblePos": "SF,PF,F,Flx",
+    "status": "FA"
+   },
+   "06qdx": {
+    "eligiblePos": "PG,SG,G,Flx",
+    "status": "FA"
+   },
+   "06hsm": {
+    "eligiblePos": "PG,G,Flx",
+    "status": "FA"
+   },
+   "06qf7": {
+    "eligiblePos": "PG,SG,G,Flx",
+    "status": "FA"
+   },
+   "06hsn": {
+    "eligiblePos": "SG,G,Flx",
+    "status": "FA"
+   },
+   "06hsk": {
+    "eligiblePos": "PG,G,Flx",
+    "status": "FA"
+   },
+   "06qf5": {
+    "eligiblePos": "SF,PF,F,Flx",
+    "status": "FA"
+   },
+   "06hsl": {
+    "eligiblePos": "SG,G,Flx",
+    "status": "FA"
+   },
+   "06y2o": {
+    "eligiblePos": "PF,C,F,Flx",
+    "status": "FA"
+   },
+   "06hrv": {
+    "eligiblePos": "C,Flx",
+    "status": "FA"
+   },
+   "03ams": {
+    "eligiblePos": "PG,SG,G,SF,F,Flx",
+    "status": "T"
+   },
+   "06hrt": {
+    "eligiblePos": "PG,SG,G,Flx",
+    "status": "FA"
+   },
+   "06hru": {
+    "eligiblePos": "SF,PF,F,Flx",
+    "status": "FA"
+   },
+   "06hrn": {
+    "eligiblePos": "SG,G,Flx",
+    "status": "FA"
+   },
+   "06hrm": {
+    "eligiblePos": "SG,G,Flx",
+    "status": "FA"
+   },
+   "06hrf": {
+    "eligiblePos": "C,Flx",
+    "status": "FA"
+   },
+   "06hre": {
+    "eligiblePos": "SG,G,Flx",
+    "status": "FA"
+   },
+   "0015e": {
+    "eligiblePos": "PG,G,Flx",
+    "status": "FA"
+   },
+   "06hqq": {
+    "eligiblePos": "SG,G,Flx",
+    "status": "FA"
+   },
+   "06hqr": {
+    "eligiblePos": "PF,F,Flx",
+    "status": "FA"
+   },
+   "04jwb": {
+    "eligiblePos": "C,Flx",
+    "status": "FA"
+   },
+   "04jwd": {
+    "eligiblePos": "SF,PF,F,Flx",
+    "status": "FA"
+   },
+   "05xoj": {
+    "eligiblePos": "PG,SG,G,SF,PF,F,Flx",
+    "status": "FA"
+   },
+   "05xok": {
+    "eligiblePos": "PG,G,Flx",
+    "status": "FA"
+   },
+   "05xoc": {
+    "eligiblePos": "SF,PF,F,Flx",
+    "status": "FA"
+   },
+   "063cz": {
+    "eligiblePos": "SF,PF,F,Flx",
+    "status": "FA"
+   },
+   "05xoa": {
+    "eligiblePos": "SG,G,Flx",
+    "status": "FA"
+   },
+   "06hn1": {
+    "eligiblePos": "PG,SG,G,Flx",
+    "status": "FA"
+   },
+   "06nz5": {
+    "eligiblePos": "C,Flx",
+    "status": "FA"
+   },
+   "074bu": {
+    "eligiblePos": "SG,G,Flx",
+    "status": "FA"
+   },
+   "05xp3": {
+    "eligiblePos": "C,Flx",
+    "status": "FA"
+   },
+   "05xp4": {
+    "eligiblePos": "PG,G,Flx",
+    "status": "FA"
+   },
+   "05xni": {
+    "eligiblePos": "PG,G,Flx",
+    "status": "FA"
+   },
+   "05xnj": {
+    "eligiblePos": "SF,F,Flx",
+    "status": "FA"
+   },
+   "043ib": {
+    "eligiblePos": "SF,PF,F,Flx",
+    "status": "FA"
+   },
+   "05xnf": {
+    "eligiblePos": "SF,F,Flx",
+    "status": "FA"
+   },
+   "05xnb": {
+    "eligiblePos": "C,Flx",
+    "status": "FA"
+   },
+   "04jw5": {
+    "eligiblePos": "SF,F,Flx",
+    "status": "FA"
+   },
+   "04jw4": {
+    "eligiblePos": "PF,C,F,Flx",
+    "status": "FA"
+   },
+   "06hki": {
+    "eligiblePos": "SF,PF,F,Flx",
+    "status": "FA"
+   },
+   "072ah": {
+    "eligiblePos": "PG,SG,G,Flx",
+    "status": "FA"
+   },
+   "072af": {
+    "eligiblePos": "SF,F,Flx",
+    "status": "FA"
+   },
+   "072ag": {
+    "eligiblePos": "SG,G,Flx",
+    "status": "FA"
+   },
+   "072ae": {
+    "eligiblePos": "PG,G,Flx",
+    "status": "FA"
+   },
+   "0496e": {
+    "eligiblePos": "PG,SG,G,SF,F,Flx",
+    "status": "FA"
+   },
+   "052h3": {
+    "eligiblePos": "PF,F,Flx",
+    "status": "FA"
+   },
+   "052fs": {
+    "eligiblePos": "SG,G,SF,F,Flx",
+    "status": "FA"
+   },
+   "06fk6": {
+    "eligiblePos": "PG,SG,G,Flx",
+    "status": "FA"
+   },
+   "06ho6": {
+    "eligiblePos": "PG,G,Flx",
+    "status": "FA"
+   },
+   "06ho3": {
+    "eligiblePos": "SF,F,Flx",
+    "status": "FA"
+   },
+   "06ho4": {
+    "eligiblePos": "SG,G,Flx",
+    "status": "FA"
+   },
+   "0011e": {
+    "eligiblePos": "SF,PF,F,Flx",
+    "status": "T"
+   },
+   "076tc": {
+    "eligiblePos": "SG,G,Flx",
+    "status": "T"
+   },
+   "076td": {
+    "eligiblePos": "PF,F,Flx",
+    "status": "FA"
+   },
+   "076ta": {
+    "eligiblePos": "SF,F,Flx",
+    "status": "T"
+   },
+   "076tb": {
+    "eligiblePos": "PF,F,Flx",
+    "status": "FA"
+   },
+   "076sz": {
+    "eligiblePos": "PG,G,Flx",
+    "status": "FA"
+   },
+   "076sx": {
+    "eligiblePos": "SF,F,Flx",
+    "status": "T"
+   },
+   "076sy": {
+    "eligiblePos": "PF,F,Flx",
+    "status": "FA"
+   },
+   "06304": {
+    "eligiblePos": "PG,SG,G,Flx",
+    "status": "FA"
+   },
+   "076sv": {
+    "eligiblePos": "PG,G,Flx",
+    "status": "FA"
+   },
+   "076u8": {
+    "eligiblePos": "SG,G,Flx",
+    "status": "FA"
+   },
+   "06303": {
+    "eligiblePos": "PG,SG,G,SF,PF,F,Flx",
+    "status": "FA"
+   },
+   "076sw": {
+    "eligiblePos": "PG,G,Flx",
+    "status": "FA"
+   },
+   "076u9": {
+    "eligiblePos": "PF,F,Flx",
+    "status": "FA"
+   },
+   "076u6": {
+    "eligiblePos": "PG,G,Flx",
+    "status": "FA"
+   },
+   "06305": {
+    "eligiblePos": "SF,PF,F,Flx",
+    "status": "FA"
+   },
+   "076su": {
+    "eligiblePos": "C,Flx",
+    "status": "FA"
+   },
+   "076u7": {
+    "eligiblePos": "SG,G,Flx",
+    "status": "FA"
+   },
+   "076u4": {
+    "eligiblePos": "SG,G,Flx",
+    "status": "FA"
+   },
+   "076u5": {
+    "eligiblePos": "SG,G,Flx",
+    "status": "FA"
+   },
+   "076u2": {
+    "eligiblePos": "SF,F,Flx",
+    "status": "FA"
+   },
+   "076u3": {
+    "eligiblePos": "PG,G,Flx",
+    "status": "FA"
+   },
+   "06yzq": {
+    "eligiblePos": "SG,G,Flx",
+    "status": "FA"
+   },
+   "076u0": {
+    "eligiblePos": "SF,F,Flx",
+    "status": "FA"
+   },
+   "076u1": {
+    "eligiblePos": "C,Flx",
+    "status": "FA"
+   },
+   "076t9": {
+    "eligiblePos": "SG,G,Flx",
+    "status": "T"
+   },
+   "076t7": {
+    "eligiblePos": "C,Flx",
+    "status": "FA"
+   },
+   "076t8": {
+    "eligiblePos": "PF,F,Flx",
+    "status": "FA"
+   },
+   "076t5": {
+    "eligiblePos": "SF,F,Flx",
+    "status": "FA"
+   },
+   "076t6": {
+    "eligiblePos": "PG,G,Flx",
+    "status": "T"
+   },
+   "076t3": {
+    "eligiblePos": "SF,F,Flx",
+    "status": "FA"
+   },
+   "076t4": {
+    "eligiblePos": "PG,G,Flx",
+    "status": "FA"
+   },
+   "076t1": {
+    "eligiblePos": "SG,G,Flx",
+    "status": "FA"
+   },
+   "076t2": {
+    "eligiblePos": "SG,G,Flx",
+    "status": "FA"
+   },
+   "043un": {
+    "eligiblePos": "PG,G,Flx",
+    "status": "FA"
+   },
+   "076t0": {
+    "eligiblePos": "PF,F,Flx",
+    "status": "T"
+   },
+   "06dq7": {
+    "eligiblePos": "SG,G,Flx",
+    "status": "FA"
+   },
+   "04qsb": {
+    "eligiblePos": "PG,G,Flx",
+    "status": "FA"
+   },
+   "04qse": {
+    "eligiblePos": "SG,G,SF,F,Flx",
+    "status": "FA"
+   },
+   "076vc": {
+    "eligiblePos": "PF,F,Flx",
+    "status": "T"
+   },
+   "04qsd": {
+    "eligiblePos": "C,Flx",
+    "status": "FA"
+   },
+   "04qsa": {
+    "eligiblePos": "PG,G,Flx",
+    "status": "T"
+   },
+   "04qry": {
+    "eligiblePos": "PG,SG,G,SF,F,Flx",
+    "status": "T"
+   },
+   "06fwl": {
+    "eligiblePos": "SF,F,Flx",
+    "status": "FA"
+   },
+   "04qrv": {
+    "eligiblePos": "SG,G,Flx",
+    "status": "FA"
+   },
+   "03avi": {
+    "eligiblePos": "SF,F,Flx",
+    "status": "FA"
+   },
+   "04qru": {
+    "eligiblePos": "PG,SG,G,Flx",
+    "status": "FA"
+   },
+   "04qrx": {
+    "eligiblePos": "SG,G,SF,F,Flx",
+    "status": "FA"
+   },
+   "05vyx": {
+    "eligiblePos": "PG,G,Flx",
+    "status": "FA"
+   },
+   "04qrw": {
+    "eligiblePos": "SG,G,SF,F,Flx",
+    "status": "FA"
+   },
+   "04qrr": {
+    "eligiblePos": "SF,PF,F,Flx",
+    "status": "T"
+   },
+   "076ut": {
+    "eligiblePos": "C,Flx",
+    "status": "FA"
+   },
+   "04qrq": {
+    "eligiblePos": "SG,G,Flx",
+    "status": "FA"
+   },
+   "04qrt": {
+    "eligiblePos": "SG,G,Flx",
+    "status": "FA"
+   },
+   "076ur": {
+    "eligiblePos": "PG,G,Flx",
+    "status": "FA"
+   },
+   "04qrs": {
+    "eligiblePos": "SF,F,Flx",
+    "status": "FA"
+   },
+   "063rs": {
+    "eligiblePos": "C,Flx",
+    "status": "FA"
+   },
+   "04qt0": {
+    "eligiblePos": "PF,F,Flx",
+    "status": "FA"
+   },
+   "04qrn": {
+    "eligiblePos": "SG,G,SF,PF,F,Flx",
+    "status": "T"
+   },
+   "02xg9": {
+    "eligiblePos": "C,Flx",
+    "status": "T"
+   },
+   "04qrm": {
+    "eligiblePos": "PG,SG,G,Flx",
+    "status": "FA"
+   },
+   "076uq": {
+    "eligiblePos": "C,Flx",
+    "status": "FA"
+   },
+   "04qrp": {
+    "eligiblePos": "SF,PF,F,Flx",
+    "status": "T"
+   },
+   "076un": {
+    "eligiblePos": "SG,G,Flx",
+    "status": "FA"
+   },
+   "04qro": {
+    "eligiblePos": "PG,G,Flx",
+    "status": "T"
+   },
+   "076uo": {
+    "eligiblePos": "PF,F,Flx",
+    "status": "FA"
+   },
+   "04qrj": {
+    "eligiblePos": "PF,C,F,Flx",
+    "status": "T"
+   },
+   "076ul": {
+    "eligiblePos": "PF,F,Flx",
+    "status": "FA"
+   },
+   "076um": {
+    "eligiblePos": "PG,G,Flx",
+    "status": "FA"
+   },
+   "04qrl": {
+    "eligiblePos": "C,Flx",
+    "status": "T"
+   },
+   "076uj": {
+    "eligiblePos": "SG,G,Flx",
+    "status": "FA"
+   },
+   "04qrk": {
+    "eligiblePos": "PG,G,Flx",
+    "status": "T"
+   },
+   "076uk": {
+    "eligiblePos": "PG,G,Flx",
+    "status": "FA"
+   },
+   "076uh": {
+    "eligiblePos": "SF,PF,F,Flx",
+    "status": "FA"
+   },
+   "076ui": {
+    "eligiblePos": "SG,G,Flx",
+    "status": "FA"
+   },
+   "076uf": {
+    "eligiblePos": "PF,F,Flx",
+    "status": "FA"
+   },
+   "076ug": {
+    "eligiblePos": "PF,F,Flx",
+    "status": "FA"
+   },
+   "065vd": {
+    "eligiblePos": "SG,G,Flx",
+    "status": "FA"
+   },
+   "076ud": {
+    "eligiblePos": "SG,G,Flx",
+    "status": "FA"
+   },
+   "065vc": {
+    "eligiblePos": "C,Flx",
+    "status": "FA"
+   },
+   "076ue": {
+    "eligiblePos": "PF,F,Flx",
+    "status": "FA"
+   },
+   "065vf": {
+    "eligiblePos": "SF,PF,F,Flx",
+    "status": "FA"
+   },
+   "076ub": {
+    "eligiblePos": "PF,F,Flx",
+    "status": "FA"
+   },
+   "065ve": {
+    "eligiblePos": "SG,G,Flx",
+    "status": "FA"
+   },
+   "076uc": {
+    "eligiblePos": "SG,G,Flx",
+    "status": "FA"
+   },
+   "076ua": {
+    "eligiblePos": "PG,SG,G,Flx",
+    "status": "FA"
+   },
+   "065vb": {
+    "eligiblePos": "SF,PF,F,Flx",
+    "status": "FA"
+   },
+   "076ty": {
+    "eligiblePos": "SF,F,Flx",
+    "status": "FA"
+   },
+   "076tz": {
+    "eligiblePos": "PF,F,Flx",
+    "status": "FA"
+   },
+   "04qs7": {
+    "eligiblePos": "PF,C,F,Flx",
+    "status": "FA"
+   },
+   "076tw": {
+    "eligiblePos": "SF,PF,F,Flx",
+    "status": "FA"
+   },
+   "04qs6": {
+    "eligiblePos": "SF,F,Flx",
+    "status": "FA"
+   },
+   "076tx": {
+    "eligiblePos": "C,Flx",
+    "status": "FA"
+   },
+   "04qs9": {
+    "eligiblePos": "PG,G,Flx",
+    "status": "FA"
+   },
+   "076tu": {
+    "eligiblePos": "C,Flx",
+    "status": "FA"
+   },
+   "04qs8": {
+    "eligiblePos": "PG,G,Flx",
+    "status": "FA"
+   },
+   "076tv": {
+    "eligiblePos": "PG,G,Flx",
+    "status": "FA"
+   },
+   "04qs3": {
+    "eligiblePos": "SG,G,Flx",
+    "status": "FA"
+   },
+   "07401": {
+    "eligiblePos": "SG,G,Flx",
+    "status": "FA"
+   },
+   "065us": {
+    "eligiblePos": "SF,PF,C,F,Flx",
+    "status": "FA"
+   },
+   "076ts": {
+    "eligiblePos": "SF,PF,F,Flx",
+    "status": "FA"
+   },
+   "04qs2": {
+    "eligiblePos": "C,Flx",
+    "status": "FA"
+   },
+   "076tt": {
+    "eligiblePos": "C,Flx",
+    "status": "FA"
+   },
+   "04qs5": {
+    "eligiblePos": "SG,G,Flx",
+    "status": "FA"
+   },
+   "065uu": {
+    "eligiblePos": "SF,PF,F,Flx",
+    "status": "FA"
+   },
+   "076tq": {
+    "eligiblePos": "SG,G,Flx",
+    "status": "FA"
+   },
+   "04qs4": {
+    "eligiblePos": "C,Flx",
+    "status": "FA"
+   },
+   "065ut": {
+    "eligiblePos": "PG,G,Flx",
+    "status": "FA"
+   },
+   "076tr": {
+    "eligiblePos": "PG,G,Flx",
+    "status": "FA"
+   },
+   "076tp": {
+    "eligiblePos": "PG,SG,G,Flx",
+    "status": "FA"
+   },
+   "04qs1": {
+    "eligiblePos": "PG,SG,G,Flx",
+    "status": "FA"
+   },
+   "076tm": {
+    "eligiblePos": "SF,F,Flx",
+    "status": "FA"
+   },
+   "078z1": {
+    "eligiblePos": "C,Flx",
+    "status": "FA"
+   },
+   "04qs0": {
+    "eligiblePos": "PG,G,Flx",
+    "status": "FA"
+   },
+   "076v0": {
+    "eligiblePos": "C,Flx",
+    "status": "FA"
+   },
+   "076tk": {
+    "eligiblePos": "PG,G,Flx",
+    "status": "FA"
+   },
+   "076tl": {
+    "eligiblePos": "SG,G,Flx",
+    "status": "FA"
+   },
+   "076ti": {
+    "eligiblePos": "PF,F,Flx",
+    "status": "FA"
+   },
+   "076tj": {
+    "eligiblePos": "PF,F,Flx",
+    "status": "FA"
+   },
+   "076tg": {
+    "eligiblePos": "PF,F,Flx",
+    "status": "FA"
+   },
+   "076th": {
+    "eligiblePos": "PG,G,Flx",
+    "status": "FA"
+   },
+   "076te": {
+    "eligiblePos": "PG,G,Flx",
+    "status": "FA"
+   },
+   "076tf": {
+    "eligiblePos": "PF,F,Flx",
+    "status": "FA"
+   },
+   "058zc": {
+    "eligiblePos": "PF,C,F,Flx",
+    "status": "FA"
+   },
+   "03e6s": {
+    "eligiblePos": "C,Flx",
+    "status": "FA"
+   },
+   "03e6m": {
+    "eligiblePos": "PG,G,Flx",
+    "status": "FA"
+   },
+   "03e6n": {
+    "eligiblePos": "C,Flx",
+    "status": "T"
+   },
+   "065px": {
+    "eligiblePos": "SF,PF,C,F,Flx",
+    "status": "FA"
+   },
+   "03lg1": {
+    "eligiblePos": "PG,SG,G,Flx",
+    "status": "FA"
+   },
+   "06qfk": {
+    "eligiblePos": "PF,F,Flx",
+    "status": "FA"
+   },
+   "04s00": {
+    "eligiblePos": "SG,G,SF,F,Flx",
+    "status": "T"
+   },
+   "03e79": {
+    "eligiblePos": "C,Flx",
+    "status": "FA"
+   },
+   "06y4e": {
+    "eligiblePos": "SF,F,Flx",
+    "status": "FA"
+   },
+   "03aq3": {
+    "eligiblePos": "SF,PF,F,Flx",
+    "status": "FA"
+   },
+   "03e75": {
+    "eligiblePos": "C,Flx",
+    "status": "T"
+   },
+   "05g3q": {
+    "eligiblePos": "PG,G,Flx",
+    "status": "FA"
+   },
+   "06fpq": {
+    "eligiblePos": "PG,G,Flx",
+    "status": "FA"
+   },
+   "03aq2": {
+    "eligiblePos": "SF,PF,F,Flx",
+    "status": "FA"
+   },
+   "03e74": {
+    "eligiblePos": "PG,G,Flx",
+    "status": "FA"
+   },
+   "06y3q": {
+    "eligiblePos": "PG,G,Flx",
+    "status": "FA"
+   },
+   "06qdz": {
+    "eligiblePos": "SG,G,Flx",
+    "status": "FA"
+   },
+   "06dob": {
+    "eligiblePos": "SF,F,Flx",
+    "status": "FA"
+   },
+   "03lgm": {
+    "eligiblePos": "PF,C,F,Flx",
+    "status": "FA"
+   },
+   "067x0": {
+    "eligiblePos": "SG,G,Flx",
+    "status": "FA"
+   },
+   "07ag7": {
+    "eligiblePos": "SF,F,Flx",
+    "status": "FA"
+   },
+   "07ag5": {
+    "eligiblePos": "SG,G,Flx",
+    "status": "FA"
+   },
+   "07ag6": {
+    "eligiblePos": "PG,G,Flx",
+    "status": "FA"
+   },
+   "07ag3": {
+    "eligiblePos": "SF,PF,F,Flx",
+    "status": "FA"
+   },
+   "07ag4": {
+    "eligiblePos": "SG,G,Flx",
+    "status": "FA"
+   },
+   "07ag2": {
+    "eligiblePos": "SF,PF,F,Flx",
+    "status": "FA"
+   },
+   "05x7f": {
+    "eligiblePos": "SG,G,Flx",
+    "status": "FA"
+   },
+   "05x7g": {
+    "eligiblePos": "SF,F,Flx",
+    "status": "FA"
+   },
+   "074lu": {
+    "eligiblePos": "PG,SG,G,Flx",
+    "status": "FA"
+   },
+   "03e7f": {
+    "eligiblePos": "PG,G,SF,F,Flx",
+    "status": "FA"
+   },
+   "03e7e": {
+    "eligiblePos": "SF,F,Flx",
+    "status": "FA"
+   },
+   "078v3": {
+    "eligiblePos": "PF,F,Flx",
+    "status": "FA"
+   },
+   "03apx": {
+    "eligiblePos": "SG,G,Flx",
+    "status": "FA"
+   },
+   "03e6u": {
+    "eligiblePos": "SG,G,SF,F,Flx",
+    "status": "FA"
+   },
+   "05xcn": {
+    "eligiblePos": "SG,G,Flx",
+    "status": "FA"
+   },
+   "05xco": {
+    "eligiblePos": "SF,F,Flx",
+    "status": "FA"
+   },
+   "05xcl": {
+    "eligiblePos": "SG,G,Flx",
+    "status": "FA"
+   },
+   "05qvg": {
+    "eligiblePos": "SF,F,Flx",
+    "status": "FA"
+   },
+   "05qve": {
+    "eligiblePos": "SF,F,Flx",
+    "status": "FA"
+   },
+   "06ppp": {
+    "eligiblePos": "SG,G,Flx",
+    "status": "FA"
+   },
+   "05qui": {
+    "eligiblePos": "SG,G,Flx",
+    "status": "FA"
+   },
+   "05qug": {
+    "eligiblePos": "SG,G,SF,F,Flx",
+    "status": "T"
+   },
+   "05quh": {
+    "eligiblePos": "PF,C,F,Flx",
+    "status": "FA"
+   },
+   "05que": {
+    "eligiblePos": "C,Flx",
+    "status": "FA"
+   },
+   "05quf": {
+    "eligiblePos": "PG,G,Flx",
+    "status": "FA"
+   },
+   "05quc": {
+    "eligiblePos": "SF,F,Flx",
+    "status": "FA"
+   },
+   "05qud": {
+    "eligiblePos": "PF,F,Flx",
+    "status": "FA"
+   },
+   "05qua": {
+    "eligiblePos": "PG,G,Flx",
+    "status": "FA"
+   },
+   "05qub": {
+    "eligiblePos": "PF,C,F,Flx",
+    "status": "FA"
+   },
+   "05qtz": {
+    "eligiblePos": "PG,G,Flx",
+    "status": "FA"
+   },
+   "05qtx": {
+    "eligiblePos": "SG,G,Flx",
+    "status": "FA"
+   },
+   "05qty": {
+    "eligiblePos": "PF,C,F,Flx",
+    "status": "T"
+   },
+   "05qtv": {
+    "eligiblePos": "PG,SG,G,Flx",
+    "status": "T"
+   },
+   "05qtw": {
+    "eligiblePos": "SG,G,SF,F,Flx",
+    "status": "FA"
+   },
+   "05qv9": {
+    "eligiblePos": "PF,F,Flx",
+    "status": "FA"
+   },
+   "05qtt": {
+    "eligiblePos": "PF,C,F,Flx",
+    "status": "T"
+   },
+   "05qtu": {
+    "eligiblePos": "SG,G,Flx",
+    "status": "FA"
+   },
+   "05qtr": {
+    "eligiblePos": "SG,G,SF,F,Flx",
+    "status": "T"
+   },
+   "05qts": {
+    "eligiblePos": "PF,F,Flx",
+    "status": "FA"
+   },
+   "05qtp": {
+    "eligiblePos": "PG,G,Flx",
+    "status": "FA"
+   },
+   "05qtq": {
+    "eligiblePos": "PG,G,Flx",
+    "status": "FA"
+   },
+   "05qtn": {
+    "eligiblePos": "C,Flx",
+    "status": "FA"
+   },
+   "0623l": {
+    "eligiblePos": "PG,G,Flx",
+    "status": "FA"
+   },
+   "05qto": {
+    "eligiblePos": "PG,G,Flx",
+    "status": "T"
+   },
+   "0623k": {
+    "eligiblePos": "SG,G,Flx",
+    "status": "FA"
+   },
+   "05qtl": {
+    "eligiblePos": "PG,G,Flx",
+    "status": "FA"
+   },
+   "0623n": {
+    "eligiblePos": "SF,F,Flx",
+    "status": "FA"
+   },
+   "05qtm": {
+    "eligiblePos": "PF,C,F,Flx",
+    "status": "T"
+   },
+   "0623m": {
+    "eligiblePos": "PG,SG,G,Flx",
+    "status": "WW"
+   },
+   "06yb4": {
+    "eligiblePos": "SF,F,Flx",
+    "status": "FA"
+   },
+   "05qtj": {
+    "eligiblePos": "SG,G,SF,PF,F,Flx",
+    "status": "T"
+   },
+   "0623h": {
+    "eligiblePos": "SG,G,Flx",
+    "status": "FA"
+   },
+   "05qtk": {
+    "eligiblePos": "PG,SG,G,SF,F,Flx",
+    "status": "FA"
+   },
+   "0623g": {
+    "eligiblePos": "SF,PF,F,Flx",
+    "status": "FA"
+   },
+   "0623j": {
+    "eligiblePos": "PF,F,Flx",
+    "status": "FA"
+   },
+   "05qti": {
+    "eligiblePos": "SG,G,SF,F,Flx",
+    "status": "FA"
+   },
+   "0623i": {
+    "eligiblePos": "PG,G,Flx",
+    "status": "FA"
+   },
+   "027p4": {
+    "eligiblePos": "PF,F,Flx",
+    "status": "T"
+   },
+   "027p9": {
+    "eligiblePos": "PG,G,Flx",
+    "status": "FA"
+   },
+   "027p0": {
+    "eligiblePos": "C,Flx",
+    "status": "FA"
+   },
+   "05qy9": {
+    "eligiblePos": "PG,G,Flx",
+    "status": "FA"
+   },
+   "05qwu": {
+    "eligiblePos": "C,Flx",
+    "status": "FA"
+   },
+   "0626t": {
+    "eligiblePos": "SF,PF,C,F,Flx",
+    "status": "FA"
+   },
+   "06prn": {
+    "eligiblePos": "PF,F,Flx",
+    "status": "FA"
+   },
+   "05qy1": {
+    "eligiblePos": "SG,G,Flx",
+    "status": "FA"
+   },
+   "06prl": {
+    "eligiblePos": "PF,F,Flx",
+    "status": "FA"
+   },
+   "06prm": {
+    "eligiblePos": "SF,PF,F,Flx",
+    "status": "FA"
+   },
+   "06prj": {
+    "eligiblePos": "PG,G,Flx",
+    "status": "FA"
+   },
+   "03kqi": {
+    "eligiblePos": "SF,F,Flx",
+    "status": "FA"
+   },
+   "06prk": {
+    "eligiblePos": "SF,F,Flx",
+    "status": "FA"
+   },
+   "073y0": {
+    "eligiblePos": "PF,F,Flx",
+    "status": "FA"
+   },
+   "04yk1": {
+    "eligiblePos": "SF,PF,F,Flx",
+    "status": "FA"
+   },
+   "04azw": {
+    "eligiblePos": "SF,PF,F,Flx",
+    "status": "T"
+   },
+   "049kf": {
+    "eligiblePos": "C,Flx",
+    "status": "FA"
+   },
+   "049kg": {
+    "eligiblePos": "PG,G,Flx",
+    "status": "FA"
+   },
+   "049kh": {
+    "eligiblePos": "SF,F,Flx",
+    "status": "FA"
+   },
+   "049ki": {
+    "eligiblePos": "PF,C,F,Flx",
+    "status": "FA"
+   },
+   "049kb": {
+    "eligiblePos": "PG,SG,G,Flx",
+    "status": "T"
+   },
+   "049kc": {
+    "eligiblePos": "PG,SG,G,Flx",
+    "status": "FA"
+   },
+   "05qvv": {
+    "eligiblePos": "PF,F,Flx",
+    "status": "FA"
+   },
+   "06ps5": {
+    "eligiblePos": "PG,G,Flx",
+    "status": "FA"
+   },
+   "049kd": {
+    "eligiblePos": "C,Flx",
+    "status": "FA"
+   },
+   "05qvw": {
+    "eligiblePos": "SG,G,Flx",
+    "status": "FA"
+   },
+   "06ps6": {
+    "eligiblePos": "SF,PF,F,Flx",
+    "status": "FA"
+   },
+   "05qvt": {
+    "eligiblePos": "SF,F,Flx",
+    "status": "FA"
+   },
+   "049ka": {
+    "eligiblePos": "PG,G,Flx",
+    "status": "FA"
+   },
+   "06rur": {
+    "eligiblePos": "PF,F,Flx",
+    "status": "FA"
+   },
+   "056aq": {
+    "eligiblePos": "SG,G,Flx",
+    "status": "FA"
+   },
+   "056ap": {
+    "eligiblePos": "PG,G,Flx",
+    "status": "FA"
+   },
+   "06rui": {
+    "eligiblePos": "SF,F,Flx",
+    "status": "FA"
+   },
+   "0621b": {
+    "eligiblePos": "SG,G,SF,PF,F,Flx",
+    "status": "T"
+   },
+   "0621a": {
+    "eligiblePos": "PF,C,F,Flx",
+    "status": "FA"
+   },
+   "0621d": {
+    "eligiblePos": "SG,G,SF,F,Flx",
+    "status": "FA"
+   },
+   "0621c": {
+    "eligiblePos": "C,Flx",
+    "status": "T"
+   },
+   "005l3": {
+    "eligiblePos": "C,Flx",
+    "status": "FA"
+   },
+   "06vyb": {
+    "eligiblePos": "PF,C,F,Flx",
+    "status": "FA"
+   },
+   "06227": {
+    "eligiblePos": "PG,SG,G,Flx",
+    "status": "T"
+   },
+   "06vxz": {
+    "eligiblePos": "SG,G,SF,F,Flx",
+    "status": "FA"
+   },
+   "06226": {
+    "eligiblePos": "C,Flx",
+    "status": "FA"
+   },
+   "06v88": {
+    "eligiblePos": "PF,C,F,Flx",
+    "status": "FA"
+   },
+   "06229": {
+    "eligiblePos": "C,Flx",
+    "status": "FA"
+   },
+   "06vxx": {
+    "eligiblePos": "PG,G,Flx",
+    "status": "FA"
+   },
+   "06v89": {
+    "eligiblePos": "SG,G,SF,F,Flx",
+    "status": "FA"
+   },
+   "06228": {
+    "eligiblePos": "SF,PF,C,F,Flx",
+    "status": "FA"
+   },
+   "04rvz": {
+    "eligiblePos": "SF,PF,F,Flx",
+    "status": "FA"
+   },
+   "06vxy": {
+    "eligiblePos": "C,Flx",
+    "status": "FA"
+   },
+   "06v86": {
+    "eligiblePos": "SG,G,SF,PF,F,Flx",
+    "status": "FA"
+   },
+   "06223": {
+    "eligiblePos": "SG,G,Flx",
+    "status": "FA"
+   },
+   "06v87": {
+    "eligiblePos": "SG,G,Flx",
+    "status": "FA"
+   },
+   "06222": {
+    "eligiblePos": "C,Flx",
+    "status": "FA"
+   },
+   "06vxw": {
+    "eligiblePos": "C,Flx",
+    "status": "FA"
+   },
+   "06v84": {
+    "eligiblePos": "PG,SG,G,Flx",
+    "status": "FA"
+   },
+   "04t8w": {
+    "eligiblePos": "PF,F,Flx",
+    "status": "FA"
+   },
+   "06225": {
+    "eligiblePos": "SG,G,Flx",
+    "status": "FA"
+   },
+   "001ax": {
+    "eligiblePos": "PF,F,Flx",
+    "status": "FA"
+   },
+   "06vxt": {
+    "eligiblePos": "PG,G,Flx",
+    "status": "FA"
+   },
+   "06224": {
+    "eligiblePos": "PF,F,Flx",
+    "status": "FA"
+   },
+   "06v85": {
+    "eligiblePos": "SG,G,Flx",
+    "status": "FA"
+   },
+   "06v82": {
+    "eligiblePos": "SF,PF,F,Flx",
+    "status": "FA"
+   },
+   "06v83": {
+    "eligiblePos": "SG,G,Flx",
+    "status": "FA"
+   },
+   "06vxs": {
+    "eligiblePos": "SG,G,Flx",
+    "status": "FA"
+   },
+   "06v80": {
+    "eligiblePos": "C,Flx",
+    "status": "FA"
+   },
+   "06221": {
+    "eligiblePos": "PG,G,Flx",
+    "status": "FA"
+   },
+   "06vxp": {
+    "eligiblePos": "SG,G,Flx",
+    "status": "FA"
+   },
+   "06v81": {
+    "eligiblePos": "PF,C,F,Flx",
+    "status": "FA"
+   },
+   "06220": {
+    "eligiblePos": "PG,SG,G,Flx",
+    "status": "FA"
+   },
+   "06vxq": {
+    "eligiblePos": "SG,G,SF,F,Flx",
+    "status": "FA"
+   },
+   "06rph": {
+    "eligiblePos": "PG,G,Flx",
+    "status": "FA"
+   },
+   "001aw": {
+    "eligiblePos": "SG,G,SF,PF,F,Flx",
+    "status": "T"
+   },
+   "06219": {
+    "eligiblePos": "SG,G,Flx",
+    "status": "FA"
+   },
+   "06v5y": {
+    "eligiblePos": "PG,SG,G,SF,F,Flx",
+    "status": "T"
+   },
+   "03byk": {
+    "eligiblePos": "SG,G,SF,F,Flx",
+    "status": "FA"
+   },
+   "06216": {
+    "eligiblePos": "SG,G,SF,F,Flx",
+    "status": "FA"
+   },
+   "06v5w": {
+    "eligiblePos": "SG,G,SF,F,Flx",
+    "status": "FA"
+   },
+   "06215": {
+    "eligiblePos": "SG,G,SF,F,Flx",
+    "status": "FA"
+   },
+   "06v5x": {
+    "eligiblePos": "SF,PF,F,Flx",
+    "status": "FA"
+   },
+   "05uxx": {
+    "eligiblePos": "SG,G,Flx",
+    "status": "FA"
+   },
+   "06218": {
+    "eligiblePos": "PF,C,F,Flx",
+    "status": "FA"
+   },
+   "06v5u": {
+    "eligiblePos": "PF,F,Flx",
+    "status": "FA"
+   },
+   "073pt": {
+    "eligiblePos": "SF,F,Flx",
+    "status": "FA"
+   },
+   "05uxy": {
+    "eligiblePos": "C,Flx",
+    "status": "FA"
+   },
+   "06217": {
+    "eligiblePos": "PG,SG,G,SF,F,Flx",
+    "status": "T"
+   },
+   "06v5v": {
+    "eligiblePos": "SG,G,SF,F,Flx",
+    "status": "T"
+   },
+   "06v5s": {
+    "eligiblePos": "SG,G,SF,PF,F,Flx",
+    "status": "FA"
+   },
+   "06212": {
+    "eligiblePos": "SF,PF,C,F,Flx",
+    "status": "T"
+   },
+   "06v5t": {
+    "eligiblePos": "SG,G,Flx",
+    "status": "FA"
+   },
+   "06211": {
+    "eligiblePos": "PF,C,F,Flx",
+    "status": "T"
+   },
+   "0558t": {
+    "eligiblePos": "SG,G,SF,F,Flx",
+    "status": "FA"
+   },
+   "06214": {
+    "eligiblePos": "SG,G,Flx",
+    "status": "FA"
+   },
+   "06v5q": {
+    "eligiblePos": "PF,C,F,Flx",
+    "status": "FA"
+   },
+   "06v5r": {
+    "eligiblePos": "PG,G,Flx",
+    "status": "WW"
+   },
+   "06213": {
+    "eligiblePos": "SF,PF,F,Flx",
+    "status": "FA"
+   },
+   "0558v": {
+    "eligiblePos": "SG,G,SF,F,Flx",
+    "status": "FA"
+   },
+   "06v5o": {
+    "eligiblePos": "SF,F,Flx",
+    "status": "FA"
+   },
+   "06vy3": {
+    "eligiblePos": "PG,SG,G,Flx",
+    "status": "FA"
+   },
+   "06v5p": {
+    "eligiblePos": "PG,G,Flx",
+    "status": "FA"
+   },
+   "06v72": {
+    "eligiblePos": "PF,F,Flx",
+    "status": "FA"
+   },
+   "06v5m": {
+    "eligiblePos": "PF,C,F,Flx",
+    "status": "FA"
+   },
+   "06210": {
+    "eligiblePos": "PF,F,Flx",
+    "status": "T"
+   },
+   "06452": {
+    "eligiblePos": "PG,SG,G,Flx",
+    "status": "FA"
+   },
+   "06vy1": {
+    "eligiblePos": "PF,F,Flx",
+    "status": "FA"
+   },
+   "06v5n": {
+    "eligiblePos": "PG,SG,G,SF,F,Flx",
+    "status": "T"
+   },
+   "06vy2": {
+    "eligiblePos": "PG,G,Flx",
+    "status": "FA"
+   },
+   "06v5k": {
+    "eligiblePos": "SG,G,Flx",
+    "status": "T"
+   },
+   "06v5l": {
+    "eligiblePos": "PG,SG,G,SF,F,Flx",
+    "status": "T"
+   },
+   "058a2": {
+    "eligiblePos": "PF,F,Flx",
+    "status": "FA"
+   },
+   "06vy0": {
+    "eligiblePos": "PF,F,Flx",
+    "status": "FA"
+   },
+   "06v5i": {
+    "eligiblePos": "PF,C,F,Flx",
+    "status": "FA"
+   },
+   "06v5j": {
+    "eligiblePos": "SG,G,Flx",
+    "status": "FA"
+   },
+   "06v5g": {
+    "eligiblePos": "PG,G,Flx",
+    "status": "WW"
+   },
+   "06v5h": {
+    "eligiblePos": "PF,C,F,Flx",
+    "status": "T"
+   },
+   "06v5e": {
+    "eligiblePos": "C,Flx",
+    "status": "FA"
+   },
+   "06v5f": {
+    "eligiblePos": "C,Flx",
+    "status": "FA"
+   },
+   "05qtf": {
+    "eligiblePos": "C,Flx",
+    "status": "FA"
+   },
+   "0623d": {
+    "eligiblePos": "SG,G,SF,F,Flx",
+    "status": "FA"
+   },
+   "05qtg": {
+    "eligiblePos": "SG,G,Flx",
+    "status": "FA"
+   },
+   "0623c": {
+    "eligiblePos": "SG,G,Flx",
+    "status": "FA"
+   },
+   "05qtd": {
+    "eligiblePos": "C,Flx",
+    "status": "FA"
+   },
+   "0623f": {
+    "eligiblePos": "PF,F,Flx",
+    "status": "FA"
+   },
+   "05qte": {
+    "eligiblePos": "SF,F,Flx",
+    "status": "FA"
+   },
+   "0623e": {
+    "eligiblePos": "PG,G,Flx",
+    "status": "FA"
+   },
+   "05qtb": {
+    "eligiblePos": "SG,G,SF,F,Flx",
+    "status": "FA"
+   },
+   "05qtc": {
+    "eligiblePos": "PG,G,Flx",
+    "status": "FA"
+   },
+   "0623b": {
+    "eligiblePos": "SG,G,Flx",
+    "status": "FA"
+   },
+   "05qta": {
+    "eligiblePos": "SG,G,Flx",
+    "status": "FA"
+   },
+   "0623a": {
+    "eligiblePos": "PG,G,Flx",
+    "status": "FA"
+   },
+   "0622z": {
+    "eligiblePos": "C,Flx",
+    "status": "FA"
+   },
+   "05xac": {
+    "eligiblePos": "PG,G,Flx",
+    "status": "FA"
+   },
+   "05qsy": {
+    "eligiblePos": "SG,G,Flx",
+    "status": "FA"
+   },
+   "05qsz": {
+    "eligiblePos": "PF,F,Flx",
+    "status": "FA"
+   },
+   "05qsw": {
+    "eligiblePos": "SG,G,Flx",
+    "status": "FA"
+   },
+   "05qu9": {
+    "eligiblePos": "PG,SG,G,Flx",
+    "status": "T"
+   },
+   "05qsx": {
+    "eligiblePos": "PF,C,F,Flx",
+    "status": "FA"
+   },
+   "05qu7": {
+    "eligiblePos": "PG,G,Flx",
+    "status": "FA"
+   },
+   "05qsu": {
+    "eligiblePos": "PG,SG,G,Flx",
+    "status": "FA"
+   },
+   "05qu8": {
+    "eligiblePos": "C,Flx",
+    "status": "FA"
+   },
+   "05qsv": {
+    "eligiblePos": "PG,SG,G,Flx",
+    "status": "FA"
+   },
+   "038ia": {
+    "eligiblePos": "SG,G,Flx",
+    "status": "FA"
+   },
+   "05qss": {
+    "eligiblePos": "SF,F,Flx",
+    "status": "FA"
+   },
+   "05qu5": {
+    "eligiblePos": "C,Flx",
+    "status": "FA"
+   },
+   "05qst": {
+    "eligiblePos": "C,Flx",
+    "status": "T"
+   },
+   "05qsq": {
+    "eligiblePos": "PG,SG,G,Flx",
+    "status": "T"
+   },
+   "05qu3": {
+    "eligiblePos": "PG,G,Flx",
+    "status": "FA"
+   },
+   "071oo": {
+    "eligiblePos": "SF,PF,F,Flx",
+    "status": "FA"
+   },
+   "05qsr": {
+    "eligiblePos": "PG,G,Flx",
+    "status": "FA"
+   },
+   "05qu4": {
+    "eligiblePos": "PG,G,Flx",
+    "status": "FA"
+   },
+   "05qso": {
+    "eligiblePos": "SG,G,Flx",
+    "status": "FA"
+   },
+   "05qu1": {
+    "eligiblePos": "C,Flx",
+    "status": "FA"
+   },
+   "06v8p": {
+    "eligiblePos": "SG,G,Flx",
+    "status": "FA"
+   },
+   "05qsp": {
+    "eligiblePos": "PG,SG,G,Flx",
+    "status": "FA"
+   },
+   "05qu2": {
+    "eligiblePos": "SG,G,Flx",
+    "status": "FA"
+   },
+   "05qsm": {
+    "eligiblePos": "C,Flx",
+    "status": "FA"
+   },
+   "0622k": {
+    "eligiblePos": "SF,PF,C,F,Flx",
+    "status": "FA"
+   },
+   "05qsn": {
+    "eligiblePos": "PG,G,Flx",
+    "status": "FA"
+   },
+   "05qu0": {
+    "eligiblePos": "SF,PF,F,Flx",
+    "status": "T"
+   },
+   "0622j": {
+    "eligiblePos": "SG,G,Flx",
+    "status": "FA"
+   },
+   "05qsk": {
+    "eligiblePos": "SG,G,SF,F,Flx",
+    "status": "FA"
+   },
+   "0779m": {
+    "eligiblePos": "SF,F,Flx",
+    "status": "FA"
+   },
+   "05qsl": {
+    "eligiblePos": "SF,PF,F,Flx",
+    "status": "FA"
+   },
+   "0622l": {
+    "eligiblePos": "PG,G,Flx",
+    "status": "FA"
+   },
+   "0622g": {
+    "eligiblePos": "PG,G,Flx",
+    "status": "FA"
+   },
+   "06v8j": {
+    "eligiblePos": "SG,G,Flx",
+    "status": "FA"
+   },
+   "05qsj": {
+    "eligiblePos": "PF,F,Flx",
+    "status": "FA"
+   },
+   "0622f": {
+    "eligiblePos": "PF,C,F,Flx",
+    "status": "FA"
+   },
+   "0622i": {
+    "eligiblePos": "SF,PF,F,Flx",
+    "status": "FA"
+   },
+   "06v8h": {
+    "eligiblePos": "SF,F,Flx",
+    "status": "FA"
+   },
+   "0622h": {
+    "eligiblePos": "C,Flx",
+    "status": "FA"
+   },
+   "06v8i": {
+    "eligiblePos": "PF,F,Flx",
+    "status": "FA"
+   },
+   "06v8f": {
+    "eligiblePos": "PG,G,Flx",
+    "status": "FA"
+   },
+   "0622c": {
+    "eligiblePos": "PF,F,Flx",
+    "status": "FA"
+   },
+   "06v8g": {
+    "eligiblePos": "SG,G,SF,F,Flx",
+    "status": "FA"
+   },
+   "0622b": {
+    "eligiblePos": "SG,G,Flx",
+    "status": "FA"
+   },
+   "06v8d": {
+    "eligiblePos": "PF,F,Flx",
+    "status": "FA"
+   },
+   "0622e": {
+    "eligiblePos": "SG,G,Flx",
+    "status": "FA"
+   },
+   "06v8e": {
+    "eligiblePos": "PG,G,Flx",
+    "status": "FA"
+   },
+   "0622d": {
+    "eligiblePos": "SG,G,Flx",
+    "status": "FA"
+   },
+   "06v8b": {
+    "eligiblePos": "C,Flx",
+    "status": "FA"
+   },
+   "06v8c": {
+    "eligiblePos": "PF,C,F,Flx",
+    "status": "FA"
+   },
+   "0622a": {
+    "eligiblePos": "PG,SG,G,SF,F,Flx",
+    "status": "FA"
+   },
+   "02ym0": {
+    "eligiblePos": "SG,G,SF,F,Flx",
+    "status": "FA"
+   },
+   "06v8a": {
+    "eligiblePos": "SG,G,Flx",
+    "status": "FA"
+   },
+   "0621z": {
+    "eligiblePos": "SG,G,Flx",
+    "status": "FA"
+   },
+   "005ki": {
+    "eligiblePos": "C,Flx",
+    "status": "T"
+   },
+   "0621y": {
+    "eligiblePos": "SG,G,SF,F,Flx",
+    "status": "FA"
+   },
+   "005kf": {
+    "eligiblePos": "SG,G,SF,F,Flx",
+    "status": "FA"
+   },
+   "0621v": {
+    "eligiblePos": "SF,F,Flx",
+    "status": "FA"
+   },
+   "06238": {
+    "eligiblePos": "SG,G,Flx",
+    "status": "FA"
+   },
+   "06v7y": {
+    "eligiblePos": "SF,F,Flx",
+    "status": "FA"
+   },
+   "073rx": {
+    "eligiblePos": "SF,F,Flx",
+    "status": "FA"
+   },
+   "06v7z": {
+    "eligiblePos": "SG,G,SF,F,Flx",
+    "status": "FA"
+   },
+   "06237": {
+    "eligiblePos": "SG,G,Flx",
+    "status": "FA"
+   },
+   "0621u": {
+    "eligiblePos": "PG,SG,G,Flx",
+    "status": "T"
+   },
+   "06exl": {
+    "eligiblePos": "PG,G,Flx",
+    "status": "FA"
+   },
+   "05qt8": {
+    "eligiblePos": "SG,G,Flx",
+    "status": "FA"
+   },
+   "0621x": {
+    "eligiblePos": "PF,C,F,Flx",
+    "status": "FA"
+   },
+   "05qt9": {
+    "eligiblePos": "PG,SG,G,Flx",
+    "status": "FA"
+   },
+   "0621w": {
+    "eligiblePos": "C,Flx",
+    "status": "FA"
+   },
+   "06234": {
+    "eligiblePos": "PG,SG,G,SF,F,Flx",
+    "status": "FA"
+   },
+   "0621r": {
+    "eligiblePos": "SF,F,Flx",
+    "status": "FA"
+   },
+   "05qt6": {
+    "eligiblePos": "SF,F,Flx",
+    "status": "FA"
+   },
+   "05qt7": {
+    "eligiblePos": "SF,PF,F,Flx",
+    "status": "FA"
+   },
+   "0621q": {
+    "eligiblePos": "PF,C,F,Flx",
+    "status": "FA"
+   },
+   "06233": {
+    "eligiblePos": "SF,F,Flx",
+    "status": "FA"
+   },
+   "06236": {
+    "eligiblePos": "PG,G,Flx",
+    "status": "FA"
+   },
+   "0621t": {
+    "eligiblePos": "SG,G,SF,PF,F,Flx",
+    "status": "T"
+   },
+   "05qt4": {
+    "eligiblePos": "SF,PF,F,Flx",
+    "status": "FA"
+   },
+   "05qt5": {
+    "eligiblePos": "PG,G,Flx",
+    "status": "FA"
+   },
+   "0621s": {
+    "eligiblePos": "PG,G,Flx",
+    "status": "FA"
+   },
+   "06235": {
+    "eligiblePos": "PF,F,Flx",
+    "status": "FA"
+   },
+   "0621n": {
+    "eligiblePos": "SG,G,SF,F,Flx",
+    "status": "FA"
+   },
+   "05qt2": {
+    "eligiblePos": "PG,G,Flx",
+    "status": "FA"
+   },
+   "062sp": {
+    "eligiblePos": "PF,F,Flx",
+    "status": "FA"
+   },
+   "05qt3": {
+    "eligiblePos": "SG,G,SF,F,Flx",
+    "status": "T"
+   },
+   "0621m": {
+    "eligiblePos": "PF,F,Flx",
+    "status": "FA"
+   },
+   "005kd": {
+    "eligiblePos": "PF,C,F,Flx",
+    "status": "FA"
+   },
+   "0621p": {
+    "eligiblePos": "SG,G,SF,F,Flx",
+    "status": "FA"
+   },
+   "05qt0": {
+    "eligiblePos": "SF,PF,F,Flx",
+    "status": "T"
+   },
+   "062sr": {
+    "eligiblePos": "SF,F,Flx",
+    "status": "FA"
+   },
+   "0621o": {
+    "eligiblePos": "PG,SG,G,Flx",
+    "status": "FA"
+   },
+   "05qt1": {
+    "eligiblePos": "PG,G,Flx",
+    "status": "T"
+   },
+   "062sq": {
+    "eligiblePos": "PG,SG,G,Flx",
+    "status": "FA"
+   },
+   "0621j": {
+    "eligiblePos": "PG,SG,G,Flx",
+    "status": "FA"
+   },
+   "0621i": {
+    "eligiblePos": "PF,F,Flx",
+    "status": "FA"
+   },
+   "0621l": {
+    "eligiblePos": "C,Flx",
+    "status": "T"
+   },
+   "0621k": {
+    "eligiblePos": "SG,G,SF,F,Flx",
+    "status": "FA"
+   },
+   "0621f": {
+    "eligiblePos": "SF,F,Flx",
+    "status": "FA"
+   },
+   "0621e": {
+    "eligiblePos": "C,Flx",
+    "status": "FA"
+   },
+   "0621h": {
+    "eligiblePos": "SG,G,SF,F,Flx",
+    "status": "FA"
+   },
+   "0621g": {
+    "eligiblePos": "SF,PF,F,Flx",
+    "status": "FA"
+   },
+   "06hie": {
+    "eligiblePos": "C,Flx",
+    "status": "FA"
+   },
+   "06hif": {
+    "eligiblePos": "PG,SG,G,Flx",
+    "status": "FA"
+   },
+   "03acy": {
+    "eligiblePos": "C,Flx",
+    "status": "FA"
+   },
+   "03acx": {
+    "eligiblePos": "PG,G,Flx",
+    "status": "FA"
+   },
+   "06hht": {
+    "eligiblePos": "SF,PF,F,Flx",
+    "status": "FA"
+   },
+   "06nv9": {
+    "eligiblePos": "SF,PF,F,Flx",
+    "status": "FA"
+   },
+   "06hhm": {
+    "eligiblePos": "SG,G,Flx",
+    "status": "FA"
+   },
+   "049s6": {
+    "eligiblePos": "PG,G,Flx",
+    "status": "FA"
+   },
+   "049s7": {
+    "eligiblePos": "C,Flx",
+    "status": "FA"
+   },
+   "049s8": {
+    "eligiblePos": "SF,F,Flx",
+    "status": "FA"
+   },
+   "058n6": {
+    "eligiblePos": "PG,G,Flx",
+    "status": "FA"
+   },
+   "049s5": {
+    "eligiblePos": "PG,G,Flx",
+    "status": "FA"
+   },
+   "06hi9": {
+    "eligiblePos": "PG,G,Flx",
+    "status": "FA"
+   },
+   "03ad7": {
+    "eligiblePos": "C,Flx",
+    "status": "FA"
+   },
+   "06hi8": {
+    "eligiblePos": "SF,PF,F,Flx",
+    "status": "FA"
+   },
+   "03ad3": {
+    "eligiblePos": "PF,C,F,Flx",
+    "status": "T"
+   },
+   "03ad2": {
+    "eligiblePos": "C,Flx",
+    "status": "T"
+   },
+   "03ad5": {
+    "eligiblePos": "PF,F,Flx",
+    "status": "FA"
+   },
+   "03ad4": {
+    "eligiblePos": "PG,G,Flx",
+    "status": "FA"
+   },
+   "03ad1": {
+    "eligiblePos": "C,Flx",
+    "status": "FA"
+   },
+   "03el5": {
+    "eligiblePos": "PF,C,F,Flx",
+    "status": "T"
+   },
+   "03ad0": {
+    "eligiblePos": "PG,G,Flx",
+    "status": "FA"
+   },
+   "06pwq": {
+    "eligiblePos": "PF,F,Flx",
+    "status": "FA"
+   },
+   "078ev": {
+    "eligiblePos": "PG,SG,G,Flx",
+    "status": "FA"
+   },
+   "065h6": {
+    "eligiblePos": "SF,PF,F,Flx",
+    "status": "FA"
+   },
+   "063d0": {
+    "eligiblePos": "SG,G,Flx",
+    "status": "FA"
+   },
+   "05xo5": {
+    "eligiblePos": "PF,F,Flx",
+    "status": "FA"
+   },
+   "05xo0": {
+    "eligiblePos": "C,Flx",
+    "status": "FA"
+   },
+   "06him": {
+    "eligiblePos": "C,Flx",
+    "status": "FA"
+   },
+   "06hin": {
+    "eligiblePos": "PG,SG,G,Flx",
+    "status": "FA"
+   },
+   "04hoo": {
+    "eligiblePos": "C,Flx",
+    "status": "FA"
+   },
+   "06hik": {
+    "eligiblePos": "PG,SG,G,Flx",
+    "status": "FA"
+   },
+   "06hil": {
+    "eligiblePos": "SF,PF,C,F,Flx",
+    "status": "FA"
+   },
+   "06l10": {
+    "eligiblePos": "C,Flx",
+    "status": "FA"
+   },
+   "05xkz": {
+    "eligiblePos": "SF,F,Flx",
+    "status": "FA"
+   },
+   "049sa": {
+    "eligiblePos": "SG,G,Flx",
+    "status": "FA"
+   },
+   "03xmu": {
+    "eligiblePos": "C,Flx",
+    "status": "FA"
+   },
+   "05qzl": {
+    "eligiblePos": "SG,G,Flx",
+    "status": "FA"
+   },
+   "03xmt": {
+    "eligiblePos": "PF,C,F,Flx",
+    "status": "FA"
+   },
+   "03xmw": {
+    "eligiblePos": "C,Flx",
+    "status": "FA"
+   },
+   "01enh": {
+    "eligiblePos": "PG,G,Flx",
+    "status": "T"
+   },
+   "027pt": {
+    "eligiblePos": "PF,F,Flx",
+    "status": "FA"
+   },
+   "03xmv": {
+    "eligiblePos": "SF,PF,F,Flx",
+    "status": "T"
+   },
+   "05qzk": {
+    "eligiblePos": "SG,G,Flx",
+    "status": "FA"
+   },
+   "05qzh": {
+    "eligiblePos": "SG,G,SF,PF,F,Flx",
+    "status": "T"
+   },
+   "05qzi": {
+    "eligiblePos": "SF,F,Flx",
+    "status": "FA"
+   },
+   "05qzf": {
+    "eligiblePos": "PG,G,Flx",
+    "status": "FA"
+   },
+   "06hdz": {
+    "eligiblePos": "SF,PF,C,F,Flx",
+    "status": "FA"
+   },
+   "05qzg": {
+    "eligiblePos": "PF,F,Flx",
+    "status": "FA"
+   },
+   "05qzd": {
+    "eligiblePos": "SG,G,Flx",
+    "status": "FA"
+   },
+   "06hdx": {
+    "eligiblePos": "PG,G,Flx",
+    "status": "FA"
+   },
+   "06hdy": {
+    "eligiblePos": "PF,F,Flx",
+    "status": "FA"
+   },
+   "05qzb": {
+    "eligiblePos": "SF,F,Flx",
+    "status": "FA"
+   },
+   "06hdv": {
+    "eligiblePos": "SG,G,Flx",
+    "status": "FA"
+   },
+   "05qzc": {
+    "eligiblePos": "SF,PF,F,Flx",
+    "status": "FA"
+   },
+   "06hdw": {
+    "eligiblePos": "PG,G,Flx",
+    "status": "FA"
+   },
+   "06hf9": {
+    "eligiblePos": "PG,G,Flx",
+    "status": "FA"
+   },
+   "06ptx": {
+    "eligiblePos": "SF,F,Flx",
+    "status": "FA"
+   },
+   "027pf": {
+    "eligiblePos": "PG,G,Flx",
+    "status": "FA"
+   },
+   "06pty": {
+    "eligiblePos": "SF,F,Flx",
+    "status": "FA"
+   },
+   "027pe": {
+    "eligiblePos": "SF,PF,F,Flx",
+    "status": "T"
+   },
+   "01eo9": {
+    "eligiblePos": "PG,SG,G,Flx",
+    "status": "FA"
+   },
+   "05qyy": {
+    "eligiblePos": "SF,F,Flx",
+    "status": "FA"
+   },
+   "05qyz": {
+    "eligiblePos": "SG,G,Flx",
+    "status": "FA"
+   },
+   "05qyw": {
+    "eligiblePos": "SG,G,Flx",
+    "status": "FA"
+   },
+   "01eo6": {
+    "eligiblePos": "PG,SG,G,Flx",
+    "status": "T"
+   },
+   "05qyv": {
+    "eligiblePos": "SG,G,Flx",
+    "status": "FA"
+   },
+   "05qys": {
+    "eligiblePos": "PF,C,F,Flx",
+    "status": "FA"
+   },
+   "05qyt": {
+    "eligiblePos": "SF,F,Flx",
+    "status": "FA"
+   },
+   "06ptq": {
+    "eligiblePos": "PG,G,Flx",
+    "status": "FA"
+   },
+   "06ptn": {
+    "eligiblePos": "SF,PF,F,Flx",
+    "status": "FA"
+   },
+   "05qyr": {
+    "eligiblePos": "SG,G,Flx",
+    "status": "FA"
+   },
+   "027oz": {
+    "eligiblePos": "SF,PF,F,Flx",
+    "status": "T"
+   },
+   "05qyo": {
+    "eligiblePos": "PG,SG,G,Flx",
+    "status": "FA"
+   },
+   "05qym": {
+    "eligiblePos": "SF,F,Flx",
+    "status": "FA"
+   },
+   "027ou": {
+    "eligiblePos": "SG,G,SF,F,Flx",
+    "status": "FA"
+   },
+   "027ox": {
+    "eligiblePos": "PF,F,Flx",
+    "status": "FA"
+   },
+   "05qye": {
+    "eligiblePos": "SF,PF,F,Flx",
+    "status": "FA"
+   },
+   "06avs": {
+    "eligiblePos": "SF,F,Flx",
+    "status": "FA"
+   },
+   "027ov": {
+    "eligiblePos": "SG,G,Flx",
+    "status": "FA"
+   },
+   "027oj": {
+    "eligiblePos": "PG,SG,G,Flx",
+    "status": "T"
+   },
+   "027oq": {
+    "eligiblePos": "C,Flx",
+    "status": "FA"
+   },
+   "027oo": {
+    "eligiblePos": "C,Flx",
+    "status": "FA"
+   },
+   "01en7": {
+    "eligiblePos": "PF,F,Flx",
+    "status": "FA"
+   },
+   "06he2": {
+    "eligiblePos": "C,Flx",
+    "status": "FA"
+   },
+   "06psv": {
+    "eligiblePos": "SF,F,Flx",
+    "status": "FA"
+   },
+   "05qz8": {
+    "eligiblePos": "SF,PF,F,Flx",
+    "status": "FA"
+   },
+   "06pst": {
+    "eligiblePos": "C,Flx",
+    "status": "FA"
+   },
+   "05qxt": {
+    "eligiblePos": "PG,SG,G,Flx",
+    "status": "FA"
+   },
+   "05qxu": {
+    "eligiblePos": "SF,PF,F,Flx",
+    "status": "FA"
+   },
+   "05qz5": {
+    "eligiblePos": "PG,SG,G,Flx",
+    "status": "FA"
+   },
+   "06psp": {
+    "eligiblePos": "SF,F,Flx",
+    "status": "FA"
+   },
+   "05qz2": {
+    "eligiblePos": "SF,PF,C,F,Flx",
+    "status": "FA"
+   },
+   "06pu0": {
+    "eligiblePos": "PF,F,Flx",
+    "status": "FA"
+   },
+   "078g2": {
+    "eligiblePos": "SG,G,Flx",
+    "status": "FA"
+   },
+   "04fj8": {
+    "eligiblePos": "PF,F,Flx",
+    "status": "FA"
+   },
+   "06pvx": {
+    "eligiblePos": "SF,PF,C,F,Flx",
+    "status": "FA"
+   },
+   "06pvy": {
+    "eligiblePos": "PG,G,Flx",
+    "status": "FA"
+   },
+   "06pvt": {
+    "eligiblePos": "SG,G,Flx",
+    "status": "FA"
+   },
+   "06pvu": {
+    "eligiblePos": "PF,F,Flx",
+    "status": "FA"
+   },
+   "06pvs": {
+    "eligiblePos": "SF,F,Flx",
+    "status": "FA"
+   },
+   "01eon": {
+    "eligiblePos": "SF,PF,F,Flx",
+    "status": "T"
+   },
+   "01eog": {
+    "eligiblePos": "PG,G,Flx",
+    "status": "FA"
+   },
+   "06hfb": {
+    "eligiblePos": "SG,G,Flx",
+    "status": "FA"
+   },
+   "06hfc": {
+    "eligiblePos": "SF,F,Flx",
+    "status": "FA"
+   },
+   "06hfa": {
+    "eligiblePos": "PG,G,Flx",
+    "status": "FA"
+   },
+   "043cj": {
+    "eligiblePos": "PG,SG,G,Flx",
+    "status": "FA"
+   },
+   "06pw5": {
+    "eligiblePos": "PG,G,Flx",
+    "status": "FA"
+   },
+   "065b8": {
+    "eligiblePos": "PG,G,Flx",
+    "status": "FA"
+   },
+   "065b7": {
+    "eligiblePos": "PG,SG,G,Flx",
+    "status": "FA"
+   },
+   "06pw4": {
+    "eligiblePos": "PG,SG,G,Flx",
+    "status": "FA"
+   },
+   "06pw1": {
+    "eligiblePos": "PG,G,Flx",
+    "status": "FA"
+   },
+   "065b9": {
+    "eligiblePos": "PG,SG,G,Flx",
+    "status": "FA"
+   },
+   "05qzn": {
+    "eligiblePos": "PF,C,F,Flx",
+    "status": "FA"
+   },
+   "065b6": {
+    "eligiblePos": "C,Flx",
+    "status": "FA"
+   },
+   "042n8": {
+    "eligiblePos": "SG,G,SF,F,Flx",
+    "status": "FA"
+   },
+   "042n9": {
+    "eligiblePos": "C,Flx",
+    "status": "FA"
+   },
+   "042n4": {
+    "eligiblePos": "PG,SG,G,Flx",
+    "status": "T"
+   },
+   "042n5": {
+    "eligiblePos": "PF,F,Flx",
+    "status": "FA"
+   },
+   "042n6": {
+    "eligiblePos": "C,Flx",
+    "status": "FA"
+   },
+   "042n7": {
+    "eligiblePos": "PF,C,F,Flx",
+    "status": "T"
+   },
+   "05wqq": {
+    "eligiblePos": "PG,G,Flx",
+    "status": "FA"
+   },
+   "042n1": {
+    "eligiblePos": "SG,G,SF,PF,F,Flx",
+    "status": "T"
+   },
+   "042n2": {
+    "eligiblePos": "PG,SG,G,Flx",
+    "status": "T"
+   },
+   "05wqo": {
+    "eligiblePos": "PG,SG,G,Flx",
+    "status": "FA"
+   },
+   "042n3": {
+    "eligiblePos": "PG,SG,G,SF,F,Flx",
+    "status": "FA"
+   },
+   "059y7": {
+    "eligiblePos": "C,Flx",
+    "status": "FA"
+   },
+   "05wqp": {
+    "eligiblePos": "PF,C,F,Flx",
+    "status": "FA"
+   },
+   "055ok": {
+    "eligiblePos": "SG,G,Flx",
+    "status": "FA"
+   },
+   "05wqk": {
+    "eligiblePos": "SG,G,Flx",
+    "status": "FA"
+   },
+   "05wqi": {
+    "eligiblePos": "PF,F,Flx",
+    "status": "FA"
+   },
+   "01uyj": {
+    "eligiblePos": "SF,PF,F,Flx",
+    "status": "T"
+   },
+   "06gno": {
+    "eligiblePos": "PF,F,Flx",
+    "status": "FA"
+   },
+   "06gnp": {
+    "eligiblePos": "SG,G,Flx",
+    "status": "FA"
+   },
+   "06gnm": {
+    "eligiblePos": "SF,F,Flx",
+    "status": "FA"
+   },
+   "031mb": {
+    "eligiblePos": "SG,G,SF,F,Flx",
+    "status": "FA"
+   },
+   "031lz": {
+    "eligiblePos": "C,Flx",
+    "status": "FA"
+   },
+   "031lv": {
+    "eligiblePos": "SG,G,SF,F,Flx",
+    "status": "FA"
+   },
+   "059vz": {
+    "eligiblePos": "PG,G,Flx",
+    "status": "FA"
+   },
+   "031lx": {
+    "eligiblePos": "PG,SG,G,Flx",
+    "status": "T"
+   },
+   "031ls": {
+    "eligiblePos": "C,Flx",
+    "status": "FA"
+   },
+   "0570u": {
+    "eligiblePos": "PG,SG,G,Flx",
+    "status": "FA"
+   },
+   "059vu": {
+    "eligiblePos": "PG,G,Flx",
+    "status": "FA"
+   },
+   "06cet": {
+    "eligiblePos": "PG,G,Flx",
+    "status": "FA"
+   },
+   "06ceu": {
+    "eligiblePos": "PF,F,Flx",
+    "status": "FA"
+   },
+   "06cer": {
+    "eligiblePos": "PG,SG,G,Flx",
+    "status": "FA"
+   },
+   "06ces": {
+    "eligiblePos": "SG,G,Flx",
+    "status": "FA"
+   },
+   "059vm": {
+    "eligiblePos": "C,Flx",
+    "status": "FA"
+   },
+   "06cep": {
+    "eligiblePos": "SF,F,Flx",
+    "status": "FA"
+   },
+   "06cen": {
+    "eligiblePos": "SG,G,Flx",
+    "status": "FA"
+   },
+   "06ceo": {
+    "eligiblePos": "SF,F,Flx",
+    "status": "FA"
+   },
+   "06cel": {
+    "eligiblePos": "SF,F,Flx",
+    "status": "FA"
+   },
+   "06cem": {
+    "eligiblePos": "SG,G,Flx",
+    "status": "FA"
+   },
+   "06cej": {
+    "eligiblePos": "SG,G,SF,F,Flx",
+    "status": "FA"
+   },
+   "02nfz": {
+    "eligiblePos": "PF,C,F,Flx",
+    "status": "T"
+   },
+   "06cek": {
+    "eligiblePos": "C,Flx",
+    "status": "FA"
+   },
+   "06ceh": {
+    "eligiblePos": "PG,G,Flx",
+    "status": "FA"
+   },
+   "06cei": {
+    "eligiblePos": "SF,F,Flx",
+    "status": "T"
+   },
+   "0598b": {
+    "eligiblePos": "C,Flx",
+    "status": "FA"
+   },
+   "042nx": {
+    "eligiblePos": "PF,C,F,Flx",
+    "status": "FA"
+   },
+   "042nt": {
+    "eligiblePos": "C,Flx",
+    "status": "T"
+   },
+   "042np": {
+    "eligiblePos": "PF,C,F,Flx",
+    "status": "FA"
+   },
+   "042nq": {
+    "eligiblePos": "PG,SG,G,Flx",
+    "status": "T"
+   },
+   "042nr": {
+    "eligiblePos": "C,Flx",
+    "status": "FA"
+   },
+   "06z4q": {
+    "eligiblePos": "SG,G,Flx",
+    "status": "FA"
+   },
+   "042nl": {
+    "eligiblePos": "SG,G,Flx",
+    "status": "FA"
+   },
+   "042nm": {
+    "eligiblePos": "SF,PF,C,F,Flx",
+    "status": "T"
+   },
+   "06z61": {
+    "eligiblePos": "SF,F,Flx",
+    "status": "FA"
+   },
+   "048zs": {
+    "eligiblePos": "SG,G,Flx",
+    "status": "FA"
+   },
+   "048zt": {
+    "eligiblePos": "SF,PF,F,Flx",
+    "status": "FA"
+   },
+   "055qo": {
+    "eligiblePos": "SF,F,Flx",
+    "status": "FA"
+   },
+   "042ni": {
+    "eligiblePos": "C,Flx",
+    "status": "FA"
+   },
+   "048zq": {
+    "eligiblePos": "C,Flx",
+    "status": "FA"
+   },
+   "042nd": {
+    "eligiblePos": "PF,F,Flx",
+    "status": "FA"
+   },
+   "042ne": {
+    "eligiblePos": "SG,G,Flx",
+    "status": "FA"
+   },
+   "042nf": {
+    "eligiblePos": "SG,G,SF,F,Flx",
+    "status": "FA"
+   },
+   "042o9": {
+    "eligiblePos": "PF,F,Flx",
+    "status": "FA"
+   },
+   "04415": {
+    "eligiblePos": "PF,F,Flx",
+    "status": "FA"
+   },
+   "04416": {
+    "eligiblePos": "PG,G,Flx",
+    "status": "FA"
+   },
+   "06kxd": {
+    "eligiblePos": "SF,F,Flx",
+    "status": "FA"
+   },
+   "04vu2": {
+    "eligiblePos": "PF,F,Flx",
+    "status": "FA"
+   },
+   "06ccd": {
+    "eligiblePos": "PF,C,F,Flx",
+    "status": "FA"
+   },
+   "05uiw": {
+    "eligiblePos": "C,Flx",
+    "status": "FA"
+   },
+   "02nf6": {
+    "eligiblePos": "PG,G,Flx",
+    "status": "T"
+   },
+   "06cce": {
+    "eligiblePos": "SG,G,Flx",
+    "status": "FA"
+   },
+   "05uix": {
+    "eligiblePos": "PF,F,Flx",
+    "status": "FA"
+   },
+   "02nf7": {
+    "eligiblePos": "SF,PF,F,Flx",
+    "status": "FA"
+   },
+   "05uiu": {
+    "eligiblePos": "SF,PF,F,Flx",
+    "status": "T"
+   },
+   "06ccb": {
+    "eligiblePos": "SG,G,Flx",
+    "status": "FA"
+   },
+   "06ccc": {
+    "eligiblePos": "SF,F,Flx",
+    "status": "FA"
+   },
+   "05uiv": {
+    "eligiblePos": "PG,SG,G,Flx",
+    "status": "FA"
+   },
+   "02nf9": {
+    "eligiblePos": "C,Flx",
+    "status": "FA"
+   },
+   "04848": {
+    "eligiblePos": "PG,G,Flx",
+    "status": "T"
+   },
+   "05uis": {
+    "eligiblePos": "PG,G,Flx",
+    "status": "FA"
+   },
+   "06cca": {
+    "eligiblePos": "SG,G,SF,PF,F,Flx",
+    "status": "T"
+   },
+   "05uit": {
+    "eligiblePos": "C,Flx",
+    "status": "FA"
+   },
+   "02nf3": {
+    "eligiblePos": "SG,G,Flx",
+    "status": "FA"
+   },
+   "05uiq": {
+    "eligiblePos": "PF,C,F,Flx",
+    "status": "T"
+   },
+   "05uir": {
+    "eligiblePos": "SG,G,SF,PF,F,Flx",
+    "status": "T"
+   },
+   "062d2": {
+    "eligiblePos": "SF,F,Flx",
+    "status": "FA"
+   },
+   "05uio": {
+    "eligiblePos": "SG,G,SF,F,Flx",
+    "status": "FA"
+   },
+   "05uip": {
+    "eligiblePos": "SG,G,SF,PF,F,Flx",
+    "status": "FA"
+   },
+   "06cby": {
+    "eligiblePos": "PG,G,Flx",
+    "status": "T"
+   },
+   "057ot": {
+    "eligiblePos": "PF,F,Flx",
+    "status": "FA"
+   },
+   "06cbz": {
+    "eligiblePos": "SF,PF,F,Flx",
+    "status": "FA"
+   },
+   "05uin": {
+    "eligiblePos": "SG,G,Flx",
+    "status": "FA"
+   },
+   "02nf1": {
+    "eligiblePos": "PF,C,F,Flx",
+    "status": "T"
+   },
+   "05uik": {
+    "eligiblePos": "SG,G,SF,F,Flx",
+    "status": "FA"
+   },
+   "06cd9": {
+    "eligiblePos": "SG,G,SF,F,Flx",
+    "status": "FA"
+   },
+   "06cbx": {
+    "eligiblePos": "SG,G,SF,PF,F,Flx",
+    "status": "T"
+   },
+   "05uil": {
+    "eligiblePos": "SG,G,Flx",
+    "status": "FA"
+   },
+   "05uii": {
+    "eligiblePos": "SF,PF,F,Flx",
+    "status": "T"
+   },
+   "06cd7": {
+    "eligiblePos": "SF,F,Flx",
+    "status": "FA"
+   },
+   "059u3": {
+    "eligiblePos": "PG,G,Flx",
+    "status": "FA"
+   },
+   "05uij": {
+    "eligiblePos": "PG,G,Flx",
+    "status": "WW"
+   },
+   "05uig": {
+    "eligiblePos": "PG,SG,G,Flx",
+    "status": "T"
+   },
+   "06cd5": {
+    "eligiblePos": "SG,G,Flx",
+    "status": "FA"
+   },
+   "05uih": {
+    "eligiblePos": "PF,C,F,Flx",
+    "status": "FA"
+   },
+   "05uie": {
+    "eligiblePos": "SF,PF,C,F,Flx",
+    "status": "T"
+   },
+   "06cd3": {
+    "eligiblePos": "SF,F,Flx",
+    "status": "FA"
+   },
+   "05uif": {
+    "eligiblePos": "PG,G,Flx",
+    "status": "T"
+   },
+   "06cd4": {
+    "eligiblePos": "PF,C,F,Flx",
+    "status": "T"
+   },
+   "05uic": {
+    "eligiblePos": "PG,SG,G,Flx",
+    "status": "WW"
+   },
+   "06cd1": {
+    "eligiblePos": "PF,F,Flx",
+    "status": "FA"
+   },
+   "06cd2": {
+    "eligiblePos": "SG,G,Flx",
+    "status": "FA"
+   },
+   "05uid": {
+    "eligiblePos": "PF,C,F,Flx",
+    "status": "T"
+   },
+   "05uib": {
+    "eligiblePos": "PG,SG,G,Flx",
+    "status": "T"
+   },
+   "06cbj": {
+    "eligiblePos": "C,Flx",
+    "status": "FA"
+   },
+   "05uj8": {
+    "eligiblePos": "PG,SG,G,Flx",
+    "status": "FA"
+   },
+   "05uj9": {
+    "eligiblePos": "SG,G,SF,PF,F,Flx",
+    "status": "FA"
+   },
+   "05uj6": {
+    "eligiblePos": "PF,C,F,Flx",
+    "status": "FA"
+   },
+   "05uj7": {
+    "eligiblePos": "PG,G,Flx",
+    "status": "FA"
+   },
+   "05uj4": {
+    "eligiblePos": "PF,C,F,Flx",
+    "status": "T"
+   },
+   "05uj5": {
+    "eligiblePos": "PF,F,Flx",
+    "status": "FA"
+   },
+   "05uj2": {
+    "eligiblePos": "PG,G,Flx",
+    "status": "FA"
+   },
+   "05uj3": {
+    "eligiblePos": "C,Flx",
+    "status": "T"
+   },
+   "05uj0": {
+    "eligiblePos": "PG,G,Flx",
+    "status": "FA"
+   },
+   "05uj1": {
+    "eligiblePos": "SG,G,SF,F,Flx",
+    "status": "FA"
+   },
+   "06cc8": {
+    "eligiblePos": "C,Flx",
+    "status": "FA"
+   },
+   "0590m": {
+    "eligiblePos": "PG,G,Flx",
+    "status": "FA"
+   },
+   "06cc9": {
+    "eligiblePos": "PF,F,Flx",
+    "status": "FA"
+   },
+   "06cc6": {
+    "eligiblePos": "SF,F,Flx",
+    "status": "FA"
+   },
+   "06gix": {
+    "eligiblePos": "C,Flx",
+    "status": "FA"
+   },
+   "06giy": {
+    "eligiblePos": "PF,F,Flx",
+    "status": "FA"
+   },
+   "06cc7": {
+    "eligiblePos": "SG,G,SF,F,Flx",
+    "status": "T"
+   },
+   "0590n": {
+    "eligiblePos": "PG,SG,G,Flx",
+    "status": "FA"
+   },
+   "06cc5": {
+    "eligiblePos": "PG,SG,G,Flx",
+    "status": "T"
+   },
+   "06cc2": {
+    "eligiblePos": "SG,G,SF,F,Flx",
+    "status": "FA"
+   },
+   "06cc0": {
+    "eligiblePos": "SF,PF,C,F,Flx",
+    "status": "FA"
+   },
+   "06cc1": {
+    "eligiblePos": "SG,G,SF,PF,F,Flx",
+    "status": "WW"
+   },
+   "06muu": {
+    "eligiblePos": "PF,F,Flx",
+    "status": "FA"
+   },
+   "06cef": {
+    "eligiblePos": "C,Flx",
+    "status": "FA"
+   },
+   "06ceg": {
+    "eligiblePos": "SF,PF,F,Flx",
+    "status": "FA"
+   },
+   "02nfy": {
+    "eligiblePos": "PF,F,Flx",
+    "status": "FA"
+   },
+   "031m9": {
+    "eligiblePos": "C,Flx",
+    "status": "FA"
+   },
+   "031m4": {
+    "eligiblePos": "PG,SG,G,Flx",
+    "status": "FA"
+   },
+   "062do": {
+    "eligiblePos": "PG,G,Flx",
+    "status": "FA"
+   },
+   "062dn": {
+    "eligiblePos": "SF,PF,F,Flx",
+    "status": "FA"
+   },
+   "02nfk": {
+    "eligiblePos": "SG,G,Flx",
+    "status": "FA"
+   },
+   "031m0": {
+    "eligiblePos": "C,Flx",
+    "status": "FA"
+   },
+   "031m2": {
+    "eligiblePos": "PF,C,F,Flx",
+    "status": "T"
+   },
+   "06cf3": {
+    "eligiblePos": "PF,C,F,Flx",
+    "status": "FA"
+   },
+   "06cdn": {
+    "eligiblePos": "PG,G,Flx",
+    "status": "FA"
+   },
+   "06cdk": {
+    "eligiblePos": "SF,F,Flx",
+    "status": "FA"
+   },
+   "06cdi": {
+    "eligiblePos": "SF,F,Flx",
+    "status": "FA"
+   },
+   "06cdj": {
+    "eligiblePos": "SG,G,Flx",
+    "status": "FA"
+   },
+   "06cdg": {
+    "eligiblePos": "SF,F,Flx",
+    "status": "FA"
+   },
+   "06cdh": {
+    "eligiblePos": "SF,PF,F,Flx",
+    "status": "FA"
+   },
+   "05ujx": {
+    "eligiblePos": "PF,F,Flx",
+    "status": "FA"
+   },
+   "06cde": {
+    "eligiblePos": "SF,F,Flx",
+    "status": "FA"
+   },
+   "05ujy": {
+    "eligiblePos": "SF,F,Flx",
+    "status": "FA"
+   },
+   "06cdf": {
+    "eligiblePos": "SF,PF,F,Flx",
+    "status": "FA"
+   },
+   "06kv0": {
+    "eligiblePos": "SF,F,Flx",
+    "status": "FA"
+   },
+   "05ujv": {
+    "eligiblePos": "C,Flx",
+    "status": "FA"
+   },
+   "06cdc": {
+    "eligiblePos": "SF,PF,F,Flx",
+    "status": "FA"
+   },
+   "05ujw": {
+    "eligiblePos": "C,Flx",
+    "status": "FA"
+   },
+   "06cdd": {
+    "eligiblePos": "SG,G,Flx",
+    "status": "FA"
+   },
+   "05ujt": {
+    "eligiblePos": "SG,G,SF,F,Flx",
+    "status": "FA"
+   },
+   "02ng3": {
+    "eligiblePos": "SF,PF,F,Flx",
+    "status": "FA"
+   },
+   "05uju": {
+    "eligiblePos": "PG,SG,G,Flx",
+    "status": "FA"
+   },
+   "06cdb": {
+    "eligiblePos": "PG,G,Flx",
+    "status": "FA"
+   },
+   "05ujr": {
+    "eligiblePos": "C,Flx",
+    "status": "FA"
+   },
+   "05ujs": {
+    "eligiblePos": "PF,C,F,Flx",
+    "status": "FA"
+   },
+   "05ujp": {
+    "eligiblePos": "SG,G,SF,F,Flx",
+    "status": "FA"
+   },
+   "05ujq": {
+    "eligiblePos": "C,Flx",
+    "status": "FA"
+   },
+   "06ccz": {
+    "eligiblePos": "PF,F,Flx",
+    "status": "FA"
+   },
+   "05ujo": {
+    "eligiblePos": "PF,C,F,Flx",
+    "status": "FA"
+   },
+   "05ujl": {
+    "eligiblePos": "PG,SG,G,Flx",
+    "status": "FA"
+   },
+   "06ccx": {
+    "eligiblePos": "PF,F,Flx",
+    "status": "FA"
+   },
+   "05ujm": {
+    "eligiblePos": "PG,G,Flx",
+    "status": "FA"
+   },
+   "06ccy": {
+    "eligiblePos": "PG,SG,G,Flx",
+    "status": "FA"
+   },
+   "05ujj": {
+    "eligiblePos": "PG,SG,G,Flx",
+    "status": "FA"
+   },
+   "06ccv": {
+    "eligiblePos": "C,Flx",
+    "status": "FA"
+   },
+   "05ujk": {
+    "eligiblePos": "PG,SG,G,Flx",
+    "status": "FA"
+   },
+   "06ccw": {
+    "eligiblePos": "SF,F,Flx",
+    "status": "FA"
+   },
+   "05ujh": {
+    "eligiblePos": "PF,F,Flx",
+    "status": "FA"
+   },
+   "05uji": {
+    "eligiblePos": "SF,PF,F,Flx",
+    "status": "FA"
+   },
+   "06ccu": {
+    "eligiblePos": "C,Flx",
+    "status": "FA"
+   },
+   "05ujf": {
+    "eligiblePos": "SF,F,Flx",
+    "status": "FA"
+   },
+   "05ujg": {
+    "eligiblePos": "PF,F,Flx",
+    "status": "FA"
+   },
+   "05ujd": {
+    "eligiblePos": "C,Flx",
+    "status": "T"
+   },
+   "05uje": {
+    "eligiblePos": "PG,SG,G,Flx",
+    "status": "FA"
+   },
+   "05ujb": {
+    "eligiblePos": "PF,F,Flx",
+    "status": "FA"
+   },
+   "05ujc": {
+    "eligiblePos": "PG,SG,G,SF,F,Flx",
+    "status": "T"
+   },
+   "05uja": {
+    "eligiblePos": "PG,SG,G,Flx",
+    "status": "FA"
+   },
+   "06cch": {
+    "eligiblePos": "C,Flx",
+    "status": "T"
+   },
+   "05uiy": {
+    "eligiblePos": "SG,G,Flx",
+    "status": "FA"
+   },
+   "06ccf": {
+    "eligiblePos": "SG,G,SF,PF,F,Flx",
+    "status": "T"
+   },
+   "05uiz": {
+    "eligiblePos": "SG,G,SF,F,Flx",
+    "status": "FA"
+   },
+   "06ccg": {
+    "eligiblePos": "PG,G,Flx",
+    "status": "FA"
+   },
+   "051pa": {
+    "eligiblePos": "PG,SG,G,Flx",
+    "status": "FA"
+   },
+   "051pb": {
+    "eligiblePos": "C,Flx",
+    "status": "T"
+   },
+   "0665c": {
+    "eligiblePos": "SF,PF,F,Flx",
+    "status": "FA"
+   },
+   "079za": {
+    "eligiblePos": "PG,SG,G,Flx",
+    "status": "FA"
+   },
+   "051ox": {
+    "eligiblePos": "PG,SG,G,SF,F,Flx",
+    "status": "T"
+   },
+   "0664y": {
+    "eligiblePos": "SG,G,Flx",
+    "status": "FA"
+   },
+   "051ow": {
+    "eligiblePos": "PF,F,Flx",
+    "status": "FA"
+   },
+   "0664x": {
+    "eligiblePos": "PG,SG,G,Flx",
+    "status": "FA"
+   },
+   "051oz": {
+    "eligiblePos": "PF,F,Flx",
+    "status": "FA"
+   },
+   "051oy": {
+    "eligiblePos": "C,Flx",
+    "status": "FA"
+   },
+   "073o8": {
+    "eligiblePos": "SF,PF,F,Flx",
+    "status": "FA"
+   },
+   "051ot": {
+    "eligiblePos": "PG,SG,G,Flx",
+    "status": "T"
+   },
+   "05uuw": {
+    "eligiblePos": "PG,G,Flx",
+    "status": "FA"
+   },
+   "05uw9": {
+    "eligiblePos": "PF,F,Flx",
+    "status": "FA"
+   },
+   "06667": {
+    "eligiblePos": "PG,SG,G,Flx",
+    "status": "FA"
+   },
+   "051os": {
+    "eligiblePos": "SF,PF,C,F,Flx",
+    "status": "T"
+   },
+   "05uux": {
+    "eligiblePos": "SG,G,Flx",
+    "status": "FA"
+   },
+   "06666": {
+    "eligiblePos": "PG,SG,G,Flx",
+    "status": "FA"
+   },
+   "051ov": {
+    "eligiblePos": "SF,PF,F,Flx",
+    "status": "FA"
+   },
+   "05uuu": {
+    "eligiblePos": "SG,G,Flx",
+    "status": "FA"
+   },
+   "06669": {
+    "eligiblePos": "PG,SG,G,Flx",
+    "status": "FA"
+   },
+   "05uuv": {
+    "eligiblePos": "PG,SG,G,PF,F,Flx",
+    "status": "FA"
+   },
+   "06668": {
+    "eligiblePos": "SG,G,Flx",
+    "status": "FA"
+   },
+   "051op": {
+    "eligiblePos": "PF,F,Flx",
+    "status": "T"
+   },
+   "051q2": {
+    "eligiblePos": "SG,G,Flx",
+    "status": "FA"
+   },
+   "05uus": {
+    "eligiblePos": "PG,SG,G,SF,F,Flx",
+    "status": "T"
+   },
+   "051oo": {
+    "eligiblePos": "C,Flx",
+    "status": "WW"
+   },
+   "051q1": {
+    "eligiblePos": "PG,G,Flx",
+    "status": "FA"
+   },
+   "05uut": {
+    "eligiblePos": "SG,G,Flx",
+    "status": "FA"
+   },
+   "051or": {
+    "eligiblePos": "SF,PF,F,Flx",
+    "status": "T"
+   },
+   "051q4": {
+    "eligiblePos": "SG,G,SF,F,Flx",
+    "status": "FA"
+   },
+   "05uuq": {
+    "eligiblePos": "C,Flx",
+    "status": "FA"
+   },
+   "079ys": {
+    "eligiblePos": "SF,PF,F,Flx",
+    "status": "FA"
+   },
+   "051oq": {
+    "eligiblePos": "SG,G,SF,F,Flx",
+    "status": "FA"
+   },
+   "051q3": {
+    "eligiblePos": "C,Flx",
+    "status": "FA"
+   },
+   "05uur": {
+    "eligiblePos": "SG,G,Flx",
+    "status": "FA"
+   },
+   "051ol": {
+    "eligiblePos": "PG,G,Flx",
+    "status": "T"
+   },
+   "05uuo": {
+    "eligiblePos": "SF,F,Flx",
+    "status": "FA"
+   },
+   "079yq": {
+    "eligiblePos": "PG,SG,G,Flx",
+    "status": "FA"
+   },
+   "051ok": {
+    "eligiblePos": "SF,PF,F,Flx",
+    "status": "FA"
+   },
+   "05uup": {
+    "eligiblePos": "C,Flx",
+    "status": "FA"
+   },
+   "079yr": {
+    "eligiblePos": "PG,SG,G,Flx",
+    "status": "FA"
+   },
+   "051on": {
+    "eligiblePos": "PG,SG,G,Flx",
+    "status": "T"
+   },
+   "051q0": {
+    "eligiblePos": "PG,G,Flx",
+    "status": "FA"
+   },
+   "05uum": {
+    "eligiblePos": "SF,F,Flx",
+    "status": "FA"
+   },
+   "051om": {
+    "eligiblePos": "SG,G,Flx",
+    "status": "FA"
+   },
+   "05uun": {
+    "eligiblePos": "PF,F,Flx",
+    "status": "FA"
+   },
+   "051oh": {
+    "eligiblePos": "SF,PF,F,Flx",
+    "status": "T"
+   },
+   "05uuk": {
+    "eligiblePos": "PG,SG,G,PF,F,Flx",
+    "status": "FA"
+   },
+   "05uul": {
+    "eligiblePos": "PG,G,Flx",
+    "status": "FA"
+   },
+   "051oj": {
+    "eligiblePos": "SG,G,SF,PF,F,Flx",
+    "status": "T"
+   },
+   "051oi": {
+    "eligiblePos": "PG,G,Flx",
+    "status": "T"
+   },
+   "05uuj": {
+    "eligiblePos": "PF,F,Flx",
+    "status": "FA"
+   },
+   "05uug": {
+    "eligiblePos": "SF,PF,F,Flx",
+    "status": "FA"
+   },
+   "05uuh": {
+    "eligiblePos": "SG,G,Flx",
+    "status": "FA"
+   },
+   "05uue": {
+    "eligiblePos": "SF,F,Flx",
+    "status": "FA"
+   },
+   "06cp3": {
+    "eligiblePos": "PF,F,Flx",
+    "status": "FA"
+   },
+   "05uuf": {
+    "eligiblePos": "SF,F,Flx",
+    "status": "FA"
+   },
+   "06cp4": {
+    "eligiblePos": "PG,G,Flx",
+    "status": "FA"
+   },
+   "06cp1": {
+    "eligiblePos": "SG,G,Flx",
+    "status": "FA"
+   },
+   "05uud": {
+    "eligiblePos": "SF,PF,F,Flx",
+    "status": "FA"
+   },
+   "06cp2": {
+    "eligiblePos": "C,Flx",
+    "status": "FA"
+   },
+   "051p9": {
+    "eligiblePos": "SG,G,SF,F,Flx",
+    "status": "FA"
+   },
+   "0663x": {
+    "eligiblePos": "PG,SG,G,Flx",
+    "status": "FA"
+   },
+   "04exk": {
+    "eligiblePos": "PF,F,Flx",
+    "status": "FA"
+   },
+   "051p8": {
+    "eligiblePos": "PG,SG,G,Flx",
+    "status": "FA"
+   },
+   "064s9": {
+    "eligiblePos": "PG,G,Flx",
+    "status": "FA"
+   },
+   "051p5": {
+    "eligiblePos": "PF,F,Flx",
+    "status": "FA"
+   },
+   "064s6": {
+    "eligiblePos": "PG,SG,G,Flx",
+    "status": "FA"
+   },
+   "0663t": {
+    "eligiblePos": "PG,SG,G,Flx",
+    "status": "FA"
+   },
+   "051p4": {
+    "eligiblePos": "PG,SG,G,SF,F,Flx",
+    "status": "T"
+   },
+   "051p7": {
+    "eligiblePos": "PF,C,F,Flx",
+    "status": "FA"
+   },
+   "064s8": {
+    "eligiblePos": "SF,PF,F,Flx",
+    "status": "FA"
+   },
+   "051p6": {
+    "eligiblePos": "SF,F,Flx",
+    "status": "FA"
+   },
+   "064s7": {
+    "eligiblePos": "SF,PF,F,Flx",
+    "status": "FA"
+   },
+   "0663u": {
+    "eligiblePos": "PG,SG,G,Flx",
+    "status": "FA"
+   },
+   "06cnb": {
+    "eligiblePos": "SG,G,Flx",
+    "status": "FA"
+   },
+   "04exc": {
+    "eligiblePos": "PF,F,Flx",
+    "status": "FA"
+   },
+   "051p0": {
+    "eligiblePos": "SG,G,SF,F,Flx",
+    "status": "FA"
+   },
+   "051p3": {
+    "eligiblePos": "PF,F,Flx",
+    "status": "FA"
+   },
+   "04exe": {
+    "eligiblePos": "PG,G,Flx",
+    "status": "FA"
+   },
+   "051p2": {
+    "eligiblePos": "PF,F,Flx",
+    "status": "FA"
+   },
+   "04exa": {
+    "eligiblePos": "C,Flx",
+    "status": "FA"
+   },
+   "04ewv": {
+    "eligiblePos": "PG,G,Flx",
+    "status": "FA"
+   },
+   "06v5c": {
+    "eligiblePos": "PF,F,Flx",
+    "status": "FA"
+   },
+   "06v5d": {
+    "eligiblePos": "SG,G,SF,PF,F,Flx",
+    "status": "FA"
+   },
+   "06v5a": {
+    "eligiblePos": "PF,C,F,Flx",
+    "status": "T"
+   },
+   "06v5b": {
+    "eligiblePos": "SF,PF,C,F,Flx",
+    "status": "FA"
+   },
+   "03bxn": {
+    "eligiblePos": "SF,F,Flx",
+    "status": "FA"
+   },
+   "064to": {
+    "eligiblePos": "PG,SG,G,Flx",
+    "status": "FA"
+   },
+   "05uwr": {
+    "eligiblePos": "SG,G,Flx",
+    "status": "FA"
+   },
+   "064tp": {
+    "eligiblePos": "PG,G,Flx",
+    "status": "FA"
+   },
+   "0666j": {
+    "eligiblePos": "SF,PF,F,Flx",
+    "status": "FA"
+   },
+   "062pk": {
+    "eligiblePos": "SF,PF,F,Flx",
+    "status": "FA"
+   },
+   "0666f": {
+    "eligiblePos": "PG,SG,G,Flx",
+    "status": "FA"
+   },
+   "0666c": {
+    "eligiblePos": "SF,F,Flx",
+    "status": "FA"
+   },
+   "0666e": {
+    "eligiblePos": "PG,SG,G,Flx",
+    "status": "FA"
+   },
+   "05uwa": {
+    "eligiblePos": "SG,G,Flx",
+    "status": "FA"
+   },
+   "0666a": {
+    "eligiblePos": "SF,PF,F,Flx",
+    "status": "FA"
+   },
+   "051px": {
+    "eligiblePos": "PG,G,Flx",
+    "status": "FA"
+   },
+   "06v59": {
+    "eligiblePos": "SF,F,Flx",
+    "status": "FA"
+   },
+   "051pz": {
+    "eligiblePos": "SG,G,Flx",
+    "status": "FA"
+   },
+   "06v57": {
+    "eligiblePos": "PG,SG,G,SF,PF,F,Flx",
+    "status": "T"
+   },
+   "06v58": {
+    "eligiblePos": "PG,SG,G,Flx",
+    "status": "FA"
+   },
+   "051pw": {
+    "eligiblePos": "SF,F,Flx",
+    "status": "FA"
+   },
+   "06v55": {
+    "eligiblePos": "SG,G,Flx",
+    "status": "FA"
+   },
+   "051pv": {
+    "eligiblePos": "PG,G,Flx",
+    "status": "FA"
+   },
+   "06v56": {
+    "eligiblePos": "PG,G,Flx",
+    "status": "FA"
+   },
+   "051pq": {
+    "eligiblePos": "SG,G,Flx",
+    "status": "FA"
+   },
+   "05ux6": {
+    "eligiblePos": "SF,F,Flx",
+    "status": "FA"
+   },
+   "051pp": {
+    "eligiblePos": "PF,F,Flx",
+    "status": "FA"
+   },
+   "051ps": {
+    "eligiblePos": "PG,SG,G,SF,F,Flx",
+    "status": "FA"
+   },
+   "051pr": {
+    "eligiblePos": "SF,F,Flx",
+    "status": "FA"
+   },
+   "05ux5": {
+    "eligiblePos": "PG,G,Flx",
+    "status": "FA"
+   },
+   "051pm": {
+    "eligiblePos": "PF,F,Flx",
+    "status": "FA"
+   },
+   "05ux2": {
+    "eligiblePos": "PF,F,Flx",
+    "status": "FA"
+   },
+   "051pl": {
+    "eligiblePos": "PF,F,Flx",
+    "status": "FA"
+   },
+   "05ux3": {
+    "eligiblePos": "PG,SG,G,Flx",
+    "status": "FA"
+   },
+   "051po": {
+    "eligiblePos": "PF,C,F,Flx",
+    "status": "FA"
+   },
+   "051pn": {
+    "eligiblePos": "SG,G,Flx",
+    "status": "FA"
+   },
+   "051pi": {
+    "eligiblePos": "C,Flx",
+    "status": "T"
+   },
+   "051ph": {
+    "eligiblePos": "SG,G,Flx",
+    "status": "FA"
+   },
+   "051pk": {
+    "eligiblePos": "SG,G,SF,F,Flx",
+    "status": "FA"
+   },
+   "051pj": {
+    "eligiblePos": "PF,F,Flx",
+    "status": "FA"
+   },
+   "051pe": {
+    "eligiblePos": "C,Flx",
+    "status": "FA"
+   },
+   "051pd": {
+    "eligiblePos": "SG,G,Flx",
+    "status": "FA"
+   },
+   "051pg": {
+    "eligiblePos": "SG,G,SF,PF,F,Flx",
+    "status": "FA"
+   },
+   "051pf": {
+    "eligiblePos": "SG,G,Flx",
+    "status": "FA"
+   },
+   "06eoe": {
+    "eligiblePos": "SG,G,Flx",
+    "status": "FA"
+   },
+   "06gsd": {
+    "eligiblePos": "PG,G,Flx",
+    "status": "FA"
+   },
+   "055sg": {
+    "eligiblePos": "SG,G,Flx",
+    "status": "FA"
+   },
+   "05y7a": {
+    "eligiblePos": "SF,F,Flx",
+    "status": "FA"
+   },
+   "07946": {
+    "eligiblePos": "SF,PF,F,Flx",
+    "status": "FA"
+   },
+   "062k1": {
+    "eligiblePos": "PG,G,Flx",
+    "status": "FA"
+   },
+   "06eo4": {
+    "eligiblePos": "SG,G,Flx",
+    "status": "FA"
+   },
+   "04ews": {
+    "eligiblePos": "C,Flx",
+    "status": "FA"
+   },
+   "04ewr": {
+    "eligiblePos": "SF,PF,F,Flx",
+    "status": "FA"
+   },
+   "04ewu": {
+    "eligiblePos": "SG,G,SF,F,Flx",
+    "status": "T"
+   },
+   "04ewt": {
+    "eligiblePos": "PG,SG,G,Flx",
+    "status": "T"
+   },
+   "04ewn": {
+    "eligiblePos": "SF,PF,F,Flx",
+    "status": "T"
+   },
+   "04ewk": {
+    "eligiblePos": "SF,PF,C,F,Flx",
+    "status": "T"
+   },
+   "04ewj": {
+    "eligiblePos": "PF,F,Flx",
+    "status": "FA"
+   },
+   "04vxz": {
+    "eligiblePos": "C,Flx",
+    "status": "FA"
+   },
+   "04ewm": {
+    "eligiblePos": "C,Flx",
+    "status": "T"
+   },
+   "05y9y": {
+    "eligiblePos": "PG,G,Flx",
+    "status": "FA"
+   },
+   "04ewl": {
+    "eligiblePos": "SG,G,SF,F,Flx",
+    "status": "FA"
+   },
+   "04ewf": {
+    "eligiblePos": "PF,C,F,Flx",
+    "status": "T"
+   },
+   "04ewi": {
+    "eligiblePos": "PF,F,Flx",
+    "status": "FA"
+   },
+   "04vxy": {
+    "eligiblePos": "C,Flx",
+    "status": "FA"
+   },
+   "04ewh": {
+    "eligiblePos": "C,Flx",
+    "status": "FA"
+   },
+   "04ewc": {
+    "eligiblePos": "PF,C,F,Flx",
+    "status": "FA"
+   },
+   "05wy5": {
+    "eligiblePos": "SG,G,Flx",
+    "status": "FA"
+   },
+   "04ewb": {
+    "eligiblePos": "PF,F,Flx",
+    "status": "FA"
+   },
+   "04ewe": {
+    "eligiblePos": "PG,SG,G,Flx",
+    "status": "T"
+   },
+   "04ewd": {
+    "eligiblePos": "PG,SG,G,Flx",
+    "status": "FA"
+   },
+   "05wy4": {
+    "eligiblePos": "SG,G,Flx",
+    "status": "FA"
+   },
+   "000zv": {
+    "eligiblePos": "PF,C,F,Flx",
+    "status": "FA"
+   },
+   "06pfe": {
+    "eligiblePos": "SF,F,Flx",
+    "status": "FA"
+   },
+   "04ex8": {
+    "eligiblePos": "SG,G,SF,PF,F,Flx",
+    "status": "FA"
+   },
+   "04ex6": {
+    "eligiblePos": "C,Flx",
+    "status": "T"
+   },
+   "04ex5": {
+    "eligiblePos": "C,Flx",
+    "status": "FA"
+   },
+   "05wvx": {
+    "eligiblePos": "SG,G,Flx",
+    "status": "FA"
+   },
+   "05wvy": {
+    "eligiblePos": "PG,SG,G,Flx",
+    "status": "FA"
+   },
+   "06z7u": {
+    "eligiblePos": "PG,G,Flx",
+    "status": "FA"
+   },
+   "05wvv": {
+    "eligiblePos": "SF,F,Flx",
+    "status": "FA"
+   },
+   "05wvw": {
+    "eligiblePos": "SG,G,SF,F,Flx",
+    "status": "FA"
+   },
+   "064q6": {
+    "eligiblePos": "SG,G,SF,F,Flx",
+    "status": "FA"
+   },
+   "06z7s": {
+    "eligiblePos": "PG,SG,G,Flx",
+    "status": "FA"
+   },
+   "06z7t": {
+    "eligiblePos": "SF,PF,F,Flx",
+    "status": "FA"
+   },
+   "05wvu": {
+    "eligiblePos": "SG,G,Flx",
+    "status": "FA"
+   },
+   "0661b": {
+    "eligiblePos": "SG,G,SF,F,Flx",
+    "status": "FA"
+   }
+  },
+  "poolSettings": {
+   "duplicatePlayerType": "NONE",
+   "playerSourceType": "ALL_TEAMS"
+  },
+  "rosterPeriods": [
+   {
+    "number": 1,
+    "endDate": "2026-10-21T18:59:59.0-0400",
+    "startDate": "2026-10-20T15:00:00.0-0400"
+   },
+   {
+    "number": 2,
+    "endDate": "2026-10-22T18:59:59.0-0400",
+    "startDate": "2026-10-21T19:00:00.0-0400"
+   },
+   {
+    "number": 3,
+    "endDate": "2026-10-23T15:59:59.0-0400",
+    "startDate": "2026-10-22T19:00:00.0-0400"
+   },
+   {
+    "number": 4,
+    "endDate": "2026-10-24T17:59:59.0-0400",
+    "startDate": "2026-10-23T16:00:00.0-0400"
+   },
+   {
+    "number": 5,
+    "endDate": "2026-10-25T16:59:59.0-0400",
+    "startDate": "2026-10-24T18:00:00.0-0400"
+   },
+   {
+    "number": 6,
+    "endDate": "2026-10-26T18:59:59.0-0400",
+    "startDate": "2026-10-25T17:00:00.0-0400"
+   },
+   {
+    "number": 7,
+    "endDate": "2026-10-27T19:29:59.0-0400",
+    "startDate": "2026-10-26T19:00:00.0-0400"
+   },
+   {
+    "number": 8,
+    "endDate": "2026-10-28T18:59:59.0-0400",
+    "startDate": "2026-10-27T19:30:00.0-0400"
+   },
+   {
+    "number": 9,
+    "endDate": "2026-10-29T19:59:59.0-0400",
+    "startDate": "2026-10-28T19:00:00.0-0400"
+   },
+   {
+    "number": 10,
+    "endDate": "2026-10-30T18:59:59.0-0400",
+    "startDate": "2026-10-29T20:00:00.0-0400"
+   },
+   {
+    "number": 11,
+    "endDate": "2026-10-31T14:59:59.0-0400",
+    "startDate": "2026-10-30T19:00:00.0-0400"
+   },
+   {
+    "number": 12,
+    "endDate": "2026-11-01T15:29:59.0-0500",
+    "startDate": "2026-10-31T15:00:00.0-0400"
+   },
+   {
+    "number": 13,
+    "endDate": "2026-11-02T18:59:59.0-0500",
+    "startDate": "2026-11-01T15:30:00.0-0500"
+   },
+   {
+    "number": 14,
+    "endDate": "2026-11-03T11:59:59.0-0500",
+    "startDate": "2026-11-02T19:00:00.0-0500"
+   },
+   {
+    "number": 15,
+    "endDate": "2026-11-04T18:59:59.0-0500",
+    "startDate": "2026-11-03T12:00:00.0-0500"
+   },
+   {
+    "number": 16,
+    "endDate": "2026-11-05T20:59:59.0-0500",
+    "startDate": "2026-11-04T19:00:00.0-0500"
+   },
+   {
+    "number": 17,
+    "endDate": "2026-11-06T18:59:59.0-0500",
+    "startDate": "2026-11-05T21:00:00.0-0500"
+   },
+   {
+    "number": 18,
+    "endDate": "2026-11-07T16:59:59.0-0500",
+    "startDate": "2026-11-06T19:00:00.0-0500"
+   },
+   {
+    "number": 19,
+    "endDate": "2026-11-08T15:29:59.0-0500",
+    "startDate": "2026-11-07T17:00:00.0-0500"
+   },
+   {
+    "number": 20,
+    "endDate": "2026-11-09T18:59:59.0-0500",
+    "startDate": "2026-11-08T15:30:00.0-0500"
+   },
+   {
+    "number": 21,
+    "endDate": "2026-11-10T19:29:59.0-0500",
+    "startDate": "2026-11-09T19:00:00.0-0500"
+   },
+   {
+    "number": 22,
+    "endDate": "2026-11-11T18:59:59.0-0500",
+    "startDate": "2026-11-10T19:30:00.0-0500"
+   },
+   {
+    "number": 23,
+    "endDate": "2026-11-12T18:59:59.0-0500",
+    "startDate": "2026-11-11T19:00:00.0-0500"
+   },
+   {
+    "number": 24,
+    "endDate": "2026-11-13T18:59:59.0-0500",
+    "startDate": "2026-11-12T19:00:00.0-0500"
+   },
+   {
+    "number": 25,
+    "endDate": "2026-11-14T18:59:59.0-0500",
+    "startDate": "2026-11-13T19:00:00.0-0500"
+   },
+   {
+    "number": 26,
+    "endDate": "2026-11-15T12:59:59.0-0500",
+    "startDate": "2026-11-14T19:00:00.0-0500"
+   },
+   {
+    "number": 27,
+    "endDate": "2026-11-16T18:59:59.0-0500",
+    "startDate": "2026-11-15T13:00:00.0-0500"
+   },
+   {
+    "number": 28,
+    "endDate": "2026-11-17T19:29:59.0-0500",
+    "startDate": "2026-11-16T19:00:00.0-0500"
+   },
+   {
+    "number": 29,
+    "endDate": "2026-11-18T18:59:59.0-0500",
+    "startDate": "2026-11-17T19:30:00.0-0500"
+   },
+   {
+    "number": 30,
+    "endDate": "2026-11-19T19:59:59.0-0500",
+    "startDate": "2026-11-18T19:00:00.0-0500"
+   },
+   {
+    "number": 31,
+    "endDate": "2026-11-20T18:59:59.0-0500",
+    "startDate": "2026-11-19T20:00:00.0-0500"
+   },
+   {
+    "number": 32,
+    "endDate": "2026-11-21T12:59:59.0-0500",
+    "startDate": "2026-11-20T19:00:00.0-0500"
+   },
+   {
+    "number": 33,
+    "endDate": "2026-11-22T15:29:59.0-0500",
+    "startDate": "2026-11-21T13:00:00.0-0500"
+   },
+   {
+    "number": 34,
+    "endDate": "2026-11-23T18:59:59.0-0500",
+    "startDate": "2026-11-22T15:30:00.0-0500"
+   },
+   {
+    "number": 35,
+    "endDate": "2026-11-24T18:59:59.0-0500",
+    "startDate": "2026-11-23T19:00:00.0-0500"
+   },
+   {
+    "number": 36,
+    "endDate": "2026-11-25T16:59:59.0-0500",
+    "startDate": "2026-11-24T19:00:00.0-0500"
+   },
+   {
+    "number": 37,
+    "endDate": "2026-11-26T11:59:59.0-0500",
+    "startDate": "2026-11-25T17:00:00.0-0500"
+   },
+   {
+    "number": 38,
+    "endDate": "2026-11-27T18:59:59.0-0500",
+    "startDate": "2026-11-26T12:00:00.0-0500"
+   },
+   {
+    "number": 39,
+    "endDate": "2026-11-28T16:59:59.0-0500",
+    "startDate": "2026-11-27T19:00:00.0-0500"
+   },
+   {
+    "number": 40,
+    "endDate": "2026-11-29T15:59:59.0-0500",
+    "startDate": "2026-11-28T17:00:00.0-0500"
+   },
+   {
+    "number": 41,
+    "endDate": "2026-11-30T18:59:59.0-0500",
+    "startDate": "2026-11-29T16:00:00.0-0500"
+   },
+   {
+    "number": 42,
+    "endDate": "2026-12-01T18:59:59.0-0500",
+    "startDate": "2026-11-30T19:00:00.0-0500"
+   },
+   {
+    "number": 43,
+    "endDate": "2026-12-02T18:59:59.0-0500",
+    "startDate": "2026-12-01T19:00:00.0-0500"
+   },
+   {
+    "number": 44,
+    "endDate": "2026-12-03T18:59:59.0-0500",
+    "startDate": "2026-12-02T19:00:00.0-0500"
+   },
+   {
+    "number": 45,
+    "endDate": "2026-12-04T11:59:59.0-0500",
+    "startDate": "2026-12-03T19:00:00.0-0500"
+   },
+   {
+    "number": 46,
+    "endDate": "2026-12-05T11:59:59.0-0500",
+    "startDate": "2026-12-04T12:00:00.0-0500"
+   },
+   {
+    "number": 47,
+    "endDate": "2026-12-06T11:59:59.0-0500",
+    "startDate": "2026-12-05T12:00:00.0-0500"
+   },
+   {
+    "number": 48,
+    "endDate": "2026-12-07T11:59:59.0-0500",
+    "startDate": "2026-12-06T12:00:00.0-0500"
+   },
+   {
+    "number": 49,
+    "endDate": "2026-12-08T11:59:59.0-0500",
+    "startDate": "2026-12-07T12:00:00.0-0500"
+   },
+   {
+    "number": 50,
+    "endDate": "2026-12-09T11:59:59.0-0500",
+    "startDate": "2026-12-08T12:00:00.0-0500"
+   },
+   {
+    "number": 51,
+    "endDate": "2026-12-10T11:59:59.0-0500",
+    "startDate": "2026-12-09T12:00:00.0-0500"
+   },
+   {
+    "number": 52,
+    "endDate": "2026-12-11T11:59:59.0-0500",
+    "startDate": "2026-12-10T12:00:00.0-0500"
+   },
+   {
+    "number": 53,
+    "endDate": "2026-12-12T16:59:59.0-0500",
+    "startDate": "2026-12-11T12:00:00.0-0500"
+   },
+   {
+    "number": 54,
+    "endDate": "2026-12-13T14:59:59.0-0500",
+    "startDate": "2026-12-12T17:00:00.0-0500"
+   },
+   {
+    "number": 55,
+    "endDate": "2026-12-14T18:59:59.0-0500",
+    "startDate": "2026-12-13T15:00:00.0-0500"
+   },
+   {
+    "number": 56,
+    "endDate": "2026-12-15T19:59:59.0-0500",
+    "startDate": "2026-12-14T19:00:00.0-0500"
+   },
+   {
+    "number": 57,
+    "endDate": "2026-12-16T18:59:59.0-0500",
+    "startDate": "2026-12-15T20:00:00.0-0500"
+   },
+   {
+    "number": 58,
+    "endDate": "2026-12-17T18:59:59.0-0500",
+    "startDate": "2026-12-16T19:00:00.0-0500"
+   },
+   {
+    "number": 59,
+    "endDate": "2026-12-18T18:59:59.0-0500",
+    "startDate": "2026-12-17T19:00:00.0-0500"
+   },
+   {
+    "number": 60,
+    "endDate": "2026-12-19T17:59:59.0-0500",
+    "startDate": "2026-12-18T19:00:00.0-0500"
+   },
+   {
+    "number": 61,
+    "endDate": "2026-12-20T14:59:59.0-0500",
+    "startDate": "2026-12-19T18:00:00.0-0500"
+   },
+   {
+    "number": 62,
+    "endDate": "2026-12-21T18:59:59.0-0500",
+    "startDate": "2026-12-20T15:00:00.0-0500"
+   },
+   {
+    "number": 63,
+    "endDate": "2026-12-22T18:59:59.0-0500",
+    "startDate": "2026-12-21T19:00:00.0-0500"
+   },
+   {
+    "number": 64,
+    "endDate": "2026-12-23T18:59:59.0-0500",
+    "startDate": "2026-12-22T19:00:00.0-0500"
+   },
+   {
+    "number": 65,
+    "endDate": "2026-12-24T11:59:59.0-0500",
+    "startDate": "2026-12-23T19:00:00.0-0500"
+   },
+   {
+    "number": 66,
+    "endDate": "2026-12-25T11:59:59.0-0500",
+    "startDate": "2026-12-24T12:00:00.0-0500"
+   },
+   {
+    "number": 67,
+    "endDate": "2026-12-26T12:59:59.0-0500",
+    "startDate": "2026-12-25T12:00:00.0-0500"
+   },
+   {
+    "number": 68,
+    "endDate": "2026-12-27T15:29:59.0-0500",
+    "startDate": "2026-12-26T13:00:00.0-0500"
+   },
+   {
+    "number": 69,
+    "endDate": "2026-12-28T19:29:59.0-0500",
+    "startDate": "2026-12-27T15:30:00.0-0500"
+   },
+   {
+    "number": 70,
+    "endDate": "2026-12-29T18:59:59.0-0500",
+    "startDate": "2026-12-28T19:30:00.0-0500"
+   },
+   {
+    "number": 71,
+    "endDate": "2026-12-30T18:59:59.0-0500",
+    "startDate": "2026-12-29T19:00:00.0-0500"
+   },
+   {
+    "number": 72,
+    "endDate": "2026-12-31T12:59:59.0-0500",
+    "startDate": "2026-12-30T19:00:00.0-0500"
+   },
+   {
+    "number": 73,
+    "endDate": "2027-01-01T16:59:59.0-0500",
+    "startDate": "2026-12-31T13:00:00.0-0500"
+   },
+   {
+    "number": 74,
+    "endDate": "2027-01-02T12:59:59.0-0500",
+    "startDate": "2027-01-01T17:00:00.0-0500"
+   },
+   {
+    "number": 75,
+    "endDate": "2027-01-03T16:59:59.0-0500",
+    "startDate": "2027-01-02T13:00:00.0-0500"
+   },
+   {
+    "number": 76,
+    "endDate": "2027-01-04T18:59:59.0-0500",
+    "startDate": "2027-01-03T17:00:00.0-0500"
+   },
+   {
+    "number": 77,
+    "endDate": "2027-01-05T18:59:59.0-0500",
+    "startDate": "2027-01-04T19:00:00.0-0500"
+   },
+   {
+    "number": 78,
+    "endDate": "2027-01-06T19:29:59.0-0500",
+    "startDate": "2027-01-05T19:00:00.0-0500"
+   },
+   {
+    "number": 79,
+    "endDate": "2027-01-07T18:59:59.0-0500",
+    "startDate": "2027-01-06T19:30:00.0-0500"
+   },
+   {
+    "number": 80,
+    "endDate": "2027-01-08T18:59:59.0-0500",
+    "startDate": "2027-01-07T19:00:00.0-0500"
+   },
+   {
+    "number": 81,
+    "endDate": "2027-01-09T16:59:59.0-0500",
+    "startDate": "2027-01-08T19:00:00.0-0500"
+   },
+   {
+    "number": 82,
+    "endDate": "2027-01-10T14:59:59.0-0500",
+    "startDate": "2027-01-09T17:00:00.0-0500"
+   },
+   {
+    "number": 83,
+    "endDate": "2027-01-11T18:59:59.0-0500",
+    "startDate": "2027-01-10T15:00:00.0-0500"
+   },
+   {
+    "number": 84,
+    "endDate": "2027-01-12T19:29:59.0-0500",
+    "startDate": "2027-01-11T19:00:00.0-0500"
+   },
+   {
+    "number": 85,
+    "endDate": "2027-01-13T18:59:59.0-0500",
+    "startDate": "2027-01-12T19:30:00.0-0500"
+   },
+   {
+    "number": 86,
+    "endDate": "2027-01-14T13:59:59.0-0500",
+    "startDate": "2027-01-13T19:00:00.0-0500"
+   },
+   {
+    "number": 87,
+    "endDate": "2027-01-15T18:59:59.0-0500",
+    "startDate": "2027-01-14T14:00:00.0-0500"
+   },
+   {
+    "number": 88,
+    "endDate": "2027-01-16T12:29:59.0-0500",
+    "startDate": "2027-01-15T19:00:00.0-0500"
+   },
+   {
+    "number": 89,
+    "endDate": "2027-01-17T10:29:59.0-0500",
+    "startDate": "2027-01-16T12:30:00.0-0500"
+   },
+   {
+    "number": 90,
+    "endDate": "2027-01-18T11:59:59.0-0500",
+    "startDate": "2027-01-17T10:30:00.0-0500"
+   },
+   {
+    "number": 91,
+    "endDate": "2027-01-19T18:59:59.0-0500",
+    "startDate": "2027-01-18T12:00:00.0-0500"
+   },
+   {
+    "number": 92,
+    "endDate": "2027-01-20T18:59:59.0-0500",
+    "startDate": "2027-01-19T19:00:00.0-0500"
+   },
+   {
+    "number": 93,
+    "endDate": "2027-01-21T19:29:59.0-0500",
+    "startDate": "2027-01-20T19:00:00.0-0500"
+   },
+   {
+    "number": 94,
+    "endDate": "2027-01-22T18:59:59.0-0500",
+    "startDate": "2027-01-21T19:30:00.0-0500"
+   },
+   {
+    "number": 95,
+    "endDate": "2027-01-23T16:59:59.0-0500",
+    "startDate": "2027-01-22T19:00:00.0-0500"
+   },
+   {
+    "number": 96,
+    "endDate": "2027-01-24T15:29:59.0-0500",
+    "startDate": "2027-01-23T17:00:00.0-0500"
+   },
+   {
+    "number": 97,
+    "endDate": "2027-01-25T18:59:59.0-0500",
+    "startDate": "2027-01-24T15:30:00.0-0500"
+   },
+   {
+    "number": 98,
+    "endDate": "2027-01-26T18:59:59.0-0500",
+    "startDate": "2027-01-25T19:00:00.0-0500"
+   },
+   {
+    "number": 99,
+    "endDate": "2027-01-27T18:59:59.0-0500",
+    "startDate": "2027-01-26T19:00:00.0-0500"
+   },
+   {
+    "number": 100,
+    "endDate": "2027-01-28T18:59:59.0-0500",
+    "startDate": "2027-01-27T19:00:00.0-0500"
+   },
+   {
+    "number": 101,
+    "endDate": "2027-01-29T18:59:59.0-0500",
+    "startDate": "2027-01-28T19:00:00.0-0500"
+   },
+   {
+    "number": 102,
+    "endDate": "2027-01-30T12:29:59.0-0500",
+    "startDate": "2027-01-29T19:00:00.0-0500"
+   },
+   {
+    "number": 103,
+    "endDate": "2027-01-31T14:59:59.0-0500",
+    "startDate": "2027-01-30T12:30:00.0-0500"
+   },
+   {
+    "number": 104,
+    "endDate": "2027-02-01T18:59:59.0-0500",
+    "startDate": "2027-01-31T15:00:00.0-0500"
+   },
+   {
+    "number": 105,
+    "endDate": "2027-02-02T18:59:59.0-0500",
+    "startDate": "2027-02-01T19:00:00.0-0500"
+   },
+   {
+    "number": 106,
+    "endDate": "2027-02-03T18:59:59.0-0500",
+    "startDate": "2027-02-02T19:00:00.0-0500"
+   },
+   {
+    "number": 107,
+    "endDate": "2027-02-04T18:59:59.0-0500",
+    "startDate": "2027-02-03T19:00:00.0-0500"
+   },
+   {
+    "number": 108,
+    "endDate": "2027-02-05T18:59:59.0-0500",
+    "startDate": "2027-02-04T19:00:00.0-0500"
+   },
+   {
+    "number": 109,
+    "endDate": "2027-02-06T14:59:59.0-0500",
+    "startDate": "2027-02-05T19:00:00.0-0500"
+   },
+   {
+    "number": 110,
+    "endDate": "2027-02-07T14:59:59.0-0500",
+    "startDate": "2027-02-06T15:00:00.0-0500"
+   },
+   {
+    "number": 111,
+    "endDate": "2027-02-08T18:59:59.0-0500",
+    "startDate": "2027-02-07T15:00:00.0-0500"
+   },
+   {
+    "number": 112,
+    "endDate": "2027-02-09T18:59:59.0-0500",
+    "startDate": "2027-02-08T19:00:00.0-0500"
+   },
+   {
+    "number": 113,
+    "endDate": "2027-02-10T18:59:59.0-0500",
+    "startDate": "2027-02-09T19:00:00.0-0500"
+   },
+   {
+    "number": 114,
+    "endDate": "2027-02-11T18:59:59.0-0500",
+    "startDate": "2027-02-10T19:00:00.0-0500"
+   },
+   {
+    "number": 115,
+    "endDate": "2027-02-12T18:59:59.0-0500",
+    "startDate": "2027-02-11T19:00:00.0-0500"
+   },
+   {
+    "number": 116,
+    "endDate": "2027-02-13T13:59:59.0-0500",
+    "startDate": "2027-02-12T19:00:00.0-0500"
+   },
+   {
+    "number": 117,
+    "endDate": "2027-02-14T12:59:59.0-0500",
+    "startDate": "2027-02-13T14:00:00.0-0500"
+   },
+   {
+    "number": 118,
+    "endDate": "2027-02-15T11:59:59.0-0500",
+    "startDate": "2027-02-14T13:00:00.0-0500"
+   },
+   {
+    "number": 119,
+    "endDate": "2027-02-16T18:59:59.0-0500",
+    "startDate": "2027-02-15T12:00:00.0-0500"
+   },
+   {
+    "number": 120,
+    "endDate": "2027-02-17T18:59:59.0-0500",
+    "startDate": "2027-02-16T19:00:00.0-0500"
+   },
+   {
+    "number": 121,
+    "endDate": "2027-02-18T19:29:59.0-0500",
+    "startDate": "2027-02-17T19:00:00.0-0500"
+   },
+   {
+    "number": 122,
+    "endDate": "2027-02-19T11:59:59.0-0500",
+    "startDate": "2027-02-18T19:30:00.0-0500"
+   },
+   {
+    "number": 123,
+    "endDate": "2027-02-20T11:59:59.0-0500",
+    "startDate": "2027-02-19T12:00:00.0-0500"
+   },
+   {
+    "number": 124,
+    "endDate": "2027-02-21T11:59:59.0-0500",
+    "startDate": "2027-02-20T12:00:00.0-0500"
+   },
+   {
+    "number": 125,
+    "endDate": "2027-02-22T11:59:59.0-0500",
+    "startDate": "2027-02-21T12:00:00.0-0500"
+   },
+   {
+    "number": 126,
+    "endDate": "2027-02-23T11:59:59.0-0500",
+    "startDate": "2027-02-22T12:00:00.0-0500"
+   },
+   {
+    "number": 127,
+    "endDate": "2027-02-24T11:59:59.0-0500",
+    "startDate": "2027-02-23T12:00:00.0-0500"
+   },
+   {
+    "number": 128,
+    "endDate": "2027-02-25T18:59:59.0-0500",
+    "startDate": "2027-02-24T12:00:00.0-0500"
+   },
+   {
+    "number": 129,
+    "endDate": "2027-02-26T19:29:59.0-0500",
+    "startDate": "2027-02-25T19:00:00.0-0500"
+   },
+   {
+    "number": 130,
+    "endDate": "2027-02-27T14:59:59.0-0500",
+    "startDate": "2027-02-26T19:30:00.0-0500"
+   },
+   {
+    "number": 131,
+    "endDate": "2027-02-28T12:59:59.0-0500",
+    "startDate": "2027-02-27T15:00:00.0-0500"
+   },
+   {
+    "number": 132,
+    "endDate": "2027-03-01T18:59:59.0-0500",
+    "startDate": "2027-02-28T13:00:00.0-0500"
+   },
+   {
+    "number": 133,
+    "endDate": "2027-03-02T18:59:59.0-0500",
+    "startDate": "2027-03-01T19:00:00.0-0500"
+   },
+   {
+    "number": 134,
+    "endDate": "2027-03-03T18:59:59.0-0500",
+    "startDate": "2027-03-02T19:00:00.0-0500"
+   },
+   {
+    "number": 135,
+    "endDate": "2027-03-04T18:59:59.0-0500",
+    "startDate": "2027-03-03T19:00:00.0-0500"
+   },
+   {
+    "number": 136,
+    "endDate": "2027-03-05T18:59:59.0-0500",
+    "startDate": "2027-03-04T19:00:00.0-0500"
+   },
+   {
+    "number": 137,
+    "endDate": "2027-03-06T14:59:59.0-0500",
+    "startDate": "2027-03-05T19:00:00.0-0500"
+   },
+   {
+    "number": 138,
+    "endDate": "2027-03-07T12:59:59.0-0500",
+    "startDate": "2027-03-06T15:00:00.0-0500"
+   },
+   {
+    "number": 139,
+    "endDate": "2027-03-08T18:59:59.0-0500",
+    "startDate": "2027-03-07T13:00:00.0-0500"
+   },
+   {
+    "number": 140,
+    "endDate": "2027-03-09T18:59:59.0-0500",
+    "startDate": "2027-03-08T19:00:00.0-0500"
+   },
+   {
+    "number": 141,
+    "endDate": "2027-03-10T18:59:59.0-0500",
+    "startDate": "2027-03-09T19:00:00.0-0500"
+   },
+   {
+    "number": 142,
+    "endDate": "2027-03-11T18:59:59.0-0500",
+    "startDate": "2027-03-10T19:00:00.0-0500"
+   },
+   {
+    "number": 143,
+    "endDate": "2027-03-12T19:29:59.0-0500",
+    "startDate": "2027-03-11T19:00:00.0-0500"
+   },
+   {
+    "number": 144,
+    "endDate": "2027-03-13T14:59:59.0-0500",
+    "startDate": "2027-03-12T19:30:00.0-0500"
+   },
+   {
+    "number": 145,
+    "endDate": "2027-03-14T11:59:59.0-0400",
+    "startDate": "2027-03-13T15:00:00.0-0500"
+   },
+   {
+    "number": 146,
+    "endDate": "2027-03-15T18:59:59.0-0400",
+    "startDate": "2027-03-14T12:00:00.0-0400"
+   },
+   {
+    "number": 147,
+    "endDate": "2027-03-16T18:59:59.0-0400",
+    "startDate": "2027-03-15T19:00:00.0-0400"
+   },
+   {
+    "number": 148,
+    "endDate": "2027-03-17T18:59:59.0-0400",
+    "startDate": "2027-03-16T19:00:00.0-0400"
+   },
+   {
+    "number": 149,
+    "endDate": "2027-03-18T18:59:59.0-0400",
+    "startDate": "2027-03-17T19:00:00.0-0400"
+   },
+   {
+    "number": 150,
+    "endDate": "2027-03-19T19:29:59.0-0400",
+    "startDate": "2027-03-18T19:00:00.0-0400"
+   },
+   {
+    "number": 151,
+    "endDate": "2027-03-20T12:59:59.0-0400",
+    "startDate": "2027-03-19T19:30:00.0-0400"
+   },
+   {
+    "number": 152,
+    "endDate": "2027-03-21T14:59:59.0-0400",
+    "startDate": "2027-03-20T13:00:00.0-0400"
+   },
+   {
+    "number": 153,
+    "endDate": "2027-03-22T18:59:59.0-0400",
+    "startDate": "2027-03-21T15:00:00.0-0400"
+   },
+   {
+    "number": 154,
+    "endDate": "2027-03-23T19:29:59.0-0400",
+    "startDate": "2027-03-22T19:00:00.0-0400"
+   },
+   {
+    "number": 155,
+    "endDate": "2027-03-24T18:59:59.0-0400",
+    "startDate": "2027-03-23T19:30:00.0-0400"
+   },
+   {
+    "number": 156,
+    "endDate": "2027-03-25T18:59:59.0-0400",
+    "startDate": "2027-03-24T19:00:00.0-0400"
+   },
+   {
+    "number": 157,
+    "endDate": "2027-03-26T18:59:59.0-0400",
+    "startDate": "2027-03-25T19:00:00.0-0400"
+   },
+   {
+    "number": 158,
+    "endDate": "2027-03-27T14:59:59.0-0400",
+    "startDate": "2027-03-26T19:00:00.0-0400"
+   },
+   {
+    "number": 159,
+    "endDate": "2027-03-28T12:29:59.0-0400",
+    "startDate": "2027-03-27T15:00:00.0-0400"
+   },
+   {
+    "number": 160,
+    "endDate": "2027-03-29T18:59:59.0-0400",
+    "startDate": "2027-03-28T12:30:00.0-0400"
+   },
+   {
+    "number": 161,
+    "endDate": "2027-03-30T18:59:59.0-0400",
+    "startDate": "2027-03-29T19:00:00.0-0400"
+   },
+   {
+    "number": 162,
+    "endDate": "2027-03-31T18:59:59.0-0400",
+    "startDate": "2027-03-30T19:00:00.0-0400"
+   },
+   {
+    "number": 163,
+    "endDate": "2027-04-01T18:59:59.0-0400",
+    "startDate": "2027-03-31T19:00:00.0-0400"
+   },
+   {
+    "number": 164,
+    "endDate": "2027-04-02T18:59:59.0-0400",
+    "startDate": "2027-04-01T19:00:00.0-0400"
+   },
+   {
+    "number": 165,
+    "endDate": "2027-04-03T16:59:59.0-0400",
+    "startDate": "2027-04-02T19:00:00.0-0400"
+   },
+   {
+    "number": 166,
+    "endDate": "2027-04-04T12:59:59.0-0400",
+    "startDate": "2027-04-03T17:00:00.0-0400"
+   },
+   {
+    "number": 167,
+    "endDate": "2027-04-05T18:59:59.0-0400",
+    "startDate": "2027-04-04T13:00:00.0-0400"
+   },
+   {
+    "number": 168,
+    "endDate": "2027-04-06T18:59:59.0-0400",
+    "startDate": "2027-04-05T19:00:00.0-0400"
+   },
+   {
+    "number": 169,
+    "endDate": "2027-04-07T18:59:59.0-0400",
+    "startDate": "2027-04-06T19:00:00.0-0400"
+   },
+   {
+    "number": 170,
+    "endDate": "2027-04-08T18:59:59.0-0400",
+    "startDate": "2027-04-07T19:00:00.0-0400"
+   },
+   {
+    "number": 171,
+    "endDate": "2027-04-09T18:59:59.0-0400",
+    "startDate": "2027-04-08T19:00:00.0-0400"
+   },
+   {
+    "number": 172,
+    "endDate": "2027-04-10T11:59:59.0-0400",
+    "startDate": "2027-04-09T19:00:00.0-0400"
+   },
+   {
+    "number": 173,
+    "endDate": "2027-04-11T17:59:59.0-0400",
+    "startDate": "2027-04-10T12:00:00.0-0400"
+   },
+   {
+    "number": 174,
+    "endDate": "2027-04-12T11:59:59.0-0400",
+    "startDate": "2027-04-11T18:00:00.0-0400"
+   }
+  ],
+  "scoringPeriods": [
+   {
+    "number": 1,
+    "endDate": "2026-10-26T18:59:59.0-0400",
+    "startDate": "2026-10-20T15:00:00.0-0400"
+   },
+   {
+    "number": 2,
+    "endDate": "2026-11-02T18:59:59.0-0500",
+    "startDate": "2026-10-26T19:00:00.0-0400"
+   },
+   {
+    "number": 3,
+    "endDate": "2026-11-09T18:59:59.0-0500",
+    "startDate": "2026-11-02T19:00:00.0-0500"
+   },
+   {
+    "number": 4,
+    "endDate": "2026-11-16T18:59:59.0-0500",
+    "startDate": "2026-11-09T19:00:00.0-0500"
+   },
+   {
+    "number": 5,
+    "endDate": "2026-11-23T18:59:59.0-0500",
+    "startDate": "2026-11-16T19:00:00.0-0500"
+   },
+   {
+    "number": 6,
+    "endDate": "2026-11-30T18:59:59.0-0500",
+    "startDate": "2026-11-23T19:00:00.0-0500"
+   },
+   {
+    "number": 7,
+    "endDate": "2026-12-07T11:59:59.0-0500",
+    "startDate": "2026-11-30T19:00:00.0-0500"
+   },
+   {
+    "number": 8,
+    "endDate": "2026-12-14T18:59:59.0-0500",
+    "startDate": "2026-12-07T12:00:00.0-0500"
+   },
+   {
+    "number": 9,
+    "endDate": "2026-12-21T18:59:59.0-0500",
+    "startDate": "2026-12-14T19:00:00.0-0500"
+   },
+   {
+    "number": 10,
+    "endDate": "2026-12-28T19:29:59.0-0500",
+    "startDate": "2026-12-21T19:00:00.0-0500"
+   },
+   {
+    "number": 11,
+    "endDate": "2027-01-04T18:59:59.0-0500",
+    "startDate": "2026-12-28T19:30:00.0-0500"
+   },
+   {
+    "number": 12,
+    "endDate": "2027-01-11T18:59:59.0-0500",
+    "startDate": "2027-01-04T19:00:00.0-0500"
+   },
+   {
+    "number": 13,
+    "endDate": "2027-01-18T11:59:59.0-0500",
+    "startDate": "2027-01-11T19:00:00.0-0500"
+   },
+   {
+    "number": 14,
+    "endDate": "2027-01-25T18:59:59.0-0500",
+    "startDate": "2027-01-18T12:00:00.0-0500"
+   },
+   {
+    "number": 15,
+    "endDate": "2027-02-01T18:59:59.0-0500",
+    "startDate": "2027-01-25T19:00:00.0-0500"
+   },
+   {
+    "number": 16,
+    "endDate": "2027-02-08T18:59:59.0-0500",
+    "startDate": "2027-02-01T19:00:00.0-0500"
+   },
+   {
+    "number": 17,
+    "endDate": "2027-02-15T11:59:59.0-0500",
+    "startDate": "2027-02-08T19:00:00.0-0500"
+   },
+   {
+    "number": 18,
+    "endDate": "2027-03-01T18:59:59.0-0500",
+    "startDate": "2027-02-15T12:00:00.0-0500"
+   },
+   {
+    "number": 19,
+    "endDate": "2027-03-08T18:59:59.0-0500",
+    "startDate": "2027-03-01T19:00:00.0-0500"
+   },
+   {
+    "number": 20,
+    "endDate": "2027-03-15T18:59:59.0-0400",
+    "startDate": "2027-03-08T19:00:00.0-0500"
+   },
+   {
+    "number": 21,
+    "endDate": "2027-03-29T18:59:58.0-0400",
+    "startDate": "2027-03-15T19:00:00.0-0400"
+   },
+   {
+    "number": 22,
+    "endDate": "2027-04-12T11:59:59.0-0400",
+    "startDate": "2027-03-29T19:00:00.0-0400"
+   }
+  ],
+  "teamInfo": {
+   "6wdc0v27murmhnn2": {
+    "name": "Bye Week",
+    "id": "6wdc0v27murmhnn2"
+   },
+   "f310mnh8murmhnn2": {
+    "name": "The Fun Guys",
+    "id": "f310mnh8murmhnn2"
+   },
+   "p8lde4xbmusl24sh": {
+    "name": "The 2026 Revenge Tour",
+    "id": "p8lde4xbmusl24sh"
+   },
+   "rdl7dlplmurmhnn2": {
+    "name": "Suggs to be You",
+    "id": "rdl7dlplmurmhnn2"
+   },
+   "om35rt8imurmhnn2": {
+    "name": "Let's Go Brandon Ingram",
+    "id": "om35rt8imurmhnn2"
+   },
+   "t5zv7h5emurmhnn2": {
+    "name": "The Rollin\u00e2\u0080\u0099 Treys",
+    "id": "t5zv7h5emurmhnn2"
+   },
+   "0tjisxjpmurmhnn2": {
+    "name": "No Mercy, Just Usage Rate",
+    "id": "0tjisxjpmurmhnn2"
+   },
+   "ozju7nsmmurmhnn2": {
+    "name": "Conflict of Interest",
+    "id": "ozju7nsmmurmhnn2"
+   },
+   "0j15rgscmurmhnn2": {
+    "name": "bADa bing bong blok",
+    "id": "0j15rgscmurmhnn2"
+   },
+   "owvgfdvnmurmhnn2": {
+    "name": "Practical",
+    "id": "owvgfdvnmurmhnn2"
+   }
+  },
+  "draftType": "snake",
+  "draftSettings": {
+   "draftType": "snake"
+  },
+  "leagueName": "The No Toms League",
+  "leagueHistoryId": "mj6rfkk6jmqtm48d",
+  "scoringSystem": {
+   "scoringCategories": {
+    "PLAYER": {
+     "BLK": {
+      "Default": "1.0"
+     },
+     "ST": {
+      "Default": "1.0"
+     },
+     "AST": {
+      "Default": "1.0"
+     },
+     "FG%": {
+      "Default": "1.0"
+     },
+     "FT%": {
+      "Default": "1.0"
+     },
+     "TO": {
+      "Default": "1.0"
+     },
+     "PTS": {
+      "Default": "1.0"
+     },
+     "REB": {
+      "Default": "1.0"
+     },
+     "3PTM": {
+      "Default": "1.0"
+     }
+    }
+   },
+   "scoringCategorySettings": [
+    {
+     "configs": [
+      {
+       "weight": 1.0,
+       "position": {
+        "code": "DEFAULT",
+        "name": "Default",
+        "id": "-1",
+        "shortName": "Default"
+       },
+       "scoringCategory": {
+        "code": "INDIVIDUAL_ASSISTS",
+        "name": "Assists",
+        "id": "1250",
+        "shortName": "AST"
+       }
+      },
+      {
+       "weight": 1.0,
+       "position": {
+        "code": "DEFAULT",
+        "name": "Default",
+        "id": "-1",
+        "shortName": "Default"
+       },
+       "scoringCategory": {
+        "code": "INDIVIDUAL_BLOCKS",
+        "name": "Blocks",
+        "id": "1260",
+        "shortName": "BLK"
+       }
+      },
+      {
+       "weight": 1.0,
+       "position": {
+        "code": "DEFAULT",
+        "name": "Default",
+        "id": "-1",
+        "shortName": "Default"
+       },
+       "scoringCategory": {
+        "code": "INDIVIDUAL_POINTS",
+        "name": "Points",
+        "id": "1390",
+        "shortName": "PTS"
+       }
+      },
+      {
+       "weight": 1.0,
+       "position": {
+        "code": "DEFAULT",
+        "name": "Default",
+        "id": "-1",
+        "shortName": "Default"
+       },
+       "scoringCategory": {
+        "code": "INDIVIDUAL_REBOUNDS",
+        "name": "Rebounds",
+        "id": "1400",
+        "shortName": "REB"
+       }
+      },
+      {
+       "weight": 1.0,
+       "position": {
+        "code": "DEFAULT",
+        "name": "Default",
+        "id": "-1",
+        "shortName": "Default"
+       },
+       "scoringCategory": {
+        "code": "INDIVIDUAL_STEALS",
+        "name": "Steals",
+        "id": "1410",
+        "shortName": "ST"
+       }
+      },
+      {
+       "weight": 1.0,
+       "position": {
+        "code": "DEFAULT",
+        "name": "Default",
+        "id": "-1",
+        "shortName": "Default"
+       },
+       "scoringCategory": {
+        "code": "INDIVIDUAL_THREE_POINTERS_MADE",
+        "name": "Three Pointers Made",
+        "id": "1435",
+        "shortName": "3PTM"
+       }
+      },
+      {
+       "weight": 1.0,
+       "position": {
+        "code": "DEFAULT",
+        "name": "Default",
+        "id": "-1",
+        "shortName": "Default"
+       },
+       "scoringCategory": {
+        "code": "INDIVIDUAL_TURNOVERS",
+        "name": "Turnovers",
+        "id": "1460",
+        "shortName": "TO"
+       }
+      },
+      {
+       "weight": 1.0,
+       "position": {
+        "code": "DEFAULT",
+        "name": "Default",
+        "id": "-1",
+        "shortName": "Default"
+       },
+       "scoringCategory": {
+        "code": "INDIVIDUAL_FIELD_GOAL_PERCENTAGE",
+        "name": "Field Goal %",
+        "id": "1520",
+        "shortName": "FG%"
+       }
+      },
+      {
+       "weight": 1.0,
+       "position": {
+        "code": "DEFAULT",
+        "name": "Default",
+        "id": "-1",
+        "shortName": "Default"
+       },
+       "scoringCategory": {
+        "code": "INDIVIDUAL_FREE_THROW_PERCENTAGE",
+        "name": "Free Throw %",
+        "id": "1550",
+        "shortName": "FT%"
+       }
+      }
+     ],
+     "group": {
+      "code": "BASKETBALL_PLAYER",
+      "name": "Player",
+      "id": "3010",
+      "shortName": "Plyr"
+     }
+    }
+   ],
+   "type": "HEAD_TO_HEAD_ROTI_MULTI_WIN"
+  },
+  "seasonYear": 2026,
+  "startDate": "2026-10-20",
+  "playoffs": {
+   "lastRegularSeasonPeriod": 20,
+   "numPlayoffTeams": 4,
+   "firstPlayoffPeriod": 21,
+   "mergePlayoffPeriods": true,
+   "used": true
+  }
+ }
+}

@@ -1,0 +1,2609 @@
+{
+ "meta": {
+  "source": "official",
+  "endpoint": "getLeagueInfo",
+  "url": "https://www.fantrax.com/fxea/general/getLeagueInfo",
+  "status_code": 200,
+  "size_bytes": 39261,
+  "elapsed_ms": 56,
+  "auth_level": "none",
+  "from_cache": false,
+  "request_body": null,
+  "fetched_at": "2026-10-27T04:20:58.794549+00:00"
+ },
+ "payload": {
+  "matchups": [
+   {
+    "period": 1,
+    "matchupList": [
+     {
+      "away": {
+       "name": "Conflict of Interest",
+       "id": "ozju7nsmmurmhnn2",
+       "shortName": "Walker"
+      },
+      "home": {
+       "name": "Suggs to be You",
+       "id": "rdl7dlplmurmhnn2",
+       "shortName": "Eric"
+      }
+     },
+     {
+      "away": {
+       "name": "The Fun Guys",
+       "id": "f310mnh8murmhnn2",
+       "shortName": "FUNGUY"
+      },
+      "home": {
+       "name": "The Rollin\u00e2\u0080\u0099 Treys",
+       "id": "t5zv7h5emurmhnn2",
+       "shortName": "Tristan"
+      }
+     },
+     {
+      "away": {
+       "name": "bADa bing bong blok",
+       "id": "0j15rgscmurmhnn2",
+       "shortName": "Masi"
+      },
+      "home": {
+       "name": "The 2026 Revenge Tour",
+       "id": "p8lde4xbmusl24sh",
+       "shortName": "REVENGER"
+      }
+     },
+     {
+      "away": {
+       "name": "No Mercy, Just Usage Rate",
+       "id": "0tjisxjpmurmhnn2",
+       "shortName": "Mark"
+      },
+      "home": {
+       "name": "Let's Go Brandon Ingram",
+       "id": "om35rt8imurmhnn2",
+       "shortName": "Catron"
+      }
+     },
+     {
+      "away": {
+       "name": "Practical",
+       "id": "owvgfdvnmurmhnn2",
+       "shortName": "Jokic"
+      },
+      "home": {
+       "name": "Bye Week",
+       "id": "6wdc0v27murmhnn2",
+       "shortName": "Ian"
+      }
+     }
+    ]
+   },
+   {
+    "period": 2,
+    "matchupList": [
+     {
+      "away": {
+       "name": "Suggs to be You",
+       "id": "rdl7dlplmurmhnn2",
+       "shortName": "Eric"
+      },
+      "home": {
+       "name": "The Fun Guys",
+       "id": "f310mnh8murmhnn2",
+       "shortName": "FUNGUY"
+      }
+     },
+     {
+      "away": {
+       "name": "Conflict of Interest",
+       "id": "ozju7nsmmurmhnn2",
+       "shortName": "Walker"
+      },
+      "home": {
+       "name": "bADa bing bong blok",
+       "id": "0j15rgscmurmhnn2",
+       "shortName": "Masi"
+      }
+     },
+     {
+      "away": {
+       "name": "The Rollin\u00e2\u0080\u0099 Treys",
+       "id": "t5zv7h5emurmhnn2",
+       "shortName": "Tristan"
+      },
+      "home": {
+       "name": "No Mercy, Just Usage Rate",
+       "id": "0tjisxjpmurmhnn2",
+       "shortName": "Mark"
+      }
+     },
+     {
+      "away": {
+       "name": "The 2026 Revenge Tour",
+       "id": "p8lde4xbmusl24sh",
+       "shortName": "REVENGER"
+      },
+      "home": {
+       "name": "Practical",
+       "id": "owvgfdvnmurmhnn2",
+       "shortName": "Jokic"
+      }
+     },
+     {
+      "away": {
+       "name": "Let's Go Brandon Ingram",
+       "id": "om35rt8imurmhnn2",
+       "shortName": "Catron"
+      },
+      "home": {
+       "name": "Bye Week",
+       "id": "6wdc0v27murmhnn2",
+       "shortName": "Ian"
+      }
+     }
+    ]
+   },
+   {
+    "period": 3,
+    "matchupList": [
+     {
+      "away": {
+       "name": "bADa bing bong blok",
+       "id": "0j15rgscmurmhnn2",
+       "shortName": "Masi"
+      },
+      "home": {
+       "name": "Suggs to be You",
+       "id": "rdl7dlplmurmhnn2",
+       "shortName": "Eric"
+      }
+     },
+     {
+      "away": {
+       "name": "No Mercy, Just Usage Rate",
+       "id": "0tjisxjpmurmhnn2",
+       "shortName": "Mark"
+      },
+      "home": {
+       "name": "The Fun Guys",
+       "id": "f310mnh8murmhnn2",
+       "shortName": "FUNGUY"
+      }
+     },
+     {
+      "away": {
+       "name": "Practical",
+       "id": "owvgfdvnmurmhnn2",
+       "shortName": "Jokic"
+      },
+      "home": {
+       "name": "Conflict of Interest",
+       "id": "ozju7nsmmurmhnn2",
+       "shortName": "Walker"
+      }
+     },
+     {
+      "away": {
+       "name": "Bye Week",
+       "id": "6wdc0v27murmhnn2",
+       "shortName": "Ian"
+      },
+      "home": {
+       "name": "The Rollin\u00e2\u0080\u0099 Treys",
+       "id": "t5zv7h5emurmhnn2",
+       "shortName": "Tristan"
+      }
+     },
+     {
+      "away": {
+       "name": "Let's Go Brandon Ingram",
+       "id": "om35rt8imurmhnn2",
+       "shortName": "Catron"
+      },
+      "home": {
+       "name": "The 2026 Revenge Tour",
+       "id": "p8lde4xbmusl24sh",
+       "shortName": "REVENGER"
+      }
+     }
+    ]
+   },
+   {
+    "period": 4,
+    "matchupList": [
+     {
+      "away": {
+       "name": "Suggs to be You",
+       "id": "rdl7dlplmurmhnn2",
+       "shortName": "Eric"
+      },
+      "home": {
+       "name": "No Mercy, Just Usage Rate",
+       "id": "0tjisxjpmurmhnn2",
+       "shortName": "Mark"
+      }
+     },
+     {
+      "away": {
+       "name": "bADa bing bong blok",
+       "id": "0j15rgscmurmhnn2",
+       "shortName": "Masi"
+      },
+      "home": {
+       "name": "Practical",
+       "id": "owvgfdvnmurmhnn2",
+       "shortName": "Jokic"
+      }
+     },
+     {
+      "away": {
+       "name": "The Fun Guys",
+       "id": "f310mnh8murmhnn2",
+       "shortName": "FUNGUY"
+      },
+      "home": {
+       "name": "Bye Week",
+       "id": "6wdc0v27murmhnn2",
+       "shortName": "Ian"
+      }
+     },
+     {
+      "away": {
+       "name": "Conflict of Interest",
+       "id": "ozju7nsmmurmhnn2",
+       "shortName": "Walker"
+      },
+      "home": {
+       "name": "Let's Go Brandon Ingram",
+       "id": "om35rt8imurmhnn2",
+       "shortName": "Catron"
+      }
+     },
+     {
+      "away": {
+       "name": "The Rollin\u00e2\u0080\u0099 Treys",
+       "id": "t5zv7h5emurmhnn2",
+       "shortName": "Tristan"
+      },
+      "home": {
+       "name": "The 2026 Revenge Tour",
+       "id": "p8lde4xbmusl24sh",
+       "shortName": "REVENGER"
+      }
+     }
+    ]
+   },
+   {
+    "period": 5,
+    "matchupList": [
+     {
+      "away": {
+       "name": "Practical",
+       "id": "owvgfdvnmurmhnn2",
+       "shortName": "Jokic"
+      },
+      "home": {
+       "name": "Suggs to be You",
+       "id": "rdl7dlplmurmhnn2",
+       "shortName": "Eric"
+      }
+     },
+     {
+      "away": {
+       "name": "Bye Week",
+       "id": "6wdc0v27murmhnn2",
+       "shortName": "Ian"
+      },
+      "home": {
+       "name": "No Mercy, Just Usage Rate",
+       "id": "0tjisxjpmurmhnn2",
+       "shortName": "Mark"
+      }
+     },
+     {
+      "away": {
+       "name": "Let's Go Brandon Ingram",
+       "id": "om35rt8imurmhnn2",
+       "shortName": "Catron"
+      },
+      "home": {
+       "name": "bADa bing bong blok",
+       "id": "0j15rgscmurmhnn2",
+       "shortName": "Masi"
+      }
+     },
+     {
+      "away": {
+       "name": "The 2026 Revenge Tour",
+       "id": "p8lde4xbmusl24sh",
+       "shortName": "REVENGER"
+      },
+      "home": {
+       "name": "The Fun Guys",
+       "id": "f310mnh8murmhnn2",
+       "shortName": "FUNGUY"
+      }
+     },
+     {
+      "away": {
+       "name": "The Rollin\u00e2\u0080\u0099 Treys",
+       "id": "t5zv7h5emurmhnn2",
+       "shortName": "Tristan"
+      },
+      "home": {
+       "name": "Conflict of Interest",
+       "id": "ozju7nsmmurmhnn2",
+       "shortName": "Walker"
+      }
+     }
+    ]
+   },
+   {
+    "period": 6,
+    "matchupList": [
+     {
+      "away": {
+       "name": "Suggs to be You",
+       "id": "rdl7dlplmurmhnn2",
+       "shortName": "Eric"
+      },
+      "home": {
+       "name": "Bye Week",
+       "id": "6wdc0v27murmhnn2",
+       "shortName": "Ian"
+      }
+     },
+     {
+      "away": {
+       "name": "Practical",
+       "id": "owvgfdvnmurmhnn2",
+       "shortName": "Jokic"
+      },
+      "home": {
+       "name": "Let's Go Brandon Ingram",
+       "id": "om35rt8imurmhnn2",
+       "shortName": "Catron"
+      }
+     },
+     {
+      "away": {
+       "name": "No Mercy, Just Usage Rate",
+       "id": "0tjisxjpmurmhnn2",
+       "shortName": "Mark"
+      },
+      "home": {
+       "name": "The 2026 Revenge Tour",
+       "id": "p8lde4xbmusl24sh",
+       "shortName": "REVENGER"
+      }
+     },
+     {
+      "away": {
+       "name": "bADa bing bong blok",
+       "id": "0j15rgscmurmhnn2",
+       "shortName": "Masi"
+      },
+      "home": {
+       "name": "The Rollin\u00e2\u0080\u0099 Treys",
+       "id": "t5zv7h5emurmhnn2",
+       "shortName": "Tristan"
+      }
+     },
+     {
+      "away": {
+       "name": "The Fun Guys",
+       "id": "f310mnh8murmhnn2",
+       "shortName": "FUNGUY"
+      },
+      "home": {
+       "name": "Conflict of Interest",
+       "id": "ozju7nsmmurmhnn2",
+       "shortName": "Walker"
+      }
+     }
+    ]
+   },
+   {
+    "period": 7,
+    "matchupList": [
+     {
+      "away": {
+       "name": "Let's Go Brandon Ingram",
+       "id": "om35rt8imurmhnn2",
+       "shortName": "Catron"
+      },
+      "home": {
+       "name": "Suggs to be You",
+       "id": "rdl7dlplmurmhnn2",
+       "shortName": "Eric"
+      }
+     },
+     {
+      "away": {
+       "name": "The 2026 Revenge Tour",
+       "id": "p8lde4xbmusl24sh",
+       "shortName": "REVENGER"
+      },
+      "home": {
+       "name": "Bye Week",
+       "id": "6wdc0v27murmhnn2",
+       "shortName": "Ian"
+      }
+     },
+     {
+      "away": {
+       "name": "The Rollin\u00e2\u0080\u0099 Treys",
+       "id": "t5zv7h5emurmhnn2",
+       "shortName": "Tristan"
+      },
+      "home": {
+       "name": "Practical",
+       "id": "owvgfdvnmurmhnn2",
+       "shortName": "Jokic"
+      }
+     },
+     {
+      "away": {
+       "name": "Conflict of Interest",
+       "id": "ozju7nsmmurmhnn2",
+       "shortName": "Walker"
+      },
+      "home": {
+       "name": "No Mercy, Just Usage Rate",
+       "id": "0tjisxjpmurmhnn2",
+       "shortName": "Mark"
+      }
+     },
+     {
+      "away": {
+       "name": "The Fun Guys",
+       "id": "f310mnh8murmhnn2",
+       "shortName": "FUNGUY"
+      },
+      "home": {
+       "name": "bADa bing bong blok",
+       "id": "0j15rgscmurmhnn2",
+       "shortName": "Masi"
+      }
+     }
+    ]
+   },
+   {
+    "period": 8,
+    "matchupList": [
+     {
+      "away": {
+       "name": "Suggs to be You",
+       "id": "rdl7dlplmurmhnn2",
+       "shortName": "Eric"
+      },
+      "home": {
+       "name": "The 2026 Revenge Tour",
+       "id": "p8lde4xbmusl24sh",
+       "shortName": "REVENGER"
+      }
+     },
+     {
+      "away": {
+       "name": "Let's Go Brandon Ingram",
+       "id": "om35rt8imurmhnn2",
+       "shortName": "Catron"
+      },
+      "home": {
+       "name": "The Rollin\u00e2\u0080\u0099 Treys",
+       "id": "t5zv7h5emurmhnn2",
+       "shortName": "Tristan"
+      }
+     },
+     {
+      "away": {
+       "name": "Bye Week",
+       "id": "6wdc0v27murmhnn2",
+       "shortName": "Ian"
+      },
+      "home": {
+       "name": "Conflict of Interest",
+       "id": "ozju7nsmmurmhnn2",
+       "shortName": "Walker"
+      }
+     },
+     {
+      "away": {
+       "name": "Practical",
+       "id": "owvgfdvnmurmhnn2",
+       "shortName": "Jokic"
+      },
+      "home": {
+       "name": "The Fun Guys",
+       "id": "f310mnh8murmhnn2",
+       "shortName": "FUNGUY"
+      }
+     },
+     {
+      "away": {
+       "name": "No Mercy, Just Usage Rate",
+       "id": "0tjisxjpmurmhnn2",
+       "shortName": "Mark"
+      },
+      "home": {
+       "name": "bADa bing bong blok",
+       "id": "0j15rgscmurmhnn2",
+       "shortName": "Masi"
+      }
+     }
+    ]
+   },
+   {
+    "period": 9,
+    "matchupList": [
+     {
+      "away": {
+       "name": "The Rollin\u00e2\u0080\u0099 Treys",
+       "id": "t5zv7h5emurmhnn2",
+       "shortName": "Tristan"
+      },
+      "home": {
+       "name": "Suggs to be You",
+       "id": "rdl7dlplmurmhnn2",
+       "shortName": "Eric"
+      }
+     },
+     {
+      "away": {
+       "name": "Conflict of Interest",
+       "id": "ozju7nsmmurmhnn2",
+       "shortName": "Walker"
+      },
+      "home": {
+       "name": "The 2026 Revenge Tour",
+       "id": "p8lde4xbmusl24sh",
+       "shortName": "REVENGER"
+      }
+     },
+     {
+      "away": {
+       "name": "The Fun Guys",
+       "id": "f310mnh8murmhnn2",
+       "shortName": "FUNGUY"
+      },
+      "home": {
+       "name": "Let's Go Brandon Ingram",
+       "id": "om35rt8imurmhnn2",
+       "shortName": "Catron"
+      }
+     },
+     {
+      "away": {
+       "name": "bADa bing bong blok",
+       "id": "0j15rgscmurmhnn2",
+       "shortName": "Masi"
+      },
+      "home": {
+       "name": "Bye Week",
+       "id": "6wdc0v27murmhnn2",
+       "shortName": "Ian"
+      }
+     },
+     {
+      "away": {
+       "name": "No Mercy, Just Usage Rate",
+       "id": "0tjisxjpmurmhnn2",
+       "shortName": "Mark"
+      },
+      "home": {
+       "name": "Practical",
+       "id": "owvgfdvnmurmhnn2",
+       "shortName": "Jokic"
+      }
+     }
+    ]
+   },
+   {
+    "period": 10,
+    "matchupList": [
+     {
+      "away": {
+       "name": "Suggs to be You",
+       "id": "rdl7dlplmurmhnn2",
+       "shortName": "Eric"
+      },
+      "home": {
+       "name": "Conflict of Interest",
+       "id": "ozju7nsmmurmhnn2",
+       "shortName": "Walker"
+      }
+     },
+     {
+      "away": {
+       "name": "The Rollin\u00e2\u0080\u0099 Treys",
+       "id": "t5zv7h5emurmhnn2",
+       "shortName": "Tristan"
+      },
+      "home": {
+       "name": "The Fun Guys",
+       "id": "f310mnh8murmhnn2",
+       "shortName": "FUNGUY"
+      }
+     },
+     {
+      "away": {
+       "name": "The 2026 Revenge Tour",
+       "id": "p8lde4xbmusl24sh",
+       "shortName": "REVENGER"
+      },
+      "home": {
+       "name": "bADa bing bong blok",
+       "id": "0j15rgscmurmhnn2",
+       "shortName": "Masi"
+      }
+     },
+     {
+      "away": {
+       "name": "Let's Go Brandon Ingram",
+       "id": "om35rt8imurmhnn2",
+       "shortName": "Catron"
+      },
+      "home": {
+       "name": "No Mercy, Just Usage Rate",
+       "id": "0tjisxjpmurmhnn2",
+       "shortName": "Mark"
+      }
+     },
+     {
+      "away": {
+       "name": "Bye Week",
+       "id": "6wdc0v27murmhnn2",
+       "shortName": "Ian"
+      },
+      "home": {
+       "name": "Practical",
+       "id": "owvgfdvnmurmhnn2",
+       "shortName": "Jokic"
+      }
+     }
+    ]
+   },
+   {
+    "period": 11,
+    "matchupList": [
+     {
+      "away": {
+       "name": "The Fun Guys",
+       "id": "f310mnh8murmhnn2",
+       "shortName": "FUNGUY"
+      },
+      "home": {
+       "name": "Suggs to be You",
+       "id": "rdl7dlplmurmhnn2",
+       "shortName": "Eric"
+      }
+     },
+     {
+      "away": {
+       "name": "bADa bing bong blok",
+       "id": "0j15rgscmurmhnn2",
+       "shortName": "Masi"
+      },
+      "home": {
+       "name": "Conflict of Interest",
+       "id": "ozju7nsmmurmhnn2",
+       "shortName": "Walker"
+      }
+     },
+     {
+      "away": {
+       "name": "No Mercy, Just Usage Rate",
+       "id": "0tjisxjpmurmhnn2",
+       "shortName": "Mark"
+      },
+      "home": {
+       "name": "The Rollin\u00e2\u0080\u0099 Treys",
+       "id": "t5zv7h5emurmhnn2",
+       "shortName": "Tristan"
+      }
+     },
+     {
+      "away": {
+       "name": "Practical",
+       "id": "owvgfdvnmurmhnn2",
+       "shortName": "Jokic"
+      },
+      "home": {
+       "name": "The 2026 Revenge Tour",
+       "id": "p8lde4xbmusl24sh",
+       "shortName": "REVENGER"
+      }
+     },
+     {
+      "away": {
+       "name": "Bye Week",
+       "id": "6wdc0v27murmhnn2",
+       "shortName": "Ian"
+      },
+      "home": {
+       "name": "Let's Go Brandon Ingram",
+       "id": "om35rt8imurmhnn2",
+       "shortName": "Catron"
+      }
+     }
+    ]
+   },
+   {
+    "period": 12,
+    "matchupList": [
+     {
+      "away": {
+       "name": "Suggs to be You",
+       "id": "rdl7dlplmurmhnn2",
+       "shortName": "Eric"
+      },
+      "home": {
+       "name": "bADa bing bong blok",
+       "id": "0j15rgscmurmhnn2",
+       "shortName": "Masi"
+      }
+     },
+     {
+      "away": {
+       "name": "The Fun Guys",
+       "id": "f310mnh8murmhnn2",
+       "shortName": "FUNGUY"
+      },
+      "home": {
+       "name": "No Mercy, Just Usage Rate",
+       "id": "0tjisxjpmurmhnn2",
+       "shortName": "Mark"
+      }
+     },
+     {
+      "away": {
+       "name": "Conflict of Interest",
+       "id": "ozju7nsmmurmhnn2",
+       "shortName": "Walker"
+      },
+      "home": {
+       "name": "Practical",
+       "id": "owvgfdvnmurmhnn2",
+       "shortName": "Jokic"
+      }
+     },
+     {
+      "away": {
+       "name": "The Rollin\u00e2\u0080\u0099 Treys",
+       "id": "t5zv7h5emurmhnn2",
+       "shortName": "Tristan"
+      },
+      "home": {
+       "name": "Bye Week",
+       "id": "6wdc0v27murmhnn2",
+       "shortName": "Ian"
+      }
+     },
+     {
+      "away": {
+       "name": "The 2026 Revenge Tour",
+       "id": "p8lde4xbmusl24sh",
+       "shortName": "REVENGER"
+      },
+      "home": {
+       "name": "Let's Go Brandon Ingram",
+       "id": "om35rt8imurmhnn2",
+       "shortName": "Catron"
+      }
+     }
+    ]
+   },
+   {
+    "period": 13,
+    "matchupList": [
+     {
+      "away": {
+       "name": "No Mercy, Just Usage Rate",
+       "id": "0tjisxjpmurmhnn2",
+       "shortName": "Mark"
+      },
+      "home": {
+       "name": "Suggs to be You",
+       "id": "rdl7dlplmurmhnn2",
+       "shortName": "Eric"
+      }
+     },
+     {
+      "away": {
+       "name": "Practical",
+       "id": "owvgfdvnmurmhnn2",
+       "shortName": "Jokic"
+      },
+      "home": {
+       "name": "bADa bing bong blok",
+       "id": "0j15rgscmurmhnn2",
+       "shortName": "Masi"
+      }
+     },
+     {
+      "away": {
+       "name": "Bye Week",
+       "id": "6wdc0v27murmhnn2",
+       "shortName": "Ian"
+      },
+      "home": {
+       "name": "The Fun Guys",
+       "id": "f310mnh8murmhnn2",
+       "shortName": "FUNGUY"
+      }
+     },
+     {
+      "away": {
+       "name": "Let's Go Brandon Ingram",
+       "id": "om35rt8imurmhnn2",
+       "shortName": "Catron"
+      },
+      "home": {
+       "name": "Conflict of Interest",
+       "id": "ozju7nsmmurmhnn2",
+       "shortName": "Walker"
+      }
+     },
+     {
+      "away": {
+       "name": "The 2026 Revenge Tour",
+       "id": "p8lde4xbmusl24sh",
+       "shortName": "REVENGER"
+      },
+      "home": {
+       "name": "The Rollin\u00e2\u0080\u0099 Treys",
+       "id": "t5zv7h5emurmhnn2",
+       "shortName": "Tristan"
+      }
+     }
+    ]
+   },
+   {
+    "period": 14,
+    "matchupList": [
+     {
+      "away": {
+       "name": "Suggs to be You",
+       "id": "rdl7dlplmurmhnn2",
+       "shortName": "Eric"
+      },
+      "home": {
+       "name": "Practical",
+       "id": "owvgfdvnmurmhnn2",
+       "shortName": "Jokic"
+      }
+     },
+     {
+      "away": {
+       "name": "No Mercy, Just Usage Rate",
+       "id": "0tjisxjpmurmhnn2",
+       "shortName": "Mark"
+      },
+      "home": {
+       "name": "Bye Week",
+       "id": "6wdc0v27murmhnn2",
+       "shortName": "Ian"
+      }
+     },
+     {
+      "away": {
+       "name": "bADa bing bong blok",
+       "id": "0j15rgscmurmhnn2",
+       "shortName": "Masi"
+      },
+      "home": {
+       "name": "Let's Go Brandon Ingram",
+       "id": "om35rt8imurmhnn2",
+       "shortName": "Catron"
+      }
+     },
+     {
+      "away": {
+       "name": "The Fun Guys",
+       "id": "f310mnh8murmhnn2",
+       "shortName": "FUNGUY"
+      },
+      "home": {
+       "name": "The 2026 Revenge Tour",
+       "id": "p8lde4xbmusl24sh",
+       "shortName": "REVENGER"
+      }
+     },
+     {
+      "away": {
+       "name": "Conflict of Interest",
+       "id": "ozju7nsmmurmhnn2",
+       "shortName": "Walker"
+      },
+      "home": {
+       "name": "The Rollin\u00e2\u0080\u0099 Treys",
+       "id": "t5zv7h5emurmhnn2",
+       "shortName": "Tristan"
+      }
+     }
+    ]
+   },
+   {
+    "period": 15,
+    "matchupList": [
+     {
+      "away": {
+       "name": "Bye Week",
+       "id": "6wdc0v27murmhnn2",
+       "shortName": "Ian"
+      },
+      "home": {
+       "name": "Suggs to be You",
+       "id": "rdl7dlplmurmhnn2",
+       "shortName": "Eric"
+      }
+     },
+     {
+      "away": {
+       "name": "Let's Go Brandon Ingram",
+       "id": "om35rt8imurmhnn2",
+       "shortName": "Catron"
+      },
+      "home": {
+       "name": "Practical",
+       "id": "owvgfdvnmurmhnn2",
+       "shortName": "Jokic"
+      }
+     },
+     {
+      "away": {
+       "name": "The 2026 Revenge Tour",
+       "id": "p8lde4xbmusl24sh",
+       "shortName": "REVENGER"
+      },
+      "home": {
+       "name": "No Mercy, Just Usage Rate",
+       "id": "0tjisxjpmurmhnn2",
+       "shortName": "Mark"
+      }
+     },
+     {
+      "away": {
+       "name": "The Rollin\u00e2\u0080\u0099 Treys",
+       "id": "t5zv7h5emurmhnn2",
+       "shortName": "Tristan"
+      },
+      "home": {
+       "name": "bADa bing bong blok",
+       "id": "0j15rgscmurmhnn2",
+       "shortName": "Masi"
+      }
+     },
+     {
+      "away": {
+       "name": "Conflict of Interest",
+       "id": "ozju7nsmmurmhnn2",
+       "shortName": "Walker"
+      },
+      "home": {
+       "name": "The Fun Guys",
+       "id": "f310mnh8murmhnn2",
+       "shortName": "FUNGUY"
+      }
+     }
+    ]
+   },
+   {
+    "period": 16,
+    "matchupList": [
+     {
+      "away": {
+       "name": "Suggs to be You",
+       "id": "rdl7dlplmurmhnn2",
+       "shortName": "Eric"
+      },
+      "home": {
+       "name": "Let's Go Brandon Ingram",
+       "id": "om35rt8imurmhnn2",
+       "shortName": "Catron"
+      }
+     },
+     {
+      "away": {
+       "name": "Bye Week",
+       "id": "6wdc0v27murmhnn2",
+       "shortName": "Ian"
+      },
+      "home": {
+       "name": "The 2026 Revenge Tour",
+       "id": "p8lde4xbmusl24sh",
+       "shortName": "REVENGER"
+      }
+     },
+     {
+      "away": {
+       "name": "Practical",
+       "id": "owvgfdvnmurmhnn2",
+       "shortName": "Jokic"
+      },
+      "home": {
+       "name": "The Rollin\u00e2\u0080\u0099 Treys",
+       "id": "t5zv7h5emurmhnn2",
+       "shortName": "Tristan"
+      }
+     },
+     {
+      "away": {
+       "name": "No Mercy, Just Usage Rate",
+       "id": "0tjisxjpmurmhnn2",
+       "shortName": "Mark"
+      },
+      "home": {
+       "name": "Conflict of Interest",
+       "id": "ozju7nsmmurmhnn2",
+       "shortName": "Walker"
+      }
+     },
+     {
+      "away": {
+       "name": "bADa bing bong blok",
+       "id": "0j15rgscmurmhnn2",
+       "shortName": "Masi"
+      },
+      "home": {
+       "name": "The Fun Guys",
+       "id": "f310mnh8murmhnn2",
+       "shortName": "FUNGUY"
+      }
+     }
+    ]
+   },
+   {
+    "period": 17,
+    "matchupList": [
+     {
+      "away": {
+       "name": "The 2026 Revenge Tour",
+       "id": "p8lde4xbmusl24sh",
+       "shortName": "REVENGER"
+      },
+      "home": {
+       "name": "Suggs to be You",
+       "id": "rdl7dlplmurmhnn2",
+       "shortName": "Eric"
+      }
+     },
+     {
+      "away": {
+       "name": "The Rollin\u00e2\u0080\u0099 Treys",
+       "id": "t5zv7h5emurmhnn2",
+       "shortName": "Tristan"
+      },
+      "home": {
+       "name": "Let's Go Brandon Ingram",
+       "id": "om35rt8imurmhnn2",
+       "shortName": "Catron"
+      }
+     },
+     {
+      "away": {
+       "name": "Conflict of Interest",
+       "id": "ozju7nsmmurmhnn2",
+       "shortName": "Walker"
+      },
+      "home": {
+       "name": "Bye Week",
+       "id": "6wdc0v27murmhnn2",
+       "shortName": "Ian"
+      }
+     },
+     {
+      "away": {
+       "name": "The Fun Guys",
+       "id": "f310mnh8murmhnn2",
+       "shortName": "FUNGUY"
+      },
+      "home": {
+       "name": "Practical",
+       "id": "owvgfdvnmurmhnn2",
+       "shortName": "Jokic"
+      }
+     },
+     {
+      "away": {
+       "name": "bADa bing bong blok",
+       "id": "0j15rgscmurmhnn2",
+       "shortName": "Masi"
+      },
+      "home": {
+       "name": "No Mercy, Just Usage Rate",
+       "id": "0tjisxjpmurmhnn2",
+       "shortName": "Mark"
+      }
+     }
+    ]
+   },
+   {
+    "period": 18,
+    "matchupList": [
+     {
+      "away": {
+       "name": "Suggs to be You",
+       "id": "rdl7dlplmurmhnn2",
+       "shortName": "Eric"
+      },
+      "home": {
+       "name": "The Rollin\u00e2\u0080\u0099 Treys",
+       "id": "t5zv7h5emurmhnn2",
+       "shortName": "Tristan"
+      }
+     },
+     {
+      "away": {
+       "name": "The 2026 Revenge Tour",
+       "id": "p8lde4xbmusl24sh",
+       "shortName": "REVENGER"
+      },
+      "home": {
+       "name": "Conflict of Interest",
+       "id": "ozju7nsmmurmhnn2",
+       "shortName": "Walker"
+      }
+     },
+     {
+      "away": {
+       "name": "Let's Go Brandon Ingram",
+       "id": "om35rt8imurmhnn2",
+       "shortName": "Catron"
+      },
+      "home": {
+       "name": "The Fun Guys",
+       "id": "f310mnh8murmhnn2",
+       "shortName": "FUNGUY"
+      }
+     },
+     {
+      "away": {
+       "name": "Bye Week",
+       "id": "6wdc0v27murmhnn2",
+       "shortName": "Ian"
+      },
+      "home": {
+       "name": "bADa bing bong blok",
+       "id": "0j15rgscmurmhnn2",
+       "shortName": "Masi"
+      }
+     },
+     {
+      "away": {
+       "name": "Practical",
+       "id": "owvgfdvnmurmhnn2",
+       "shortName": "Jokic"
+      },
+      "home": {
+       "name": "No Mercy, Just Usage Rate",
+       "id": "0tjisxjpmurmhnn2",
+       "shortName": "Mark"
+      }
+     }
+    ]
+   },
+   {
+    "period": 19,
+    "matchupList": [
+     {
+      "away": {
+       "name": "Conflict of Interest",
+       "id": "ozju7nsmmurmhnn2",
+       "shortName": "Walker"
+      },
+      "home": {
+       "name": "Suggs to be You",
+       "id": "rdl7dlplmurmhnn2",
+       "shortName": "Eric"
+      }
+     },
+     {
+      "away": {
+       "name": "The Fun Guys",
+       "id": "f310mnh8murmhnn2",
+       "shortName": "FUNGUY"
+      },
+      "home": {
+       "name": "The Rollin\u00e2\u0080\u0099 Treys",
+       "id": "t5zv7h5emurmhnn2",
+       "shortName": "Tristan"
+      }
+     },
+     {
+      "away": {
+       "name": "bADa bing bong blok",
+       "id": "0j15rgscmurmhnn2",
+       "shortName": "Masi"
+      },
+      "home": {
+       "name": "The 2026 Revenge Tour",
+       "id": "p8lde4xbmusl24sh",
+       "shortName": "REVENGER"
+      }
+     },
+     {
+      "away": {
+       "name": "No Mercy, Just Usage Rate",
+       "id": "0tjisxjpmurmhnn2",
+       "shortName": "Mark"
+      },
+      "home": {
+       "name": "Let's Go Brandon Ingram",
+       "id": "om35rt8imurmhnn2",
+       "shortName": "Catron"
+      }
+     },
+     {
+      "away": {
+       "name": "Practical",
+       "id": "owvgfdvnmurmhnn2",
+       "shortName": "Jokic"
+      },
+      "home": {
+       "name": "Bye Week",
+       "id": "6wdc0v27murmhnn2",
+       "shortName": "Ian"
+      }
+     }
+    ]
+   },
+   {
+    "period": 20,
+    "matchupList": [
+     {
+      "away": {
+       "name": "Suggs to be You",
+       "id": "rdl7dlplmurmhnn2",
+       "shortName": "Eric"
+      },
+      "home": {
+       "name": "The Fun Guys",
+       "id": "f310mnh8murmhnn2",
+       "shortName": "FUNGUY"
+      }
+     },
+     {
+      "away": {
+       "name": "Conflict of Interest",
+       "id": "ozju7nsmmurmhnn2",
+       "shortName": "Walker"
+      },
+      "home": {
+       "name": "bADa bing bong blok",
+       "id": "0j15rgscmurmhnn2",
+       "shortName": "Masi"
+      }
+     },
+     {
+      "away": {
+       "name": "The Rollin\u00e2\u0080\u0099 Treys",
+       "id": "t5zv7h5emurmhnn2",
+       "shortName": "Tristan"
+      },
+      "home": {
+       "name": "No Mercy, Just Usage Rate",
+       "id": "0tjisxjpmurmhnn2",
+       "shortName": "Mark"
+      }
+     },
+     {
+      "away": {
+       "name": "The 2026 Revenge Tour",
+       "id": "p8lde4xbmusl24sh",
+       "shortName": "REVENGER"
+      },
+      "home": {
+       "name": "Practical",
+       "id": "owvgfdvnmurmhnn2",
+       "shortName": "Jokic"
+      }
+     },
+     {
+      "away": {
+       "name": "Let's Go Brandon Ingram",
+       "id": "om35rt8imurmhnn2",
+       "shortName": "Catron"
+      },
+      "home": {
+       "name": "Bye Week",
+       "id": "6wdc0v27murmhnn2",
+       "shortName": "Ian"
+      }
+     }
+    ]
+   },
+   {
+    "period": 21,
+    "matchupList": [
+     {
+      "away": {
+       "seed": 4
+      },
+      "home": {
+       "seed": 1
+      }
+     },
+     {
+      "away": {
+       "seed": 3
+      },
+      "home": {
+       "seed": 2
+      }
+     }
+    ]
+   },
+   {
+    "period": 22,
+    "matchupList": [
+     {
+      "away": {
+       "TBD": true
+      },
+      "home": {
+       "TBD": true
+      }
+     }
+    ]
+   }
+  ],
+  "rosterInfo": {
+   "positionConstraints": {
+    "SF": {
+     "maxActive": 1
+    },
+    "C": {
+     "maxActive": 1
+    },
+    "Flx": {
+     "maxActive": 3
+    },
+    "SG": {
+     "maxActive": 1
+    },
+    "PF": {
+     "maxActive": 1
+    },
+    "F": {
+     "maxActive": 1
+    },
+    "G": {
+     "maxActive": 1
+    },
+    "PG": {
+     "maxActive": 1
+    }
+   },
+   "maxTotalPlayers": 13,
+   "maxTotalActivePlayers": 10
+  },
+  "endDate": "2027-04-11",
+  "poolSettings": {
+   "duplicatePlayerType": "NONE",
+   "playerSourceType": "ALL_TEAMS"
+  },
+  "rosterPeriods": [
+   {
+    "number": 1,
+    "endDate": "2026-10-21T18:59:59.0-0400",
+    "startDate": "2026-10-20T15:00:00.0-0400"
+   },
+   {
+    "number": 2,
+    "endDate": "2026-10-22T18:59:59.0-0400",
+    "startDate": "2026-10-21T19:00:00.0-0400"
+   },
+   {
+    "number": 3,
+    "endDate": "2026-10-23T15:59:59.0-0400",
+    "startDate": "2026-10-22T19:00:00.0-0400"
+   },
+   {
+    "number": 4,
+    "endDate": "2026-10-24T17:59:59.0-0400",
+    "startDate": "2026-10-23T16:00:00.0-0400"
+   },
+   {
+    "number": 5,
+    "endDate": "2026-10-25T16:59:59.0-0400",
+    "startDate": "2026-10-24T18:00:00.0-0400"
+   },
+   {
+    "number": 6,
+    "endDate": "2026-10-26T18:59:59.0-0400",
+    "startDate": "2026-10-25T17:00:00.0-0400"
+   },
+   {
+    "number": 7,
+    "endDate": "2026-10-27T19:29:59.0-0400",
+    "startDate": "2026-10-26T19:00:00.0-0400"
+   },
+   {
+    "number": 8,
+    "endDate": "2026-10-28T18:59:59.0-0400",
+    "startDate": "2026-10-27T19:30:00.0-0400"
+   },
+   {
+    "number": 9,
+    "endDate": "2026-10-29T19:59:59.0-0400",
+    "startDate": "2026-10-28T19:00:00.0-0400"
+   },
+   {
+    "number": 10,
+    "endDate": "2026-10-30T18:59:59.0-0400",
+    "startDate": "2026-10-29T20:00:00.0-0400"
+   },
+   {
+    "number": 11,
+    "endDate": "2026-10-31T14:59:59.0-0400",
+    "startDate": "2026-10-30T19:00:00.0-0400"
+   },
+   {
+    "number": 12,
+    "endDate": "2026-11-01T15:29:59.0-0500",
+    "startDate": "2026-10-31T15:00:00.0-0400"
+   },
+   {
+    "number": 13,
+    "endDate": "2026-11-02T18:59:59.0-0500",
+    "startDate": "2026-11-01T15:30:00.0-0500"
+   },
+   {
+    "number": 14,
+    "endDate": "2026-11-03T11:59:59.0-0500",
+    "startDate": "2026-11-02T19:00:00.0-0500"
+   },
+   {
+    "number": 15,
+    "endDate": "2026-11-04T18:59:59.0-0500",
+    "startDate": "2026-11-03T12:00:00.0-0500"
+   },
+   {
+    "number": 16,
+    "endDate": "2026-11-05T20:59:59.0-0500",
+    "startDate": "2026-11-04T19:00:00.0-0500"
+   },
+   {
+    "number": 17,
+    "endDate": "2026-11-06T18:59:59.0-0500",
+    "startDate": "2026-11-05T21:00:00.0-0500"
+   },
+   {
+    "number": 18,
+    "endDate": "2026-11-07T16:59:59.0-0500",
+    "startDate": "2026-11-06T19:00:00.0-0500"
+   },
+   {
+    "number": 19,
+    "endDate": "2026-11-08T15:29:59.0-0500",
+    "startDate": "2026-11-07T17:00:00.0-0500"
+   },
+   {
+    "number": 20,
+    "endDate": "2026-11-09T18:59:59.0-0500",
+    "startDate": "2026-11-08T15:30:00.0-0500"
+   },
+   {
+    "number": 21,
+    "endDate": "2026-11-10T19:29:59.0-0500",
+    "startDate": "2026-11-09T19:00:00.0-0500"
+   },
+   {
+    "number": 22,
+    "endDate": "2026-11-11T18:59:59.0-0500",
+    "startDate": "2026-11-10T19:30:00.0-0500"
+   },
+   {
+    "number": 23,
+    "endDate": "2026-11-12T18:59:59.0-0500",
+    "startDate": "2026-11-11T19:00:00.0-0500"
+   },
+   {
+    "number": 24,
+    "endDate": "2026-11-13T18:59:59.0-0500",
+    "startDate": "2026-11-12T19:00:00.0-0500"
+   },
+   {
+    "number": 25,
+    "endDate": "2026-11-14T18:59:59.0-0500",
+    "startDate": "2026-11-13T19:00:00.0-0500"
+   },
+   {
+    "number": 26,
+    "endDate": "2026-11-15T12:59:59.0-0500",
+    "startDate": "2026-11-14T19:00:00.0-0500"
+   },
+   {
+    "number": 27,
+    "endDate": "2026-11-16T18:59:59.0-0500",
+    "startDate": "2026-11-15T13:00:00.0-0500"
+   },
+   {
+    "number": 28,
+    "endDate": "2026-11-17T19:29:59.0-0500",
+    "startDate": "2026-11-16T19:00:00.0-0500"
+   },
+   {
+    "number": 29,
+    "endDate": "2026-11-18T18:59:59.0-0500",
+    "startDate": "2026-11-17T19:30:00.0-0500"
+   },
+   {
+    "number": 30,
+    "endDate": "2026-11-19T19:59:59.0-0500",
+    "startDate": "2026-11-18T19:00:00.0-0500"
+   },
+   {
+    "number": 31,
+    "endDate": "2026-11-20T18:59:59.0-0500",
+    "startDate": "2026-11-19T20:00:00.0-0500"
+   },
+   {
+    "number": 32,
+    "endDate": "2026-11-21T12:59:59.0-0500",
+    "startDate": "2026-11-20T19:00:00.0-0500"
+   },
+   {
+    "number": 33,
+    "endDate": "2026-11-22T15:29:59.0-0500",
+    "startDate": "2026-11-21T13:00:00.0-0500"
+   },
+   {
+    "number": 34,
+    "endDate": "2026-11-23T18:59:59.0-0500",
+    "startDate": "2026-11-22T15:30:00.0-0500"
+   },
+   {
+    "number": 35,
+    "endDate": "2026-11-24T18:59:59.0-0500",
+    "startDate": "2026-11-23T19:00:00.0-0500"
+   },
+   {
+    "number": 36,
+    "endDate": "2026-11-25T16:59:59.0-0500",
+    "startDate": "2026-11-24T19:00:00.0-0500"
+   },
+   {
+    "number": 37,
+    "endDate": "2026-11-26T11:59:59.0-0500",
+    "startDate": "2026-11-25T17:00:00.0-0500"
+   },
+   {
+    "number": 38,
+    "endDate": "2026-11-27T18:59:59.0-0500",
+    "startDate": "2026-11-26T12:00:00.0-0500"
+   },
+   {
+    "number": 39,
+    "endDate": "2026-11-28T16:59:59.0-0500",
+    "startDate": "2026-11-27T19:00:00.0-0500"
+   },
+   {
+    "number": 40,
+    "endDate": "2026-11-29T15:59:59.0-0500",
+    "startDate": "2026-11-28T17:00:00.0-0500"
+   },
+   {
+    "number": 41,
+    "endDate": "2026-11-30T18:59:59.0-0500",
+    "startDate": "2026-11-29T16:00:00.0-0500"
+   },
+   {
+    "number": 42,
+    "endDate": "2026-12-01T18:59:59.0-0500",
+    "startDate": "2026-11-30T19:00:00.0-0500"
+   },
+   {
+    "number": 43,
+    "endDate": "2026-12-02T18:59:59.0-0500",
+    "startDate": "2026-12-01T19:00:00.0-0500"
+   },
+   {
+    "number": 44,
+    "endDate": "2026-12-03T18:59:59.0-0500",
+    "startDate": "2026-12-02T19:00:00.0-0500"
+   },
+   {
+    "number": 45,
+    "endDate": "2026-12-04T11:59:59.0-0500",
+    "startDate": "2026-12-03T19:00:00.0-0500"
+   },
+   {
+    "number": 46,
+    "endDate": "2026-12-05T11:59:59.0-0500",
+    "startDate": "2026-12-04T12:00:00.0-0500"
+   },
+   {
+    "number": 47,
+    "endDate": "2026-12-06T11:59:59.0-0500",
+    "startDate": "2026-12-05T12:00:00.0-0500"
+   },
+   {
+    "number": 48,
+    "endDate": "2026-12-07T11:59:59.0-0500",
+    "startDate": "2026-12-06T12:00:00.0-0500"
+   },
+   {
+    "number": 49,
+    "endDate": "2026-12-08T11:59:59.0-0500",
+    "startDate": "2026-12-07T12:00:00.0-0500"
+   },
+   {
+    "number": 50,
+    "endDate": "2026-12-09T11:59:59.0-0500",
+    "startDate": "2026-12-08T12:00:00.0-0500"
+   },
+   {
+    "number": 51,
+    "endDate": "2026-12-10T11:59:59.0-0500",
+    "startDate": "2026-12-09T12:00:00.0-0500"
+   },
+   {
+    "number": 52,
+    "endDate": "2026-12-11T11:59:59.0-0500",
+    "startDate": "2026-12-10T12:00:00.0-0500"
+   },
+   {
+    "number": 53,
+    "endDate": "2026-12-12T16:59:59.0-0500",
+    "startDate": "2026-12-11T12:00:00.0-0500"
+   },
+   {
+    "number": 54,
+    "endDate": "2026-12-13T14:59:59.0-0500",
+    "startDate": "2026-12-12T17:00:00.0-0500"
+   },
+   {
+    "number": 55,
+    "endDate": "2026-12-14T18:59:59.0-0500",
+    "startDate": "2026-12-13T15:00:00.0-0500"
+   },
+   {
+    "number": 56,
+    "endDate": "2026-12-15T19:59:59.0-0500",
+    "startDate": "2026-12-14T19:00:00.0-0500"
+   },
+   {
+    "number": 57,
+    "endDate": "2026-12-16T18:59:59.0-0500",
+    "startDate": "2026-12-15T20:00:00.0-0500"
+   },
+   {
+    "number": 58,
+    "endDate": "2026-12-17T18:59:59.0-0500",
+    "startDate": "2026-12-16T19:00:00.0-0500"
+   },
+   {
+    "number": 59,
+    "endDate": "2026-12-18T18:59:59.0-0500",
+    "startDate": "2026-12-17T19:00:00.0-0500"
+   },
+   {
+    "number": 60,
+    "endDate": "2026-12-19T17:59:59.0-0500",
+    "startDate": "2026-12-18T19:00:00.0-0500"
+   },
+   {
+    "number": 61,
+    "endDate": "2026-12-20T14:59:59.0-0500",
+    "startDate": "2026-12-19T18:00:00.0-0500"
+   },
+   {
+    "number": 62,
+    "endDate": "2026-12-21T18:59:59.0-0500",
+    "startDate": "2026-12-20T15:00:00.0-0500"
+   },
+   {
+    "number": 63,
+    "endDate": "2026-12-22T18:59:59.0-0500",
+    "startDate": "2026-12-21T19:00:00.0-0500"
+   },
+   {
+    "number": 64,
+    "endDate": "2026-12-23T18:59:59.0-0500",
+    "startDate": "2026-12-22T19:00:00.0-0500"
+   },
+   {
+    "number": 65,
+    "endDate": "2026-12-24T11:59:59.0-0500",
+    "startDate": "2026-12-23T19:00:00.0-0500"
+   },
+   {
+    "number": 66,
+    "endDate": "2026-12-25T11:59:59.0-0500",
+    "startDate": "2026-12-24T12:00:00.0-0500"
+   },
+   {
+    "number": 67,
+    "endDate": "2026-12-26T12:59:59.0-0500",
+    "startDate": "2026-12-25T12:00:00.0-0500"
+   },
+   {
+    "number": 68,
+    "endDate": "2026-12-27T15:29:59.0-0500",
+    "startDate": "2026-12-26T13:00:00.0-0500"
+   },
+   {
+    "number": 69,
+    "endDate": "2026-12-28T19:29:59.0-0500",
+    "startDate": "2026-12-27T15:30:00.0-0500"
+   },
+   {
+    "number": 70,
+    "endDate": "2026-12-29T18:59:59.0-0500",
+    "startDate": "2026-12-28T19:30:00.0-0500"
+   },
+   {
+    "number": 71,
+    "endDate": "2026-12-30T18:59:59.0-0500",
+    "startDate": "2026-12-29T19:00:00.0-0500"
+   },
+   {
+    "number": 72,
+    "endDate": "2026-12-31T12:59:59.0-0500",
+    "startDate": "2026-12-30T19:00:00.0-0500"
+   },
+   {
+    "number": 73,
+    "endDate": "2027-01-01T16:59:59.0-0500",
+    "startDate": "2026-12-31T13:00:00.0-0500"
+   },
+   {
+    "number": 74,
+    "endDate": "2027-01-02T12:59:59.0-0500",
+    "startDate": "2027-01-01T17:00:00.0-0500"
+   },
+   {
+    "number": 75,
+    "endDate": "2027-01-03T16:59:59.0-0500",
+    "startDate": "2027-01-02T13:00:00.0-0500"
+   },
+   {
+    "number": 76,
+    "endDate": "2027-01-04T18:59:59.0-0500",
+    "startDate": "2027-01-03T17:00:00.0-0500"
+   },
+   {
+    "number": 77,
+    "endDate": "2027-01-05T18:59:59.0-0500",
+    "startDate": "2027-01-04T19:00:00.0-0500"
+   },
+   {
+    "number": 78,
+    "endDate": "2027-01-06T19:29:59.0-0500",
+    "startDate": "2027-01-05T19:00:00.0-0500"
+   },
+   {
+    "number": 79,
+    "endDate": "2027-01-07T18:59:59.0-0500",
+    "startDate": "2027-01-06T19:30:00.0-0500"
+   },
+   {
+    "number": 80,
+    "endDate": "2027-01-08T18:59:59.0-0500",
+    "startDate": "2027-01-07T19:00:00.0-0500"
+   },
+   {
+    "number": 81,
+    "endDate": "2027-01-09T16:59:59.0-0500",
+    "startDate": "2027-01-08T19:00:00.0-0500"
+   },
+   {
+    "number": 82,
+    "endDate": "2027-01-10T14:59:59.0-0500",
+    "startDate": "2027-01-09T17:00:00.0-0500"
+   },
+   {
+    "number": 83,
+    "endDate": "2027-01-11T18:59:59.0-0500",
+    "startDate": "2027-01-10T15:00:00.0-0500"
+   },
+   {
+    "number": 84,
+    "endDate": "2027-01-12T19:29:59.0-0500",
+    "startDate": "2027-01-11T19:00:00.0-0500"
+   },
+   {
+    "number": 85,
+    "endDate": "2027-01-13T18:59:59.0-0500",
+    "startDate": "2027-01-12T19:30:00.0-0500"
+   },
+   {
+    "number": 86,
+    "endDate": "2027-01-14T13:59:59.0-0500",
+    "startDate": "2027-01-13T19:00:00.0-0500"
+   },
+   {
+    "number": 87,
+    "endDate": "2027-01-15T18:59:59.0-0500",
+    "startDate": "2027-01-14T14:00:00.0-0500"
+   },
+   {
+    "number": 88,
+    "endDate": "2027-01-16T12:29:59.0-0500",
+    "startDate": "2027-01-15T19:00:00.0-0500"
+   },
+   {
+    "number": 89,
+    "endDate": "2027-01-17T10:29:59.0-0500",
+    "startDate": "2027-01-16T12:30:00.0-0500"
+   },
+   {
+    "number": 90,
+    "endDate": "2027-01-18T11:59:59.0-0500",
+    "startDate": "2027-01-17T10:30:00.0-0500"
+   },
+   {
+    "number": 91,
+    "endDate": "2027-01-19T18:59:59.0-0500",
+    "startDate": "2027-01-18T12:00:00.0-0500"
+   },
+   {
+    "number": 92,
+    "endDate": "2027-01-20T18:59:59.0-0500",
+    "startDate": "2027-01-19T19:00:00.0-0500"
+   },
+   {
+    "number": 93,
+    "endDate": "2027-01-21T19:29:59.0-0500",
+    "startDate": "2027-01-20T19:00:00.0-0500"
+   },
+   {
+    "number": 94,
+    "endDate": "2027-01-22T18:59:59.0-0500",
+    "startDate": "2027-01-21T19:30:00.0-0500"
+   },
+   {
+    "number": 95,
+    "endDate": "2027-01-23T16:59:59.0-0500",
+    "startDate": "2027-01-22T19:00:00.0-0500"
+   },
+   {
+    "number": 96,
+    "endDate": "2027-01-24T15:29:59.0-0500",
+    "startDate": "2027-01-23T17:00:00.0-0500"
+   },
+   {
+    "number": 97,
+    "endDate": "2027-01-25T18:59:59.0-0500",
+    "startDate": "2027-01-24T15:30:00.0-0500"
+   },
+   {
+    "number": 98,
+    "endDate": "2027-01-26T18:59:59.0-0500",
+    "startDate": "2027-01-25T19:00:00.0-0500"
+   },
+   {
+    "number": 99,
+    "endDate": "2027-01-27T18:59:59.0-0500",
+    "startDate": "2027-01-26T19:00:00.0-0500"
+   },
+   {
+    "number": 100,
+    "endDate": "2027-01-28T18:59:59.0-0500",
+    "startDate": "2027-01-27T19:00:00.0-0500"
+   },
+   {
+    "number": 101,
+    "endDate": "2027-01-29T18:59:59.0-0500",
+    "startDate": "2027-01-28T19:00:00.0-0500"
+   },
+   {
+    "number": 102,
+    "endDate": "2027-01-30T12:29:59.0-0500",
+    "startDate": "2027-01-29T19:00:00.0-0500"
+   },
+   {
+    "number": 103,
+    "endDate": "2027-01-31T14:59:59.0-0500",
+    "startDate": "2027-01-30T12:30:00.0-0500"
+   },
+   {
+    "number": 104,
+    "endDate": "2027-02-01T18:59:59.0-0500",
+    "startDate": "2027-01-31T15:00:00.0-0500"
+   },
+   {
+    "number": 105,
+    "endDate": "2027-02-02T18:59:59.0-0500",
+    "startDate": "2027-02-01T19:00:00.0-0500"
+   },
+   {
+    "number": 106,
+    "endDate": "2027-02-03T18:59:59.0-0500",
+    "startDate": "2027-02-02T19:00:00.0-0500"
+   },
+   {
+    "number": 107,
+    "endDate": "2027-02-04T18:59:59.0-0500",
+    "startDate": "2027-02-03T19:00:00.0-0500"
+   },
+   {
+    "number": 108,
+    "endDate": "2027-02-05T18:59:59.0-0500",
+    "startDate": "2027-02-04T19:00:00.0-0500"
+   },
+   {
+    "number": 109,
+    "endDate": "2027-02-06T14:59:59.0-0500",
+    "startDate": "2027-02-05T19:00:00.0-0500"
+   },
+   {
+    "number": 110,
+    "endDate": "2027-02-07T14:59:59.0-0500",
+    "startDate": "2027-02-06T15:00:00.0-0500"
+   },
+   {
+    "number": 111,
+    "endDate": "2027-02-08T18:59:59.0-0500",
+    "startDate": "2027-02-07T15:00:00.0-0500"
+   },
+   {
+    "number": 112,
+    "endDate": "2027-02-09T18:59:59.0-0500",
+    "startDate": "2027-02-08T19:00:00.0-0500"
+   },
+   {
+    "number": 113,
+    "endDate": "2027-02-10T18:59:59.0-0500",
+    "startDate": "2027-02-09T19:00:00.0-0500"
+   },
+   {
+    "number": 114,
+    "endDate": "2027-02-11T18:59:59.0-0500",
+    "startDate": "2027-02-10T19:00:00.0-0500"
+   },
+   {
+    "number": 115,
+    "endDate": "2027-02-12T18:59:59.0-0500",
+    "startDate": "2027-02-11T19:00:00.0-0500"
+   },
+   {
+    "number": 116,
+    "endDate": "2027-02-13T13:59:59.0-0500",
+    "startDate": "2027-02-12T19:00:00.0-0500"
+   },
+   {
+    "number": 117,
+    "endDate": "2027-02-14T12:59:59.0-0500",
+    "startDate": "2027-02-13T14:00:00.0-0500"
+   },
+   {
+    "number": 118,
+    "endDate": "2027-02-15T11:59:59.0-0500",
+    "startDate": "2027-02-14T13:00:00.0-0500"
+   },
+   {
+    "number": 119,
+    "endDate": "2027-02-16T18:59:59.0-0500",
+    "startDate": "2027-02-15T12:00:00.0-0500"
+   },
+   {
+    "number": 120,
+    "endDate": "2027-02-17T18:59:59.0-0500",
+    "startDate": "2027-02-16T19:00:00.0-0500"
+   },
+   {
+    "number": 121,
+    "endDate": "2027-02-18T19:29:59.0-0500",
+    "startDate": "2027-02-17T19:00:00.0-0500"
+   },
+   {
+    "number": 122,
+    "endDate": "2027-02-19T11:59:59.0-0500",
+    "startDate": "2027-02-18T19:30:00.0-0500"
+   },
+   {
+    "number": 123,
+    "endDate": "2027-02-20T11:59:59.0-0500",
+    "startDate": "2027-02-19T12:00:00.0-0500"
+   },
+   {
+    "number": 124,
+    "endDate": "2027-02-21T11:59:59.0-0500",
+    "startDate": "2027-02-20T12:00:00.0-0500"
+   },
+   {
+    "number": 125,
+    "endDate": "2027-02-22T11:59:59.0-0500",
+    "startDate": "2027-02-21T12:00:00.0-0500"
+   },
+   {
+    "number": 126,
+    "endDate": "2027-02-23T11:59:59.0-0500",
+    "startDate": "2027-02-22T12:00:00.0-0500"
+   },
+   {
+    "number": 127,
+    "endDate": "2027-02-24T11:59:59.0-0500",
+    "startDate": "2027-02-23T12:00:00.0-0500"
+   },
+   {
+    "number": 128,
+    "endDate": "2027-02-25T18:59:59.0-0500",
+    "startDate": "2027-02-24T12:00:00.0-0500"
+   },
+   {
+    "number": 129,
+    "endDate": "2027-02-26T19:29:59.0-0500",
+    "startDate": "2027-02-25T19:00:00.0-0500"
+   },
+   {
+    "number": 130,
+    "endDate": "2027-02-27T14:59:59.0-0500",
+    "startDate": "2027-02-26T19:30:00.0-0500"
+   },
+   {
+    "number": 131,
+    "endDate": "2027-02-28T12:59:59.0-0500",
+    "startDate": "2027-02-27T15:00:00.0-0500"
+   },
+   {
+    "number": 132,
+    "endDate": "2027-03-01T18:59:59.0-0500",
+    "startDate": "2027-02-28T13:00:00.0-0500"
+   },
+   {
+    "number": 133,
+    "endDate": "2027-03-02T18:59:59.0-0500",
+    "startDate": "2027-03-01T19:00:00.0-0500"
+   },
+   {
+    "number": 134,
+    "endDate": "2027-03-03T18:59:59.0-0500",
+    "startDate": "2027-03-02T19:00:00.0-0500"
+   },
+   {
+    "number": 135,
+    "endDate": "2027-03-04T18:59:59.0-0500",
+    "startDate": "2027-03-03T19:00:00.0-0500"
+   },
+   {
+    "number": 136,
+    "endDate": "2027-03-05T18:59:59.0-0500",
+    "startDate": "2027-03-04T19:00:00.0-0500"
+   },
+   {
+    "number": 137,
+    "endDate": "2027-03-06T14:59:59.0-0500",
+    "startDate": "2027-03-05T19:00:00.0-0500"
+   },
+   {
+    "number": 138,
+    "endDate": "2027-03-07T12:59:59.0-0500",
+    "startDate": "2027-03-06T15:00:00.0-0500"
+   },
+   {
+    "number": 139,
+    "endDate": "2027-03-08T18:59:59.0-0500",
+    "startDate": "2027-03-07T13:00:00.0-0500"
+   },
+   {
+    "number": 140,
+    "endDate": "2027-03-09T18:59:59.0-0500",
+    "startDate": "2027-03-08T19:00:00.0-0500"
+   },
+   {
+    "number": 141,
+    "endDate": "2027-03-10T18:59:59.0-0500",
+    "startDate": "2027-03-09T19:00:00.0-0500"
+   },
+   {
+    "number": 142,
+    "endDate": "2027-03-11T18:59:59.0-0500",
+    "startDate": "2027-03-10T19:00:00.0-0500"
+   },
+   {
+    "number": 143,
+    "endDate": "2027-03-12T19:29:59.0-0500",
+    "startDate": "2027-03-11T19:00:00.0-0500"
+   },
+   {
+    "number": 144,
+    "endDate": "2027-03-13T14:59:59.0-0500",
+    "startDate": "2027-03-12T19:30:00.0-0500"
+   },
+   {
+    "number": 145,
+    "endDate": "2027-03-14T11:59:59.0-0400",
+    "startDate": "2027-03-13T15:00:00.0-0500"
+   },
+   {
+    "number": 146,
+    "endDate": "2027-03-15T18:59:59.0-0400",
+    "startDate": "2027-03-14T12:00:00.0-0400"
+   },
+   {
+    "number": 147,
+    "endDate": "2027-03-16T18:59:59.0-0400",
+    "startDate": "2027-03-15T19:00:00.0-0400"
+   },
+   {
+    "number": 148,
+    "endDate": "2027-03-17T18:59:59.0-0400",
+    "startDate": "2027-03-16T19:00:00.0-0400"
+   },
+   {
+    "number": 149,
+    "endDate": "2027-03-18T18:59:59.0-0400",
+    "startDate": "2027-03-17T19:00:00.0-0400"
+   },
+   {
+    "number": 150,
+    "endDate": "2027-03-19T19:29:59.0-0400",
+    "startDate": "2027-03-18T19:00:00.0-0400"
+   },
+   {
+    "number": 151,
+    "endDate": "2027-03-20T12:59:59.0-0400",
+    "startDate": "2027-03-19T19:30:00.0-0400"
+   },
+   {
+    "number": 152,
+    "endDate": "2027-03-21T14:59:59.0-0400",
+    "startDate": "2027-03-20T13:00:00.0-0400"
+   },
+   {
+    "number": 153,
+    "endDate": "2027-03-22T18:59:59.0-0400",
+    "startDate": "2027-03-21T15:00:00.0-0400"
+   },
+   {
+    "number": 154,
+    "endDate": "2027-03-23T19:29:59.0-0400",
+    "startDate": "2027-03-22T19:00:00.0-0400"
+   },
+   {
+    "number": 155,
+    "endDate": "2027-03-24T18:59:59.0-0400",
+    "startDate": "2027-03-23T19:30:00.0-0400"
+   },
+   {
+    "number": 156,
+    "endDate": "2027-03-25T18:59:59.0-0400",
+    "startDate": "2027-03-24T19:00:00.0-0400"
+   },
+   {
+    "number": 157,
+    "endDate": "2027-03-26T18:59:59.0-0400",
+    "startDate": "2027-03-25T19:00:00.0-0400"
+   },
+   {
+    "number": 158,
+    "endDate": "2027-03-27T14:59:59.0-0400",
+    "startDate": "2027-03-26T19:00:00.0-0400"
+   },
+   {
+    "number": 159,
+    "endDate": "2027-03-28T12:29:59.0-0400",
+    "startDate": "2027-03-27T15:00:00.0-0400"
+   },
+   {
+    "number": 160,
+    "endDate": "2027-03-29T18:59:59.0-0400",
+    "startDate": "2027-03-28T12:30:00.0-0400"
+   },
+   {
+    "number": 161,
+    "endDate": "2027-03-30T18:59:59.0-0400",
+    "startDate": "2027-03-29T19:00:00.0-0400"
+   },
+   {
+    "number": 162,
+    "endDate": "2027-03-31T18:59:59.0-0400",
+    "startDate": "2027-03-30T19:00:00.0-0400"
+   },
+   {
+    "number": 163,
+    "endDate": "2027-04-01T18:59:59.0-0400",
+    "startDate": "2027-03-31T19:00:00.0-0400"
+   },
+   {
+    "number": 164,
+    "endDate": "2027-04-02T18:59:59.0-0400",
+    "startDate": "2027-04-01T19:00:00.0-0400"
+   },
+   {
+    "number": 165,
+    "endDate": "2027-04-03T16:59:59.0-0400",
+    "startDate": "2027-04-02T19:00:00.0-0400"
+   },
+   {
+    "number": 166,
+    "endDate": "2027-04-04T12:59:59.0-0400",
+    "startDate": "2027-04-03T17:00:00.0-0400"
+   },
+   {
+    "number": 167,
+    "endDate": "2027-04-05T18:59:59.0-0400",
+    "startDate": "2027-04-04T13:00:00.0-0400"
+   },
+   {
+    "number": 168,
+    "endDate": "2027-04-06T18:59:59.0-0400",
+    "startDate": "2027-04-05T19:00:00.0-0400"
+   },
+   {
+    "number": 169,
+    "endDate": "2027-04-07T18:59:59.0-0400",
+    "startDate": "2027-04-06T19:00:00.0-0400"
+   },
+   {
+    "number": 170,
+    "endDate": "2027-04-08T18:59:59.0-0400",
+    "startDate": "2027-04-07T19:00:00.0-0400"
+   },
+   {
+    "number": 171,
+    "endDate": "2027-04-09T18:59:59.0-0400",
+    "startDate": "2027-04-08T19:00:00.0-0400"
+   },
+   {
+    "number": 172,
+    "endDate": "2027-04-10T11:59:59.0-0400",
+    "startDate": "2027-04-09T19:00:00.0-0400"
+   },
+   {
+    "number": 173,
+    "endDate": "2027-04-11T17:59:59.0-0400",
+    "startDate": "2027-04-10T12:00:00.0-0400"
+   },
+   {
+    "number": 174,
+    "endDate": "2027-04-12T11:59:59.0-0400",
+    "startDate": "2027-04-11T18:00:00.0-0400"
+   }
+  ],
+  "scoringPeriods": [
+   {
+    "number": 1,
+    "endDate": "2026-10-26T18:59:59.0-0400",
+    "startDate": "2026-10-20T15:00:00.0-0400"
+   },
+   {
+    "number": 2,
+    "endDate": "2026-11-02T18:59:59.0-0500",
+    "startDate": "2026-10-26T19:00:00.0-0400"
+   },
+   {
+    "number": 3,
+    "endDate": "2026-11-09T18:59:59.0-0500",
+    "startDate": "2026-11-02T19:00:00.0-0500"
+   },
+   {
+    "number": 4,
+    "endDate": "2026-11-16T18:59:59.0-0500",
+    "startDate": "2026-11-09T19:00:00.0-0500"
+   },
+   {
+    "number": 5,
+    "endDate": "2026-11-23T18:59:59.0-0500",
+    "startDate": "2026-11-16T19:00:00.0-0500"
+   },
+   {
+    "number": 6,
+    "endDate": "2026-11-30T18:59:59.0-0500",
+    "startDate": "2026-11-23T19:00:00.0-0500"
+   },
+   {
+    "number": 7,
+    "endDate": "2026-12-07T11:59:59.0-0500",
+    "startDate": "2026-11-30T19:00:00.0-0500"
+   },
+   {
+    "number": 8,
+    "endDate": "2026-12-14T18:59:59.0-0500",
+    "startDate": "2026-12-07T12:00:00.0-0500"
+   },
+   {
+    "number": 9,
+    "endDate": "2026-12-21T18:59:59.0-0500",
+    "startDate": "2026-12-14T19:00:00.0-0500"
+   },
+   {
+    "number": 10,
+    "endDate": "2026-12-28T19:29:59.0-0500",
+    "startDate": "2026-12-21T19:00:00.0-0500"
+   },
+   {
+    "number": 11,
+    "endDate": "2027-01-04T18:59:59.0-0500",
+    "startDate": "2026-12-28T19:30:00.0-0500"
+   },
+   {
+    "number": 12,
+    "endDate": "2027-01-11T18:59:59.0-0500",
+    "startDate": "2027-01-04T19:00:00.0-0500"
+   },
+   {
+    "number": 13,
+    "endDate": "2027-01-18T11:59:59.0-0500",
+    "startDate": "2027-01-11T19:00:00.0-0500"
+   },
+   {
+    "number": 14,
+    "endDate": "2027-01-25T18:59:59.0-0500",
+    "startDate": "2027-01-18T12:00:00.0-0500"
+   },
+   {
+    "number": 15,
+    "endDate": "2027-02-01T18:59:59.0-0500",
+    "startDate": "2027-01-25T19:00:00.0-0500"
+   },
+   {
+    "number": 16,
+    "endDate": "2027-02-08T18:59:59.0-0500",
+    "startDate": "2027-02-01T19:00:00.0-0500"
+   },
+   {
+    "number": 17,
+    "endDate": "2027-02-15T11:59:59.0-0500",
+    "startDate": "2027-02-08T19:00:00.0-0500"
+   },
+   {
+    "number": 18,
+    "endDate": "2027-03-01T18:59:59.0-0500",
+    "startDate": "2027-02-15T12:00:00.0-0500"
+   },
+   {
+    "number": 19,
+    "endDate": "2027-03-08T18:59:59.0-0500",
+    "startDate": "2027-03-01T19:00:00.0-0500"
+   },
+   {
+    "number": 20,
+    "endDate": "2027-03-15T18:59:59.0-0400",
+    "startDate": "2027-03-08T19:00:00.0-0500"
+   },
+   {
+    "number": 21,
+    "endDate": "2027-03-29T18:59:58.0-0400",
+    "startDate": "2027-03-15T19:00:00.0-0400"
+   },
+   {
+    "number": 22,
+    "endDate": "2027-04-12T11:59:59.0-0400",
+    "startDate": "2027-03-29T19:00:00.0-0400"
+   }
+  ],
+  "teamInfo": {
+   "6wdc0v27murmhnn2": {
+    "name": "Bye Week",
+    "id": "6wdc0v27murmhnn2"
+   },
+   "f310mnh8murmhnn2": {
+    "name": "The Fun Guys",
+    "id": "f310mnh8murmhnn2"
+   },
+   "p8lde4xbmusl24sh": {
+    "name": "The 2026 Revenge Tour",
+    "id": "p8lde4xbmusl24sh"
+   },
+   "rdl7dlplmurmhnn2": {
+    "name": "Suggs to be You",
+    "id": "rdl7dlplmurmhnn2"
+   },
+   "om35rt8imurmhnn2": {
+    "name": "Let's Go Brandon Ingram",
+    "id": "om35rt8imurmhnn2"
+   },
+   "t5zv7h5emurmhnn2": {
+    "name": "The Rollin\u00e2\u0080\u0099 Treys",
+    "id": "t5zv7h5emurmhnn2"
+   },
+   "0tjisxjpmurmhnn2": {
+    "name": "No Mercy, Just Usage Rate",
+    "id": "0tjisxjpmurmhnn2"
+   },
+   "ozju7nsmmurmhnn2": {
+    "name": "Conflict of Interest",
+    "id": "ozju7nsmmurmhnn2"
+   },
+   "0j15rgscmurmhnn2": {
+    "name": "bADa bing bong blok",
+    "id": "0j15rgscmurmhnn2"
+   },
+   "owvgfdvnmurmhnn2": {
+    "name": "Practical",
+    "id": "owvgfdvnmurmhnn2"
+   }
+  },
+  "draftType": "snake",
+  "draftSettings": {
+   "draftType": "snake"
+  },
+  "leagueName": "The No Toms League",
+  "leagueHistoryId": "mj6rfkk6jmqtm48d",
+  "scoringSystem": {
+   "scoringCategories": {
+    "PLAYER": {
+     "BLK": {
+      "Default": "1.0"
+     },
+     "ST": {
+      "Default": "1.0"
+     },
+     "AST": {
+      "Default": "1.0"
+     },
+     "FG%": {
+      "Default": "1.0"
+     },
+     "FT%": {
+      "Default": "1.0"
+     },
+     "TO": {
+      "Default": "1.0"
+     },
+     "PTS": {
+      "Default": "1.0"
+     },
+     "REB": {
+      "Default": "1.0"
+     },
+     "3PTM": {
+      "Default": "1.0"
+     }
+    }
+   },
+   "scoringCategorySettings": [
+    {
+     "configs": [
+      {
+       "weight": 1.0,
+       "position": {
+        "code": "DEFAULT",
+        "name": "Default",
+        "id": "-1",
+        "shortName": "Default"
+       },
+       "scoringCategory": {
+        "code": "INDIVIDUAL_ASSISTS",
+        "name": "Assists",
+        "id": "1250",
+        "shortName": "AST"
+       }
+      },
+      {
+       "weight": 1.0,
+       "position": {
+        "code": "DEFAULT",
+        "name": "Default",
+        "id": "-1",
+        "shortName": "Default"
+       },
+       "scoringCategory": {
+        "code": "INDIVIDUAL_BLOCKS",
+        "name": "Blocks",
+        "id": "1260",
+        "shortName": "BLK"
+       }
+      },
+      {
+       "weight": 1.0,
+       "position": {
+        "code": "DEFAULT",
+        "name": "Default",
+        "id": "-1",
+        "shortName": "Default"
+       },
+       "scoringCategory": {
+        "code": "INDIVIDUAL_POINTS",
+        "name": "Points",
+        "id": "1390",
+        "shortName": "PTS"
+       }
+      },
+      {
+       "weight": 1.0,
+       "position": {
+        "code": "DEFAULT",
+        "name": "Default",
+        "id": "-1",
+        "shortName": "Default"
+       },
+       "scoringCategory": {
+        "code": "INDIVIDUAL_REBOUNDS",
+        "name": "Rebounds",
+        "id": "1400",
+        "shortName": "REB"
+       }
+      },
+      {
+       "weight": 1.0,
+       "position": {
+        "code": "DEFAULT",
+        "name": "Default",
+        "id": "-1",
+        "shortName": "Default"
+       },
+       "scoringCategory": {
+        "code": "INDIVIDUAL_STEALS",
+        "name": "Steals",
+        "id": "1410",
+        "shortName": "ST"
+       }
+      },
+      {
+       "weight": 1.0,
+       "position": {
+        "code": "DEFAULT",
+        "name": "Default",
+        "id": "-1",
+        "shortName": "Default"
+       },
+       "scoringCategory": {
+        "code": "INDIVIDUAL_THREE_POINTERS_MADE",
+        "name": "Three Pointers Made",
+        "id": "1435",
+        "shortName": "3PTM"
+       }
+      },
+      {
+       "weight": 1.0,
+       "position": {
+        "code": "DEFAULT",
+        "name": "Default",
+        "id": "-1",
+        "shortName": "Default"
+       },
+       "scoringCategory": {
+        "code": "INDIVIDUAL_TURNOVERS",
+        "name": "Turnovers",
+        "id": "1460",
+        "shortName": "TO"
+       }
+      },
+      {
+       "weight": 1.0,
+       "position": {
+        "code": "DEFAULT",
+        "name": "Default",
+        "id": "-1",
+        "shortName": "Default"
+       },
+       "scoringCategory": {
+        "code": "INDIVIDUAL_FIELD_GOAL_PERCENTAGE",
+        "name": "Field Goal %",
+        "id": "1520",
+        "shortName": "FG%"
+       }
+      },
+      {
+       "weight": 1.0,
+       "position": {
+        "code": "DEFAULT",
+        "name": "Default",
+        "id": "-1",
+        "shortName": "Default"
+       },
+       "scoringCategory": {
+        "code": "INDIVIDUAL_FREE_THROW_PERCENTAGE",
+        "name": "Free Throw %",
+        "id": "1550",
+        "shortName": "FT%"
+       }
+      }
+     ],
+     "group": {
+      "code": "BASKETBALL_PLAYER",
+      "name": "Player",
+      "id": "3010",
+      "shortName": "Plyr"
+     }
+    }
+   ],
+   "type": "HEAD_TO_HEAD_ROTI_MULTI_WIN"
+  },
+  "seasonYear": 2026,
+  "startDate": "2026-10-20",
+  "playoffs": {
+   "lastRegularSeasonPeriod": 20,
+   "numPlayoffTeams": 4,
+   "firstPlayoffPeriod": 21,
+   "mergePlayoffPeriods": true,
+   "used": true
+  }
+ }
+}

@@ -1,0 +1,1075 @@
+{
+ "meta": {
+  "source": "official",
+  "endpoint": "getDraftResults",
+  "url": "https://www.fantrax.com/fxea/general/getDraftResults",
+  "status_code": 200,
+  "size_bytes": 14242,
+  "elapsed_ms": 52,
+  "auth_level": "none",
+  "from_cache": false,
+  "request_body": null,
+  "fetched_at": "2026-10-27T04:21:05.820394+00:00"
+ },
+ "payload": {
+  "draftDate": "2026-10-05T10:00:00.0-0400",
+  "draftPicks": [
+   {
+    "round": 1,
+    "pick": 1,
+    "teamId": "p8lde4xbmusl24sh",
+    "time": 1791209594000,
+    "pickInRound": 1,
+    "playerId": "06cch"
+   },
+   {
+    "round": 1,
+    "pick": 2,
+    "teamId": "0j15rgscmurmhnn2",
+    "time": 1791209634000,
+    "pickInRound": 2,
+    "playerId": "03e75"
+   },
+   {
+    "round": 1,
+    "pick": 3,
+    "teamId": "ozju7nsmmurmhnn2",
+    "time": 1791211034000,
+    "pickInRound": 3,
+    "playerId": "04qro"
+   },
+   {
+    "round": 1,
+    "pick": 4,
+    "teamId": "owvgfdvnmurmhnn2",
+    "time": 1791225734000,
+    "pickInRound": 4,
+    "playerId": "04kj6"
+   },
+   {
+    "round": 1,
+    "pick": 5,
+    "teamId": "t5zv7h5emurmhnn2",
+    "time": 1791228383000,
+    "pickInRound": 5,
+    "playerId": "05uib"
+   },
+   {
+    "round": 1,
+    "pick": 6,
+    "teamId": "0tjisxjpmurmhnn2",
+    "time": 1791228917000,
+    "pickInRound": 6,
+    "playerId": "05qug"
+   },
+   {
+    "round": 1,
+    "pick": 7,
+    "teamId": "6wdc0v27murmhnn2",
+    "time": 1791237723000,
+    "pickInRound": 7,
+    "playerId": "03xmv"
+   },
+   {
+    "round": 1,
+    "pick": 8,
+    "teamId": "om35rt8imurmhnn2",
+    "time": 1791243854000,
+    "pickInRound": 8,
+    "playerId": "031m2"
+   },
+   {
+    "round": 1,
+    "pick": 9,
+    "teamId": "rdl7dlplmurmhnn2",
+    "time": 1791244108000,
+    "pickInRound": 9,
+    "playerId": "05qsq"
+   },
+   {
+    "round": 1,
+    "pick": 10,
+    "teamId": "f310mnh8murmhnn2",
+    "time": 1791247649000,
+    "pickInRound": 10,
+    "playerId": "06v5l"
+   },
+   {
+    "round": 2,
+    "pick": 11,
+    "teamId": "f310mnh8murmhnn2",
+    "time": 1791248130000,
+    "pickInRound": 1,
+    "playerId": "06211"
+   },
+   {
+    "round": 2,
+    "pick": 12,
+    "teamId": "rdl7dlplmurmhnn2",
+    "time": 1791248446000,
+    "pickInRound": 2,
+    "playerId": "04ewe"
+   },
+   {
+    "round": 2,
+    "pick": 13,
+    "teamId": "om35rt8imurmhnn2",
+    "time": 1791252454000,
+    "pickInRound": 3,
+    "playerId": "05qtv"
+   },
+   {
+    "round": 2,
+    "pick": 14,
+    "teamId": "6wdc0v27murmhnn2",
+    "time": 1791253157000,
+    "pickInRound": 4,
+    "playerId": "05uie"
+   },
+   {
+    "round": 2,
+    "pick": 15,
+    "teamId": "0tjisxjpmurmhnn2",
+    "time": 1791253623000,
+    "pickInRound": 5,
+    "playerId": "05uiu"
+   },
+   {
+    "round": 2,
+    "pick": 16,
+    "teamId": "t5zv7h5emurmhnn2",
+    "time": 1791286506000,
+    "pickInRound": 6,
+    "playerId": "001aw"
+   },
+   {
+    "round": 2,
+    "pick": 17,
+    "teamId": "owvgfdvnmurmhnn2",
+    "time": 1791299132000,
+    "pickInRound": 7,
+    "playerId": "05uiq"
+   },
+   {
+    "round": 2,
+    "pick": 18,
+    "teamId": "ozju7nsmmurmhnn2",
+    "time": 1791303497000,
+    "pickInRound": 8,
+    "playerId": "027oz"
+   },
+   {
+    "round": 2,
+    "pick": 19,
+    "teamId": "0j15rgscmurmhnn2",
+    "time": 1791303947000,
+    "pickInRound": 9,
+    "playerId": "03ad3"
+   },
+   {
+    "round": 2,
+    "pick": 20,
+    "teamId": "p8lde4xbmusl24sh",
+    "time": 1791307152000,
+    "pickInRound": 10,
+    "playerId": "042n4"
+   },
+   {
+    "round": 3,
+    "pick": 21,
+    "teamId": "p8lde4xbmusl24sh",
+    "time": 1791307177000,
+    "pickInRound": 1,
+    "playerId": "05uus"
+   },
+   {
+    "round": 3,
+    "pick": 22,
+    "teamId": "0j15rgscmurmhnn2",
+    "time": 1791307477000,
+    "pickInRound": 2,
+    "playerId": "06ca8"
+   },
+   {
+    "round": 3,
+    "pick": 23,
+    "teamId": "ozju7nsmmurmhnn2",
+    "time": 1791309564000,
+    "pickInRound": 3,
+    "playerId": "05uid"
+   },
+   {
+    "round": 3,
+    "pick": 24,
+    "teamId": "owvgfdvnmurmhnn2",
+    "time": 1791309610000,
+    "pickInRound": 4,
+    "playerId": "05uir"
+   },
+   {
+    "round": 3,
+    "pick": 25,
+    "teamId": "t5zv7h5emurmhnn2",
+    "time": 1791317741000,
+    "pickInRound": 5,
+    "playerId": "01enh"
+   },
+   {
+    "round": 3,
+    "pick": 26,
+    "teamId": "0tjisxjpmurmhnn2",
+    "time": 1791318466000,
+    "pickInRound": 6,
+    "playerId": "03nwm"
+   },
+   {
+    "round": 3,
+    "pick": 27,
+    "teamId": "6wdc0v27murmhnn2",
+    "time": 1791322038000,
+    "pickInRound": 7,
+    "playerId": "05qto"
+   },
+   {
+    "round": 3,
+    "pick": 28,
+    "teamId": "om35rt8imurmhnn2",
+    "time": 1791324613000,
+    "pickInRound": 8,
+    "playerId": "05uig"
+   },
+   {
+    "round": 3,
+    "pick": 29,
+    "teamId": "rdl7dlplmurmhnn2",
+    "time": 1791326854000,
+    "pickInRound": 9,
+    "playerId": "02nf1"
+   },
+   {
+    "round": 3,
+    "pick": 30,
+    "teamId": "f310mnh8murmhnn2",
+    "time": 1791327393000,
+    "pickInRound": 10,
+    "playerId": "04qrk"
+   },
+   {
+    "round": 4,
+    "pick": 31,
+    "teamId": "f310mnh8murmhnn2",
+    "time": 1791328191000,
+    "pickInRound": 1,
+    "playerId": "01eo6"
+   },
+   {
+    "round": 4,
+    "pick": 32,
+    "teamId": "rdl7dlplmurmhnn2",
+    "time": 1791328347000,
+    "pickInRound": 2,
+    "playerId": "04azw"
+   },
+   {
+    "round": 4,
+    "pick": 33,
+    "teamId": "om35rt8imurmhnn2",
+    "time": 1791330172000,
+    "pickInRound": 3,
+    "playerId": "0621b"
+   },
+   {
+    "round": 4,
+    "pick": 34,
+    "teamId": "6wdc0v27murmhnn2",
+    "time": 1791330943000,
+    "pickInRound": 4,
+    "playerId": "04ewt"
+   },
+   {
+    "round": 4,
+    "pick": 35,
+    "teamId": "0tjisxjpmurmhnn2",
+    "time": 1791331799000,
+    "pickInRound": 5,
+    "playerId": "042n7"
+   },
+   {
+    "round": 4,
+    "pick": 36,
+    "teamId": "t5zv7h5emurmhnn2",
+    "time": 1791332248000,
+    "pickInRound": 6,
+    "playerId": "04qsa"
+   },
+   {
+    "round": 4,
+    "pick": 37,
+    "teamId": "owvgfdvnmurmhnn2",
+    "time": 1791336219000,
+    "pickInRound": 7,
+    "playerId": "04qrj"
+   },
+   {
+    "round": 4,
+    "pick": 38,
+    "teamId": "ozju7nsmmurmhnn2",
+    "time": 1791337973000,
+    "pickInRound": 8,
+    "playerId": "04ewf"
+   },
+   {
+    "round": 4,
+    "pick": 39,
+    "teamId": "0j15rgscmurmhnn2",
+    "time": 1791338762000,
+    "pickInRound": 9,
+    "playerId": "05qtj"
+   },
+   {
+    "round": 4,
+    "pick": 40,
+    "teamId": "p8lde4xbmusl24sh",
+    "time": 1791340791000,
+    "pickInRound": 10,
+    "playerId": "0621c"
+   },
+   {
+    "round": 5,
+    "pick": 41,
+    "teamId": "p8lde4xbmusl24sh",
+    "time": 1791340805000,
+    "pickInRound": 1,
+    "playerId": "05qt3"
+   },
+   {
+    "round": 5,
+    "pick": 42,
+    "teamId": "0j15rgscmurmhnn2",
+    "time": 1791342274000,
+    "pickInRound": 2,
+    "playerId": "06210"
+   },
+   {
+    "round": 5,
+    "pick": 43,
+    "teamId": "ozju7nsmmurmhnn2",
+    "time": 1791342534000,
+    "pickInRound": 3,
+    "playerId": "027oj"
+   },
+   {
+    "round": 5,
+    "pick": 44,
+    "teamId": "owvgfdvnmurmhnn2",
+    "time": 1791377746000,
+    "pickInRound": 4,
+    "playerId": "05qtt"
+   },
+   {
+    "round": 5,
+    "pick": 45,
+    "teamId": "t5zv7h5emurmhnn2",
+    "time": 1791383959000,
+    "pickInRound": 5,
+    "playerId": "0621l"
+   },
+   {
+    "round": 5,
+    "pick": 46,
+    "teamId": "0tjisxjpmurmhnn2",
+    "time": 1791384318000,
+    "pickInRound": 6,
+    "playerId": "06cca"
+   },
+   {
+    "round": 5,
+    "pick": 47,
+    "teamId": "6wdc0v27murmhnn2",
+    "time": 1791389910000,
+    "pickInRound": 7,
+    "playerId": "06mk3"
+   },
+   {
+    "round": 5,
+    "pick": 48,
+    "teamId": "om35rt8imurmhnn2",
+    "time": 1791393983000,
+    "pickInRound": 8,
+    "playerId": "06mjz"
+   },
+   {
+    "round": 5,
+    "pick": 49,
+    "teamId": "rdl7dlplmurmhnn2",
+    "time": 1791394331000,
+    "pickInRound": 9,
+    "playerId": "03lls"
+   },
+   {
+    "round": 5,
+    "pick": 50,
+    "teamId": "f310mnh8murmhnn2",
+    "time": 1791394448000,
+    "pickInRound": 10,
+    "playerId": "051ol"
+   },
+   {
+    "round": 6,
+    "pick": 51,
+    "teamId": "f310mnh8murmhnn2",
+    "time": 1791394470000,
+    "pickInRound": 1,
+    "playerId": "06cby"
+   },
+   {
+    "round": 6,
+    "pick": 52,
+    "teamId": "rdl7dlplmurmhnn2",
+    "time": 1791394666000,
+    "pickInRound": 2,
+    "playerId": "06v5n"
+   },
+   {
+    "round": 6,
+    "pick": 53,
+    "teamId": "om35rt8imurmhnn2",
+    "time": 1791394757000,
+    "pickInRound": 3,
+    "playerId": "01uyj"
+   },
+   {
+    "round": 6,
+    "pick": 54,
+    "teamId": "6wdc0v27murmhnn2",
+    "time": 1791395604000,
+    "pickInRound": 4,
+    "playerId": "06mk7"
+   },
+   {
+    "round": 6,
+    "pick": 55,
+    "teamId": "0tjisxjpmurmhnn2",
+    "time": 1791397337000,
+    "pickInRound": 5,
+    "playerId": "042nm"
+   },
+   {
+    "round": 6,
+    "pick": 56,
+    "teamId": "t5zv7h5emurmhnn2",
+    "time": 1791400411000,
+    "pickInRound": 6,
+    "playerId": "051ox"
+   },
+   {
+    "round": 6,
+    "pick": 57,
+    "teamId": "owvgfdvnmurmhnn2",
+    "time": 1791405401000,
+    "pickInRound": 7,
+    "playerId": "06mjw"
+   },
+   {
+    "round": 6,
+    "pick": 58,
+    "teamId": "ozju7nsmmurmhnn2",
+    "time": 1791407345000,
+    "pickInRound": 8,
+    "playerId": "0011e"
+   },
+   {
+    "round": 6,
+    "pick": 59,
+    "teamId": "0j15rgscmurmhnn2",
+    "time": 1791407478000,
+    "pickInRound": 9,
+    "playerId": "04ewn"
+   },
+   {
+    "round": 6,
+    "pick": 60,
+    "teamId": "p8lde4xbmusl24sh",
+    "time": 1791407802000,
+    "pickInRound": 10,
+    "playerId": "04qrr"
+   },
+   {
+    "round": 7,
+    "pick": 61,
+    "teamId": "p8lde4xbmusl24sh",
+    "time": 1791407806000,
+    "pickInRound": 1,
+    "playerId": "051ot"
+   },
+   {
+    "round": 7,
+    "pick": 62,
+    "teamId": "0j15rgscmurmhnn2",
+    "time": 1791407997000,
+    "pickInRound": 2,
+    "playerId": "06227"
+   },
+   {
+    "round": 7,
+    "pick": 63,
+    "teamId": "ozju7nsmmurmhnn2",
+    "time": 1791409316000,
+    "pickInRound": 3,
+    "playerId": "05uii"
+   },
+   {
+    "round": 7,
+    "pick": 64,
+    "teamId": "owvgfdvnmurmhnn2",
+    "time": 1791411298000,
+    "pickInRound": 4,
+    "playerId": "06v5y"
+   },
+   {
+    "round": 7,
+    "pick": 65,
+    "teamId": "t5zv7h5emurmhnn2",
+    "time": 1791411432000,
+    "pickInRound": 5,
+    "playerId": "042nq"
+   },
+   {
+    "round": 7,
+    "pick": 66,
+    "teamId": "0tjisxjpmurmhnn2",
+    "time": 1791414873000,
+    "pickInRound": 6,
+    "playerId": "03al2"
+   },
+   {
+    "round": 7,
+    "pick": 67,
+    "teamId": "6wdc0v27murmhnn2",
+    "time": 1791414970000,
+    "pickInRound": 7,
+    "playerId": "06mju"
+   },
+   {
+    "round": 7,
+    "pick": 68,
+    "teamId": "om35rt8imurmhnn2",
+    "time": 1791422940000,
+    "pickInRound": 8,
+    "playerId": "06217"
+   },
+   {
+    "round": 7,
+    "pick": 69,
+    "teamId": "rdl7dlplmurmhnn2",
+    "time": 1791423060000,
+    "pickInRound": 9,
+    "playerId": "042nt"
+   },
+   {
+    "round": 7,
+    "pick": 70,
+    "teamId": "f310mnh8murmhnn2",
+    "time": 1791423503000,
+    "pickInRound": 10,
+    "playerId": "06ccf"
+   },
+   {
+    "round": 8,
+    "pick": 71,
+    "teamId": "f310mnh8murmhnn2",
+    "time": 1791423545000,
+    "pickInRound": 1,
+    "playerId": "0527h"
+   },
+   {
+    "round": 8,
+    "pick": 72,
+    "teamId": "rdl7dlplmurmhnn2",
+    "time": 1791423765000,
+    "pickInRound": 2,
+    "playerId": "02nf6"
+   },
+   {
+    "round": 8,
+    "pick": 73,
+    "teamId": "om35rt8imurmhnn2",
+    "time": 1791424538000,
+    "pickInRound": 3,
+    "playerId": "06mk1"
+   },
+   {
+    "round": 8,
+    "pick": 74,
+    "teamId": "6wdc0v27murmhnn2",
+    "time": 1791427189000,
+    "pickInRound": 4,
+    "playerId": "05qu9"
+   },
+   {
+    "round": 8,
+    "pick": 75,
+    "teamId": "0tjisxjpmurmhnn2",
+    "time": 1791430318000,
+    "pickInRound": 5,
+    "playerId": "03ajv"
+   },
+   {
+    "round": 8,
+    "pick": 76,
+    "teamId": "t5zv7h5emurmhnn2",
+    "time": 1791459401000,
+    "pickInRound": 6,
+    "playerId": "076vc"
+   },
+   {
+    "round": 8,
+    "pick": 77,
+    "teamId": "owvgfdvnmurmhnn2",
+    "time": 1791465289000,
+    "pickInRound": 7,
+    "playerId": "04qrn"
+   },
+   {
+    "round": 8,
+    "pick": 78,
+    "teamId": "ozju7nsmmurmhnn2",
+    "time": 1791466192000,
+    "pickInRound": 8,
+    "playerId": "049kb"
+   },
+   {
+    "round": 8,
+    "pick": 79,
+    "teamId": "0j15rgscmurmhnn2",
+    "time": 1791466388000,
+    "pickInRound": 9,
+    "playerId": "05qu0"
+   },
+   {
+    "round": 8,
+    "pick": 80,
+    "teamId": "p8lde4xbmusl24sh",
+    "time": 1791466894000,
+    "pickInRound": 10,
+    "playerId": "05qt1"
+   },
+   {
+    "round": 9,
+    "pick": 81,
+    "teamId": "p8lde4xbmusl24sh",
+    "time": 1791467125000,
+    "pickInRound": 1,
+    "playerId": "02xg9"
+   },
+   {
+    "round": 9,
+    "pick": 82,
+    "teamId": "0j15rgscmurmhnn2",
+    "time": 1791467333000,
+    "pickInRound": 2,
+    "playerId": "04ewm"
+   },
+   {
+    "round": 9,
+    "pick": 83,
+    "teamId": "ozju7nsmmurmhnn2",
+    "time": 1791468944000,
+    "pickInRound": 3,
+    "playerId": "06v5k"
+   },
+   {
+    "round": 9,
+    "pick": 84,
+    "teamId": "owvgfdvnmurmhnn2",
+    "time": 1791472695000,
+    "pickInRound": 4,
+    "playerId": "076t0"
+   },
+   {
+    "round": 9,
+    "pick": 85,
+    "teamId": "t5zv7h5emurmhnn2",
+    "time": 1791472859000,
+    "pickInRound": 5,
+    "playerId": "051p4"
+   },
+   {
+    "round": 9,
+    "pick": 86,
+    "teamId": "0tjisxjpmurmhnn2",
+    "time": 1791475030000,
+    "pickInRound": 6,
+    "playerId": "042n1"
+   },
+   {
+    "round": 9,
+    "pick": 87,
+    "teamId": "6wdc0v27murmhnn2",
+    "time": 1791476093000,
+    "pickInRound": 7,
+    "playerId": "051on"
+   },
+   {
+    "round": 9,
+    "pick": 88,
+    "teamId": "om35rt8imurmhnn2",
+    "time": 1791479168000,
+    "pickInRound": 8,
+    "playerId": "05uj3"
+   },
+   {
+    "round": 9,
+    "pick": 89,
+    "teamId": "rdl7dlplmurmhnn2",
+    "time": 1791479433000,
+    "pickInRound": 9,
+    "playerId": "03ad2"
+   },
+   {
+    "round": 9,
+    "pick": 90,
+    "teamId": "f310mnh8murmhnn2",
+    "time": 1791480262000,
+    "pickInRound": 10,
+    "playerId": "051oh"
+   },
+   {
+    "round": 10,
+    "pick": 91,
+    "teamId": "f310mnh8murmhnn2",
+    "time": 1791480597000,
+    "pickInRound": 1,
+    "playerId": "06213"
+   },
+   {
+    "round": 10,
+    "pick": 92,
+    "teamId": "rdl7dlplmurmhnn2",
+    "time": 1791480637000,
+    "pickInRound": 2,
+    "playerId": "05uif"
+   },
+   {
+    "round": 10,
+    "pick": 93,
+    "teamId": "om35rt8imurmhnn2",
+    "time": 1791480802000,
+    "pickInRound": 3,
+    "playerId": "06v5a"
+   },
+   {
+    "round": 10,
+    "pick": 94,
+    "teamId": "6wdc0v27murmhnn2",
+    "time": 1791481550000,
+    "pickInRound": 4,
+    "playerId": "06v5h"
+   },
+   {
+    "round": 10,
+    "pick": 95,
+    "teamId": "0tjisxjpmurmhnn2",
+    "time": 1791486538000,
+    "pickInRound": 5,
+    "playerId": "051oi"
+   },
+   {
+    "round": 10,
+    "pick": 96,
+    "teamId": "t5zv7h5emurmhnn2",
+    "time": 1791490523000,
+    "pickInRound": 6,
+    "playerId": "03r7z"
+   },
+   {
+    "round": 10,
+    "pick": 97,
+    "teamId": "owvgfdvnmurmhnn2",
+    "time": 1791498026000,
+    "pickInRound": 7,
+    "playerId": "06212"
+   },
+   {
+    "round": 10,
+    "pick": 98,
+    "teamId": "ozju7nsmmurmhnn2",
+    "time": 1791498511000,
+    "pickInRound": 8,
+    "playerId": "05ujd"
+   },
+   {
+    "round": 10,
+    "pick": 99,
+    "teamId": "0j15rgscmurmhnn2",
+    "time": 1791498599000,
+    "pickInRound": 9,
+    "playerId": "06v5v"
+   },
+   {
+    "round": 10,
+    "pick": 100,
+    "teamId": "p8lde4xbmusl24sh",
+    "time": 1791499816000,
+    "pickInRound": 10,
+    "playerId": "05ujc"
+   },
+   {
+    "round": 11,
+    "pick": 101,
+    "teamId": "p8lde4xbmusl24sh",
+    "time": 1791499826000,
+    "pickInRound": 1,
+    "playerId": "04ewk"
+   },
+   {
+    "round": 11,
+    "pick": 102,
+    "teamId": "0j15rgscmurmhnn2",
+    "time": 1791499880000,
+    "pickInRound": 2,
+    "playerId": "076t9"
+   },
+   {
+    "round": 11,
+    "pick": 103,
+    "teamId": "ozju7nsmmurmhnn2",
+    "time": 1791502600000,
+    "pickInRound": 3,
+    "playerId": "031lx"
+   },
+   {
+    "round": 11,
+    "pick": 104,
+    "teamId": "owvgfdvnmurmhnn2",
+    "time": 1791505259000,
+    "pickInRound": 4,
+    "playerId": "04ex6"
+   },
+   {
+    "round": 11,
+    "pick": 105,
+    "teamId": "t5zv7h5emurmhnn2",
+    "time": 1791505358000,
+    "pickInRound": 5,
+    "playerId": "03ams"
+   },
+   {
+    "round": 11,
+    "pick": 106,
+    "teamId": "0tjisxjpmurmhnn2",
+    "time": 1791506168000,
+    "pickInRound": 6,
+    "playerId": "04848"
+   },
+   {
+    "round": 11,
+    "pick": 107,
+    "teamId": "6wdc0v27murmhnn2",
+    "time": 1791506219000,
+    "pickInRound": 7,
+    "playerId": "076ta"
+   },
+   {
+    "round": 11,
+    "pick": 108,
+    "teamId": "om35rt8imurmhnn2",
+    "time": 1791509401000,
+    "pickInRound": 8,
+    "playerId": "06cac"
+   },
+   {
+    "round": 11,
+    "pick": 109,
+    "teamId": "rdl7dlplmurmhnn2",
+    "time": 1791510415000,
+    "pickInRound": 9,
+    "playerId": "04qrp"
+   },
+   {
+    "round": 11,
+    "pick": 110,
+    "teamId": "f310mnh8murmhnn2",
+    "time": 1791510552000,
+    "pickInRound": 10,
+    "playerId": "02ym0"
+   },
+   {
+    "round": 12,
+    "pick": 111,
+    "teamId": "f310mnh8murmhnn2",
+    "time": 1791511305000,
+    "pickInRound": 1,
+    "playerId": "06cc7"
+   },
+   {
+    "round": 12,
+    "pick": 112,
+    "teamId": "rdl7dlplmurmhnn2",
+    "time": 1791511569000,
+    "pickInRound": 2,
+    "playerId": "03el5"
+   },
+   {
+    "round": 12,
+    "pick": 113,
+    "teamId": "om35rt8imurmhnn2",
+    "time": 1791514256000,
+    "pickInRound": 3,
+    "playerId": "042n6"
+   },
+   {
+    "round": 12,
+    "pick": 114,
+    "teamId": "6wdc0v27murmhnn2",
+    "time": 1791531888000,
+    "pickInRound": 4,
+    "playerId": "05uic"
+   },
+   {
+    "round": 12,
+    "pick": 115,
+    "teamId": "0tjisxjpmurmhnn2",
+    "time": 1791557753000,
+    "pickInRound": 5,
+    "playerId": "04ewu"
+   },
+   {
+    "round": 12,
+    "pick": 116,
+    "teamId": "t5zv7h5emurmhnn2",
+    "time": 1791561664000,
+    "pickInRound": 6,
+    "playerId": "06mlk"
+   },
+   {
+    "round": 12,
+    "pick": 117,
+    "teamId": "owvgfdvnmurmhnn2",
+    "time": 1791584491000,
+    "pickInRound": 7,
+    "playerId": "051oj"
+   },
+   {
+    "round": 12,
+    "pick": 118,
+    "teamId": "ozju7nsmmurmhnn2",
+    "time": 1791584551000,
+    "pickInRound": 8,
+    "playerId": "06cd4"
+   },
+   {
+    "round": 12,
+    "pick": 119,
+    "teamId": "0j15rgscmurmhnn2",
+    "time": 1791588997000,
+    "pickInRound": 9,
+    "playerId": "0621t"
+   },
+   {
+    "round": 12,
+    "pick": 120,
+    "teamId": "p8lde4xbmusl24sh",
+    "time": 1791596730000,
+    "pickInRound": 10,
+    "playerId": "051pa"
+   },
+   {
+    "round": 13,
+    "pick": 121,
+    "teamId": "p8lde4xbmusl24sh",
+    "time": 1791596746000,
+    "pickInRound": 1,
+    "playerId": "027pe"
+   },
+   {
+    "round": 13,
+    "pick": 122,
+    "teamId": "0j15rgscmurmhnn2",
+    "time": 1791597597000,
+    "pickInRound": 2,
+    "playerId": "06mkg"
+   },
+   {
+    "round": 13,
+    "pick": 123,
+    "teamId": "ozju7nsmmurmhnn2",
+    "time": 1791598227000,
+    "pickInRound": 3,
+    "playerId": "05qtr"
+   },
+   {
+    "round": 13,
+    "pick": 124,
+    "teamId": "owvgfdvnmurmhnn2",
+    "time": 1791598292000,
+    "pickInRound": 4,
+    "playerId": "06cbx"
+   },
+   {
+    "round": 13,
+    "pick": 125,
+    "teamId": "t5zv7h5emurmhnn2",
+    "time": 1791599023000,
+    "pickInRound": 5,
+    "playerId": "051pb"
+   },
+   {
+    "round": 13,
+    "pick": 126,
+    "teamId": "0tjisxjpmurmhnn2",
+    "time": 1791599235000,
+    "pickInRound": 6,
+    "playerId": "076t6"
+   },
+   {
+    "round": 13,
+    "pick": 127,
+    "teamId": "6wdc0v27murmhnn2",
+    "time": 1791628796000,
+    "pickInRound": 7,
+    "playerId": "051os"
+   },
+   {
+    "round": 13,
+    "pick": 128,
+    "teamId": "om35rt8imurmhnn2",
+    "time": 1791642041000,
+    "pickInRound": 8,
+    "playerId": "05qst"
+   },
+   {
+    "round": 13,
+    "pick": 129,
+    "teamId": "rdl7dlplmurmhnn2",
+    "time": 1791644031000,
+    "pickInRound": 9,
+    "playerId": "05qtq"
+   },
+   {
+    "round": 13,
+    "pick": 130,
+    "teamId": "f310mnh8murmhnn2",
+    "time": 1791647765000,
+    "pickInRound": 10,
+    "playerId": "06mk8"
+   }
+  ],
+  "draftState": "completed",
+  "endDate": "2026-10-10T11:56:05.0-0400",
+  "draftOrder": [
+   "p8lde4xbmusl24sh",
+   "0j15rgscmurmhnn2",
+   "ozju7nsmmurmhnn2",
+   "owvgfdvnmurmhnn2",
+   "t5zv7h5emurmhnn2",
+   "0tjisxjpmurmhnn2",
+   "6wdc0v27murmhnn2",
+   "om35rt8imurmhnn2",
+   "rdl7dlplmurmhnn2",
+   "f310mnh8murmhnn2"
+  ],
+  "draftType": "snake",
+  "startDate": "2026-10-05T10:00:01.0-0400"
+ }
+}

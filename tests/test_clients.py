@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import datetime as dt
 import json
 
 import pytest
@@ -8,7 +9,7 @@ import responses
 from fantrax_analytics.adapters.fxpa import FxpaClient
 from fantrax_analytics.adapters.http import FantraxHttpClient
 from fantrax_analytics.adapters.official import OfficialApiClient
-from fantrax_analytics.exceptions import AuthError, ConfigError, FantraxError
+from fantrax_analytics.exceptions import AuthError, ConfigError, EndpointChangedError, FantraxError
 from tests.conftest import BASE
 
 
@@ -27,10 +28,12 @@ def test_get_leagues_requires_secret(http: FantraxHttpClient) -> None:
 
 
 @responses.activate
-def test_league_info_exclude_player_info_posts(http: FantraxHttpClient) -> None:
-    responses.post(f"{BASE}/fxea/general/getLeagueInfo", json={"x": 1})
+def test_league_info_exclude_player_info_uses_get_params(http: FantraxHttpClient) -> None:
+    responses.get(f"{BASE}/fxea/general/getLeagueInfo", json={"x": 1})
     OfficialApiClient(http).get_league_info("L1", exclude_player_info=True)
-    assert json.loads(responses.calls[0].request.body) == {"leagueId": "L1", "excludePlayerInfo": True}
+    assert responses.calls[0].request.url == (
+        f"{BASE}/fxea/general/getLeagueInfo?leagueId=L1&excludePlayerInfo=True"
+    )
 
 
 @responses.activate
@@ -64,6 +67,31 @@ def test_fxpa_request_shape_and_unwrap(http: FantraxHttpClient) -> None:
     assert raw.payload == {"hello": "world"}
     assert raw.source == "fxpa"
     assert raw.endpoint == "fxpa:getPlayerStats"
+
+
+@responses.activate
+def test_official_error_body_raises(http: FantraxHttpClient) -> None:
+    # The beta API answers unknown methods with HTTP 200 + {"error": {...}}
+    responses.get(
+        f"{BASE}/fxea/general/getStandings",
+        json={
+            "error": {"onScreen": False, "code": "WARNING", "message": "Unable to find method 'getStandings'"}
+        },
+    )
+    with pytest.raises(EndpointChangedError, match="Unable to find method"):
+        OfficialApiClient(http).get_standings("L1")
+
+
+@responses.activate
+def test_fxpa_live_scoring_sends_date_and_scoring_period(http: FantraxHttpClient) -> None:
+    responses.post(f"{BASE}/fxpa/req", json={"responses": [{"data": {}}]})
+    client = FxpaClient(http, "L1")
+    client.live_scoring_stats(dt.date(2026, 10, 26), 2)
+    client.live_scoring_stats(dt.date(2026, 10, 26))
+    first = json.loads(responses.calls[0].request.body)["msgs"][0]["data"]
+    second = json.loads(responses.calls[1].request.body)["msgs"][0]["data"]
+    assert first["date"] == "2026-10-26" and first["period"] == "2"
+    assert "period" not in second  # unknown period is omitted, Fantrax derives it from the date
 
 
 @responses.activate

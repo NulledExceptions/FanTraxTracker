@@ -1,0 +1,160 @@
+{
+ "meta": {
+  "source": "official",
+  "endpoint": "getAdp",
+  "url": "https://www.fantrax.com/fxea/general/getAdp",
+  "status_code": 200,
+  "size_bytes": 1501,
+  "elapsed_ms": 57,
+  "auth_level": "none",
+  "from_cache": false,
+  "request_body": null,
+  "fetched_at": "2026-10-27T04:21:08.840269+00:00"
+ },
+ "payload": [
+  {
+   "pos": "C",
+   "name": "Jokic, Nikola",
+   "id": "03e75",
+   "ADP": 1.29
+  },
+  {
+   "pos": "C",
+   "name": "Wembanyama, Victor",
+   "id": "06cch",
+   "ADP": 1.94
+  },
+  {
+   "pos": "PG",
+   "name": "Doncic, Luka",
+   "id": "04kj6",
+   "ADP": 3.38
+  },
+  {
+   "pos": "PG",
+   "name": "Gilgeous-Alexander, Shai",
+   "id": "04qro",
+   "ADP": 3.69
+  },
+  {
+   "pos": "PG",
+   "name": "Cunningham, Cade",
+   "id": "05uib",
+   "ADP": 5.88
+  },
+  {
+   "pos": "PF",
+   "name": "Antetokounmpo, Giannis",
+   "id": "031m2",
+   "ADP": 6.77
+  },
+  {
+   "pos": "PF",
+   "name": "Tatum, Jayson",
+   "id": "03xmv",
+   "ADP": 7.59
+  },
+  {
+   "pos": "SG",
+   "name": "Edwards, Anthony",
+   "id": "05qug",
+   "ADP": 8.35
+  },
+  {
+   "pos": "SF",
+   "name": "Flagg, Cooper",
+   "id": "06v5l",
+   "ADP": 10.14
+  },
+  {
+   "pos": "PG",
+   "name": "Maxey, Tyrese",
+   "id": "05qsq",
+   "ADP": 10.63
+  },
+  {
+   "pos": "SF",
+   "name": "Johnson, Jalen",
+   "id": "05uiu",
+   "ADP": 10.67
+  },
+  {
+   "pos": "PF",
+   "name": "Barnes, Scottie",
+   "id": "05uie",
+   "ADP": 12.39
+  },
+  {
+   "pos": "PG",
+   "name": "Haliburton, Tyrese",
+   "id": "05qtv",
+   "ADP": 13.8
+  },
+  {
+   "pos": "SG",
+   "name": "Mitchell, Donovan",
+   "id": "04ewe",
+   "ADP": 14.88
+  },
+  {
+   "pos": "C",
+   "name": "Towns, Karl-Anthony",
+   "id": "03ad3",
+   "ADP": 16.36
+  },
+  {
+   "pos": "PF",
+   "name": "Durant, Kevin",
+   "id": "001aw",
+   "ADP": 16.63
+  },
+  {
+   "pos": "C",
+   "name": "Sengun, Alperen",
+   "id": "05uiq",
+   "ADP": 18.43
+  },
+  {
+   "pos": "PG",
+   "name": "Murray, Jamal",
+   "id": "042n4",
+   "ADP": 20.19
+  },
+  {
+   "pos": "SF",
+   "name": "Thompson, Amen",
+   "id": "06ca8",
+   "ADP": 20.35
+  },
+  {
+   "pos": "SG",
+   "name": "Reaves, Austin",
+   "id": "05uus",
+   "ADP": 21.97
+  },
+  {
+   "pos": "PG",
+   "name": "Curry, Stephen",
+   "id": "01enh",
+   "ADP": 23.12
+  },
+  {
+   "pos": "PG",
+   "name": "Ball, LaMelo",
+   "id": "05qto",
+   "ADP": 24.73
+  },
+  {
+   "pos": "PG",
+   "name": "Young, Trae",
+   "id": "04qrk",
+   "ADP": 24.88
+  },
+  {
+   "pos": "PG",
+   "name": "Giddey, Josh",
+   "id": "05uig",
+   "ADP": 26.14
+  }
+ ]
+}

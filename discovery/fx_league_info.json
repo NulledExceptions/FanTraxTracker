@@ -1,0 +1,275 @@
+{
+ "meta": {
+  "source": "fxpa",
+  "endpoint": "fxpa:getFantasyLeagueInfo",
+  "url": "https://www.fantrax.com/fxpa/req",
+  "status_code": 200,
+  "size_bytes": 4032,
+  "elapsed_ms": 62,
+  "auth_level": "none",
+  "from_cache": false,
+  "request_body": {
+   "msgs": [
+    {
+     "method": "getFantasyLeagueInfo",
+     "data": {
+      "leagueId": "fqj3m6m8murmhnko"
+     }
+    }
+   ]
+  },
+  "fetched_at": "2026-10-27T04:21:10.921252+00:00"
+ },
+ "payload": {
+  "fantasySettings": {
+   "aab": true,
+   "football": false,
+   "isMember": false,
+   "chatEnabled": true,
+   "leagueName": "The No Toms League",
+   "myTeamIds": [],
+   "sportId": "004",
+   "generalSportId": "004",
+   "subtitle": "2026-27 NBA",
+   "season": {
+    "seasonType": {
+     "code": "REGULAR"
+    },
+    "displayNameShort": "2026-27 Reg",
+    "endDate": 1807502399000,
+    "displayName": "2026-27 Reg Season",
+    "id": "41n",
+    "startDate": 1792468800000,
+    "displayYear": "2026-27"
+   },
+   "generalSport": "BASKETBALL",
+   "leagueHistoryId": "mj6rfkk6jmqtm48d",
+   "screenDefaults": {
+    "LIVE_SCORING": {
+     "local": {
+      "mobileMatchupView": false
+     }
+    },
+    "MATCHUP_PREVIEW": {
+     "local": {
+      "mobileMatchupView": false
+     }
+    }
+   },
+   "leagueHomeStandingsPosition": 2,
+   "sport": "NBA",
+   "contentScaleTypeId": "1"
+  },
+  "positionMap": {
+   "310": {
+    "id": "310",
+    "name": "Forward/Center",
+    "shortName": "F/C",
+    "sortOrder": 110,
+    "colorKey": "--color-purple",
+    "labelParts": "F=306|C=305"
+   },
+   "311": {
+    "id": "311",
+    "name": "Guard/Center",
+    "shortName": "G/C",
+    "sortOrder": 100,
+    "colorKey": "--color-orange",
+    "labelParts": "G=302|C=305"
+   },
+   "312": {
+    "id": "312",
+    "name": "Power Forward/Center",
+    "shortName": "PF/C",
+    "sortOrder": 90,
+    "colorKey": "--color-purple--softer",
+    "labelParts": "PF=304|C=305"
+   },
+   "313": {
+    "id": "313",
+    "name": "Guard 2",
+    "shortName": "G2",
+    "sortOrder": 31,
+    "colorKey": "--color-orange"
+   },
+   "314": {
+    "id": "314",
+    "name": "Guard 3",
+    "shortName": "G3",
+    "sortOrder": 32,
+    "colorKey": "--color-orange"
+   },
+   "315": {
+    "id": "315",
+    "name": "Forward 2",
+    "shortName": "F2",
+    "sortOrder": 61,
+    "colorKey": "--color-purple"
+   },
+   "316": {
+    "id": "316",
+    "name": "Forward 3",
+    "shortName": "F3",
+    "sortOrder": 62,
+    "colorKey": "--color-purple"
+   },
+   "317": {
+    "id": "317",
+    "name": "Center 2",
+    "shortName": "C2",
+    "sortOrder": 71,
+    "colorKey": "--color-green--soft"
+   },
+   "318": {
+    "id": "318",
+    "name": "Center 3",
+    "shortName": "C3",
+    "sortOrder": 72,
+    "colorKey": "--color-green--soft"
+   },
+   "319": {
+    "id": "319",
+    "name": "Flex 2",
+    "shortName": "Flx2",
+    "sortOrder": 180,
+    "colorKey": "--color-teal--softer"
+   },
+   "320": {
+    "id": "320",
+    "name": "Flex 3",
+    "shortName": "Flx3",
+    "sortOrder": 190,
+    "colorKey": "--color-teal--softer"
+   },
+   "321": {
+    "id": "321",
+    "name": "Shooting Guard/Small Forward",
+    "shortName": "SG/SF",
+    "sortOrder": 80,
+    "colorKey": "--color-red--softer",
+    "labelParts": "SG=301|SF=303"
+   },
+   "300": {
+    "id": "300",
+    "name": "Point Guard",
+    "shortName": "PG",
+    "sortOrder": 10,
+    "colorKey": "--color-orange--softer"
+   },
+   "322": {
+    "id": "322",
+    "name": "Flex 4",
+    "shortName": "Flx4",
+    "sortOrder": 200,
+    "colorKey": "--color-teal--softer"
+   },
+   "301": {
+    "id": "301",
+    "name": "Shooting Guard",
+    "shortName": "SG",
+    "sortOrder": 20,
+    "colorKey": "--color-red--softer"
+   },
+   "323": {
+    "id": "323",
+    "name": "Flex 5",
+    "shortName": "Flx5",
+    "sortOrder": 210,
+    "colorKey": "--color-teal--softer"
+   },
+   "302": {
+    "id": "302",
+    "name": "Guard",
+    "shortName": "G",
+    "sortOrder": 30,
+    "colorKey": "--color-orange"
+   },
+   "324": {
+    "id": "324",
+    "name": "Guard/Forward/Center",
+    "shortName": "G/F/C",
+    "sortOrder": 100,
+    "colorKey": "--color-orange",
+    "labelParts": "G=302|F=306|C=305"
+   },
+   "303": {
+    "id": "303",
+    "name": "Small Forward",
+    "shortName": "SF",
+    "sortOrder": 40,
+    "colorKey": "--color-primary--softer"
+   },
+   "325": {
+    "id": "325",
+    "name": "Point Guard 2",
+    "shortName": "PG2",
+    "sortOrder": 11,
+    "colorKey": "--color-orange--softer"
+   },
+   "304": {
+    "id": "304",
+    "name": "Power Forward",
+    "shortName": "PF",
+    "sortOrder": 50,
+    "colorKey": "--color-purple--softer"
+   },
+   "326": {
+    "id": "326",
+    "name": "Shooting Guard 2",
+    "shortName": "SG2",
+    "sortOrder": 21,
+    "colorKey": "--color-red--softer"
+   },
+   "305": {
+    "id": "305",
+    "name": "Center",
+    "shortName": "C",
+    "sortOrder": 70,
+    "colorKey": "--color-green--soft"
+   },
+   "327": {
+    "id": "327",
+    "name": "Small Forward 2",
+    "shortName": "SF2",
+    "sortOrder": 41,
+    "colorKey": "--color-primary--softer"
+   },
+   "306": {
+    "id": "306",
+    "name": "Forward",
+    "shortName": "F",
+    "sortOrder": 60,
+    "colorKey": "--color-purple"
+   },
+   "328": {
+    "id": "328",
+    "name": "Power Forward 2",
+    "shortName": "PF2",
+    "sortOrder": 51,
+    "colorKey": "--color-purple--softer"
+   },
+   "307": {
+    "id": "307",
+    "name": "Flex",
+    "shortName": "Flx",
+    "sortOrder": 115,
+    "colorKey": "--color-teal--softer"
+   },
+   "308": {
+    "id": "308",
+    "name": "Team",
+    "shortName": "Tm",
+    "sortOrder": 90,
+    "colorKey": "--color-amber--softer"
+   },
+   "309": {
+    "id": "309",
+    "name": "Guard/Forward",
+    "shortName": "G/F",
+    "sortOrder": 112,
+    "colorKey": "--color-orange",
+    "labelParts": "G=302|F=306"
+   }
+  }
+ }
+}

@@ -1,0 +1,809 @@
+{
+ "meta": {
+  "source": "official",
+  "endpoint": "getTeamRosters",
+  "url": "https://www.fantrax.com/fxea/general/getTeamRosters",
+  "status_code": 200,
+  "size_bytes": 8211,
+  "elapsed_ms": 66,
+  "auth_level": "none",
+  "from_cache": false,
+  "request_body": null,
+  "fetched_at": "2026-10-27T04:20:59.803876+00:00"
+ },
+ "payload": {
+  "period": 8,
+  "rosters": {
+   "6wdc0v27murmhnn2": {
+    "teamName": "Bye Week",
+    "rosterItems": [
+     {
+      "id": "04s00",
+      "position": "F",
+      "status": "ACTIVE"
+     },
+     {
+      "id": "076sx",
+      "position": "Flx",
+      "status": "ACTIVE"
+     },
+     {
+      "id": "05uie",
+      "position": "PF",
+      "status": "ACTIVE"
+     },
+     {
+      "id": "076ta",
+      "position": "SF",
+      "status": "INJURED_RESERVE"
+     },
+     {
+      "id": "06v5h",
+      "position": "Flx",
+      "status": "ACTIVE"
+     },
+     {
+      "id": "06mju",
+      "position": "C",
+      "status": "RESERVE"
+     },
+     {
+      "id": "04ewt",
+      "position": "SG",
+      "status": "ACTIVE"
+     },
+     {
+      "id": "05qto",
+      "position": "PG",
+      "status": "ACTIVE"
+     },
+     {
+      "id": "05qu9",
+      "position": "G",
+      "status": "ACTIVE"
+     },
+     {
+      "id": "051on",
+      "position": "Flx",
+      "status": "INJURED_RESERVE"
+     },
+     {
+      "id": "03xmv",
+      "position": "SF",
+      "status": "ACTIVE"
+     },
+     {
+      "id": "051os",
+      "position": "PF",
+      "status": "RESERVE"
+     },
+     {
+      "id": "06mk3",
+      "position": "SF",
+      "status": "RESERVE"
+     },
+     {
+      "id": "06mk7",
+      "position": "C",
+      "status": "ACTIVE"
+     },
+     {
+      "id": "051pi",
+      "position": "Flx",
+      "status": "RESERVE"
+     },
+     {
+      "id": "05uj4",
+      "position": "PF",
+      "status": "INJURED_RESERVE"
+     }
+    ]
+   },
+   "f310mnh8murmhnn2": {
+    "teamName": "The Fun Guys",
+    "rosterItems": [
+     {
+      "id": "06mlk",
+      "position": "SG",
+      "status": "ACTIVE"
+     },
+     {
+      "id": "06cc7",
+      "position": "SF",
+      "status": "ACTIVE"
+     },
+     {
+      "id": "051ol",
+      "position": "PG",
+      "status": "RESERVE"
+     },
+     {
+      "id": "06v57",
+      "position": "PF",
+      "status": "ACTIVE"
+     },
+     {
+      "id": "0527h",
+      "position": "C",
+      "status": "ACTIVE"
+     },
+     {
+      "id": "06v5l",
+      "position": "Flx",
+      "status": "ACTIVE"
+     },
+     {
+      "id": "06211",
+      "position": "Flx",
+      "status": "INJURED_RESERVE"
+     },
+     {
+      "id": "01eo6",
+      "position": "PG",
+      "status": "ACTIVE"
+     },
+     {
+      "id": "04qrk",
+      "position": "G",
+      "status": "ACTIVE"
+     },
+     {
+      "id": "051oh",
+      "position": "SF",
+      "status": "RESERVE"
+     },
+     {
+      "id": "06ccf",
+      "position": "SG",
+      "status": "INJURED_RESERVE"
+     },
+     {
+      "id": "04qry",
+      "position": "F",
+      "status": "ACTIVE"
+     },
+     {
+      "id": "0621u",
+      "position": "SG",
+      "status": "INJURED_RESERVE"
+     },
+     {
+      "id": "06cby",
+      "position": "Flx",
+      "status": "ACTIVE"
+     },
+     {
+      "id": "06cc5",
+      "position": "Flx",
+      "status": "RESERVE"
+     }
+    ]
+   },
+   "p8lde4xbmusl24sh": {
+    "teamName": "The 2026 Revenge Tour",
+    "rosterItems": [
+     {
+      "id": "06cei",
+      "position": "F",
+      "status": "ACTIVE"
+     },
+     {
+      "id": "06cch",
+      "position": "C",
+      "status": "ACTIVE"
+     },
+     {
+      "id": "042n4",
+      "position": "PG",
+      "status": "ACTIVE"
+     },
+     {
+      "id": "04qrr",
+      "position": "SF",
+      "status": "ACTIVE"
+     },
+     {
+      "id": "05qt1",
+      "position": "Flx",
+      "status": "ACTIVE"
+     },
+     {
+      "id": "027pe",
+      "position": "SF",
+      "status": "INJURED_RESERVE"
+     },
+     {
+      "id": "051or",
+      "position": "Flx",
+      "status": "INJURED_RESERVE"
+     },
+     {
+      "id": "05qty",
+      "position": "Flx",
+      "status": "RESERVE"
+     },
+     {
+      "id": "0621c",
+      "position": "Flx",
+      "status": "INJURED_RESERVE"
+     },
+     {
+      "id": "05ujc",
+      "position": "SG",
+      "status": "RESERVE"
+     },
+     {
+      "id": "051ot",
+      "position": "Flx",
+      "status": "ACTIVE"
+     },
+     {
+      "id": "02xg9",
+      "position": "C",
+      "status": "RESERVE"
+     },
+     {
+      "id": "04qrl",
+      "position": "Flx",
+      "status": "ACTIVE"
+     },
+     {
+      "id": "04ewk",
+      "position": "PF",
+      "status": "ACTIVE"
+     },
+     {
+      "id": "05qt3",
+      "position": "G",
+      "status": "ACTIVE"
+     },
+     {
+      "id": "05uus",
+      "position": "SG",
+      "status": "ACTIVE"
+     }
+    ]
+   },
+   "rdl7dlplmurmhnn2": {
+    "teamName": "Suggs to be You",
+    "rosterItems": [
+     {
+      "id": "04azw",
+      "position": "SF",
+      "status": "ACTIVE"
+     },
+     {
+      "id": "05qzh",
+      "position": "Flx",
+      "status": "INJURED_RESERVE"
+     },
+     {
+      "id": "04qrp",
+      "position": "F",
+      "status": "ACTIVE"
+     },
+     {
+      "id": "06v5n",
+      "position": "F",
+      "status": "INJURED_RESERVE"
+     },
+     {
+      "id": "03lls",
+      "position": "G",
+      "status": "RESERVE"
+     },
+     {
+      "id": "04ewe",
+      "position": "SG",
+      "status": "ACTIVE"
+     },
+     {
+      "id": "05uif",
+      "position": "Flx",
+      "status": "INJURED_RESERVE"
+     },
+     {
+      "id": "02nf1",
+      "position": "PF",
+      "status": "ACTIVE"
+     },
+     {
+      "id": "03ad2",
+      "position": "Flx",
+      "status": "ACTIVE"
+     },
+     {
+      "id": "02nfz",
+      "position": "PF",
+      "status": "RESERVE"
+     },
+     {
+      "id": "03el5",
+      "position": "C",
+      "status": "INJURED_RESERVE"
+     },
+     {
+      "id": "02nf6",
+      "position": "Flx",
+      "status": "ACTIVE"
+     },
+     {
+      "id": "05qsq",
+      "position": "PG",
+      "status": "ACTIVE"
+     },
+     {
+      "id": "042nt",
+      "position": "C",
+      "status": "INJURED_RESERVE"
+     },
+     {
+      "id": "05qt0",
+      "position": "SF",
+      "status": "RESERVE"
+     }
+    ]
+   },
+   "om35rt8imurmhnn2": {
+    "teamName": "Let's Go Brandon Ingram",
+    "rosterItems": [
+     {
+      "id": "06mjz",
+      "position": "Flx",
+      "status": "ACTIVE"
+     },
+     {
+      "id": "031m2",
+      "position": "PF",
+      "status": "ACTIVE"
+     },
+     {
+      "id": "05uj3",
+      "position": "Flx",
+      "status": "ACTIVE"
+     },
+     {
+      "id": "05qtv",
+      "position": "PG",
+      "status": "ACTIVE"
+     },
+     {
+      "id": "03e6n",
+      "position": "C",
+      "status": "INJURED_RESERVE"
+     },
+     {
+      "id": "01uyj",
+      "position": "SF",
+      "status": "ACTIVE"
+     },
+     {
+      "id": "05qst",
+      "position": "C",
+      "status": "ACTIVE"
+     },
+     {
+      "id": "03al0",
+      "position": "C",
+      "status": "RESERVE"
+     },
+     {
+      "id": "0621b",
+      "position": "SF",
+      "status": "INJURED_RESERVE"
+     },
+     {
+      "id": "06mk1",
+      "position": "Flx",
+      "status": "INJURED_RESERVE"
+     },
+     {
+      "id": "05uig",
+      "position": "SG",
+      "status": "ACTIVE"
+     },
+     {
+      "id": "076tc",
+      "position": "Flx",
+      "status": "ACTIVE"
+     },
+     {
+      "id": "06mkd",
+      "position": "C",
+      "status": "INJURED_RESERVE"
+     },
+     {
+      "id": "06217",
+      "position": "G",
+      "status": "RESERVE"
+     },
+     {
+      "id": "06v5a",
+      "position": "F",
+      "status": "ACTIVE"
+     },
+     {
+      "id": "042n2",
+      "position": "Flx",
+      "status": "RESERVE"
+     }
+    ]
+   },
+   "t5zv7h5emurmhnn2": {
+    "teamName": "The Rollin\u00e2\u0080\u0099 Treys",
+    "rosterItems": [
+     {
+      "id": "001aw",
+      "position": "PF",
+      "status": "RESERVE"
+     },
+     {
+      "id": "04qsa",
+      "position": "Flx",
+      "status": "ACTIVE"
+     },
+     {
+      "id": "06cac",
+      "position": "G",
+      "status": "INJURED_RESERVE"
+     },
+     {
+      "id": "051op",
+      "position": "Flx",
+      "status": "ACTIVE"
+     },
+     {
+      "id": "05uib",
+      "position": "PG",
+      "status": "ACTIVE"
+     },
+     {
+      "id": "051p4",
+      "position": "Flx",
+      "status": "ACTIVE"
+     },
+     {
+      "id": "051pb",
+      "position": "C",
+      "status": "INJURED_RESERVE"
+     },
+     {
+      "id": "076vc",
+      "position": "PF",
+      "status": "ACTIVE"
+     },
+     {
+      "id": "042nq",
+      "position": "PG",
+      "status": "RESERVE"
+     },
+     {
+      "id": "051ox",
+      "position": "SF",
+      "status": "ACTIVE"
+     },
+     {
+      "id": "0621l",
+      "position": "C",
+      "status": "ACTIVE"
+     },
+     {
+      "id": "03r7z",
+      "position": "F",
+      "status": "ACTIVE"
+     },
+     {
+      "id": "01enh",
+      "position": "PG",
+      "status": "RESERVE"
+     },
+     {
+      "id": "03ams",
+      "position": "SG",
+      "status": "ACTIVE"
+     }
+    ]
+   },
+   "0tjisxjpmurmhnn2": {
+    "teamName": "No Mercy, Just Usage Rate",
+    "rosterItems": [
+     {
+      "id": "06cca",
+      "position": "F",
+      "status": "ACTIVE"
+     },
+     {
+      "id": "042nm",
+      "position": "C",
+      "status": "ACTIVE"
+     },
+     {
+      "id": "04848",
+      "position": "Flx",
+      "status": "ACTIVE"
+     },
+     {
+      "id": "042n7",
+      "position": "PF",
+      "status": "ACTIVE"
+     },
+     {
+      "id": "05qug",
+      "position": "SG",
+      "status": "ACTIVE"
+     },
+     {
+      "id": "03ajv",
+      "position": "Flx",
+      "status": "ACTIVE"
+     },
+     {
+      "id": "076t6",
+      "position": "G",
+      "status": "ACTIVE"
+     },
+     {
+      "id": "042n1",
+      "position": "Flx",
+      "status": "INJURED_RESERVE"
+     },
+     {
+      "id": "05uiu",
+      "position": "SF",
+      "status": "RESERVE"
+     },
+     {
+      "id": "051oi",
+      "position": "PG",
+      "status": "ACTIVE"
+     },
+     {
+      "id": "03al2",
+      "position": "Flx",
+      "status": "ACTIVE"
+     },
+     {
+      "id": "01eon",
+      "position": "SF",
+      "status": "RESERVE"
+     },
+     {
+      "id": "04ewu",
+      "position": "SF",
+      "status": "ACTIVE"
+     },
+     {
+      "id": "03nwm",
+      "position": "SG",
+      "status": "RESERVE"
+     }
+    ]
+   },
+   "ozju7nsmmurmhnn2": {
+    "teamName": "Conflict of Interest",
+    "rosterItems": [
+     {
+      "id": "027oj",
+      "position": "PG",
+      "status": "RESERVE"
+     },
+     {
+      "id": "06v5k",
+      "position": "SG",
+      "status": "INJURED_RESERVE"
+     },
+     {
+      "id": "027oz",
+      "position": "SF",
+      "status": "INJURED_RESERVE"
+     },
+     {
+      "id": "05qtr",
+      "position": "Flx",
+      "status": "ACTIVE"
+     },
+     {
+      "id": "031lx",
+      "position": "PG",
+      "status": "RESERVE"
+     },
+     {
+      "id": "05uid",
+      "position": "PF",
+      "status": "RESERVE"
+     },
+     {
+      "id": "005ki",
+      "position": "C",
+      "status": "RESERVE"
+     },
+     {
+      "id": "04qro",
+      "position": "PG",
+      "status": "ACTIVE"
+     },
+     {
+      "id": "0011e",
+      "position": "F",
+      "status": "ACTIVE"
+     },
+     {
+      "id": "05ujd",
+      "position": "Flx",
+      "status": "ACTIVE"
+     },
+     {
+      "id": "06cd4",
+      "position": "PF",
+      "status": "ACTIVE"
+     },
+     {
+      "id": "04ewf",
+      "position": "C",
+      "status": "ACTIVE"
+     },
+     {
+      "id": "05qtm",
+      "position": "Flx",
+      "status": "ACTIVE"
+     },
+     {
+      "id": "05uii",
+      "position": "F",
+      "status": "RESERVE"
+     },
+     {
+      "id": "049kb",
+      "position": "G",
+      "status": "ACTIVE"
+     },
+     {
+      "id": "027p4",
+      "position": "PF",
+      "status": "INJURED_RESERVE"
+     }
+    ]
+   },
+   "0j15rgscmurmhnn2": {
+    "teamName": "bADa bing bong blok",
+    "rosterItems": [
+     {
+      "id": "076t9",
+      "position": "Flx",
+      "status": "RESERVE"
+     },
+     {
+      "id": "06v5v",
+      "position": "Flx",
+      "status": "ACTIVE"
+     },
+     {
+      "id": "03ad3",
+      "position": "PF",
+      "status": "ACTIVE"
+     },
+     {
+      "id": "06ca8",
+      "position": "PG",
+      "status": "ACTIVE"
+     },
+     {
+      "id": "04ewn",
+      "position": "SF",
+      "status": "ACTIVE"
+     },
+     {
+      "id": "05qu0",
+      "position": "Flx",
+      "status": "ACTIVE"
+     },
+     {
+      "id": "06227",
+      "position": "G",
+      "status": "ACTIVE"
+     },
+     {
+      "id": "06mkg",
+      "position": "SG",
+      "status": "RESERVE"
+     },
+     {
+      "id": "06210",
+      "position": "F",
+      "status": "ACTIVE"
+     },
+     {
+      "id": "0621t",
+      "position": "SF",
+      "status": "RESERVE"
+     },
+     {
+      "id": "05qtj",
+      "position": "SG",
+      "status": "ACTIVE"
+     },
+     {
+      "id": "03e75",
+      "position": "C",
+      "status": "ACTIVE"
+     },
+     {
+      "id": "04ewm",
+      "position": "Flx",
+      "status": "ACTIVE"
+     }
+    ]
+   },
+   "owvgfdvnmurmhnn2": {
+    "teamName": "Practical",
+    "rosterItems": [
+     {
+      "id": "06212",
+      "position": "Flx",
+      "status": "ACTIVE"
+     },
+     {
+      "id": "04qrn",
+      "position": "PF",
+      "status": "RESERVE"
+     },
+     {
+      "id": "04kj6",
+      "position": "PG",
+      "status": "ACTIVE"
+     },
+     {
+      "id": "051oj",
+      "position": "SF",
+      "status": "RESERVE"
+     },
+     {
+      "id": "04qrj",
+      "position": "C",
+      "status": "ACTIVE"
+     },
+     {
+      "id": "06v5y",
+      "position": "SG",
+      "status": "RESERVE"
+     },
+     {
+      "id": "05uir",
+      "position": "SG",
+      "status": "ACTIVE"
+     },
+     {
+      "id": "05qtt",
+      "position": "Flx",
+      "status": "ACTIVE"
+     },
+     {
+      "id": "076t0",
+      "position": "F",
+      "status": "ACTIVE"
+     },
+     {
+      "id": "06mjw",
+      "position": "G",
+      "status": "ACTIVE"
+     },
+     {
+      "id": "06cbx",
+      "position": "SF",
+      "status": "ACTIVE"
+     },
+     {
+      "id": "04ex6",
+      "position": "Flx",
+      "status": "ACTIVE"
+     },
+     {
+      "id": "05uiq",
+      "position": "PF",
+      "status": "ACTIVE"
+     }
+    ]
+   }
+  }
+ }
+}

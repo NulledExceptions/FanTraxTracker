@@ -8,12 +8,12 @@
   "scoringSystem": {"type": "H2H_CATEGORIES", "categories": [{"code": "PTS"}, {"code": "REB"}]},
   "rosterInfo": {"positionConstraints": {"PG": {"maxActive": 1}, "C": {"maxActive": 2}}},
   "scoringPeriods": [
-    {"periodNumber": 1, "startDate": "2026-10-20", "endDate": "2026-10-25"},
-    {"periodNumber": 2, "startDate": "2026-10-26", "endDate": "2026-11-01"}
+    {"periodNumber": 1, "startDate": "2026-10-20T15:00:00.0-0400", "endDate": "2026-10-26T18:59:59.0-0400"},
+    {"periodNumber": 2, "startDate": "2026-10-26T19:00:00.0-0400", "endDate": "2026-11-02T18:59:59.0-0500"}
   ],
   "rosterPeriods": [
-    {"periodNumber": 6, "startDate": "2026-10-25", "endDate": "2026-10-25"},
-    {"periodNumber": 7, "startDate": "2026-10-26", "endDate": "2026-10-26"}
+    {"periodNumber": 6, "startDate": "2026-10-25T17:00:00.0-0400", "endDate": "2026-10-26T18:59:59.0-0400"},
+    {"periodNumber": 7, "startDate": "2026-10-26T19:00:00.0-0400", "endDate": "2026-10-27T19:29:59.0-0400"}
   ],
   "playerInfo": {"p1": {"name": "Some Player", "team": "CHI", "status": "FA"}}
 }

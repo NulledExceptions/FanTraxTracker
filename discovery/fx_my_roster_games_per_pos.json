@@ -1,0 +1,426 @@
+{
+ "meta": {
+  "source": "fxpa",
+  "endpoint": "fxpa:getTeamRosterInfo",
+  "url": "https://www.fantrax.com/fxpa/req",
+  "status_code": 200,
+  "size_bytes": 7459,
+  "elapsed_ms": 73,
+  "auth_level": "none",
+  "from_cache": false,
+  "request_body": {
+   "msgs": [
+    {
+     "method": "getTeamRosterInfo",
+     "data": {
+      "leagueId": "fqj3m6m8murmhnko",
+      "teamId": "0tjisxjpmurmhnn2",
+      "view": "GAMES_PER_POS",
+      "scoringPeriod": "2"
+     }
+    }
+   ]
+  },
+  "fetched_at": "2026-10-27T04:21:25.912588+00:00"
+ },
+ "payload": {
+  "myTeamIds": [],
+  "gamePlayedPerPosData": {
+   "tableData": [
+    {
+     "min": "No min",
+     "pos": "Point Guard (PG)",
+     "max": "No max",
+     "gp": 1,
+     "posShort": "PG"
+    },
+    {
+     "min": "No min",
+     "pos": "Shooting Guard (SG)",
+     "max": "No max",
+     "gp": 1,
+     "posShort": "SG"
+    },
+    {
+     "min": "No min",
+     "pos": "Guard (G)",
+     "max": "No max",
+     "gp": 0,
+     "posShort": "G"
+    },
+    {
+     "min": "No min",
+     "pos": "Small Forward (SF)",
+     "max": "No max",
+     "gp": 1,
+     "posShort": "SF"
+    },
+    {
+     "min": "No min",
+     "pos": "Power Forward (PF)",
+     "max": "No max",
+     "gp": 0,
+     "posShort": "PF"
+    },
+    {
+     "min": "No min",
+     "pos": "Forward (F)",
+     "max": "No max",
+     "gp": 1,
+     "posShort": "F"
+    },
+    {
+     "min": "No min",
+     "pos": "Center (C)",
+     "max": "No max",
+     "gp": 1,
+     "posShort": "C"
+    },
+    {
+     "min": "No min",
+     "pos": "Flex (Flx)",
+     "max": "No max",
+     "gp": 2,
+     "posShort": "Flx"
+    }
+   ],
+   "tableTitle": "Games Played Per Position",
+   "tableHeader": {
+    "cells": [
+     {
+      "sortDirection": 1,
+      "name": "Position",
+      "shortName": "Pos",
+      "key": "pos"
+     },
+     {
+      "sortDirection": 1,
+      "name": "GP (Total)",
+      "shortName": "GP",
+      "key": "gp"
+     },
+     {
+      "sortDirection": 1,
+      "name": "Minimum",
+      "shortName": "Min",
+      "key": "min"
+     },
+     {
+      "sortDirection": 1,
+      "name": "Maximum",
+      "shortName": "Max",
+      "key": "max"
+     }
+    ]
+   }
+  },
+  "teamHeadingInfo": {
+   "h2hRecord": {
+    "name": "Record",
+    "shortName": "Rec",
+    "value": "5-4-0"
+   },
+   "rank": {
+    "name": "Rank",
+    "shortName": "Rk",
+    "value": "3rd"
+   },
+   "owners": {
+    "owners": "Owner(s)",
+    "shortName": "Own",
+    "value": "Shaqattaq1"
+   }
+  },
+  "scMinMaxData": {
+   "minNote": "The team will get a loss for each averaged stat (e.g. Pt/G, Reb/G) for the scoring period.",
+   "maxNoteTitle": "If a maximum has been met or exceeded",
+   "tableData": [
+    {
+     "total": "44",
+     "min": "10",
+     "max": "No max",
+     "scoringCategory": "Three Pointers Attempted (3PTA)"
+    },
+    {
+     "total": "34",
+     "min": "25",
+     "max": "No max",
+     "scoringCategory": "Free Throws Attempted (FTA)"
+    },
+    {
+     "total": "7",
+     "min": "No min",
+     "max": "42",
+     "scoringCategory": "Games Played (GP)"
+    },
+    {
+     "total": "122",
+     "min": "50",
+     "max": "No max",
+     "scoringCategory": "Field Goals Attempted (FGA)"
+    }
+   ],
+   "maxNote": "The entire team will <b>stop accumulating stats</b> for the rest of the Scoring Period. If the max has not been met or exceeded at the beginning of a day, stats will accumulate throughout that entire day, even if the max is exceeded.",
+   "minNoteTitle": "If a minimum has not been met by end of scoring period",
+   "tableTitle": "Scoring Category Totals",
+   "tableHeader": {
+    "cells": [
+     {
+      "sortDirection": 1,
+      "name": "Scoring Category",
+      "shortName": "Scoring Category",
+      "key": "scoringCategory"
+     },
+     {
+      "sortDirection": 1,
+      "name": "Total",
+      "shortName": "Total",
+      "key": "total"
+     },
+     {
+      "sortDirection": 1,
+      "name": "Minimum",
+      "shortName": "Min",
+      "key": "min"
+     },
+     {
+      "sortDirection": 1,
+      "name": "Maximum",
+      "shortName": "Max",
+      "key": "max"
+     }
+    ]
+   }
+  },
+  "displayedSelections": {
+   "displayedScoringPeriod": 2,
+   "adminMode": false,
+   "displayedView": "GAMES_PER_POS",
+   "displayedFantasyTeamId": "0tjisxjpmurmhnn2"
+  },
+  "tabs": [
+   {
+    "viewType": "1",
+    "text": "Stats",
+    "code": "STATS"
+   },
+   {
+    "viewType": "7",
+    "text": "Min/Max",
+    "code": "GAMES_PER_POS"
+   },
+   {
+    "viewType": "2",
+    "text": "Trends",
+    "code": "OVERVIEW"
+   },
+   {
+    "viewType": "5",
+    "text": "Schedule - Week",
+    "code": "SCHEDULE_PERIOD"
+   },
+   {
+    "viewType": "6",
+    "text": "Schedule - Full",
+    "code": "SCHEDULE_FULL"
+   }
+  ],
+  "fantasyTeams": [
+   {
+    "logoUrl256": "https://fantraximg.com/logos/8yl/tmLogo_8yleq33nmgm9t63m_256.webp",
+    "name": "bADa bing bong blok",
+    "id": "0j15rgscmurmhnn2",
+    "logoUrl128": "https://fantraximg.com/logos/8yl/tmLogo_8yleq33nmgm9t63m_128.webp",
+    "shortName": "Masi",
+    "commissioner": false,
+    "logoId": "8yleq33nmgm9t63m"
+   },
+   {
+    "logoUrl256": "https://fantraximg.com/logos/7ls/tmLogo_7lsd5qfpl9atckfr_256.jpg",
+    "name": "Bye Week",
+    "id": "6wdc0v27murmhnn2",
+    "logoUrl128": "https://fantraximg.com/logos/7ls/tmLogo_7lsd5qfpl9atckfr_128.jpg",
+    "shortName": "Ian",
+    "commissioner": false,
+    "logoId": "7lsd5qfpl9atckfr"
+   },
+   {
+    "logoUrl256": "https://fantraximg.com/logos/509/tmLogo_509g67v5mvjp76yz_256.webp",
+    "name": "Conflict of Interest",
+    "id": "ozju7nsmmurmhnn2",
+    "logoUrl128": "https://fantraximg.com/logos/509/tmLogo_509g67v5mvjp76yz_128.webp",
+    "shortName": "Walker",
+    "commissioner": true,
+    "logoId": "509g67v5mvjp76yz"
+   },
+   {
+    "logoUrl256": "https://fantraximg.com/logos/knu/tmLogo_knu9c978ld6b393r_256.jpg",
+    "name": "Let's Go Brandon Ingram",
+    "id": "om35rt8imurmhnn2",
+    "logoUrl128": "https://fantraximg.com/logos/knu/tmLogo_knu9c978ld6b393r_128.jpg",
+    "shortName": "Catron",
+    "commissioner": false,
+    "logoId": "knu9c978ld6b393r"
+   },
+   {
+    "logoUrl256": "https://fantraximg.com/logos/nen/tmLogo_nenk5d1qmvhfm19p_256.webp",
+    "name": "No Mercy, Just Usage Rate",
+    "id": "0tjisxjpmurmhnn2",
+    "logoUrl128": "https://fantraximg.com/logos/nen/tmLogo_nenk5d1qmvhfm19p_128.webp",
+    "shortName": "Mark",
+    "commissioner": false,
+    "logoId": "nenk5d1qmvhfm19p"
+   },
+   {
+    "logoUrl256": "https://fantraximg.com/logos/pkl/tmLogo_pklm13urj8ox1ysc_256.jpg",
+    "name": "Practical",
+    "id": "owvgfdvnmurmhnn2",
+    "logoUrl128": "https://fantraximg.com/logos/pkl/tmLogo_pklm13urj8ox1ysc_128.jpg",
+    "shortName": "Jokic",
+    "commissioner": false,
+    "logoId": "pklm13urj8ox1ysc"
+   },
+   {
+    "logoUrl256": "https://fantraximg.com/logos/rt2/tmLogo_rt2keyj0m1zuibgx_256.jpg",
+    "name": "Suggs to be You",
+    "id": "rdl7dlplmurmhnn2",
+    "logoUrl128": "https://fantraximg.com/logos/rt2/tmLogo_rt2keyj0m1zuibgx_128.jpg",
+    "shortName": "Eric",
+    "commissioner": false,
+    "logoId": "rt2keyj0m1zuibgx"
+   },
+   {
+    "logoUrl256": "https://fantraximg.com/assets/images/icons/fantasyteams/basketball/shoes/blue_beige_green_128.webp",
+    "name": "The 2026 Revenge Tour",
+    "id": "p8lde4xbmusl24sh",
+    "logoUrl128": "https://fantraximg.com/assets/images/icons/fantasyteams/basketball/shoes/blue_beige_green_128.webp",
+    "shortName": "REVENGER",
+    "commissioner": false
+   },
+   {
+    "logoUrl256": "https://fantraximg.com/logos/1pn/tmLogo_1pnwrd4hmgl4clna_256.webp",
+    "name": "The Fun Guys",
+    "id": "f310mnh8murmhnn2",
+    "logoUrl128": "https://fantraximg.com/logos/1pn/tmLogo_1pnwrd4hmgl4clna_128.webp",
+    "shortName": "FUNGUY",
+    "commissioner": false,
+    "logoId": "1pnwrd4hmgl4clna"
+   },
+   {
+    "logoUrl256": "https://fantraximg.com/logos/c1f/tmLogo_c1flt80smkddc3dz_256.webp",
+    "name": "The Rollin\u2019 Treys",
+    "id": "t5zv7h5emurmhnn2",
+    "logoUrl128": "https://fantraximg.com/logos/c1f/tmLogo_c1flt80smkddc3dz_128.webp",
+    "shortName": "Tristan",
+    "commissioner": true,
+    "logoId": "c1flt80smkddc3dz"
+   }
+  ],
+  "miscData": {
+   "disableEmptySlots": true,
+   "alwaysShowPosition": false,
+   "autoSubOrderMap": {},
+   "minMaxWarnings": [],
+   "tradesAllowed": true,
+   "alwaysShowPositionIds": [],
+   "autoSubOrderMax": 14,
+   "autoSubsOrderingType": "NONE"
+  },
+  "displayedLists": {
+   "scoringPeriodList": [
+    {
+     "name": "Full Season",
+     "value": 9999
+    },
+    {
+     "name": "(Oct 20/26 - Oct 25/26)",
+     "value": 1
+    },
+    {
+     "name": "(Oct 26/26 - Nov 1/26)",
+     "value": 2
+    },
+    {
+     "name": "(Nov 2/26 - Nov 8/26)",
+     "value": 3
+    },
+    {
+     "name": "(Nov 9/26 - Nov 15/26)",
+     "value": 4
+    },
+    {
+     "name": "(Nov 16/26 - Nov 22/26)",
+     "value": 5
+    },
+    {
+     "name": "(Nov 23/26 - Nov 29/26)",
+     "value": 6
+    },
+    {
+     "name": "(Nov 30/26 - Dec 6/26)",
+     "value": 7
+    },
+    {
+     "name": "(Dec 7/26 - Dec 13/26)",
+     "value": 8
+    },
+    {
+     "name": "(Dec 14/26 - Dec 20/26)",
+     "value": 9
+    },
+    {
+     "name": "(Dec 21/26 - Dec 27/26)",
+     "value": 10
+    },
+    {
+     "name": "(Dec 28/26 - Jan 3/27)",
+     "value": 11
+    },
+    {
+     "name": "(Jan 4/27 - Jan 10/27)",
+     "value": 12
+    },
+    {
+     "name": "(Jan 11/27 - Jan 17/27)",
+     "value": 13
+    },
+    {
+     "name": "(Jan 18/27 - Jan 24/27)",
+     "value": 14
+    },
+    {
+     "name": "(Jan 25/27 - Jan 31/27)",
+     "value": 15
+    },
+    {
+     "name": "(Feb 1/27 - Feb 7/27)",
+     "value": 16
+    },
+    {
+     "name": "(Feb 8/27 - Feb 14/27)",
+     "value": 17
+    },
+    {
+     "name": "(Feb 15/27 - Feb 28/27)",
+     "value": 18
+    },
+    {
+     "name": "(Mar 1/27 - Mar 7/27)",
+     "value": 19
+    },
+    {
+     "name": "(Mar 8/27 - Mar 14/27)",
+     "value": 20
+    },
+    {
+     "name": "(Mar 15/27 - Mar 28/27)",
+     "value": 21
+    },
+    {
+     "name": "(Mar 29/27 - Apr 11/27)",
+     "value": 22
+    }
+   ]
+  }
+ }
+}

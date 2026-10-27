@@ -13,6 +13,7 @@ library and the web client; discovery records which actually work for this leagu
 from __future__ import annotations
 
 from dataclasses import replace
+from datetime import date
 from typing import Any
 
 from fantrax_analytics.adapters.http import FantraxHttpClient, RawResponse
@@ -30,6 +31,7 @@ LIBRARY_EQUIVALENTS: dict[str, str] = {
     "getTradeBlocks": "League.trade_block()",
     "getLiveScoringStats": "League.live_scores()",
     "getPlayerStats": "(none)",
+    "getLeagueSettings": "(none)",
 }
 
 
@@ -75,11 +77,53 @@ class FxpaClient:
     def league_info(self) -> RawResponse:
         return self.call("getFantasyLeagueInfo")
 
+    def league_settings(self) -> RawResponse:
+        """League settings page (transaction rules, claim limits, FA budget).
+
+        Discovery showed this method exists but answers ``WARNING_NOT_LOGGED_IN`` without a
+        browser session, so it is only useful at the ``cookie`` auth level.
+        """
+        return self.call("getLeagueSettings")
+
     def standings(self, view: str | None = None) -> RawResponse:
         return self.call("getStandings", view=view)
 
+    def matchup_results(self) -> RawResponse:
+        """Per-scoring-period matchup results (category W/L/T per team) — ``getStandings`` SCHEDULE view.
+
+        One table per scoring period in ``tableList``; each row carries ``matchupId`` and the
+        team's category wins/losses for that period. This is the source for past matchups: the
+        official API has no matchup method at all.
+        """
+        return self.call("getStandings", view="SCHEDULE")
+
     def team_roster(self, team_id: str, *, view: str = "STATS", period: int | None = None) -> RawResponse:
         return self.call("getTeamRosterInfo", teamId=team_id, view=view, period=period)
+
+    def team_roster_schedule(self, team_id: str, period: int | None = None) -> RawResponse:
+        return self.call("getTeamRosterInfo", teamId=team_id, view="SCHEDULE_FULL", period=period)
+
+    def team_games_per_position(self, team_id: str, scoring_period: int | None = None) -> RawResponse:
+        return self.call(
+            "getTeamRosterInfo", teamId=team_id, view="GAMES_PER_POS", scoringPeriod=scoring_period
+        )
+
+    def live_scoring_stats(self, scoring_date: date, scoring_period: int | None = None) -> RawResponse:
+        """Live matchup scores and per-player stats for one date.
+
+        ``scoring_period`` is the *scoring* period that contains ``scoring_date`` (never a roster
+        period). ``fantraxapi`` always sends ``period=1`` and lets the date win; we send the real
+        period when discovery has derived it so the request is unambiguous for past periods.
+        """
+        return self.call(
+            "getLiveScoringStats",
+            date=scoring_date.isoformat(),
+            newView=True,
+            period=scoring_period,
+            playerViewType=1,
+            sppId=-1,
+            viewType=1,
+        )
 
     def transactions(self, per_page: int = 100) -> RawResponse:
         return self.call("getTransactionDetailsHistory", maxResultsPerPage=per_page)

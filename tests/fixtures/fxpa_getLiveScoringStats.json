@@ -1,0 +1,10 @@
+{"responses": [{"data": {
+  "date": "2026-10-26",
+  "displayPeriod": "(Oct 26, 2026 - Nov 1, 2026)",
+  "periods": [{"object1": 1, "object2": "1 (Oct 20 - Oct 25)"}, {"object1": 2, "object2": "2 (Oct 26 - Nov 1)"}],
+  "allEventsFinished": false,
+  "matchups": ["tm1_tm5marc"],
+  "matchupMap": {"tm1_tm5marc": "4|5"},
+  "scorerMap": {"p1": {"name": "Some Player", "teamShortName": "CHI", "posShortNames": "PG"}},
+  "statsPerTeam": {"allTeamsStats": {"tm1": {"ACTIVE": {"seasonTotals": {"_ALL": {"o2": 10.0, "o3": 0.0}}}}}}
+}}]}

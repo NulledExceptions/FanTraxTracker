@@ -1,0 +1,14 @@
+{"responses": [{"data": {
+  "fantasyTeamInfo": {"tm1": {"name": "bADa bing bong blok", "shortName": "Masi"}, "tm5marc": {"name": "No Mercy, Just Usage Rate", "shortName": "Mark"}},
+  "matchupIdsPerTeam": {"tm1": {"tm1_tm5marc": true}, "tm5marc": {"tm1_tm5marc": true}},
+  "tableList": [{
+    "caption": "Scoring Period 1",
+    "subCaption": "(Tue Oct 20, 2026 - Sun Oct 25, 2026)",
+    "tableType": "H2hRotisserie2",
+    "header": {"cells": [{"key": "win", "shortName": "W"}, {"key": "loss", "shortName": "L"}, {"key": "tie", "shortName": "T"}]},
+    "rows": [
+      {"matchupId": "tm1_tm5marc", "fixedCells": [{"content": "bADa bing bong blok", "teamId": "tm1"}], "cells": [{"content": "5"}, {"content": "4"}, {"content": "0"}]},
+      {"matchupId": "tm1_tm5marc", "fixedCells": [{"content": "No Mercy, Just Usage Rate", "teamId": "tm5marc"}], "cells": [{"content": "4"}, {"content": "5"}, {"content": "0"}]}
+    ]
+  }]
+}}]}

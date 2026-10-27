@@ -1,0 +1,5901 @@
+{
+ "meta": {
+  "source": "fxpa",
+  "endpoint": "fxpa:getTransactionDetailsHistory",
+  "url": "https://www.fantrax.com/fxpa/req",
+  "status_code": 200,
+  "size_bytes": 82988,
+  "elapsed_ms": 79,
+  "auth_level": "none",
+  "from_cache": false,
+  "request_body": {
+   "msgs": [
+    {
+     "method": "getTransactionDetailsHistory",
+     "data": {
+      "leagueId": "fqj3m6m8murmhnko",
+      "maxResultsPerPage": "100"
+     }
+    }
+   ]
+  },
+  "fetched_at": "2026-10-27T04:21:30.937793+00:00"
+ },
+ "payload": {
+  "paginatedResultSet": {
+   "totalNumPages": 1,
+   "pageNumber": 1,
+   "maxResultsPerPage": 100,
+   "totalNumResults": 54
+  },
+  "filterSettings": {
+   "positionOrGroup": "ALL",
+   "view": "CLAIM_DROP",
+   "adminMode": false,
+   "includeDeleted": false,
+   "team": "ALL",
+   "executedOnly": true
+  },
+  "displayedSelections": {
+   "positionOrGroup": "ALL",
+   "view": "CLAIM_DROP",
+   "adminMode": false,
+   "includeDeleted": false,
+   "team": "ALL",
+   "executedOnly": true
+  },
+  "miscData": {
+   "deleteTransactionExecutedDialog": {
+    "alwaysShowOpener": false,
+    "options": [
+     {
+      "id": "option0",
+      "label": "Yes"
+     },
+     {
+      "id": "option1",
+      "label": "No"
+     }
+    ],
+    "text": "This will only delete the transaction record - <b style=\"color:#8B0000\">it will not undo it - it will not move any players</b>. Are you sure you want to permanently delete this?"
+   },
+   "deleteTransactionNotExecutedDialog": {
+    "alwaysShowOpener": false,
+    "options": [
+     {
+      "id": "option0",
+      "label": "Yes"
+     },
+     {
+      "id": "option1",
+      "label": "No"
+     }
+    ],
+    "text": "Are you sure you want to permanently delete this?"
+   },
+   "heading": "2026 The No Toms League",
+   "undoTransactionDialog": {
+    "alwaysShowOpener": false,
+    "options": [
+     {
+      "id": "option0",
+      "label": "Yes"
+     },
+     {
+      "id": "option1",
+      "label": "No"
+     }
+    ],
+    "text": "Are you sure you want to undo this transaction?"
+   },
+   "undoTooltip": "Undo transaction",
+   "executeTooltip": "Execute transaction if team was not updated with players",
+   "deleteTooltip": "Delete transaction from view",
+   "editTransactionDialog": {
+    "alwaysShowOpener": false,
+    "options": [
+     {
+      "id": "option0",
+      "label": "OK"
+     },
+     {
+      "id": "option1",
+      "label": "Cancel"
+     }
+    ],
+    "text": "# of periods to move transaction forward:"
+   },
+   "editTooltip": "Edit Transaction",
+   "editTransactionSuccessDialog": {
+    "alwaysShowOpener": false,
+    "options": [
+     {
+      "id": "option0",
+      "label": "OK"
+     }
+    ],
+    "text": "Transaction successfully edited and re-executed."
+   },
+   "executeTransactionSuccessDialog": {
+    "alwaysShowOpener": false,
+    "options": [
+     {
+      "id": "option0",
+      "label": "OK"
+     }
+    ],
+    "text": "Transaction successfully executed."
+   },
+   "executeTransactionDialog": {
+    "alwaysShowOpener": false,
+    "options": [
+     {
+      "id": "option0",
+      "label": "???word.Ok: en_US???"
+     },
+     {
+      "id": "option1",
+      "label": "Cancel"
+     }
+    ],
+    "text": "Please confirm that you want to executed the highlighted transaction since the system has detected that it was not executed."
+   },
+   "editTransactionMaximumForward": 200
+  },
+  "displayedLists": {
+   "teams": [
+    {
+     "name": "All Teams",
+     "id": "ALL"
+    },
+    {
+     "name": "bADa bing bong blok",
+     "id": "0j15rgscmurmhnn2"
+    },
+    {
+     "name": "Bye Week",
+     "id": "6wdc0v27murmhnn2"
+    },
+    {
+     "name": "Conflict of Interest",
+     "id": "ozju7nsmmurmhnn2"
+    },
+    {
+     "name": "Let's Go Brandon Ingram",
+     "id": "om35rt8imurmhnn2"
+    },
+    {
+     "name": "No Mercy, Just Usage Rate",
+     "id": "0tjisxjpmurmhnn2"
+    },
+    {
+     "name": "Practical",
+     "id": "owvgfdvnmurmhnn2"
+    },
+    {
+     "name": "Suggs to be You",
+     "id": "rdl7dlplmurmhnn2"
+    },
+    {
+     "name": "The 2026 Revenge Tour",
+     "id": "p8lde4xbmusl24sh"
+    },
+    {
+     "name": "The Fun Guys",
+     "id": "f310mnh8murmhnn2"
+    },
+    {
+     "name": "The Rollin\u2019 Treys",
+     "id": "t5zv7h5emurmhnn2"
+    }
+   ],
+   "tabs": [
+    {
+     "name": "Claim/Drop",
+     "id": "CLAIM_DROP"
+    },
+    {
+     "name": "Trade",
+     "id": "TRADE"
+    },
+    {
+     "name": "Lineup",
+     "id": "LINEUP_CHANGE"
+    }
+   ],
+   "positions": [
+    {
+     "name": "All",
+     "id": "ALL"
+    },
+    {
+     "name": "Players",
+     "id": "BASKETBALL_PLAYER"
+    },
+    {
+     "name": "Point Guard",
+     "id": "POS_300"
+    },
+    {
+     "name": "Shooting Guard",
+     "id": "POS_301"
+    },
+    {
+     "name": "Guard",
+     "id": "POS_302"
+    },
+    {
+     "name": "Small Forward",
+     "id": "POS_303"
+    },
+    {
+     "name": "Power Forward",
+     "id": "POS_304"
+    },
+    {
+     "name": "Forward",
+     "id": "POS_306"
+    },
+    {
+     "name": "Center",
+     "id": "POS_305"
+    }
+   ]
+  },
+  "table": {
+   "caption": "Claims / Drops",
+   "header": {
+    "cells": [
+     {
+      "align": "LEFT",
+      "sortDirection": 1,
+      "name": "Team",
+      "shortName": "Team",
+      "key": "team"
+     },
+     {
+      "align": "LEFT",
+      "sortDirection": 1,
+      "name": "Amount manager bid",
+      "shortName": "Bid",
+      "key": "bid"
+     },
+     {
+      "sortDirection": 1,
+      "name": "Claim Priority",
+      "shortName": "Pr",
+      "key": "priority"
+     },
+     {
+      "align": "LEFT",
+      "sortDirection": 1,
+      "name": "Date Processed (EDT)",
+      "shortName": "Date (EDT)",
+      "key": "date"
+     },
+     {
+      "sortDirection": 1,
+      "name": "Period",
+      "shortName": "Period",
+      "key": "week"
+     }
+    ]
+   },
+   "rows": [
+    {
+     "scorer": {
+      "teamName": "Los Angeles Clippers",
+      "urlName": "kris-dunn",
+      "headshotUrl": "https://fantraximg.com/si/headshots/NBA/hs042n2_96_8.png",
+      "scorerId": "042n2",
+      "posIdsNoFlex": [
+       "300",
+       "301",
+       "302"
+      ],
+      "defaultPosId": "300",
+      "posShortNames": "PG,SG,G",
+      "team": false,
+      "icons": [
+       {
+        "tooltip": "Oct 25, 10:37 PM: Dunn tallied 15 points (6-8 FG, 1-3...",
+        "typeId": "9"
+       }
+      ],
+      "rookie": false,
+      "minorsEligible": false,
+      "posIds": [
+       "300",
+       "301",
+       "302",
+       "307"
+      ],
+      "teamId": "40260",
+      "name": "Kris Dunn",
+      "teamShortName": "LAC",
+      "shortName": "K. Dunn"
+     },
+     "resultCode": "EXECUTED",
+     "executed": true,
+     "result": {
+      "content": "Executed"
+     },
+     "claimType": "FA",
+     "numInGroup": 1,
+     "txSetId": "w7qqkb3jmvopgpag",
+     "feesUsed": false,
+     "transactionCode": "CLAIM",
+     "transactionType": "Claim",
+     "deleted": false,
+     "cells": [
+      {
+       "align": "LEFT",
+       "content": "Let's Go Brandon Ingram",
+       "leagueId": "fqj3m6m8murmhnko",
+       "rowspan": 1,
+       "key": "team",
+       "teamId": "om35rt8imurmhnn2"
+      },
+      {
+       "align": "LEFT",
+       "content": "17.00",
+       "key": "bid"
+      },
+      {
+       "content": "2",
+       "key": "priority"
+      },
+      {
+       "align": "LEFT",
+       "content": "Mon Oct 26, 2026, 11:00AM",
+       "rowspan": 1,
+       "key": "date"
+      },
+      {
+       "content": "7",
+       "key": "week"
+      }
+     ]
+    },
+    {
+     "scorer": {
+      "teamName": "Dallas Mavericks",
+      "urlName": "daniel-gafford",
+      "headshotUrl": "https://fantraximg.com/si/headshots/NBA/hs051pi_96_7.png",
+      "scorerId": "051pi",
+      "posIdsNoFlex": [
+       "305"
+      ],
+      "defaultPosId": "305",
+      "posShortNames": "C",
+      "team": false,
+      "icons": [
+       {
+        "tooltip": "Groin - Game-time decision",
+        "typeId": "1"
+       },
+       {
+        "tooltip": "Oct 26, 9:11 PM: Gafford went to the locker room during...",
+        "typeId": "14"
+       }
+      ],
+      "rookie": false,
+      "minorsEligible": false,
+      "posIds": [
+       "305",
+       "307"
+      ],
+      "teamId": "40150",
+      "name": "Daniel Gafford",
+      "teamShortName": "DAL",
+      "shortName": "D. Gafford"
+     },
+     "resultCode": "EXECUTED",
+     "executed": true,
+     "result": {
+      "content": "Executed"
+     },
+     "claimType": "FA",
+     "disabled": true,
+     "numInGroup": 2,
+     "txSetId": "am5tr02lmvp8wxtv",
+     "feesUsed": false,
+     "transactionCode": "CLAIM",
+     "transactionType": "Claim",
+     "deleted": false,
+     "cells": [
+      {
+       "align": "LEFT",
+       "content": "Bye Week",
+       "leagueId": "fqj3m6m8murmhnko",
+       "rowspan": 2,
+       "key": "team",
+       "teamId": "6wdc0v27murmhnn2"
+      },
+      {
+       "align": "LEFT",
+       "content": "2.00",
+       "key": "bid"
+      },
+      {
+       "content": "1",
+       "key": "priority"
+      },
+      {
+       "align": "LEFT",
+       "content": "Mon Oct 26, 2026, 11:00AM",
+       "rowspan": 2,
+       "key": "date"
+      },
+      {
+       "content": "7",
+       "key": "week"
+      }
+     ]
+    },
+    {
+     "scorer": {
+      "teamName": "Utah Jazz",
+      "urlName": "jaxson-hayes",
+      "headshotUrl": "https://fantraximg.com/si/headshots/NBA/hs051oo_96_8.png",
+      "scorerId": "051oo",
+      "posIdsNoFlex": [
+       "305"
+      ],
+      "defaultPosId": "305",
+      "posShortNames": "C",
+      "team": false,
+      "icons": [
+       {
+        "tooltip": "Shoulder - Out Indefinitely - Expected return Oct 28",
+        "typeId": "30"
+       },
+       {
+        "tooltip": "Oct 26, 8:11 PM: Hayes (shoulder) is out for Monday's...",
+        "typeId": "14"
+       }
+      ],
+      "rookie": false,
+      "minorsEligible": false,
+      "posIds": [
+       "305",
+       "307"
+      ],
+      "teamId": "40240",
+      "name": "Jaxson Hayes",
+      "teamShortName": "UTA",
+      "shortName": "J. Hayes"
+     },
+     "resultCode": "EXECUTED",
+     "executed": true,
+     "result": {
+      "content": "Executed"
+     },
+     "claimType": "",
+     "disabled": true,
+     "txSetId": "am5tr02lmvp8wxtv",
+     "feesUsed": false,
+     "transactionCode": "DROP",
+     "transactionType": "Drop",
+     "deleted": false,
+     "cells": [
+      {
+       "align": "LEFT",
+       "content": "",
+       "key": "bid"
+      },
+      {
+       "content": "1",
+       "key": "priority"
+      },
+      {
+       "content": "7",
+       "key": "week"
+      }
+     ]
+    },
+    {
+     "scorer": {
+      "teamName": "Orlando Magic",
+      "urlName": "anthony-black",
+      "headshotUrl": "https://fantraximg.com/si/headshots/NBA/hs06cc5_96_4.png",
+      "scorerId": "06cc5",
+      "posIdsNoFlex": [
+       "300",
+       "301",
+       "302"
+      ],
+      "defaultPosId": "300",
+      "posShortNames": "PG,SG,G",
+      "team": false,
+      "icons": [
+       {
+        "tooltip": "Oct 26, 10:33 AM: Black fouled out of Sunday's 111-102...",
+        "typeId": "14"
+       }
+      ],
+      "rookie": false,
+      "minorsEligible": false,
+      "posIds": [
+       "300",
+       "301",
+       "302",
+       "307"
+      ],
+      "teamId": "40130",
+      "name": "Anthony Black",
+      "teamShortName": "ORL",
+      "shortName": "A. Black"
+     },
+     "resultCode": "EXECUTED",
+     "executed": true,
+     "result": {
+      "content": "Executed"
+     },
+     "claimType": "FA",
+     "numInGroup": 2,
+     "txSetId": "kvydvtbtmvpdlho2",
+     "feesUsed": false,
+     "transactionCode": "CLAIM",
+     "transactionType": "Claim",
+     "deleted": false,
+     "cells": [
+      {
+       "align": "LEFT",
+       "content": "The Fun Guys",
+       "leagueId": "fqj3m6m8murmhnko",
+       "rowspan": 2,
+       "key": "team",
+       "teamId": "f310mnh8murmhnn2"
+      },
+      {
+       "align": "LEFT",
+       "content": "51.00",
+       "key": "bid"
+      },
+      {
+       "content": "1",
+       "key": "priority"
+      },
+      {
+       "align": "LEFT",
+       "content": "Mon Oct 26, 2026, 11:00AM",
+       "rowspan": 2,
+       "key": "date"
+      },
+      {
+       "content": "7",
+       "key": "week"
+      }
+     ]
+    },
+    {
+     "scorer": {
+      "teamName": "Brooklyn Nets",
+      "urlName": "keon-ellis",
+      "headshotUrl": "https://fantraximg.com/si/headshots/NBA/hs0623m_96_5.png",
+      "scorerId": "0623m",
+      "posIdsNoFlex": [
+       "300",
+       "301",
+       "302"
+      ],
+      "defaultPosId": "301",
+      "posShortNames": "PG,SG,G",
+      "team": false,
+      "icons": [
+       {
+        "tooltip": "Oct 25, 9:19 PM: Ellis registered nine points (4-4 FG,...",
+        "typeId": "9"
+       }
+      ],
+      "rookie": false,
+      "minorsEligible": false,
+      "posIds": [
+       "300",
+       "301",
+       "302",
+       "307"
+      ],
+      "teamId": "40011",
+      "name": "Keon Ellis",
+      "teamShortName": "BKN",
+      "shortName": "K. Ellis"
+     },
+     "resultCode": "EXECUTED",
+     "executed": true,
+     "result": {
+      "content": "Executed"
+     },
+     "claimType": "",
+     "txSetId": "kvydvtbtmvpdlho2",
+     "feesUsed": false,
+     "transactionCode": "DROP",
+     "transactionType": "Drop",
+     "deleted": false,
+     "cells": [
+      {
+       "align": "LEFT",
+       "content": "",
+       "key": "bid"
+      },
+      {
+       "content": "1",
+       "key": "priority"
+      },
+      {
+       "content": "7",
+       "key": "week"
+      }
+     ]
+    },
+    {
+     "scorer": {
+      "teamName": "Sacramento Kings",
+      "urlName": "precious-achiuwa",
+      "headshotUrl": "https://fantraximg.com/si/headshots/NBA/hs05qtm_96_7.png",
+      "scorerId": "05qtm",
+      "posIdsNoFlex": [
+       "304",
+       "306",
+       "305"
+      ],
+      "defaultPosId": "305",
+      "posShortNames": "PF,F,C",
+      "team": false,
+      "icons": [
+       {
+        "tooltip": "Oct 26, 11:14 AM: Achiuwa notched 12 points (6-13 FG, 0-6...",
+        "typeId": "14"
+       }
+      ],
+      "rookie": false,
+      "minorsEligible": false,
+      "posIds": [
+       "304",
+       "306",
+       "305",
+       "307"
+      ],
+      "teamId": "40290",
+      "name": "Precious Achiuwa",
+      "teamShortName": "SAC",
+      "shortName": "P. Achiuwa"
+     },
+     "resultCode": "EXECUTED",
+     "executed": true,
+     "result": {
+      "content": "Executed"
+     },
+     "claimType": "FA",
+     "disabled": true,
+     "numInGroup": 1,
+     "txSetId": "6sr1hybpmvoffmyx",
+     "feesUsed": false,
+     "transactionCode": "CLAIM",
+     "transactionType": "Claim",
+     "deleted": false,
+     "cells": [
+      {
+       "align": "LEFT",
+       "content": "Conflict of Interest",
+       "leagueId": "fqj3m6m8murmhnko",
+       "rowspan": 1,
+       "key": "team",
+       "teamId": "ozju7nsmmurmhnn2"
+      },
+      {
+       "align": "LEFT",
+       "content": "0.00",
+       "key": "bid"
+      },
+      {
+       "content": "1",
+       "key": "priority"
+      },
+      {
+       "align": "LEFT",
+       "content": "Mon Oct 26, 2026, 11:00AM",
+       "rowspan": 1,
+       "key": "date"
+      },
+      {
+       "content": "7",
+       "key": "week"
+      }
+     ]
+    },
+    {
+     "scorer": {
+      "teamName": "Oklahoma City Thunder",
+      "urlName": "ajay-mitchell",
+      "headshotUrl": "https://fantraximg.com/si/headshots/NBA/hs06mlk_96_3.png",
+      "scorerId": "06mlk",
+      "posIdsNoFlex": [
+       "300",
+       "301",
+       "302",
+       "303",
+       "306"
+      ],
+      "defaultPosId": "301",
+      "posShortNames": "PG,SG,G,SF,F",
+      "team": false,
+      "icons": [
+       {
+        "tooltip": "Oct 26, 7:40 PM: Mitchell is in the starting lineup for...",
+        "typeId": "14"
+       }
+      ],
+      "rookie": false,
+      "minorsEligible": false,
+      "posIds": [
+       "300",
+       "301",
+       "302",
+       "303",
+       "306",
+       "307"
+      ],
+      "teamId": "40230",
+      "name": "Ajay Mitchell",
+      "teamShortName": "OKC",
+      "shortName": "A. Mitchell"
+     },
+     "resultCode": "EXECUTED",
+     "executed": true,
+     "result": {
+      "content": "Executed"
+     },
+     "claimType": "WW",
+     "numInGroup": 2,
+     "txSetId": "a9b9um1umvpdk9mp",
+     "feesUsed": false,
+     "transactionCode": "CLAIM",
+     "transactionType": "Claim",
+     "deleted": false,
+     "cells": [
+      {
+       "align": "LEFT",
+       "content": "The Fun Guys",
+       "leagueId": "fqj3m6m8murmhnko",
+       "rowspan": 2,
+       "key": "team",
+       "teamId": "f310mnh8murmhnn2"
+      },
+      {
+       "align": "LEFT",
+       "content": "151.00",
+       "key": "bid"
+      },
+      {
+       "content": "1",
+       "key": "priority"
+      },
+      {
+       "align": "LEFT",
+       "content": "Mon Oct 26, 2026, 10:55AM",
+       "rowspan": 2,
+       "key": "date"
+      },
+      {
+       "content": "7",
+       "key": "week"
+      }
+     ]
+    },
+    {
+     "scorer": {
+      "teamName": "Brooklyn Nets",
+      "urlName": "egor-demin",
+      "headshotUrl": "https://fantraximg.com/si/headshots/NBA/hs06v5r_96_3.png",
+      "scorerId": "06v5r",
+      "posIdsNoFlex": [
+       "300",
+       "302"
+      ],
+      "defaultPosId": "300",
+      "posShortNames": "PG,G",
+      "team": false,
+      "icons": [
+       {
+        "tooltip": "Oct 25, 8:37 AM: Demin posted 22 points (5-10 FG, 5-10...",
+        "typeId": "9"
+       }
+      ],
+      "rookie": false,
+      "minorsEligible": false,
+      "posIds": [
+       "300",
+       "302",
+       "307"
+      ],
+      "teamId": "40011",
+      "name": "Egor Demin",
+      "teamShortName": "BKN",
+      "shortName": "E. Demin"
+     },
+     "resultCode": "EXECUTED",
+     "executed": true,
+     "result": {
+      "content": "Executed"
+     },
+     "claimType": "",
+     "txSetId": "a9b9um1umvpdk9mp",
+     "feesUsed": false,
+     "transactionCode": "DROP",
+     "transactionType": "Drop",
+     "deleted": false,
+     "cells": [
+      {
+       "align": "LEFT",
+       "content": "",
+       "key": "bid"
+      },
+      {
+       "content": "1",
+       "key": "priority"
+      },
+      {
+       "content": "7",
+       "key": "week"
+      }
+     ]
+    },
+    {
+     "scorer": {
+      "teamName": "New Orleans Pelicans",
+      "urlName": "jeremiah-fears",
+      "headshotUrl": "https://fantraximg.com/si/headshots/NBA/hs06v5g_96_3.png",
+      "scorerId": "06v5g",
+      "posIdsNoFlex": [
+       "300",
+       "302"
+      ],
+      "defaultPosId": "300",
+      "posShortNames": "PG,G",
+      "team": false,
+      "icons": [
+       {
+        "tooltip": "Oct 21, 7:40 PM: Fears will start Wednesday's game...",
+        "typeId": "9"
+       }
+      ],
+      "rookie": false,
+      "minorsEligible": false,
+      "posIds": [
+       "300",
+       "302",
+       "307"
+      ],
+      "teamId": "40180",
+      "name": "Jeremiah Fears",
+      "teamShortName": "NO",
+      "shortName": "J. Fears"
+     },
+     "resultCode": "EXECUTED",
+     "executed": true,
+     "result": {
+      "content": "Executed"
+     },
+     "claimType": "",
+     "disabled": true,
+     "numInGroup": 1,
+     "txSetId": "1yhynxtimvoc8m0s",
+     "feesUsed": false,
+     "transactionCode": "DROP",
+     "transactionType": "Drop",
+     "deleted": false,
+     "cells": [
+      {
+       "align": "LEFT",
+       "content": "The Fun Guys",
+       "leagueId": "fqj3m6m8murmhnko",
+       "rowspan": 1,
+       "key": "team",
+       "teamId": "f310mnh8murmhnn2"
+      },
+      {
+       "align": "LEFT",
+       "content": "",
+       "key": "bid"
+      },
+      {
+       "content": "1",
+       "key": "priority"
+      },
+      {
+       "align": "LEFT",
+       "content": "Sun Oct 25, 2026, 5:26PM",
+       "rowspan": 1,
+       "key": "date"
+      },
+      {
+       "content": "6",
+       "key": "week"
+      }
+     ]
+    },
+    {
+     "scorer": {
+      "teamName": "Washington Wizards",
+      "urlName": "bilal-coulibaly",
+      "headshotUrl": "https://fantraximg.com/si/headshots/NBA/hs06cc1_96_4.png",
+      "scorerId": "06cc1",
+      "posIdsNoFlex": [
+       "301",
+       "302",
+       "303",
+       "304",
+       "306"
+      ],
+      "defaultPosId": "303",
+      "posShortNames": "SG,G,SF,PF,F",
+      "team": false,
+      "icons": [
+       {
+        "tooltip": "Oct 21, 6:34 PM: Coulibaly is in the starting lineup for...",
+        "typeId": "9"
+       }
+      ],
+      "rookie": false,
+      "minorsEligible": false,
+      "posIds": [
+       "301",
+       "302",
+       "303",
+       "304",
+       "306",
+       "307"
+      ],
+      "teamId": "40140",
+      "name": "Bilal Coulibaly",
+      "teamShortName": "WAS",
+      "shortName": "B. Coulibaly"
+     },
+     "resultCode": "EXECUTED",
+     "executed": true,
+     "result": {
+      "content": "Executed"
+     },
+     "claimType": "",
+     "numInGroup": 1,
+     "txSetId": "mnta20pamvo49syk",
+     "feesUsed": false,
+     "transactionCode": "DROP",
+     "transactionType": "Drop",
+     "deleted": false,
+     "cells": [
+      {
+       "align": "LEFT",
+       "content": "Conflict of Interest",
+       "leagueId": "fqj3m6m8murmhnko",
+       "rowspan": 1,
+       "key": "team",
+       "teamId": "ozju7nsmmurmhnn2"
+      },
+      {
+       "align": "LEFT",
+       "content": "",
+       "key": "bid"
+      },
+      {
+       "content": "1",
+       "key": "priority"
+      },
+      {
+       "align": "LEFT",
+       "content": "Sun Oct 25, 2026, 1:43PM",
+       "rowspan": 1,
+       "key": "date"
+      },
+      {
+       "content": "6",
+       "key": "week"
+      }
+     ]
+    },
+    {
+     "scorer": {
+      "teamName": "Utah Jazz",
+      "urlName": "jaxson-hayes",
+      "headshotUrl": "https://fantraximg.com/si/headshots/NBA/hs051oo_96_8.png",
+      "scorerId": "051oo",
+      "posIdsNoFlex": [
+       "305"
+      ],
+      "defaultPosId": "305",
+      "posShortNames": "C",
+      "team": false,
+      "icons": [
+       {
+        "tooltip": "Shoulder - Out Indefinitely - Expected return Oct 28",
+        "typeId": "30"
+       },
+       {
+        "tooltip": "Oct 26, 8:11 PM: Hayes (shoulder) is out for Monday's...",
+        "typeId": "14"
+       }
+      ],
+      "rookie": false,
+      "minorsEligible": false,
+      "posIds": [
+       "305",
+       "307"
+      ],
+      "teamId": "40240",
+      "name": "Jaxson Hayes",
+      "teamShortName": "UTA",
+      "shortName": "J. Hayes"
+     },
+     "resultCode": "EXECUTED",
+     "executed": true,
+     "result": {
+      "content": "Executed"
+     },
+     "claimType": "FA",
+     "disabled": true,
+     "numInGroup": 2,
+     "txSetId": "c0npre57mvo3yoj2",
+     "feesUsed": false,
+     "transactionCode": "CLAIM",
+     "transactionType": "Claim",
+     "deleted": false,
+     "cells": [
+      {
+       "align": "LEFT",
+       "content": "Bye Week",
+       "leagueId": "fqj3m6m8murmhnko",
+       "rowspan": 2,
+       "key": "team",
+       "teamId": "6wdc0v27murmhnn2"
+      },
+      {
+       "align": "LEFT",
+       "content": "",
+       "key": "bid"
+      },
+      {
+       "content": "1",
+       "key": "priority"
+      },
+      {
+       "align": "LEFT",
+       "content": "Sun Oct 25, 2026, 1:35PM",
+       "rowspan": 2,
+       "key": "date"
+      },
+      {
+       "content": "6",
+       "key": "week"
+      }
+     ]
+    },
+    {
+     "scorer": {
+      "teamName": "Phoenix Suns",
+      "urlName": "jalen-green",
+      "headshotUrl": "https://fantraximg.com/si/headshots/NBA/hs05uic_96_6.png",
+      "scorerId": "05uic",
+      "posIdsNoFlex": [
+       "300",
+       "301",
+       "302"
+      ],
+      "defaultPosId": "301",
+      "posShortNames": "PG,SG,G",
+      "team": false,
+      "icons": [
+       {
+        "tooltip": "Oct 22, 1:43 PM: Green registered 10 points (4-12 FG,...",
+        "typeId": "9"
+       }
+      ],
+      "rookie": false,
+      "minorsEligible": false,
+      "posIds": [
+       "300",
+       "301",
+       "302",
+       "307"
+      ],
+      "teamId": "40280",
+      "name": "Jalen Green",
+      "teamShortName": "PHO",
+      "shortName": "J. Green"
+     },
+     "resultCode": "EXECUTED",
+     "executed": true,
+     "result": {
+      "content": "Executed"
+     },
+     "claimType": "",
+     "disabled": true,
+     "txSetId": "c0npre57mvo3yoj2",
+     "feesUsed": false,
+     "transactionCode": "DROP",
+     "transactionType": "Drop",
+     "deleted": false,
+     "cells": [
+      {
+       "align": "LEFT",
+       "content": "",
+       "key": "bid"
+      },
+      {
+       "content": "1",
+       "key": "priority"
+      },
+      {
+       "content": "6",
+       "key": "week"
+      }
+     ]
+    },
+    {
+     "scorer": {
+      "teamName": "Miami Heat",
+      "urlName": "davion-mitchell",
+      "headshotUrl": "https://fantraximg.com/si/headshots/NBA/hs05uij_96_6.png",
+      "scorerId": "05uij",
+      "posIdsNoFlex": [
+       "300",
+       "302"
+      ],
+      "defaultPosId": "300",
+      "posShortNames": "PG,G",
+      "team": false,
+      "icons": [
+       {
+        "tooltip": "Oct 24, 9:45 PM: Mitchell logged 22 points (8-13 FG, 3-4...",
+        "typeId": "9"
+       }
+      ],
+      "rookie": false,
+      "minorsEligible": false,
+      "posIds": [
+       "300",
+       "302",
+       "307"
+      ],
+      "teamId": "40120",
+      "name": "Davion Mitchell",
+      "teamShortName": "MIA",
+      "shortName": "D. Mitchell"
+     },
+     "resultCode": "EXECUTED",
+     "executed": true,
+     "result": {
+      "content": "Executed"
+     },
+     "claimType": "",
+     "numInGroup": 1,
+     "txSetId": "tw4vysq9mvny9lzk",
+     "feesUsed": false,
+     "transactionCode": "DROP",
+     "transactionType": "Drop",
+     "deleted": false,
+     "cells": [
+      {
+       "align": "LEFT",
+       "content": "The Rollin\u2019 Treys",
+       "leagueId": "fqj3m6m8murmhnko",
+       "rowspan": 1,
+       "key": "team",
+       "teamId": "t5zv7h5emurmhnn2"
+      },
+      {
+       "align": "LEFT",
+       "content": "",
+       "key": "bid"
+      },
+      {
+       "content": "1",
+       "key": "priority"
+      },
+      {
+       "align": "LEFT",
+       "content": "Sun Oct 25, 2026, 10:55AM",
+       "rowspan": 1,
+       "key": "date"
+      },
+      {
+       "content": "6",
+       "key": "week"
+      }
+     ]
+    },
+    {
+     "scorer": {
+      "teamName": "Los Angeles Clippers",
+      "urlName": "rui-hachimura",
+      "headshotUrl": "https://fantraximg.com/si/headshots/NBA/hs051op_96_8.png",
+      "scorerId": "051op",
+      "posIdsNoFlex": [
+       "304",
+       "306"
+      ],
+      "defaultPosId": "304",
+      "posShortNames": "PF,F",
+      "team": false,
+      "icons": [
+       {
+        "tooltip": "Oct 24, 4:42 AM: Hachimura totaled 16 points (5-14 FG,...",
+        "typeId": "9"
+       }
+      ],
+      "rookie": false,
+      "minorsEligible": false,
+      "posIds": [
+       "304",
+       "306",
+       "307"
+      ],
+      "teamId": "40260",
+      "name": "Rui Hachimura",
+      "teamShortName": "LAC",
+      "shortName": "R. Hachimura"
+     },
+     "resultCode": "EXECUTED",
+     "executed": true,
+     "result": {
+      "content": "Executed"
+     },
+     "claimType": "FA",
+     "disabled": true,
+     "numInGroup": 2,
+     "txSetId": "q4652ek6mvntzsnj",
+     "feesUsed": false,
+     "transactionCode": "CLAIM",
+     "transactionType": "Claim",
+     "deleted": false,
+     "cells": [
+      {
+       "align": "LEFT",
+       "content": "The Rollin\u2019 Treys",
+       "leagueId": "fqj3m6m8murmhnko",
+       "rowspan": 2,
+       "key": "team",
+       "teamId": "t5zv7h5emurmhnn2"
+      },
+      {
+       "align": "LEFT",
+       "content": "",
+       "key": "bid"
+      },
+      {
+       "content": "1",
+       "key": "priority"
+      },
+      {
+       "align": "LEFT",
+       "content": "Sun Oct 25, 2026, 8:56AM",
+       "rowspan": 2,
+       "key": "date"
+      },
+      {
+       "content": "6",
+       "key": "week"
+      }
+     ]
+    },
+    {
+     "scorer": {
+      "teamName": "Atlanta Hawks",
+      "urlName": "aaron-wiggins",
+      "headshotUrl": "https://fantraximg.com/si/headshots/NBA/hs05ujt_96_6.png",
+      "scorerId": "05ujt",
+      "posIdsNoFlex": [
+       "301",
+       "302",
+       "303",
+       "306"
+      ],
+      "defaultPosId": "301",
+      "posShortNames": "SG,G,SF,F",
+      "team": false,
+      "icons": [
+       {
+        "tooltip": "Oct 25, 11:54 AM: Wiggins posted 16 points (6-13 FG, 4-9...",
+        "typeId": "9"
+       }
+      ],
+      "rookie": false,
+      "minorsEligible": false,
+      "posIds": [
+       "301",
+       "302",
+       "303",
+       "306",
+       "307"
+      ],
+      "teamId": "40100",
+      "name": "Aaron Wiggins",
+      "teamShortName": "ATL",
+      "shortName": "A. Wiggins"
+     },
+     "resultCode": "EXECUTED",
+     "executed": true,
+     "result": {
+      "content": "Executed"
+     },
+     "claimType": "",
+     "disabled": true,
+     "txSetId": "q4652ek6mvntzsnj",
+     "feesUsed": false,
+     "transactionCode": "DROP",
+     "transactionType": "Drop",
+     "deleted": false,
+     "cells": [
+      {
+       "align": "LEFT",
+       "content": "",
+       "key": "bid"
+      },
+      {
+       "content": "1",
+       "key": "priority"
+      },
+      {
+       "content": "6",
+       "key": "week"
+      }
+     ]
+    },
+    {
+     "scorer": {
+      "teamName": "Oklahoma City Thunder",
+      "urlName": "cason-wallace",
+      "headshotUrl": "https://fantraximg.com/si/headshots/NBA/hs06cac_96_4.png",
+      "scorerId": "06cac",
+      "posIdsNoFlex": [
+       "300",
+       "301",
+       "302",
+       "303",
+       "306"
+      ],
+      "defaultPosId": "301",
+      "posShortNames": "PG,SG,G,SF,F",
+      "team": false,
+      "icons": [
+       {
+        "tooltip": "Shoulder - Out Indefinitely - Expected return Mar 2",
+        "typeId": "30"
+       },
+       {
+        "tooltip": "Oct 26, 6:05 PM: Wallace has been diagnosed with a torn...",
+        "typeId": "14"
+       }
+      ],
+      "rookie": false,
+      "minorsEligible": false,
+      "posIds": [
+       "300",
+       "301",
+       "302",
+       "303",
+       "306",
+       "307"
+      ],
+      "teamId": "40230",
+      "name": "Cason Wallace",
+      "teamShortName": "OKC",
+      "shortName": "C. Wallace"
+     },
+     "resultCode": "EXECUTED",
+     "executed": true,
+     "result": {
+      "content": "Executed"
+     },
+     "claimType": "FA",
+     "numInGroup": 2,
+     "txSetId": "a4tczwc4mvntv3cn",
+     "feesUsed": false,
+     "transactionCode": "CLAIM",
+     "transactionType": "Claim",
+     "deleted": false,
+     "cells": [
+      {
+       "align": "LEFT",
+       "content": "The Rollin\u2019 Treys",
+       "leagueId": "fqj3m6m8murmhnko",
+       "rowspan": 2,
+       "key": "team",
+       "teamId": "t5zv7h5emurmhnn2"
+      },
+      {
+       "align": "LEFT",
+       "content": "",
+       "key": "bid"
+      },
+      {
+       "content": "1",
+       "key": "priority"
+      },
+      {
+       "align": "LEFT",
+       "content": "Sun Oct 25, 2026, 8:52AM",
+       "rowspan": 2,
+       "key": "date"
+      },
+      {
+       "content": "6",
+       "key": "week"
+      }
+     ]
+    },
+    {
+     "scorer": {
+      "teamName": "San Antonio Spurs",
+      "urlName": "julian-champagnie",
+      "headshotUrl": "https://fantraximg.com/si/headshots/NBA/hs062dn_96_5.png",
+      "scorerId": "062dn",
+      "posIdsNoFlex": [
+       "303",
+       "304",
+       "306"
+      ],
+      "defaultPosId": "303",
+      "posShortNames": "SF,PF,F",
+      "team": false,
+      "icons": [
+       {
+        "tooltip": "Oct 24, 10:43 PM: Champagnie finished Saturday's 122-106...",
+        "typeId": "9"
+       }
+      ],
+      "rookie": false,
+      "minorsEligible": false,
+      "posIds": [
+       "303",
+       "304",
+       "306",
+       "307"
+      ],
+      "teamId": "40190",
+      "name": "Julian Champagnie",
+      "teamShortName": "SA",
+      "shortName": "J. Champagnie"
+     },
+     "resultCode": "EXECUTED",
+     "executed": true,
+     "result": {
+      "content": "Executed"
+     },
+     "claimType": "",
+     "txSetId": "a4tczwc4mvntv3cn",
+     "feesUsed": false,
+     "transactionCode": "DROP",
+     "transactionType": "Drop",
+     "deleted": false,
+     "cells": [
+      {
+       "align": "LEFT",
+       "content": "",
+       "key": "bid"
+      },
+      {
+       "content": "1",
+       "key": "priority"
+      },
+      {
+       "content": "6",
+       "key": "week"
+      }
+     ]
+    },
+    {
+     "scorer": {
+      "teamName": "Los Angeles Clippers",
+      "urlName": "brook-lopez",
+      "headshotUrl": "https://fantraximg.com/si/headshots/NBA/hs005ki_96_10.png",
+      "scorerId": "005ki",
+      "posIdsNoFlex": [
+       "305"
+      ],
+      "defaultPosId": "305",
+      "posShortNames": "C",
+      "team": false,
+      "icons": [
+       {
+        "tooltip": "Oct 24, 4:47 AM: Lopez finished with 22 points (8-9 FG,...",
+        "typeId": "9"
+       }
+      ],
+      "rookie": false,
+      "minorsEligible": false,
+      "posIds": [
+       "305",
+       "307"
+      ],
+      "teamId": "40260",
+      "name": "Brook Lopez",
+      "teamShortName": "LAC",
+      "shortName": "B. Lopez"
+     },
+     "resultCode": "EXECUTED",
+     "executed": true,
+     "result": {
+      "content": "Executed"
+     },
+     "claimType": "FA",
+     "disabled": true,
+     "numInGroup": 1,
+     "txSetId": "hedsz1wqmvnbuewk",
+     "feesUsed": false,
+     "transactionCode": "CLAIM",
+     "transactionType": "Claim",
+     "deleted": false,
+     "cells": [
+      {
+       "align": "LEFT",
+       "content": "Conflict of Interest",
+       "leagueId": "fqj3m6m8murmhnko",
+       "rowspan": 1,
+       "key": "team",
+       "teamId": "ozju7nsmmurmhnn2"
+      },
+      {
+       "align": "LEFT",
+       "content": "",
+       "key": "bid"
+      },
+      {
+       "content": "1",
+       "key": "priority"
+      },
+      {
+       "align": "LEFT",
+       "content": "Sun Oct 25, 2026, 12:27AM",
+       "rowspan": 1,
+       "key": "date"
+      },
+      {
+       "content": "6",
+       "key": "week"
+      }
+     ]
+    },
+    {
+     "scorer": {
+      "teamName": "Washington Wizards",
+      "urlName": "bilal-coulibaly",
+      "headshotUrl": "https://fantraximg.com/si/headshots/NBA/hs06cc1_96_4.png",
+      "scorerId": "06cc1",
+      "posIdsNoFlex": [
+       "301",
+       "302",
+       "303",
+       "304",
+       "306"
+      ],
+      "defaultPosId": "303",
+      "posShortNames": "SG,G,SF,PF,F",
+      "team": false,
+      "icons": [
+       {
+        "tooltip": "Oct 21, 6:34 PM: Coulibaly is in the starting lineup for...",
+        "typeId": "9"
+       }
+      ],
+      "rookie": false,
+      "minorsEligible": false,
+      "posIds": [
+       "301",
+       "302",
+       "303",
+       "304",
+       "306",
+       "307"
+      ],
+      "teamId": "40140",
+      "name": "Bilal Coulibaly",
+      "teamShortName": "WAS",
+      "shortName": "B. Coulibaly"
+     },
+     "resultCode": "EXECUTED",
+     "executed": true,
+     "result": {
+      "content": "Executed"
+     },
+     "claimType": "FA",
+     "numInGroup": 1,
+     "txSetId": "d3eh2xzvmvmwgqb1",
+     "feesUsed": false,
+     "transactionCode": "CLAIM",
+     "transactionType": "Claim",
+     "deleted": false,
+     "cells": [
+      {
+       "align": "LEFT",
+       "content": "Conflict of Interest",
+       "leagueId": "fqj3m6m8murmhnko",
+       "rowspan": 1,
+       "key": "team",
+       "teamId": "ozju7nsmmurmhnn2"
+      },
+      {
+       "align": "LEFT",
+       "content": "",
+       "key": "bid"
+      },
+      {
+       "content": "1",
+       "key": "priority"
+      },
+      {
+       "align": "LEFT",
+       "content": "Sat Oct 24, 2026, 5:17PM",
+       "rowspan": 1,
+       "key": "date"
+      },
+      {
+       "content": "5",
+       "key": "week"
+      }
+     ]
+    },
+    {
+     "scorer": {
+      "teamName": "Orlando Magic",
+      "urlName": "wendell-carter",
+      "headshotUrl": "https://fantraximg.com/si/headshots/NBA/hs04qrl_96_9.png",
+      "scorerId": "04qrl",
+      "posIdsNoFlex": [
+       "305"
+      ],
+      "defaultPosId": "305",
+      "posShortNames": "C",
+      "team": false,
+      "icons": [
+       {
+        "tooltip": "Oct 26, 1:52 PM: Carter chipped in nine points (3-6 FG,...",
+        "typeId": "14"
+       }
+      ],
+      "rookie": false,
+      "minorsEligible": false,
+      "posIds": [
+       "305",
+       "307"
+      ],
+      "teamId": "40130",
+      "name": "Wendell Carter",
+      "teamShortName": "ORL",
+      "shortName": "W. Carter"
+     },
+     "resultCode": "EXECUTED",
+     "executed": true,
+     "result": {
+      "content": "Executed"
+     },
+     "claimType": "FA",
+     "disabled": true,
+     "numInGroup": 1,
+     "txSetId": "ycsvscp5mvmui5r3",
+     "feesUsed": false,
+     "transactionCode": "CLAIM",
+     "transactionType": "Claim",
+     "deleted": false,
+     "cells": [
+      {
+       "align": "LEFT",
+       "content": "The 2026 Revenge Tour",
+       "leagueId": "fqj3m6m8murmhnko",
+       "rowspan": 1,
+       "key": "team",
+       "teamId": "p8lde4xbmusl24sh"
+      },
+      {
+       "align": "LEFT",
+       "content": "",
+       "key": "bid"
+      },
+      {
+       "content": "1",
+       "key": "priority"
+      },
+      {
+       "align": "LEFT",
+       "content": "Sat Oct 24, 2026, 4:22PM",
+       "rowspan": 1,
+       "key": "date"
+      },
+      {
+       "content": "5",
+       "key": "week"
+      }
+     ]
+    },
+    {
+     "scorer": {
+      "teamName": "Miami Heat",
+      "urlName": "davion-mitchell",
+      "headshotUrl": "https://fantraximg.com/si/headshots/NBA/hs05uij_96_6.png",
+      "scorerId": "05uij",
+      "posIdsNoFlex": [
+       "300",
+       "302"
+      ],
+      "defaultPosId": "300",
+      "posShortNames": "PG,G",
+      "team": false,
+      "icons": [
+       {
+        "tooltip": "Oct 24, 9:45 PM: Mitchell logged 22 points (8-13 FG, 3-4...",
+        "typeId": "9"
+       }
+      ],
+      "rookie": false,
+      "minorsEligible": false,
+      "posIds": [
+       "300",
+       "302",
+       "307"
+      ],
+      "teamId": "40120",
+      "name": "Davion Mitchell",
+      "teamShortName": "MIA",
+      "shortName": "D. Mitchell"
+     },
+     "resultCode": "EXECUTED",
+     "executed": true,
+     "result": {
+      "content": "Executed"
+     },
+     "claimType": "FA",
+     "numInGroup": 2,
+     "txSetId": "bpw6hm3xmvmu9qc4",
+     "feesUsed": false,
+     "transactionCode": "CLAIM",
+     "transactionType": "Claim",
+     "deleted": false,
+     "cells": [
+      {
+       "align": "LEFT",
+       "content": "The Rollin\u2019 Treys",
+       "leagueId": "fqj3m6m8murmhnko",
+       "rowspan": 2,
+       "key": "team",
+       "teamId": "t5zv7h5emurmhnn2"
+      },
+      {
+       "align": "LEFT",
+       "content": "",
+       "key": "bid"
+      },
+      {
+       "content": "1",
+       "key": "priority"
+      },
+      {
+       "align": "LEFT",
+       "content": "Sat Oct 24, 2026, 4:16PM",
+       "rowspan": 2,
+       "key": "date"
+      },
+      {
+       "content": "5",
+       "key": "week"
+      }
+     ]
+    },
+    {
+     "scorer": {
+      "teamName": "Oklahoma City Thunder",
+      "urlName": "ajay-mitchell",
+      "headshotUrl": "https://fantraximg.com/si/headshots/NBA/hs06mlk_96_3.png",
+      "scorerId": "06mlk",
+      "posIdsNoFlex": [
+       "300",
+       "301",
+       "302",
+       "303",
+       "306"
+      ],
+      "defaultPosId": "301",
+      "posShortNames": "PG,SG,G,SF,F",
+      "team": false,
+      "icons": [
+       {
+        "tooltip": "Oct 26, 7:40 PM: Mitchell is in the starting lineup for...",
+        "typeId": "14"
+       }
+      ],
+      "rookie": false,
+      "minorsEligible": false,
+      "posIds": [
+       "300",
+       "301",
+       "302",
+       "303",
+       "306",
+       "307"
+      ],
+      "teamId": "40230",
+      "name": "Ajay Mitchell",
+      "teamShortName": "OKC",
+      "shortName": "A. Mitchell"
+     },
+     "resultCode": "EXECUTED",
+     "executed": true,
+     "result": {
+      "content": "Executed"
+     },
+     "claimType": "",
+     "txSetId": "bpw6hm3xmvmu9qc4",
+     "feesUsed": false,
+     "transactionCode": "DROP",
+     "transactionType": "Drop",
+     "deleted": false,
+     "cells": [
+      {
+       "align": "LEFT",
+       "content": "",
+       "key": "bid"
+      },
+      {
+       "content": "1",
+       "key": "priority"
+      },
+      {
+       "content": "5",
+       "key": "week"
+      }
+     ]
+    },
+    {
+     "scorer": {
+      "teamName": "Atlanta Hawks",
+      "urlName": "aaron-wiggins",
+      "headshotUrl": "https://fantraximg.com/si/headshots/NBA/hs05ujt_96_6.png",
+      "scorerId": "05ujt",
+      "posIdsNoFlex": [
+       "301",
+       "302",
+       "303",
+       "306"
+      ],
+      "defaultPosId": "301",
+      "posShortNames": "SG,G,SF,F",
+      "team": false,
+      "icons": [
+       {
+        "tooltip": "Oct 25, 11:54 AM: Wiggins posted 16 points (6-13 FG, 4-9...",
+        "typeId": "9"
+       }
+      ],
+      "rookie": false,
+      "minorsEligible": false,
+      "posIds": [
+       "301",
+       "302",
+       "303",
+       "306",
+       "307"
+      ],
+      "teamId": "40100",
+      "name": "Aaron Wiggins",
+      "teamShortName": "ATL",
+      "shortName": "A. Wiggins"
+     },
+     "resultCode": "EXECUTED",
+     "executed": true,
+     "result": {
+      "content": "Executed"
+     },
+     "claimType": "FA",
+     "disabled": true,
+     "numInGroup": 1,
+     "txSetId": "uajqivccmvmu6e8x",
+     "feesUsed": false,
+     "transactionCode": "CLAIM",
+     "transactionType": "Claim",
+     "deleted": false,
+     "cells": [
+      {
+       "align": "LEFT",
+       "content": "The Rollin\u2019 Treys",
+       "leagueId": "fqj3m6m8murmhnko",
+       "rowspan": 1,
+       "key": "team",
+       "teamId": "t5zv7h5emurmhnn2"
+      },
+      {
+       "align": "LEFT",
+       "content": "",
+       "key": "bid"
+      },
+      {
+       "content": "1",
+       "key": "priority"
+      },
+      {
+       "align": "LEFT",
+       "content": "Sat Oct 24, 2026, 4:13PM",
+       "rowspan": 1,
+       "key": "date"
+      },
+      {
+       "content": "5",
+       "key": "week"
+      }
+     ]
+    },
+    {
+     "scorer": {
+      "teamName": "Brooklyn Nets",
+      "urlName": "egor-demin",
+      "headshotUrl": "https://fantraximg.com/si/headshots/NBA/hs06v5r_96_3.png",
+      "scorerId": "06v5r",
+      "posIdsNoFlex": [
+       "300",
+       "302"
+      ],
+      "defaultPosId": "300",
+      "posShortNames": "PG,G",
+      "team": false,
+      "icons": [
+       {
+        "tooltip": "Oct 25, 8:37 AM: Demin posted 22 points (5-10 FG, 5-10...",
+        "typeId": "9"
+       }
+      ],
+      "rookie": false,
+      "minorsEligible": false,
+      "posIds": [
+       "300",
+       "302",
+       "307"
+      ],
+      "teamId": "40011",
+      "name": "Egor Demin",
+      "teamShortName": "BKN",
+      "shortName": "E. Demin"
+     },
+     "resultCode": "EXECUTED",
+     "executed": true,
+     "result": {
+      "content": "Executed"
+     },
+     "claimType": "FA",
+     "numInGroup": 1,
+     "txSetId": "ygcpjerpmvmlzjl4",
+     "feesUsed": false,
+     "transactionCode": "CLAIM",
+     "transactionType": "Claim",
+     "deleted": false,
+     "cells": [
+      {
+       "align": "LEFT",
+       "content": "The Fun Guys",
+       "leagueId": "fqj3m6m8murmhnko",
+       "rowspan": 1,
+       "key": "team",
+       "teamId": "f310mnh8murmhnn2"
+      },
+      {
+       "align": "LEFT",
+       "content": "",
+       "key": "bid"
+      },
+      {
+       "content": "1",
+       "key": "priority"
+      },
+      {
+       "align": "LEFT",
+       "content": "Sat Oct 24, 2026, 12:24PM",
+       "rowspan": 1,
+       "key": "date"
+      },
+      {
+       "content": "5",
+       "key": "week"
+      }
+     ]
+    },
+    {
+     "scorer": {
+      "teamName": "Dallas Mavericks",
+      "urlName": "naji-marshall",
+      "headshotUrl": "https://fantraximg.com/si/headshots/NBA/hs05qzh_96_7.png",
+      "scorerId": "05qzh",
+      "posIdsNoFlex": [
+       "301",
+       "302",
+       "303",
+       "304",
+       "306"
+      ],
+      "defaultPosId": "303",
+      "posShortNames": "SG,G,SF,PF,F",
+      "team": false,
+      "icons": [
+       {
+        "tooltip": "Illness - Game-time decision - Expected return Oct 28",
+        "typeId": "1"
+       },
+       {
+        "tooltip": "Oct 25, 4:25 PM: Marshall (illness) has been ruled out...",
+        "typeId": "9"
+       }
+      ],
+      "rookie": false,
+      "minorsEligible": false,
+      "posIds": [
+       "301",
+       "302",
+       "303",
+       "304",
+       "306",
+       "307"
+      ],
+      "teamId": "40150",
+      "name": "Naji Marshall",
+      "teamShortName": "DAL",
+      "shortName": "N. Marshall"
+     },
+     "resultCode": "EXECUTED",
+     "executed": true,
+     "result": {
+      "content": "Executed"
+     },
+     "claimType": "FA",
+     "disabled": true,
+     "numInGroup": 2,
+     "txSetId": "pt2fsx2fmvmfntu6",
+     "feesUsed": false,
+     "transactionCode": "CLAIM",
+     "transactionType": "Claim",
+     "deleted": false,
+     "cells": [
+      {
+       "align": "LEFT",
+       "content": "Suggs to be You",
+       "leagueId": "fqj3m6m8murmhnko",
+       "rowspan": 2,
+       "key": "team",
+       "teamId": "rdl7dlplmurmhnn2"
+      },
+      {
+       "align": "LEFT",
+       "content": "",
+       "key": "bid"
+      },
+      {
+       "content": "1",
+       "key": "priority"
+      },
+      {
+       "align": "LEFT",
+       "content": "Sat Oct 24, 2026, 9:27AM",
+       "rowspan": 2,
+       "key": "date"
+      },
+      {
+       "content": "5",
+       "key": "week"
+      }
+     ]
+    },
+    {
+     "scorer": {
+      "teamName": "Charlotte Hornets",
+      "urlName": "moussa-diabate",
+      "headshotUrl": "https://fantraximg.com/si/headshots/NBA/hs06226_96_5.png",
+      "scorerId": "06226",
+      "posIdsNoFlex": [
+       "305"
+      ],
+      "defaultPosId": "305",
+      "posShortNames": "C",
+      "team": false,
+      "icons": [
+       {
+        "tooltip": "Oct 24, 1:27 AM: Diabate registered five points (2-2 FG,...",
+        "typeId": "9"
+       }
+      ],
+      "rookie": false,
+      "minorsEligible": false,
+      "posIds": [
+       "305",
+       "307"
+      ],
+      "teamId": "40110",
+      "name": "Moussa Diabate",
+      "teamShortName": "CHA",
+      "shortName": "M. Diabate"
+     },
+     "resultCode": "EXECUTED",
+     "executed": true,
+     "result": {
+      "content": "Executed"
+     },
+     "claimType": "",
+     "disabled": true,
+     "txSetId": "pt2fsx2fmvmfntu6",
+     "feesUsed": false,
+     "transactionCode": "DROP",
+     "transactionType": "Drop",
+     "deleted": false,
+     "cells": [
+      {
+       "align": "LEFT",
+       "content": "",
+       "key": "bid"
+      },
+      {
+       "content": "1",
+       "key": "priority"
+      },
+      {
+       "content": "5",
+       "key": "week"
+      }
+     ]
+    },
+    {
+     "scorer": {
+      "teamName": "Brooklyn Nets",
+      "urlName": "keon-ellis",
+      "headshotUrl": "https://fantraximg.com/si/headshots/NBA/hs0623m_96_5.png",
+      "scorerId": "0623m",
+      "posIdsNoFlex": [
+       "300",
+       "301",
+       "302"
+      ],
+      "defaultPosId": "301",
+      "posShortNames": "PG,SG,G",
+      "team": false,
+      "icons": [
+       {
+        "tooltip": "Oct 25, 9:19 PM: Ellis registered nine points (4-4 FG,...",
+        "typeId": "9"
+       }
+      ],
+      "rookie": false,
+      "minorsEligible": false,
+      "posIds": [
+       "300",
+       "301",
+       "302",
+       "307"
+      ],
+      "teamId": "40011",
+      "name": "Keon Ellis",
+      "teamShortName": "BKN",
+      "shortName": "K. Ellis"
+     },
+     "resultCode": "EXECUTED",
+     "executed": true,
+     "result": {
+      "content": "Executed"
+     },
+     "claimType": "FA",
+     "numInGroup": 1,
+     "txSetId": "kks0xr76mvm25mx4",
+     "feesUsed": false,
+     "transactionCode": "CLAIM",
+     "transactionType": "Claim",
+     "deleted": false,
+     "cells": [
+      {
+       "align": "LEFT",
+       "content": "The Fun Guys",
+       "leagueId": "fqj3m6m8murmhnko",
+       "rowspan": 1,
+       "key": "team",
+       "teamId": "f310mnh8murmhnn2"
+      },
+      {
+       "align": "LEFT",
+       "content": "",
+       "key": "bid"
+      },
+      {
+       "content": "1",
+       "key": "priority"
+      },
+      {
+       "align": "LEFT",
+       "content": "Sat Oct 24, 2026, 3:09AM",
+       "rowspan": 1,
+       "key": "date"
+      },
+      {
+       "content": "5",
+       "key": "week"
+      }
+     ]
+    },
+    {
+     "scorer": {
+      "teamName": "Detroit Pistons",
+      "urlName": "paul-reed",
+      "headshotUrl": "https://fantraximg.com/si/headshots/NBA/hs05qst_96_6.png",
+      "scorerId": "05qst",
+      "posIdsNoFlex": [
+       "305"
+      ],
+      "defaultPosId": "305",
+      "posShortNames": "C",
+      "team": false,
+      "icons": [
+       {
+        "tooltip": "Oct 25, 7:28 PM: Reed will start Sunday's game against...",
+        "typeId": "9"
+       }
+      ],
+      "rookie": false,
+      "minorsEligible": false,
+      "posIds": [
+       "305",
+       "307"
+      ],
+      "teamId": "40070",
+      "name": "Paul Reed",
+      "teamShortName": "DET",
+      "shortName": "P. Reed"
+     },
+     "resultCode": "EXECUTED",
+     "executed": true,
+     "result": {
+      "content": "Executed"
+     },
+     "claimType": "FA",
+     "disabled": true,
+     "numInGroup": 1,
+     "txSetId": "c8piq953mvlv1sij",
+     "feesUsed": false,
+     "transactionCode": "CLAIM",
+     "transactionType": "Claim",
+     "deleted": false,
+     "cells": [
+      {
+       "align": "LEFT",
+       "content": "Let's Go Brandon Ingram",
+       "leagueId": "fqj3m6m8murmhnko",
+       "rowspan": 1,
+       "key": "team",
+       "teamId": "om35rt8imurmhnn2"
+      },
+      {
+       "align": "LEFT",
+       "content": "",
+       "key": "bid"
+      },
+      {
+       "content": "1",
+       "key": "priority"
+      },
+      {
+       "align": "LEFT",
+       "content": "Fri Oct 23, 2026, 11:50PM",
+       "rowspan": 1,
+       "key": "date"
+      },
+      {
+       "content": "5",
+       "key": "week"
+      }
+     ]
+    },
+    {
+     "scorer": {
+      "teamName": "Chicago Bulls",
+      "urlName": "jalen-smith",
+      "headshotUrl": "https://fantraximg.com/si/headshots/NBA/hs05qty_96_7.png",
+      "scorerId": "05qty",
+      "posIdsNoFlex": [
+       "304",
+       "306",
+       "305"
+      ],
+      "defaultPosId": "305",
+      "posShortNames": "PF,F,C",
+      "team": false,
+      "icons": [
+       {
+        "tooltip": "Oct 23, 10:03 PM: Smith recorded 14 points (6-10 FG, 2-5...",
+        "typeId": "9"
+       }
+      ],
+      "rookie": false,
+      "minorsEligible": false,
+      "posIds": [
+       "304",
+       "306",
+       "305",
+       "307"
+      ],
+      "teamId": "40050",
+      "name": "Jalen Smith",
+      "teamShortName": "CHI",
+      "shortName": "J. Smith"
+     },
+     "resultCode": "EXECUTED",
+     "executed": true,
+     "result": {
+      "content": "Executed"
+     },
+     "claimType": "FA",
+     "numInGroup": 2,
+     "txSetId": "cpktfwibmvlsbybf",
+     "feesUsed": false,
+     "transactionCode": "CLAIM",
+     "transactionType": "Claim",
+     "deleted": false,
+     "cells": [
+      {
+       "align": "LEFT",
+       "content": "The 2026 Revenge Tour",
+       "leagueId": "fqj3m6m8murmhnko",
+       "rowspan": 2,
+       "key": "team",
+       "teamId": "p8lde4xbmusl24sh"
+      },
+      {
+       "align": "LEFT",
+       "content": "",
+       "key": "bid"
+      },
+      {
+       "content": "1",
+       "key": "priority"
+      },
+      {
+       "align": "LEFT",
+       "content": "Fri Oct 23, 2026, 10:33PM",
+       "rowspan": 2,
+       "key": "date"
+      },
+      {
+       "content": "5",
+       "key": "week"
+      }
+     ]
+    },
+    {
+     "scorer": {
+      "teamName": "Denver Nuggets",
+      "urlName": "cameron-johnson",
+      "headshotUrl": "https://fantraximg.com/si/headshots/NBA/hs051or_96_8.png",
+      "scorerId": "051or",
+      "posIdsNoFlex": [
+       "303",
+       "304",
+       "306"
+      ],
+      "defaultPosId": "304",
+      "posShortNames": "SF,PF,F",
+      "team": false,
+      "icons": [
+       {
+        "tooltip": "Ankle - Out Indefinitely - Expected return Oct 28",
+        "typeId": "30"
+       },
+       {
+        "tooltip": "Oct 26, 9:13 PM: Johnson (ankle) has been ruled out for...",
+        "typeId": "14"
+       }
+      ],
+      "rookie": false,
+      "minorsEligible": false,
+      "posIds": [
+       "303",
+       "304",
+       "306",
+       "307"
+      ],
+      "teamId": "40200",
+      "name": "Cameron Johnson",
+      "teamShortName": "DEN",
+      "shortName": "C. Johnson"
+     },
+     "resultCode": "EXECUTED",
+     "executed": true,
+     "result": {
+      "content": "Executed"
+     },
+     "claimType": "",
+     "txSetId": "cpktfwibmvlsbybf",
+     "feesUsed": false,
+     "transactionCode": "LINEUP_CHANGE",
+     "transactionType": "Lineup Change",
+     "deleted": false,
+     "cells": [
+      {
+       "align": "LEFT",
+       "content": "",
+       "key": "bid"
+      },
+      {
+       "content": "1",
+       "key": "priority"
+      },
+      {
+       "content": "5",
+       "key": "week"
+      }
+     ]
+    },
+    {
+     "scorer": {
+      "teamName": "Sacramento Kings",
+      "urlName": "ben-simmons",
+      "headshotUrl": "https://fantraximg.com/si/headshots/NBA/hs03lg1_96_9.png",
+      "scorerId": "03lg1",
+      "posIdsNoFlex": [
+       "300",
+       "301",
+       "302"
+      ],
+      "defaultPosId": "300",
+      "posShortNames": "PG,SG,G",
+      "team": false,
+      "icons": [
+       {
+        "tooltip": "Achilles - Out For Season - Expected return Oct 1",
+        "typeId": "30"
+       },
+       {
+        "tooltip": "Oct 21, 12:22 AM: Simmons underwent successful surgery...",
+        "typeId": "9"
+       }
+      ],
+      "rookie": false,
+      "minorsEligible": false,
+      "posIds": [
+       "300",
+       "301",
+       "302",
+       "307"
+      ],
+      "teamId": "40290",
+      "name": "Ben Simmons",
+      "teamShortName": "SAC",
+      "shortName": "B. Simmons"
+     },
+     "resultCode": "EXECUTED",
+     "executed": true,
+     "result": {
+      "content": "Executed"
+     },
+     "claimType": "",
+     "disabled": true,
+     "numInGroup": 1,
+     "txSetId": "a1a6et9amvkwypk3",
+     "feesUsed": false,
+     "transactionCode": "DROP",
+     "transactionType": "Drop",
+     "deleted": false,
+     "cells": [
+      {
+       "align": "LEFT",
+       "content": "Suggs to be You",
+       "leagueId": "fqj3m6m8murmhnko",
+       "rowspan": 1,
+       "key": "team",
+       "teamId": "rdl7dlplmurmhnn2"
+      },
+      {
+       "align": "LEFT",
+       "content": "",
+       "key": "bid"
+      },
+      {
+       "content": "1",
+       "key": "priority"
+      },
+      {
+       "align": "LEFT",
+       "content": "Fri Oct 23, 2026, 7:55AM",
+       "rowspan": 1,
+       "key": "date"
+      },
+      {
+       "content": "4",
+       "key": "week"
+      }
+     ]
+    },
+    {
+     "scorer": {
+      "teamName": "New Orleans Pelicans",
+      "urlName": "saddiq-bey",
+      "headshotUrl": "https://fantraximg.com/si/headshots/NBA/hs05qt0_96_7.png",
+      "scorerId": "05qt0",
+      "posIdsNoFlex": [
+       "303",
+       "304",
+       "306"
+      ],
+      "defaultPosId": "303",
+      "posShortNames": "SF,PF,F",
+      "team": false,
+      "icons": [
+       {
+        "tooltip": "Oct 24, 10:50 AM: Bey finished Friday's 120-119 loss to...",
+        "typeId": "9"
+       }
+      ],
+      "rookie": false,
+      "minorsEligible": false,
+      "posIds": [
+       "303",
+       "304",
+       "306",
+       "307"
+      ],
+      "teamId": "40180",
+      "name": "Saddiq Bey",
+      "teamShortName": "NO",
+      "shortName": "S. Bey"
+     },
+     "resultCode": "EXECUTED",
+     "executed": true,
+     "result": {
+      "content": "Executed"
+     },
+     "claimType": "FA",
+     "numInGroup": 2,
+     "txSetId": "22dy7811mvkvtkvn",
+     "feesUsed": false,
+     "transactionCode": "CLAIM",
+     "transactionType": "Claim",
+     "deleted": false,
+     "cells": [
+      {
+       "align": "LEFT",
+       "content": "Suggs to be You",
+       "leagueId": "fqj3m6m8murmhnko",
+       "rowspan": 2,
+       "key": "team",
+       "teamId": "rdl7dlplmurmhnn2"
+      },
+      {
+       "align": "LEFT",
+       "content": "",
+       "key": "bid"
+      },
+      {
+       "content": "1",
+       "key": "priority"
+      },
+      {
+       "align": "LEFT",
+       "content": "Fri Oct 23, 2026, 7:23AM",
+       "rowspan": 2,
+       "key": "date"
+      },
+      {
+       "content": "4",
+       "key": "week"
+      }
+     ]
+    },
+    {
+     "scorer": {
+      "teamName": "Oklahoma City Thunder",
+      "urlName": "jared-mccain",
+      "headshotUrl": "https://fantraximg.com/si/headshots/NBA/hs06mk8_96_3.png",
+      "scorerId": "06mk8",
+      "posIdsNoFlex": [
+       "301",
+       "302"
+      ],
+      "defaultPosId": "301",
+      "posShortNames": "SG,G",
+      "team": false,
+      "icons": [
+       {
+        "tooltip": "Oct 26, 7:37 PM: McCain will start Monday's game against...",
+        "typeId": "14"
+       }
+      ],
+      "rookie": false,
+      "minorsEligible": false,
+      "posIds": [
+       "301",
+       "302",
+       "307"
+      ],
+      "teamId": "40230",
+      "name": "Jared McCain",
+      "teamShortName": "OKC",
+      "shortName": "J. McCain"
+     },
+     "resultCode": "EXECUTED",
+     "executed": true,
+     "result": {
+      "content": "Executed"
+     },
+     "claimType": "",
+     "txSetId": "22dy7811mvkvtkvn",
+     "feesUsed": false,
+     "transactionCode": "DROP",
+     "transactionType": "Drop",
+     "deleted": false,
+     "cells": [
+      {
+       "align": "LEFT",
+       "content": "",
+       "key": "bid"
+      },
+      {
+       "content": "1",
+       "key": "priority"
+      },
+      {
+       "content": "4",
+       "key": "week"
+      }
+     ]
+    },
+    {
+     "scorer": {
+      "teamName": "Utah Jazz",
+      "urlName": "ace-bailey",
+      "headshotUrl": "https://fantraximg.com/si/headshots/NBA/hs06v57_96_3.png",
+      "scorerId": "06v57",
+      "posIdsNoFlex": [
+       "300",
+       "301",
+       "302",
+       "303",
+       "304",
+       "306"
+      ],
+      "defaultPosId": "303",
+      "posShortNames": "PG,SG,G,SF,PF,F",
+      "team": false,
+      "icons": [
+       {
+        "tooltip": "Oct 25, 8:44 PM: Bailey registered 17 points (8-11 FG,...",
+        "typeId": "9"
+       }
+      ],
+      "rookie": false,
+      "minorsEligible": false,
+      "posIds": [
+       "300",
+       "301",
+       "302",
+       "303",
+       "304",
+       "306",
+       "307"
+      ],
+      "teamId": "40240",
+      "name": "Ace Bailey",
+      "teamShortName": "UTA",
+      "shortName": "A. Bailey"
+     },
+     "resultCode": "EXECUTED",
+     "executed": true,
+     "result": {
+      "content": "Executed"
+     },
+     "claimType": "FA",
+     "disabled": true,
+     "numInGroup": 2,
+     "txSetId": "kbw0wbdxmvkg85ic",
+     "feesUsed": false,
+     "transactionCode": "CLAIM",
+     "transactionType": "Claim",
+     "deleted": false,
+     "cells": [
+      {
+       "align": "LEFT",
+       "content": "The Fun Guys",
+       "leagueId": "fqj3m6m8murmhnko",
+       "rowspan": 2,
+       "key": "team",
+       "teamId": "f310mnh8murmhnn2"
+      },
+      {
+       "align": "LEFT",
+       "content": "",
+       "key": "bid"
+      },
+      {
+       "content": "1",
+       "key": "priority"
+      },
+      {
+       "align": "LEFT",
+       "content": "Fri Oct 23, 2026, 12:07AM",
+       "rowspan": 2,
+       "key": "date"
+      },
+      {
+       "content": "4",
+       "key": "week"
+      }
+     ]
+    },
+    {
+     "scorer": {
+      "teamName": "Oklahoma City Thunder",
+      "urlName": "aday-mara",
+      "headshotUrl": "https://fantraximg.com/si/headshots/NBA/hs076su_96_1.png",
+      "scorerId": "076su",
+      "posIdsNoFlex": [
+       "305"
+      ],
+      "defaultPosId": "305",
+      "posShortNames": "C",
+      "team": false,
+      "icons": [
+       {
+        "tooltip": "Oct 21, 7:24 AM: Mara produced seven points (3-4 FG, 1-2...",
+        "typeId": "9"
+       }
+      ],
+      "rookie": true,
+      "minorsEligible": false,
+      "posIds": [
+       "305",
+       "307"
+      ],
+      "teamId": "40230",
+      "name": "Aday Mara",
+      "teamShortName": "OKC",
+      "shortName": "A. Mara"
+     },
+     "resultCode": "EXECUTED",
+     "executed": true,
+     "result": {
+      "content": "Executed"
+     },
+     "claimType": "",
+     "disabled": true,
+     "txSetId": "kbw0wbdxmvkg85ic",
+     "feesUsed": false,
+     "transactionCode": "DROP",
+     "transactionType": "Drop",
+     "deleted": false,
+     "cells": [
+      {
+       "align": "LEFT",
+       "content": "",
+       "key": "bid"
+      },
+      {
+       "content": "1",
+       "key": "priority"
+      },
+      {
+       "content": "4",
+       "key": "week"
+      }
+     ]
+    },
+    {
+     "scorer": {
+      "teamName": "Los Angeles Clippers",
+      "urlName": "keaton-wagler",
+      "headshotUrl": "https://fantraximg.com/si/headshots/NBA/hs076tc_96_1.png",
+      "scorerId": "076tc",
+      "posIdsNoFlex": [
+       "301",
+       "302"
+      ],
+      "defaultPosId": "301",
+      "posShortNames": "SG,G",
+      "team": false,
+      "icons": [
+       {
+        "tooltip": "Oct 26, 11:28 AM: Wagler finished Sunday's 108-101 loss...",
+        "typeId": "14"
+       }
+      ],
+      "rookie": true,
+      "minorsEligible": false,
+      "posIds": [
+       "301",
+       "302",
+       "307"
+      ],
+      "teamId": "40260",
+      "name": "Keaton Wagler",
+      "teamShortName": "LAC",
+      "shortName": "K. Wagler"
+     },
+     "resultCode": "EXECUTED",
+     "executed": true,
+     "result": {
+      "content": "Executed"
+     },
+     "claimType": "FA",
+     "numInGroup": 2,
+     "txSetId": "eqwz0tu2mvjrk5vf",
+     "feesUsed": false,
+     "transactionCode": "CLAIM",
+     "transactionType": "Claim",
+     "deleted": false,
+     "cells": [
+      {
+       "align": "LEFT",
+       "content": "Let's Go Brandon Ingram",
+       "leagueId": "fqj3m6m8murmhnko",
+       "rowspan": 2,
+       "key": "team",
+       "teamId": "om35rt8imurmhnn2"
+      },
+      {
+       "align": "LEFT",
+       "content": "",
+       "key": "bid"
+      },
+      {
+       "content": "1",
+       "key": "priority"
+      },
+      {
+       "align": "LEFT",
+       "content": "Thu Oct 22, 2026, 12:36PM",
+       "rowspan": 2,
+       "key": "date"
+      },
+      {
+       "content": "3",
+       "key": "week"
+      }
+     ]
+    },
+    {
+     "scorer": {
+      "teamName": "Milwaukee Bucks",
+      "urlName": "brayden-burries",
+      "headshotUrl": "https://fantraximg.com/si/headshots/NBA/hs076tl_96_1.png",
+      "scorerId": "076tl",
+      "posIdsNoFlex": [
+       "301",
+       "302"
+      ],
+      "defaultPosId": "301",
+      "posShortNames": "SG,G",
+      "team": false,
+      "icons": [
+       {
+        "tooltip": "Oct 22, 1:43 PM: Burries ended Wednesday's 128-116 loss...",
+        "typeId": "9"
+       }
+      ],
+      "rookie": true,
+      "minorsEligible": false,
+      "posIds": [
+       "301",
+       "302",
+       "307"
+      ],
+      "teamId": "40090",
+      "name": "Brayden Burries",
+      "teamShortName": "MIL",
+      "shortName": "B. Burries"
+     },
+     "resultCode": "EXECUTED",
+     "executed": true,
+     "result": {
+      "content": "Executed"
+     },
+     "claimType": "",
+     "txSetId": "eqwz0tu2mvjrk5vf",
+     "feesUsed": false,
+     "transactionCode": "DROP",
+     "transactionType": "Drop",
+     "deleted": false,
+     "cells": [
+      {
+       "align": "LEFT",
+       "content": "",
+       "key": "bid"
+      },
+      {
+       "content": "1",
+       "key": "priority"
+      },
+      {
+       "content": "3",
+       "key": "week"
+      }
+     ]
+    },
+    {
+     "scorer": {
+      "teamName": "Oklahoma City Thunder",
+      "urlName": "aday-mara",
+      "headshotUrl": "https://fantraximg.com/si/headshots/NBA/hs076su_96_1.png",
+      "scorerId": "076su",
+      "posIdsNoFlex": [
+       "305"
+      ],
+      "defaultPosId": "305",
+      "posShortNames": "C",
+      "team": false,
+      "icons": [
+       {
+        "tooltip": "Oct 21, 7:24 AM: Mara produced seven points (3-4 FG, 1-2...",
+        "typeId": "9"
+       }
+      ],
+      "rookie": true,
+      "minorsEligible": false,
+      "posIds": [
+       "305",
+       "307"
+      ],
+      "teamId": "40230",
+      "name": "Aday Mara",
+      "teamShortName": "OKC",
+      "shortName": "A. Mara"
+     },
+     "resultCode": "EXECUTED",
+     "executed": true,
+     "result": {
+      "content": "Executed"
+     },
+     "claimType": "FA",
+     "disabled": true,
+     "numInGroup": 2,
+     "txSetId": "ilwnb8x9mvjrd5uy",
+     "feesUsed": false,
+     "transactionCode": "CLAIM",
+     "transactionType": "Claim",
+     "deleted": false,
+     "cells": [
+      {
+       "align": "LEFT",
+       "content": "The Fun Guys",
+       "leagueId": "fqj3m6m8murmhnko",
+       "rowspan": 2,
+       "key": "team",
+       "teamId": "f310mnh8murmhnn2"
+      },
+      {
+       "align": "LEFT",
+       "content": "",
+       "key": "bid"
+      },
+      {
+       "content": "1",
+       "key": "priority"
+      },
+      {
+       "align": "LEFT",
+       "content": "Thu Oct 22, 2026, 12:31PM",
+       "rowspan": 2,
+       "key": "date"
+      },
+      {
+       "content": "3",
+       "key": "week"
+      }
+     ]
+    },
+    {
+     "scorer": {
+      "teamName": "Miami Heat",
+      "urlName": "andrew-wiggins",
+      "headshotUrl": "https://fantraximg.com/si/headshots/NBA/hs02ym0_96_10.png",
+      "scorerId": "02ym0",
+      "posIdsNoFlex": [
+       "301",
+       "302",
+       "303",
+       "306"
+      ],
+      "defaultPosId": "303",
+      "posShortNames": "SG,G,SF,F",
+      "team": false,
+      "icons": [
+       {
+        "tooltip": "Oct 22, 2:59 PM: Wiggins racked up 11 points (5-11 FG,...",
+        "typeId": "9"
+       }
+      ],
+      "rookie": false,
+      "minorsEligible": false,
+      "posIds": [
+       "301",
+       "302",
+       "303",
+       "306",
+       "307"
+      ],
+      "teamId": "40120",
+      "name": "Andrew Wiggins",
+      "teamShortName": "MIA",
+      "shortName": "A. Wiggins"
+     },
+     "resultCode": "EXECUTED",
+     "executed": true,
+     "result": {
+      "content": "Executed"
+     },
+     "claimType": "",
+     "disabled": true,
+     "txSetId": "ilwnb8x9mvjrd5uy",
+     "feesUsed": false,
+     "transactionCode": "DROP",
+     "transactionType": "Drop",
+     "deleted": false,
+     "cells": [
+      {
+       "align": "LEFT",
+       "content": "",
+       "key": "bid"
+      },
+      {
+       "content": "1",
+       "key": "priority"
+      },
+      {
+       "content": "3",
+       "key": "week"
+      }
+     ]
+    },
+    {
+     "scorer": {
+      "teamName": "Indiana Pacers",
+      "urlName": "andrew-nembhard",
+      "headshotUrl": "https://fantraximg.com/si/headshots/NBA/hs0621u_96_5.png",
+      "scorerId": "0621u",
+      "posIdsNoFlex": [
+       "300",
+       "301",
+       "302"
+      ],
+      "defaultPosId": "301",
+      "posShortNames": "PG,SG,G",
+      "team": false,
+      "icons": [
+       {
+        "tooltip": "Back - Out Indefinitely - Expected return Oct 28",
+        "typeId": "30"
+       },
+       {
+        "tooltip": "Oct 26, 6:42 PM: Nembhard (neck/back) has been ruled out...",
+        "typeId": "14"
+       }
+      ],
+      "rookie": false,
+      "minorsEligible": false,
+      "posIds": [
+       "300",
+       "301",
+       "302",
+       "307"
+      ],
+      "teamId": "40080",
+      "name": "Andrew Nembhard",
+      "teamShortName": "IND",
+      "shortName": "A. Nembhard"
+     },
+     "resultCode": "EXECUTED",
+     "executed": true,
+     "result": {
+      "content": "Executed"
+     },
+     "claimType": "FA",
+     "numInGroup": 2,
+     "txSetId": "83dlydqsmvjqq70w",
+     "feesUsed": false,
+     "transactionCode": "CLAIM",
+     "transactionType": "Claim",
+     "deleted": false,
+     "cells": [
+      {
+       "align": "LEFT",
+       "content": "The Fun Guys",
+       "leagueId": "fqj3m6m8murmhnko",
+       "rowspan": 2,
+       "key": "team",
+       "teamId": "f310mnh8murmhnn2"
+      },
+      {
+       "align": "LEFT",
+       "content": "",
+       "key": "bid"
+      },
+      {
+       "content": "1",
+       "key": "priority"
+      },
+      {
+       "align": "LEFT",
+       "content": "Thu Oct 22, 2026, 12:13PM",
+       "rowspan": 2,
+       "key": "date"
+      },
+      {
+       "content": "3",
+       "key": "week"
+      }
+     ]
+    },
+    {
+     "scorer": {
+      "teamName": "Sacramento Kings",
+      "urlName": "keegan-murray",
+      "headshotUrl": "https://fantraximg.com/si/headshots/NBA/hs06213_96_5.png",
+      "scorerId": "06213",
+      "posIdsNoFlex": [
+       "303",
+       "304",
+       "306"
+      ],
+      "defaultPosId": "304",
+      "posShortNames": "SF,PF,F",
+      "team": false,
+      "icons": [
+       {
+        "tooltip": "Ankle - Out Indefinitely - Expected return Nov 6",
+        "typeId": "30"
+       },
+       {
+        "tooltip": "Oct 26, 6:01 PM: Murray (ankle) will be re-evaluated in...",
+        "typeId": "14"
+       }
+      ],
+      "rookie": false,
+      "minorsEligible": false,
+      "posIds": [
+       "303",
+       "304",
+       "306",
+       "307"
+      ],
+      "teamId": "40290",
+      "name": "Keegan Murray",
+      "teamShortName": "SAC",
+      "shortName": "K. Murray"
+     },
+     "resultCode": "EXECUTED",
+     "executed": true,
+     "result": {
+      "content": "Executed"
+     },
+     "claimType": "",
+     "txSetId": "83dlydqsmvjqq70w",
+     "feesUsed": false,
+     "transactionCode": "DROP",
+     "transactionType": "Drop",
+     "deleted": false,
+     "cells": [
+      {
+       "align": "LEFT",
+       "content": "",
+       "key": "bid"
+      },
+      {
+       "content": "1",
+       "key": "priority"
+      },
+      {
+       "content": "3",
+       "key": "week"
+      }
+     ]
+    },
+    {
+     "scorer": {
+      "teamName": "Denver Nuggets",
+      "urlName": "cameron-johnson",
+      "headshotUrl": "https://fantraximg.com/si/headshots/NBA/hs051or_96_8.png",
+      "scorerId": "051or",
+      "posIdsNoFlex": [
+       "303",
+       "304",
+       "306"
+      ],
+      "defaultPosId": "304",
+      "posShortNames": "SF,PF,F",
+      "team": false,
+      "icons": [
+       {
+        "tooltip": "Ankle - Out Indefinitely - Expected return Oct 28",
+        "typeId": "30"
+       },
+       {
+        "tooltip": "Oct 26, 9:13 PM: Johnson (ankle) has been ruled out for...",
+        "typeId": "14"
+       }
+      ],
+      "rookie": false,
+      "minorsEligible": false,
+      "posIds": [
+       "303",
+       "304",
+       "306",
+       "307"
+      ],
+      "teamId": "40200",
+      "name": "Cameron Johnson",
+      "teamShortName": "DEN",
+      "shortName": "C. Johnson"
+     },
+     "resultCode": "EXECUTED",
+     "executed": true,
+     "result": {
+      "content": "Executed"
+     },
+     "claimType": "FA",
+     "disabled": true,
+     "numInGroup": 2,
+     "txSetId": "dqzye7szmvj2uxpi",
+     "feesUsed": false,
+     "transactionCode": "CLAIM",
+     "transactionType": "Claim",
+     "deleted": false,
+     "cells": [
+      {
+       "align": "LEFT",
+       "content": "The 2026 Revenge Tour",
+       "leagueId": "fqj3m6m8murmhnko",
+       "rowspan": 2,
+       "key": "team",
+       "teamId": "p8lde4xbmusl24sh"
+      },
+      {
+       "align": "LEFT",
+       "content": "2.00",
+       "key": "bid"
+      },
+      {
+       "content": "1",
+       "key": "priority"
+      },
+      {
+       "align": "LEFT",
+       "content": "Thu Oct 22, 2026, 11:00AM",
+       "rowspan": 2,
+       "key": "date"
+      },
+      {
+       "content": "3",
+       "key": "week"
+      }
+     ]
+    },
+    {
+     "scorer": {
+      "teamName": "Houston Rockets",
+      "urlName": "reed-sheppard",
+      "headshotUrl": "https://fantraximg.com/si/headshots/NBA/hs06mjv_96_3.png",
+      "scorerId": "06mjv",
+      "posIdsNoFlex": [
+       "300",
+       "301",
+       "302"
+      ],
+      "defaultPosId": "300",
+      "posShortNames": "PG,SG,G",
+      "team": false,
+      "icons": [
+       {
+        "tooltip": "Oct 26, 8:06 PM: Sheppard will come off the bench for...",
+        "typeId": "14"
+       }
+      ],
+      "rookie": false,
+      "minorsEligible": false,
+      "posIds": [
+       "300",
+       "301",
+       "302",
+       "307"
+      ],
+      "teamId": "40160",
+      "name": "Reed Sheppard",
+      "teamShortName": "HOU",
+      "shortName": "R. Sheppard"
+     },
+     "resultCode": "EXECUTED",
+     "executed": true,
+     "result": {
+      "content": "Executed"
+     },
+     "claimType": "",
+     "disabled": true,
+     "txSetId": "dqzye7szmvj2uxpi",
+     "feesUsed": false,
+     "transactionCode": "DROP",
+     "transactionType": "Drop",
+     "deleted": false,
+     "cells": [
+      {
+       "align": "LEFT",
+       "content": "",
+       "key": "bid"
+      },
+      {
+       "content": "1",
+       "key": "priority"
+      },
+      {
+       "content": "3",
+       "key": "week"
+      }
+     ]
+    },
+    {
+     "scorer": {
+      "teamName": "Oklahoma City Thunder",
+      "urlName": "jared-mccain",
+      "headshotUrl": "https://fantraximg.com/si/headshots/NBA/hs06mk8_96_3.png",
+      "scorerId": "06mk8",
+      "posIdsNoFlex": [
+       "301",
+       "302"
+      ],
+      "defaultPosId": "301",
+      "posShortNames": "SG,G",
+      "team": false,
+      "icons": [
+       {
+        "tooltip": "Oct 26, 7:37 PM: McCain will start Monday's game against...",
+        "typeId": "14"
+       }
+      ],
+      "rookie": false,
+      "minorsEligible": false,
+      "posIds": [
+       "301",
+       "302",
+       "307"
+      ],
+      "teamId": "40230",
+      "name": "Jared McCain",
+      "teamShortName": "OKC",
+      "shortName": "J. McCain"
+     },
+     "resultCode": "EXECUTED",
+     "executed": true,
+     "result": {
+      "content": "Executed"
+     },
+     "claimType": "FA",
+     "numInGroup": 2,
+     "txSetId": "knsblb85mvjkeelr",
+     "feesUsed": false,
+     "transactionCode": "CLAIM",
+     "transactionType": "Claim",
+     "deleted": false,
+     "cells": [
+      {
+       "align": "LEFT",
+       "content": "Suggs to be You",
+       "leagueId": "fqj3m6m8murmhnko",
+       "rowspan": 2,
+       "key": "team",
+       "teamId": "rdl7dlplmurmhnn2"
+      },
+      {
+       "align": "LEFT",
+       "content": "8.00",
+       "key": "bid"
+      },
+      {
+       "content": "1",
+       "key": "priority"
+      },
+      {
+       "align": "LEFT",
+       "content": "Thu Oct 22, 2026, 11:00AM",
+       "rowspan": 2,
+       "key": "date"
+      },
+      {
+       "content": "3",
+       "key": "week"
+      }
+     ]
+    },
+    {
+     "scorer": {
+      "teamName": "New Orleans Pelicans",
+      "urlName": "herbert-jones",
+      "headshotUrl": "https://fantraximg.com/si/headshots/NBA/hs05uj9_96_6.png",
+      "scorerId": "05uj9",
+      "posIdsNoFlex": [
+       "301",
+       "302",
+       "303",
+       "304",
+       "306"
+      ],
+      "defaultPosId": "303",
+      "posShortNames": "SG,G,SF,PF,F",
+      "team": false,
+      "icons": [
+       {
+        "tooltip": "Oct 25, 1:16 AM: Jones supplied two points (1-3 FG, 0-2...",
+        "typeId": "9"
+       }
+      ],
+      "rookie": false,
+      "minorsEligible": false,
+      "posIds": [
+       "301",
+       "302",
+       "303",
+       "304",
+       "306",
+       "307"
+      ],
+      "teamId": "40180",
+      "name": "Herbert Jones",
+      "teamShortName": "NO",
+      "shortName": "H. Jones"
+     },
+     "resultCode": "EXECUTED",
+     "executed": true,
+     "result": {
+      "content": "Executed"
+     },
+     "claimType": "",
+     "txSetId": "knsblb85mvjkeelr",
+     "feesUsed": false,
+     "transactionCode": "DROP",
+     "transactionType": "Drop",
+     "deleted": false,
+     "cells": [
+      {
+       "align": "LEFT",
+       "content": "",
+       "key": "bid"
+      },
+      {
+       "content": "1",
+       "key": "priority"
+      },
+      {
+       "content": "3",
+       "key": "week"
+      }
+     ]
+    },
+    {
+     "scorer": {
+      "teamName": "New Orleans Pelicans",
+      "urlName": "yves-missi",
+      "headshotUrl": "https://fantraximg.com/si/headshots/NBA/hs06mkd_96_3.png",
+      "scorerId": "06mkd",
+      "posIdsNoFlex": [
+       "304",
+       "306",
+       "305"
+      ],
+      "defaultPosId": "305",
+      "posShortNames": "PF,F,C",
+      "team": false,
+      "icons": [
+       {
+        "tooltip": "Knee - Out Indefinitely - Expected return Nov 2",
+        "typeId": "30"
+       },
+       {
+        "tooltip": "Oct 24, 6:17 PM: Missi has been diagnosed with a left...",
+        "typeId": "9"
+       }
+      ],
+      "rookie": false,
+      "minorsEligible": false,
+      "posIds": [
+       "304",
+       "306",
+       "305",
+       "307"
+      ],
+      "teamId": "40180",
+      "name": "Yves Missi",
+      "teamShortName": "NO",
+      "shortName": "Y. Missi"
+     },
+     "resultCode": "EXECUTED",
+     "executed": true,
+     "result": {
+      "content": "Executed"
+     },
+     "claimType": "FA",
+     "disabled": true,
+     "numInGroup": 2,
+     "txSetId": "bj1m6aj3mvj3ssv7",
+     "feesUsed": false,
+     "transactionCode": "CLAIM",
+     "transactionType": "Claim",
+     "deleted": false,
+     "cells": [
+      {
+       "align": "LEFT",
+       "content": "Let's Go Brandon Ingram",
+       "leagueId": "fqj3m6m8murmhnko",
+       "rowspan": 2,
+       "key": "team",
+       "teamId": "om35rt8imurmhnn2"
+      },
+      {
+       "align": "LEFT",
+       "content": "18.00",
+       "key": "bid"
+      },
+      {
+       "content": "1",
+       "key": "priority"
+      },
+      {
+       "align": "LEFT",
+       "content": "Thu Oct 22, 2026, 11:00AM",
+       "rowspan": 2,
+       "key": "date"
+      },
+      {
+       "content": "3",
+       "key": "week"
+      }
+     ]
+    },
+    {
+     "scorer": {
+      "teamName": "Toronto Raptors",
+      "urlName": "jakob-poeltl",
+      "headshotUrl": "https://fantraximg.com/si/headshots/NBA/hs042n6_96_10.png",
+      "scorerId": "042n6",
+      "posIdsNoFlex": [
+       "305"
+      ],
+      "defaultPosId": "305",
+      "posShortNames": "C",
+      "team": false,
+      "icons": [
+       {
+        "tooltip": "Oct 25, 11:14 PM: Poeltl ended with zero points (0-2 FG)...",
+        "typeId": "9"
+       }
+      ],
+      "rookie": false,
+      "minorsEligible": false,
+      "posIds": [
+       "305",
+       "307"
+      ],
+      "teamId": "40040",
+      "name": "Jakob Poeltl",
+      "teamShortName": "TOR",
+      "shortName": "J. Poeltl"
+     },
+     "resultCode": "EXECUTED",
+     "executed": true,
+     "result": {
+      "content": "Executed"
+     },
+     "claimType": "",
+     "disabled": true,
+     "txSetId": "bj1m6aj3mvj3ssv7",
+     "feesUsed": false,
+     "transactionCode": "DROP",
+     "transactionType": "Drop",
+     "deleted": false,
+     "cells": [
+      {
+       "align": "LEFT",
+       "content": "",
+       "key": "bid"
+      },
+      {
+       "content": "1",
+       "key": "priority"
+      },
+      {
+       "content": "3",
+       "key": "week"
+      }
+     ]
+    },
+    {
+     "scorer": {
+      "teamName": "Charlotte Hornets",
+      "urlName": "moussa-diabate",
+      "headshotUrl": "https://fantraximg.com/si/headshots/NBA/hs06226_96_5.png",
+      "scorerId": "06226",
+      "posIdsNoFlex": [
+       "305"
+      ],
+      "defaultPosId": "305",
+      "posShortNames": "C",
+      "team": false,
+      "icons": [
+       {
+        "tooltip": "Oct 24, 1:27 AM: Diabate registered five points (2-2 FG,...",
+        "typeId": "9"
+       }
+      ],
+      "rookie": false,
+      "minorsEligible": false,
+      "posIds": [
+       "305",
+       "307"
+      ],
+      "teamId": "40110",
+      "name": "Moussa Diabate",
+      "teamShortName": "CHA",
+      "shortName": "M. Diabate"
+     },
+     "resultCode": "EXECUTED",
+     "executed": true,
+     "result": {
+      "content": "Executed"
+     },
+     "claimType": "WW",
+     "numInGroup": 2,
+     "txSetId": "otk76c7qmvjjl7se",
+     "feesUsed": false,
+     "transactionCode": "CLAIM",
+     "transactionType": "Claim",
+     "deleted": false,
+     "cells": [
+      {
+       "align": "LEFT",
+       "content": "Suggs to be You",
+       "leagueId": "fqj3m6m8murmhnko",
+       "rowspan": 2,
+       "key": "team",
+       "teamId": "rdl7dlplmurmhnn2"
+      },
+      {
+       "align": "LEFT",
+       "content": "15.00",
+       "key": "bid"
+      },
+      {
+       "content": "1",
+       "key": "priority"
+      },
+      {
+       "align": "LEFT",
+       "content": "Thu Oct 22, 2026, 10:55AM",
+       "rowspan": 2,
+       "key": "date"
+      },
+      {
+       "content": "3",
+       "key": "week"
+      }
+     ]
+    },
+    {
+     "scorer": {
+      "teamName": "Chicago Bulls",
+      "urlName": "tre-jones",
+      "headshotUrl": "https://fantraximg.com/si/headshots/NBA/hs05qtq_96_7.png",
+      "scorerId": "05qtq",
+      "posIdsNoFlex": [
+       "300",
+       "302"
+      ],
+      "defaultPosId": "300",
+      "posShortNames": "PG,G",
+      "team": false,
+      "icons": [
+       {
+        "tooltip": "Oct 22, 3:30 PM: Jones chipped in 13 points (5-8 FG, 0-1...",
+        "typeId": "9"
+       }
+      ],
+      "rookie": false,
+      "minorsEligible": false,
+      "posIds": [
+       "300",
+       "302",
+       "307"
+      ],
+      "teamId": "40050",
+      "name": "Tre Jones",
+      "teamShortName": "CHI",
+      "shortName": "T. Jones"
+     },
+     "resultCode": "EXECUTED",
+     "executed": true,
+     "result": {
+      "content": "Executed"
+     },
+     "claimType": "",
+     "txSetId": "otk76c7qmvjjl7se",
+     "feesUsed": false,
+     "transactionCode": "DROP",
+     "transactionType": "Drop",
+     "deleted": false,
+     "cells": [
+      {
+       "align": "LEFT",
+       "content": "",
+       "key": "bid"
+      },
+      {
+       "content": "1",
+       "key": "priority"
+      },
+      {
+       "content": "3",
+       "key": "week"
+      }
+     ]
+    },
+    {
+     "scorer": {
+      "teamName": "Denver Nuggets",
+      "urlName": "aaron-gordon",
+      "headshotUrl": "https://fantraximg.com/si/headshots/NBA/hs03al0_96_10.png",
+      "scorerId": "03al0",
+      "posIdsNoFlex": [
+       "304",
+       "306",
+       "305"
+      ],
+      "defaultPosId": "304",
+      "posShortNames": "PF,F,C",
+      "team": false,
+      "icons": [
+       {
+        "tooltip": "Oct 23, 12:42 AM: Gordon totaled 20 points (6-9 FG, 3-4...",
+        "typeId": "9"
+       }
+      ],
+      "rookie": false,
+      "minorsEligible": false,
+      "posIds": [
+       "304",
+       "306",
+       "305",
+       "307"
+      ],
+      "teamId": "40200",
+      "name": "Aaron Gordon",
+      "teamShortName": "DEN",
+      "shortName": "A. Gordon"
+     },
+     "resultCode": "EXECUTED",
+     "executed": true,
+     "result": {
+      "content": "Executed"
+     },
+     "claimType": "FA",
+     "disabled": true,
+     "numInGroup": 2,
+     "txSetId": "wypts8nfmvh5ocu5",
+     "feesUsed": false,
+     "transactionCode": "CLAIM",
+     "transactionType": "Claim",
+     "deleted": false,
+     "cells": [
+      {
+       "align": "LEFT",
+       "content": "Let's Go Brandon Ingram",
+       "leagueId": "fqj3m6m8murmhnko",
+       "rowspan": 2,
+       "key": "team",
+       "teamId": "om35rt8imurmhnn2"
+      },
+      {
+       "align": "LEFT",
+       "content": "1.00",
+       "key": "bid"
+      },
+      {
+       "content": "2",
+       "key": "priority"
+      },
+      {
+       "align": "LEFT",
+       "content": "Wed Oct 21, 2026, 11:00AM",
+       "rowspan": 2,
+       "key": "date"
+      },
+      {
+       "content": "2",
+       "key": "week"
+      }
+     ]
+    },
+    {
+     "scorer": {
+      "teamName": "Detroit Pistons",
+      "urlName": "paul-reed",
+      "headshotUrl": "https://fantraximg.com/si/headshots/NBA/hs05qst_96_6.png",
+      "scorerId": "05qst",
+      "posIdsNoFlex": [
+       "305"
+      ],
+      "defaultPosId": "305",
+      "posShortNames": "C",
+      "team": false,
+      "icons": [
+       {
+        "tooltip": "Oct 25, 7:28 PM: Reed will start Sunday's game against...",
+        "typeId": "9"
+       }
+      ],
+      "rookie": false,
+      "minorsEligible": false,
+      "posIds": [
+       "305",
+       "307"
+      ],
+      "teamId": "40070",
+      "name": "Paul Reed",
+      "teamShortName": "DET",
+      "shortName": "P. Reed"
+     },
+     "resultCode": "EXECUTED",
+     "executed": true,
+     "result": {
+      "content": "Executed"
+     },
+     "claimType": "",
+     "disabled": true,
+     "txSetId": "wypts8nfmvh5ocu5",
+     "feesUsed": false,
+     "transactionCode": "DROP",
+     "transactionType": "Drop",
+     "deleted": false,
+     "cells": [
+      {
+       "align": "LEFT",
+       "content": "",
+       "key": "bid"
+      },
+      {
+       "content": "2",
+       "key": "priority"
+      },
+      {
+       "content": "2",
+       "key": "week"
+      }
+     ]
+    },
+    {
+     "scorer": {
+      "teamName": "Houston Rockets",
+      "urlName": "reed-sheppard",
+      "headshotUrl": "https://fantraximg.com/si/headshots/NBA/hs06mjv_96_3.png",
+      "scorerId": "06mjv",
+      "posIdsNoFlex": [
+       "300",
+       "301",
+       "302"
+      ],
+      "defaultPosId": "300",
+      "posShortNames": "PG,SG,G",
+      "team": false,
+      "icons": [
+       {
+        "tooltip": "Oct 26, 8:06 PM: Sheppard will come off the bench for...",
+        "typeId": "14"
+       }
+      ],
+      "rookie": false,
+      "minorsEligible": false,
+      "posIds": [
+       "300",
+       "301",
+       "302",
+       "307"
+      ],
+      "teamId": "40160",
+      "name": "Reed Sheppard",
+      "teamShortName": "HOU",
+      "shortName": "R. Sheppard"
+     },
+     "resultCode": "EXECUTED",
+     "executed": true,
+     "result": {
+      "content": "Executed"
+     },
+     "claimType": "FA",
+     "numInGroup": 2,
+     "txSetId": "03lizcfqmvhhb0i5",
+     "feesUsed": false,
+     "transactionCode": "CLAIM",
+     "transactionType": "Claim",
+     "deleted": false,
+     "cells": [
+      {
+       "align": "LEFT",
+       "content": "The 2026 Revenge Tour",
+       "leagueId": "fqj3m6m8murmhnko",
+       "rowspan": 2,
+       "key": "team",
+       "teamId": "p8lde4xbmusl24sh"
+      },
+      {
+       "align": "LEFT",
+       "content": "0.00",
+       "key": "bid"
+      },
+      {
+       "content": "1",
+       "key": "priority"
+      },
+      {
+       "align": "LEFT",
+       "content": "Wed Oct 21, 2026, 11:00AM",
+       "rowspan": 2,
+       "key": "date"
+      },
+      {
+       "content": "2",
+       "key": "week"
+      }
+     ]
+    },
+    {
+     "scorer": {
+      "teamName": "San Antonio Spurs",
+      "urlName": "keldon-johnson",
+      "headshotUrl": "https://fantraximg.com/si/headshots/NBA/hs051p9_96_8.png",
+      "scorerId": "051p9",
+      "posIdsNoFlex": [
+       "301",
+       "302",
+       "303",
+       "306"
+      ],
+      "defaultPosId": "303",
+      "posShortNames": "SG,G,SF,F",
+      "team": false,
+      "icons": [
+       {
+        "tooltip": "Oct 23, 7:46 PM: Johnson (mouth) is available for...",
+        "typeId": "9"
+       }
+      ],
+      "rookie": false,
+      "minorsEligible": false,
+      "posIds": [
+       "301",
+       "302",
+       "303",
+       "306",
+       "307"
+      ],
+      "teamId": "40190",
+      "name": "Keldon Johnson",
+      "teamShortName": "SA",
+      "shortName": "K. Johnson"
+     },
+     "resultCode": "EXECUTED",
+     "executed": true,
+     "result": {
+      "content": "Executed"
+     },
+     "claimType": "",
+     "txSetId": "03lizcfqmvhhb0i5",
+     "feesUsed": false,
+     "transactionCode": "DROP",
+     "transactionType": "Drop",
+     "deleted": false,
+     "cells": [
+      {
+       "align": "LEFT",
+       "content": "",
+       "key": "bid"
+      },
+      {
+       "content": "1",
+       "key": "priority"
+      },
+      {
+       "content": "2",
+       "key": "week"
+      }
+     ]
+    },
+    {
+     "scorer": {
+      "teamName": "Milwaukee Bucks",
+      "urlName": "brayden-burries",
+      "headshotUrl": "https://fantraximg.com/si/headshots/NBA/hs076tl_96_1.png",
+      "scorerId": "076tl",
+      "posIdsNoFlex": [
+       "301",
+       "302"
+      ],
+      "defaultPosId": "301",
+      "posShortNames": "SG,G",
+      "team": false,
+      "icons": [
+       {
+        "tooltip": "Oct 22, 1:43 PM: Burries ended Wednesday's 128-116 loss...",
+        "typeId": "9"
+       }
+      ],
+      "rookie": true,
+      "minorsEligible": false,
+      "posIds": [
+       "301",
+       "302",
+       "307"
+      ],
+      "teamId": "40090",
+      "name": "Brayden Burries",
+      "teamShortName": "MIL",
+      "shortName": "B. Burries"
+     },
+     "resultCode": "EXECUTED",
+     "executed": true,
+     "result": {
+      "content": "Executed"
+     },
+     "claimType": "FA",
+     "disabled": true,
+     "numInGroup": 2,
+     "txSetId": "ekb9p8dimvhpsq4x",
+     "feesUsed": false,
+     "transactionCode": "CLAIM",
+     "transactionType": "Claim",
+     "deleted": false,
+     "cells": [
+      {
+       "align": "LEFT",
+       "content": "Let's Go Brandon Ingram",
+       "leagueId": "fqj3m6m8murmhnko",
+       "rowspan": 2,
+       "key": "team",
+       "teamId": "om35rt8imurmhnn2"
+      },
+      {
+       "align": "LEFT",
+       "content": "6.00",
+       "key": "bid"
+      },
+      {
+       "content": "1",
+       "key": "priority"
+      },
+      {
+       "align": "LEFT",
+       "content": "Wed Oct 21, 2026, 11:00AM",
+       "rowspan": 2,
+       "key": "date"
+      },
+      {
+       "content": "2",
+       "key": "week"
+      }
+     ]
+    },
+    {
+     "scorer": {
+      "teamName": "Oklahoma City Thunder",
+      "urlName": "cason-wallace",
+      "headshotUrl": "https://fantraximg.com/si/headshots/NBA/hs06cac_96_4.png",
+      "scorerId": "06cac",
+      "posIdsNoFlex": [
+       "300",
+       "301",
+       "302",
+       "303",
+       "306"
+      ],
+      "defaultPosId": "301",
+      "posShortNames": "PG,SG,G,SF,F",
+      "team": false,
+      "icons": [
+       {
+        "tooltip": "Shoulder - Out Indefinitely - Expected return Mar 2",
+        "typeId": "30"
+       },
+       {
+        "tooltip": "Oct 26, 6:05 PM: Wallace has been diagnosed with a torn...",
+        "typeId": "14"
+       }
+      ],
+      "rookie": false,
+      "minorsEligible": false,
+      "posIds": [
+       "300",
+       "301",
+       "302",
+       "303",
+       "306",
+       "307"
+      ],
+      "teamId": "40230",
+      "name": "Cason Wallace",
+      "teamShortName": "OKC",
+      "shortName": "C. Wallace"
+     },
+     "resultCode": "EXECUTED",
+     "executed": true,
+     "result": {
+      "content": "Executed"
+     },
+     "claimType": "",
+     "disabled": true,
+     "txSetId": "ekb9p8dimvhpsq4x",
+     "feesUsed": false,
+     "transactionCode": "DROP",
+     "transactionType": "Drop",
+     "deleted": false,
+     "cells": [
+      {
+       "align": "LEFT",
+       "content": "",
+       "key": "bid"
+      },
+      {
+       "content": "1",
+       "key": "priority"
+      },
+      {
+       "content": "2",
+       "key": "week"
+      }
+     ]
+    },
+    {
+     "scorer": {
+      "teamName": "Charlotte Hornets",
+      "urlName": "moussa-diabate",
+      "headshotUrl": "https://fantraximg.com/si/headshots/NBA/hs06226_96_5.png",
+      "scorerId": "06226",
+      "posIdsNoFlex": [
+       "305"
+      ],
+      "defaultPosId": "305",
+      "posShortNames": "C",
+      "team": false,
+      "icons": [
+       {
+        "tooltip": "Oct 24, 1:27 AM: Diabate registered five points (2-2 FG,...",
+        "typeId": "9"
+       }
+      ],
+      "rookie": false,
+      "minorsEligible": false,
+      "posIds": [
+       "305",
+       "307"
+      ],
+      "teamId": "40110",
+      "name": "Moussa Diabate",
+      "teamShortName": "CHA",
+      "shortName": "M. Diabate"
+     },
+     "resultCode": "EXECUTED",
+     "executed": true,
+     "result": {
+      "content": "Executed"
+     },
+     "claimType": "",
+     "numInGroup": 1,
+     "txSetId": "v9je8jp0mvhetngt",
+     "feesUsed": false,
+     "transactionCode": "DROP",
+     "transactionType": "Drop",
+     "deleted": false,
+     "cells": [
+      {
+       "align": "LEFT",
+       "content": "Suggs to be You",
+       "leagueId": "fqj3m6m8murmhnko",
+       "rowspan": 1,
+       "key": "team",
+       "teamId": "rdl7dlplmurmhnn2"
+      },
+      {
+       "align": "LEFT",
+       "content": "",
+       "key": "bid"
+      },
+      {
+       "content": "1",
+       "key": "priority"
+      },
+      {
+       "align": "LEFT",
+       "content": "Tue Oct 20, 2026, 9:04PM",
+       "rowspan": 1,
+       "key": "date"
+      },
+      {
+       "content": "1",
+       "key": "week"
+      }
+     ]
+    },
+    {
+     "scorer": {
+      "teamName": "Oklahoma City Thunder",
+      "urlName": "aday-mara",
+      "headshotUrl": "https://fantraximg.com/si/headshots/NBA/hs076su_96_1.png",
+      "scorerId": "076su",
+      "posIdsNoFlex": [
+       "305"
+      ],
+      "defaultPosId": "305",
+      "posShortNames": "C",
+      "team": false,
+      "icons": [
+       {
+        "tooltip": "Oct 21, 7:24 AM: Mara produced seven points (3-4 FG, 1-2...",
+        "typeId": "9"
+       }
+      ],
+      "rookie": true,
+      "minorsEligible": false,
+      "posIds": [
+       "305",
+       "307"
+      ],
+      "teamId": "40230",
+      "name": "Aday Mara",
+      "teamShortName": "OKC",
+      "shortName": "A. Mara"
+     },
+     "resultCode": "EXECUTED",
+     "executed": true,
+     "result": {
+      "content": "Executed"
+     },
+     "claimType": "",
+     "disabled": true,
+     "numInGroup": 1,
+     "txSetId": "i8whghklmvh8hs6w",
+     "feesUsed": false,
+     "transactionCode": "DROP",
+     "transactionType": "Drop",
+     "deleted": false,
+     "cells": [
+      {
+       "align": "LEFT",
+       "content": "The Fun Guys",
+       "leagueId": "fqj3m6m8murmhnko",
+       "rowspan": 1,
+       "key": "team",
+       "teamId": "f310mnh8murmhnn2"
+      },
+      {
+       "align": "LEFT",
+       "content": "",
+       "key": "bid"
+      },
+      {
+       "content": "1",
+       "key": "priority"
+      },
+      {
+       "align": "LEFT",
+       "content": "Tue Oct 20, 2026, 6:07PM",
+       "rowspan": 1,
+       "key": "date"
+      },
+      {
+       "content": "1",
+       "key": "week"
+      }
+     ]
+    },
+    {
+     "scorer": {
+      "teamName": "Dallas Mavericks",
+      "urlName": "santi-aldama",
+      "headshotUrl": "https://fantraximg.com/si/headshots/NBA/hs05uj4_96_6.png",
+      "scorerId": "05uj4",
+      "posIdsNoFlex": [
+       "304",
+       "306",
+       "305"
+      ],
+      "defaultPosId": "304",
+      "posShortNames": "PF,F,C",
+      "team": false,
+      "icons": [
+       {
+        "tooltip": "Knee - Out Indefinitely - Expected return Nov 2",
+        "typeId": "30"
+       },
+       {
+        "tooltip": "Oct 24, 2:18 PM: Aldama (knee) has been ruled out for...",
+        "typeId": "9"
+       }
+      ],
+      "rookie": false,
+      "minorsEligible": false,
+      "posIds": [
+       "304",
+       "306",
+       "305",
+       "307"
+      ],
+      "teamId": "40150",
+      "name": "Santi Aldama",
+      "teamShortName": "DAL",
+      "shortName": "S. Aldama"
+     },
+     "resultCode": "EXECUTED",
+     "executed": true,
+     "result": {
+      "content": "Executed"
+     },
+     "claimType": "FA",
+     "numInGroup": 1,
+     "txSetId": "351ujb7qmvgq64nw",
+     "feesUsed": false,
+     "transactionCode": "CLAIM",
+     "transactionType": "Claim",
+     "deleted": false,
+     "cells": [
+      {
+       "align": "LEFT",
+       "content": "Bye Week",
+       "leagueId": "fqj3m6m8murmhnko",
+       "rowspan": 1,
+       "key": "team",
+       "teamId": "6wdc0v27murmhnn2"
+      },
+      {
+       "align": "LEFT",
+       "content": "2.00",
+       "key": "bid"
+      },
+      {
+       "content": "1",
+       "key": "priority"
+      },
+      {
+       "align": "LEFT",
+       "content": "Tue Oct 20, 2026, 11:00AM",
+       "rowspan": 1,
+       "key": "date"
+      },
+      {
+       "content": "1",
+       "key": "week"
+      }
+     ]
+    },
+    {
+     "scorer": {
+      "teamName": "Chicago Bulls",
+      "urlName": "leonard-miller",
+      "headshotUrl": "https://fantraximg.com/si/headshots/NBA/hs06cei_96_4.png",
+      "scorerId": "06cei",
+      "posIdsNoFlex": [
+       "303",
+       "306"
+      ],
+      "defaultPosId": "303",
+      "posShortNames": "SF,F",
+      "team": false,
+      "icons": [
+       {
+        "tooltip": "Oct 23, 10:07 PM: Miller had 19 points (7-11 FG, 2-5 3Pt,...",
+        "typeId": "9"
+       }
+      ],
+      "rookie": false,
+      "minorsEligible": false,
+      "posIds": [
+       "303",
+       "306",
+       "307"
+      ],
+      "teamId": "40050",
+      "name": "Leonard Miller",
+      "teamShortName": "CHI",
+      "shortName": "L. Miller"
+     },
+     "resultCode": "EXECUTED",
+     "executed": true,
+     "result": {
+      "content": "Executed"
+     },
+     "claimType": "FA",
+     "disabled": true,
+     "numInGroup": 2,
+     "txSetId": "yuobc50tmvg9bwwq",
+     "feesUsed": false,
+     "transactionCode": "CLAIM",
+     "transactionType": "Claim",
+     "deleted": false,
+     "cells": [
+      {
+       "align": "LEFT",
+       "content": "The 2026 Revenge Tour",
+       "leagueId": "fqj3m6m8murmhnko",
+       "rowspan": 2,
+       "key": "team",
+       "teamId": "p8lde4xbmusl24sh"
+      },
+      {
+       "align": "LEFT",
+       "content": "0.00",
+       "key": "bid"
+      },
+      {
+       "content": "1",
+       "key": "priority"
+      },
+      {
+       "align": "LEFT",
+       "content": "Tue Oct 20, 2026, 11:00AM",
+       "rowspan": 2,
+       "key": "date"
+      },
+      {
+       "content": "1",
+       "key": "week"
+      }
+     ]
+    },
+    {
+     "scorer": {
+      "teamName": "Not on a team",
+      "urlName": "kevin-porter",
+      "headshotUrl": "https://fantraximg.com/si/headshots/NBA/hs051pa_96_7.png",
+      "scorerId": "051pa",
+      "posIdsNoFlex": [
+       "300",
+       "301",
+       "302"
+      ],
+      "defaultPosId": "301",
+      "posShortNames": "PG,SG,G",
+      "team": false,
+      "icons": [
+       {
+        "tooltip": "Free Agent",
+        "typeId": "3"
+       },
+       {
+        "tooltip": "Oct 19, 5:02 PM: Porter was waived by the Bucks on...",
+        "typeId": "8"
+       }
+      ],
+      "rookie": false,
+      "minorsEligible": false,
+      "posIds": [
+       "300",
+       "301",
+       "302",
+       "307"
+      ],
+      "name": "Kevin Porter",
+      "teamShortName": "(N/A)",
+      "shortName": "K. Porter"
+     },
+     "resultCode": "EXECUTED",
+     "executed": true,
+     "result": {
+      "content": "Executed"
+     },
+     "claimType": "",
+     "disabled": true,
+     "txSetId": "yuobc50tmvg9bwwq",
+     "feesUsed": false,
+     "transactionCode": "DROP",
+     "transactionType": "Drop",
+     "deleted": false,
+     "cells": [
+      {
+       "align": "LEFT",
+       "content": "",
+       "key": "bid"
+      },
+      {
+       "content": "1",
+       "key": "priority"
+      },
+      {
+       "content": "1",
+       "key": "week"
+      }
+     ]
+    },
+    {
+     "scorer": {
+      "teamName": "New Orleans Pelicans",
+      "urlName": "herbert-jones",
+      "headshotUrl": "https://fantraximg.com/si/headshots/NBA/hs05uj9_96_6.png",
+      "scorerId": "05uj9",
+      "posIdsNoFlex": [
+       "301",
+       "302",
+       "303",
+       "304",
+       "306"
+      ],
+      "defaultPosId": "303",
+      "posShortNames": "SG,G,SF,PF,F",
+      "team": false,
+      "icons": [
+       {
+        "tooltip": "Oct 25, 1:16 AM: Jones supplied two points (1-3 FG, 0-2...",
+        "typeId": "9"
+       }
+      ],
+      "rookie": false,
+      "minorsEligible": false,
+      "posIds": [
+       "301",
+       "302",
+       "303",
+       "304",
+       "306",
+       "307"
+      ],
+      "teamId": "40180",
+      "name": "Herbert Jones",
+      "teamShortName": "NO",
+      "shortName": "H. Jones"
+     },
+     "resultCode": "EXECUTED",
+     "executed": true,
+     "result": {
+      "content": "Executed"
+     },
+     "claimType": "FA",
+     "numInGroup": 1,
+     "txSetId": "klsbcsipmvg120dp",
+     "feesUsed": false,
+     "transactionCode": "CLAIM",
+     "transactionType": "Claim",
+     "deleted": false,
+     "cells": [
+      {
+       "align": "LEFT",
+       "content": "Suggs to be You",
+       "leagueId": "fqj3m6m8murmhnko",
+       "rowspan": 1,
+       "key": "team",
+       "teamId": "rdl7dlplmurmhnn2"
+      },
+      {
+       "align": "LEFT",
+       "content": "2.00",
+       "key": "bid"
+      },
+      {
+       "content": "1",
+       "key": "priority"
+      },
+      {
+       "align": "LEFT",
+       "content": "Tue Oct 20, 2026, 11:00AM",
+       "rowspan": 1,
+       "key": "date"
+      },
+      {
+       "content": "1",
+       "key": "week"
+      }
+     ]
+    },
+    {
+     "scorer": {
+      "teamName": "San Antonio Spurs",
+      "urlName": "tobias-harris",
+      "headshotUrl": "https://fantraximg.com/si/headshots/NBA/hs027p4_96_10.png",
+      "scorerId": "027p4",
+      "posIdsNoFlex": [
+       "304",
+       "306"
+      ],
+      "defaultPosId": "304",
+      "posShortNames": "PF,F",
+      "team": false,
+      "icons": [
+       {
+        "tooltip": "Calf - Out Indefinitely - Expected return Oct 28",
+        "typeId": "30"
+       },
+       {
+        "tooltip": "Oct 26, 5:48 PM: Harris (calf) has been ruled out for...",
+        "typeId": "14"
+       }
+      ],
+      "rookie": false,
+      "minorsEligible": false,
+      "posIds": [
+       "304",
+       "306",
+       "307"
+      ],
+      "teamId": "40190",
+      "name": "Tobias Harris",
+      "teamShortName": "SA",
+      "shortName": "T. Harris"
+     },
+     "resultCode": "EXECUTED",
+     "executed": true,
+     "result": {
+      "content": "Executed"
+     },
+     "claimType": "FA",
+     "disabled": true,
+     "numInGroup": 1,
+     "txSetId": "h56wz9g3mvfxzrsa",
+     "feesUsed": false,
+     "transactionCode": "CLAIM",
+     "transactionType": "Claim",
+     "deleted": false,
+     "cells": [
+      {
+       "align": "LEFT",
+       "content": "Conflict of Interest",
+       "leagueId": "fqj3m6m8murmhnko",
+       "rowspan": 1,
+       "key": "team",
+       "teamId": "ozju7nsmmurmhnn2"
+      },
+      {
+       "align": "LEFT",
+       "content": "4.00",
+       "key": "bid"
+      },
+      {
+       "content": "1",
+       "key": "priority"
+      },
+      {
+       "align": "LEFT",
+       "content": "Tue Oct 20, 2026, 11:00AM",
+       "rowspan": 1,
+       "key": "date"
+      },
+      {
+       "content": "1",
+       "key": "week"
+      }
+     ]
+    },
+    {
+     "scorer": {
+      "teamName": "Golden State Warriors",
+      "urlName": "draymond-green",
+      "headshotUrl": "https://fantraximg.com/si/headshots/NBA/hs02nfz_96_10.png",
+      "scorerId": "02nfz",
+      "posIdsNoFlex": [
+       "304",
+       "306",
+       "305"
+      ],
+      "defaultPosId": "304",
+      "posShortNames": "PF,F,C",
+      "team": false,
+      "icons": [
+       {
+        "tooltip": "Oct 25, 5:13 PM: Green (back) isn't listed on the injury...",
+        "typeId": "9"
+       }
+      ],
+      "rookie": false,
+      "minorsEligible": false,
+      "posIds": [
+       "304",
+       "306",
+       "305",
+       "307"
+      ],
+      "teamId": "40250",
+      "name": "Draymond Green",
+      "teamShortName": "GS",
+      "shortName": "D. Green"
+     },
+     "resultCode": "EXECUTED",
+     "executed": true,
+     "result": {
+      "content": "Executed"
+     },
+     "claimType": "FA",
+     "numInGroup": 1,
+     "txSetId": "2udo63jwmvekumg9",
+     "feesUsed": false,
+     "transactionCode": "CLAIM",
+     "transactionType": "Claim",
+     "deleted": false,
+     "cells": [
+      {
+       "align": "LEFT",
+       "content": "Suggs to be You",
+       "leagueId": "fqj3m6m8murmhnko",
+       "rowspan": 1,
+       "key": "team",
+       "teamId": "rdl7dlplmurmhnn2"
+      },
+      {
+       "align": "LEFT",
+       "content": "",
+       "key": "bid"
+      },
+      {
+       "content": "1",
+       "key": "priority"
+      },
+      {
+       "align": "LEFT",
+       "content": "Sun Oct 18, 2026, 9:30PM",
+       "rowspan": 1,
+       "key": "date"
+      },
+      {
+       "content": "1",
+       "key": "week"
+      }
+     ]
+    },
+    {
+     "scorer": {
+      "teamName": "Detroit Pistons",
+      "urlName": "duncan-robinson",
+      "headshotUrl": "https://fantraximg.com/si/headshots/NBA/hs04s00_96_9.png",
+      "scorerId": "04s00",
+      "posIdsNoFlex": [
+       "301",
+       "302",
+       "303",
+       "306"
+      ],
+      "defaultPosId": "303",
+      "posShortNames": "SG,G,SF,F",
+      "team": false,
+      "icons": [
+       {
+        "tooltip": "Oct 26, 10:32 AM: Robinson delivered 21 points (6-12 FG,...",
+        "typeId": "14"
+       }
+      ],
+      "rookie": false,
+      "minorsEligible": false,
+      "posIds": [
+       "301",
+       "302",
+       "303",
+       "306",
+       "307"
+      ],
+      "teamId": "40070",
+      "name": "Duncan Robinson",
+      "teamShortName": "DET",
+      "shortName": "D. Robinson"
+     },
+     "resultCode": "EXECUTED",
+     "executed": true,
+     "result": {
+      "content": "Executed"
+     },
+     "claimType": "FA",
+     "disabled": true,
+     "numInGroup": 1,
+     "txSetId": "0uzf88v3mvealzu9",
+     "feesUsed": false,
+     "transactionCode": "CLAIM",
+     "transactionType": "Claim",
+     "deleted": false,
+     "cells": [
+      {
+       "align": "LEFT",
+       "content": "Bye Week",
+       "leagueId": "fqj3m6m8murmhnko",
+       "rowspan": 1,
+       "key": "team",
+       "teamId": "6wdc0v27murmhnn2"
+      },
+      {
+       "align": "LEFT",
+       "content": "",
+       "key": "bid"
+      },
+      {
+       "content": "1",
+       "key": "priority"
+      },
+      {
+       "align": "LEFT",
+       "content": "Sun Oct 18, 2026, 4:43PM",
+       "rowspan": 1,
+       "key": "date"
+      },
+      {
+       "content": "1",
+       "key": "week"
+      }
+     ]
+    },
+    {
+     "scorer": {
+      "teamName": "Oklahoma City Thunder",
+      "urlName": "aday-mara",
+      "headshotUrl": "https://fantraximg.com/si/headshots/NBA/hs076su_96_1.png",
+      "scorerId": "076su",
+      "posIdsNoFlex": [
+       "305"
+      ],
+      "defaultPosId": "305",
+      "posShortNames": "C",
+      "team": false,
+      "icons": [
+       {
+        "tooltip": "Oct 21, 7:24 AM: Mara produced seven points (3-4 FG, 1-2...",
+        "typeId": "9"
+       }
+      ],
+      "rookie": true,
+      "minorsEligible": false,
+      "posIds": [
+       "305",
+       "307"
+      ],
+      "teamId": "40230",
+      "name": "Aday Mara",
+      "teamShortName": "OKC",
+      "shortName": "A. Mara"
+     },
+     "resultCode": "EXECUTED",
+     "executed": true,
+     "result": {
+      "content": "Executed"
+     },
+     "claimType": "FA",
+     "numInGroup": 1,
+     "txSetId": "k87bdt59mve98uuj",
+     "feesUsed": false,
+     "transactionCode": "CLAIM",
+     "transactionType": "Claim",
+     "deleted": false,
+     "cells": [
+      {
+       "align": "LEFT",
+       "content": "The Fun Guys",
+       "leagueId": "fqj3m6m8murmhnko",
+       "rowspan": 1,
+       "key": "team",
+       "teamId": "f310mnh8murmhnn2"
+      },
+      {
+       "align": "LEFT",
+       "content": "",
+       "key": "bid"
+      },
+      {
+       "content": "1",
+       "key": "priority"
+      },
+      {
+       "align": "LEFT",
+       "content": "Sun Oct 18, 2026, 4:05PM",
+       "rowspan": 1,
+       "key": "date"
+      },
+      {
+       "content": "1",
+       "key": "week"
+      }
+     ]
+    },
+    {
+     "scorer": {
+      "teamName": "Charlotte Hornets",
+      "urlName": "grayson-allen",
+      "headshotUrl": "https://fantraximg.com/si/headshots/NBA/hs04qry_96_9.png",
+      "scorerId": "04qry",
+      "posIdsNoFlex": [
+       "300",
+       "301",
+       "302",
+       "303",
+       "306"
+      ],
+      "defaultPosId": "301",
+      "posShortNames": "PG,SG,G,SF,F",
+      "team": false,
+      "icons": [
+       {
+        "tooltip": "Oct 22, 12:08 AM: Allen supplied 21 points (6-9 FG, 5-8...",
+        "typeId": "9"
+       }
+      ],
+      "rookie": false,
+      "minorsEligible": false,
+      "posIds": [
+       "300",
+       "301",
+       "302",
+       "303",
+       "306",
+       "307"
+      ],
+      "teamId": "40110",
+      "name": "Grayson Allen",
+      "teamShortName": "CHA",
+      "shortName": "G. Allen"
+     },
+     "resultCode": "EXECUTED",
+     "executed": true,
+     "result": {
+      "content": "Executed"
+     },
+     "claimType": "FA",
+     "disabled": true,
+     "numInGroup": 2,
+     "txSetId": "4klh0j1kmve98c57",
+     "feesUsed": false,
+     "transactionCode": "CLAIM",
+     "transactionType": "Claim",
+     "deleted": false,
+     "cells": [
+      {
+       "align": "LEFT",
+       "content": "The Fun Guys",
+       "leagueId": "fqj3m6m8murmhnko",
+       "rowspan": 2,
+       "key": "team",
+       "teamId": "f310mnh8murmhnn2"
+      },
+      {
+       "align": "LEFT",
+       "content": "",
+       "key": "bid"
+      },
+      {
+       "content": "1",
+       "key": "priority"
+      },
+      {
+       "align": "LEFT",
+       "content": "Sun Oct 18, 2026, 4:04PM",
+       "rowspan": 2,
+       "key": "date"
+      },
+      {
+       "content": "1",
+       "key": "week"
+      }
+     ]
+    },
+    {
+     "scorer": {
+      "teamName": "Boston Celtics",
+      "urlName": "mitchell-robinson",
+      "headshotUrl": "https://fantraximg.com/si/headshots/NBA/hs04qsd_96_9.png",
+      "scorerId": "04qsd",
+      "posIdsNoFlex": [
+       "305"
+      ],
+      "defaultPosId": "305",
+      "posShortNames": "C",
+      "team": false,
+      "icons": [
+       {
+        "tooltip": "Oct 23, 11:03 PM: Robinson accumulated four points (2-4...",
+        "typeId": "9"
+       }
+      ],
+      "rookie": false,
+      "minorsEligible": false,
+      "posIds": [
+       "305",
+       "307"
+      ],
+      "teamId": "40000",
+      "name": "Mitchell Robinson",
+      "teamShortName": "BOS",
+      "shortName": "M. Robinson"
+     },
+     "resultCode": "EXECUTED",
+     "executed": true,
+     "result": {
+      "content": "Executed"
+     },
+     "claimType": "",
+     "disabled": true,
+     "txSetId": "4klh0j1kmve98c57",
+     "feesUsed": false,
+     "transactionCode": "DROP",
+     "transactionType": "Drop",
+     "deleted": false,
+     "cells": [
+      {
+       "align": "LEFT",
+       "content": "",
+       "key": "bid"
+      },
+      {
+       "content": "1",
+       "key": "priority"
+      },
+      {
+       "content": "1",
+       "key": "week"
+      }
+     ]
+    },
+    {
+     "scorer": {
+      "teamName": "Sacramento Kings",
+      "urlName": "ben-simmons",
+      "headshotUrl": "https://fantraximg.com/si/headshots/NBA/hs03lg1_96_9.png",
+      "scorerId": "03lg1",
+      "posIdsNoFlex": [
+       "300",
+       "301",
+       "302"
+      ],
+      "defaultPosId": "300",
+      "posShortNames": "PG,SG,G",
+      "team": false,
+      "icons": [
+       {
+        "tooltip": "Achilles - Out For Season - Expected return Oct 1",
+        "typeId": "30"
+       },
+       {
+        "tooltip": "Oct 21, 12:22 AM: Simmons underwent successful surgery...",
+        "typeId": "9"
+       }
+      ],
+      "rookie": false,
+      "minorsEligible": false,
+      "posIds": [
+       "300",
+       "301",
+       "302",
+       "307"
+      ],
+      "teamId": "40290",
+      "name": "Ben Simmons",
+      "teamShortName": "SAC",
+      "shortName": "B. Simmons"
+     },
+     "resultCode": "EXECUTED",
+     "executed": true,
+     "result": {
+      "content": "Executed"
+     },
+     "claimType": "WW",
+     "numInGroup": 1,
+     "txSetId": "402zfcccmvcd9dco",
+     "feesUsed": false,
+     "transactionCode": "CLAIM",
+     "transactionType": "Claim",
+     "deleted": false,
+     "cells": [
+      {
+       "align": "LEFT",
+       "content": "Suggs to be You",
+       "leagueId": "fqj3m6m8murmhnko",
+       "rowspan": 1,
+       "key": "team",
+       "teamId": "rdl7dlplmurmhnn2"
+      },
+      {
+       "align": "LEFT",
+       "content": "5.00",
+       "key": "bid"
+      },
+      {
+       "content": "1",
+       "key": "priority"
+      },
+      {
+       "align": "LEFT",
+       "content": "Sat Oct 17, 2026, 10:55AM",
+       "rowspan": 1,
+       "key": "date"
+      },
+      {
+       "content": "1",
+       "key": "week"
+      }
+     ]
+    },
+    {
+     "scorer": {
+      "teamName": "Boston Celtics",
+      "urlName": "mitchell-robinson",
+      "headshotUrl": "https://fantraximg.com/si/headshots/NBA/hs04qsd_96_9.png",
+      "scorerId": "04qsd",
+      "posIdsNoFlex": [
+       "305"
+      ],
+      "defaultPosId": "305",
+      "posShortNames": "C",
+      "team": false,
+      "icons": [
+       {
+        "tooltip": "Oct 23, 11:03 PM: Robinson accumulated four points (2-4...",
+        "typeId": "9"
+       }
+      ],
+      "rookie": false,
+      "minorsEligible": false,
+      "posIds": [
+       "305",
+       "307"
+      ],
+      "teamId": "40000",
+      "name": "Mitchell Robinson",
+      "teamShortName": "BOS",
+      "shortName": "M. Robinson"
+     },
+     "resultCode": "EXECUTED",
+     "executed": true,
+     "result": {
+      "content": "Executed"
+     },
+     "claimType": "FA",
+     "disabled": true,
+     "numInGroup": 2,
+     "txSetId": "c0ljjw4vmvbdl6mo",
+     "feesUsed": false,
+     "transactionCode": "CLAIM",
+     "transactionType": "Claim",
+     "deleted": false,
+     "cells": [
+      {
+       "align": "LEFT",
+       "content": "The Fun Guys",
+       "leagueId": "fqj3m6m8murmhnko",
+       "rowspan": 2,
+       "key": "team",
+       "teamId": "f310mnh8murmhnn2"
+      },
+      {
+       "align": "LEFT",
+       "content": "",
+       "key": "bid"
+      },
+      {
+       "content": "1",
+       "key": "priority"
+      },
+      {
+       "align": "LEFT",
+       "content": "Fri Oct 16, 2026, 3:43PM",
+       "rowspan": 2,
+       "key": "date"
+      },
+      {
+       "content": "1",
+       "key": "week"
+      }
+     ]
+    },
+    {
+     "scorer": {
+      "teamName": "Oklahoma City Thunder",
+      "urlName": "jared-mccain",
+      "headshotUrl": "https://fantraximg.com/si/headshots/NBA/hs06mk8_96_3.png",
+      "scorerId": "06mk8",
+      "posIdsNoFlex": [
+       "301",
+       "302"
+      ],
+      "defaultPosId": "301",
+      "posShortNames": "SG,G",
+      "team": false,
+      "icons": [
+       {
+        "tooltip": "Oct 26, 7:37 PM: McCain will start Monday's game against...",
+        "typeId": "14"
+       }
+      ],
+      "rookie": false,
+      "minorsEligible": false,
+      "posIds": [
+       "301",
+       "302",
+       "307"
+      ],
+      "teamId": "40230",
+      "name": "Jared McCain",
+      "teamShortName": "OKC",
+      "shortName": "J. McCain"
+     },
+     "resultCode": "EXECUTED",
+     "executed": true,
+     "result": {
+      "content": "Executed"
+     },
+     "claimType": "",
+     "disabled": true,
+     "txSetId": "c0ljjw4vmvbdl6mo",
+     "feesUsed": false,
+     "transactionCode": "DROP",
+     "transactionType": "Drop",
+     "deleted": false,
+     "cells": [
+      {
+       "align": "LEFT",
+       "content": "",
+       "key": "bid"
+      },
+      {
+       "content": "1",
+       "key": "priority"
+      },
+      {
+       "content": "1",
+       "key": "week"
+      }
+     ]
+    },
+    {
+     "scorer": {
+      "teamName": "New Orleans Pelicans",
+      "urlName": "jeremiah-fears",
+      "headshotUrl": "https://fantraximg.com/si/headshots/NBA/hs06v5g_96_3.png",
+      "scorerId": "06v5g",
+      "posIdsNoFlex": [
+       "300",
+       "302"
+      ],
+      "defaultPosId": "300",
+      "posShortNames": "PG,G",
+      "team": false,
+      "icons": [
+       {
+        "tooltip": "Oct 21, 7:40 PM: Fears will start Wednesday's game...",
+        "typeId": "9"
+       }
+      ],
+      "rookie": false,
+      "minorsEligible": false,
+      "posIds": [
+       "300",
+       "302",
+       "307"
+      ],
+      "teamId": "40180",
+      "name": "Jeremiah Fears",
+      "teamShortName": "NO",
+      "shortName": "J. Fears"
+     },
+     "resultCode": "EXECUTED",
+     "executed": true,
+     "result": {
+      "content": "Executed"
+     },
+     "claimType": "FA",
+     "numInGroup": 2,
+     "txSetId": "720svm6zmvadcn8p",
+     "feesUsed": false,
+     "transactionCode": "CLAIM",
+     "transactionType": "Claim",
+     "deleted": false,
+     "cells": [
+      {
+       "align": "LEFT",
+       "content": "The Fun Guys",
+       "leagueId": "fqj3m6m8murmhnko",
+       "rowspan": 2,
+       "key": "team",
+       "teamId": "f310mnh8murmhnn2"
+      },
+      {
+       "align": "LEFT",
+       "content": "",
+       "key": "bid"
+      },
+      {
+       "content": "1",
+       "key": "priority"
+      },
+      {
+       "align": "LEFT",
+       "content": "Thu Oct 15, 2026, 10:49PM",
+       "rowspan": 2,
+       "key": "date"
+      },
+      {
+       "content": "1",
+       "key": "week"
+      }
+     ]
+    },
+    {
+     "scorer": {
+      "teamName": "Sacramento Kings",
+      "urlName": "ben-simmons",
+      "headshotUrl": "https://fantraximg.com/si/headshots/NBA/hs03lg1_96_9.png",
+      "scorerId": "03lg1",
+      "posIdsNoFlex": [
+       "300",
+       "301",
+       "302"
+      ],
+      "defaultPosId": "300",
+      "posShortNames": "PG,SG,G",
+      "team": false,
+      "icons": [
+       {
+        "tooltip": "Achilles - Out For Season - Expected return Oct 1",
+        "typeId": "30"
+       },
+       {
+        "tooltip": "Oct 21, 12:22 AM: Simmons underwent successful surgery...",
+        "typeId": "9"
+       }
+      ],
+      "rookie": false,
+      "minorsEligible": false,
+      "posIds": [
+       "300",
+       "301",
+       "302",
+       "307"
+      ],
+      "teamId": "40290",
+      "name": "Ben Simmons",
+      "teamShortName": "SAC",
+      "shortName": "B. Simmons"
+     },
+     "resultCode": "EXECUTED",
+     "executed": true,
+     "result": {
+      "content": "Executed"
+     },
+     "claimType": "",
+     "txSetId": "720svm6zmvadcn8p",
+     "feesUsed": false,
+     "transactionCode": "DROP",
+     "transactionType": "Drop",
+     "deleted": false,
+     "cells": [
+      {
+       "align": "LEFT",
+       "content": "",
+       "key": "bid"
+      },
+      {
+       "content": "1",
+       "key": "priority"
+      },
+      {
+       "content": "1",
+       "key": "week"
+      }
+     ]
+    },
+    {
+     "scorer": {
+      "teamName": "Utah Jazz",
+      "urlName": "jusuf-nurkic",
+      "headshotUrl": "https://fantraximg.com/si/headshots/NBA/hs03e6n_96_10.png",
+      "scorerId": "03e6n",
+      "posIdsNoFlex": [
+       "305"
+      ],
+      "defaultPosId": "305",
+      "posShortNames": "C",
+      "team": false,
+      "icons": [
+       {
+        "tooltip": "Foot - Out Indefinitely - Expected return Nov 4",
+        "typeId": "30"
+       },
+       {
+        "tooltip": "Oct 7, 7:07 PM: Nurkic will miss at least the next four...",
+        "typeId": "8"
+       }
+      ],
+      "rookie": false,
+      "minorsEligible": false,
+      "posIds": [
+       "305",
+       "307"
+      ],
+      "teamId": "40240",
+      "name": "Jusuf Nurkic",
+      "teamShortName": "UTA",
+      "shortName": "J. Nurkic"
+     },
+     "resultCode": "EXECUTED",
+     "executed": true,
+     "result": {
+      "content": "Executed"
+     },
+     "claimType": "FA",
+     "disabled": true,
+     "numInGroup": 1,
+     "txSetId": "wxkc1oe3mv9v5c00",
+     "feesUsed": false,
+     "transactionCode": "CLAIM",
+     "transactionType": "Claim",
+     "deleted": false,
+     "cells": [
+      {
+       "align": "LEFT",
+       "content": "Let's Go Brandon Ingram",
+       "leagueId": "fqj3m6m8murmhnko",
+       "rowspan": 1,
+       "key": "team",
+       "teamId": "om35rt8imurmhnn2"
+      },
+      {
+       "align": "LEFT",
+       "content": "",
+       "key": "bid"
+      },
+      {
+       "content": "1",
+       "key": "priority"
+      },
+      {
+       "align": "LEFT",
+       "content": "Thu Oct 15, 2026, 2:19PM",
+       "rowspan": 1,
+       "key": "date"
+      },
+      {
+       "content": "1",
+       "key": "week"
+      }
+     ]
+    },
+    {
+     "scorer": {
+      "teamName": "Sacramento Kings",
+      "urlName": "ben-simmons",
+      "headshotUrl": "https://fantraximg.com/si/headshots/NBA/hs03lg1_96_9.png",
+      "scorerId": "03lg1",
+      "posIdsNoFlex": [
+       "300",
+       "301",
+       "302"
+      ],
+      "defaultPosId": "300",
+      "posShortNames": "PG,SG,G",
+      "team": false,
+      "icons": [
+       {
+        "tooltip": "Achilles - Out For Season - Expected return Oct 1",
+        "typeId": "30"
+       },
+       {
+        "tooltip": "Oct 21, 12:22 AM: Simmons underwent successful surgery...",
+        "typeId": "9"
+       }
+      ],
+      "rookie": false,
+      "minorsEligible": false,
+      "posIds": [
+       "300",
+       "301",
+       "302",
+       "307"
+      ],
+      "teamId": "40290",
+      "name": "Ben Simmons",
+      "teamShortName": "SAC",
+      "shortName": "B. Simmons"
+     },
+     "resultCode": "EXECUTED",
+     "executed": true,
+     "result": {
+      "content": "Executed"
+     },
+     "claimType": "FA",
+     "numInGroup": 1,
+     "txSetId": "dkw244immv88buvr",
+     "feesUsed": false,
+     "transactionCode": "CLAIM",
+     "transactionType": "Claim",
+     "deleted": false,
+     "cells": [
+      {
+       "align": "LEFT",
+       "content": "The Fun Guys",
+       "leagueId": "fqj3m6m8murmhnko",
+       "rowspan": 1,
+       "key": "team",
+       "teamId": "f310mnh8murmhnn2"
+      },
+      {
+       "align": "LEFT",
+       "content": "0.00",
+       "key": "bid"
+      },
+      {
+       "content": "1",
+       "key": "priority"
+      },
+      {
+       "align": "LEFT",
+       "content": "Wed Oct 14, 2026, 11:00AM",
+       "rowspan": 1,
+       "key": "date"
+      },
+      {
+       "content": "1",
+       "key": "week"
+      }
+     ]
+    },
+    {
+     "scorer": {
+      "teamName": "San Antonio Spurs",
+      "urlName": "julian-champagnie",
+      "headshotUrl": "https://fantraximg.com/si/headshots/NBA/hs062dn_96_5.png",
+      "scorerId": "062dn",
+      "posIdsNoFlex": [
+       "303",
+       "304",
+       "306"
+      ],
+      "defaultPosId": "303",
+      "posShortNames": "SF,PF,F",
+      "team": false,
+      "icons": [
+       {
+        "tooltip": "Oct 24, 10:43 PM: Champagnie finished Saturday's 122-106...",
+        "typeId": "9"
+       }
+      ],
+      "rookie": false,
+      "minorsEligible": false,
+      "posIds": [
+       "303",
+       "304",
+       "306",
+       "307"
+      ],
+      "teamId": "40190",
+      "name": "Julian Champagnie",
+      "teamShortName": "SA",
+      "shortName": "J. Champagnie"
+     },
+     "resultCode": "EXECUTED",
+     "executed": true,
+     "result": {
+      "content": "Executed"
+     },
+     "claimType": "FA",
+     "disabled": true,
+     "numInGroup": 1,
+     "txSetId": "8at300jnmv60hiv3",
+     "feesUsed": false,
+     "transactionCode": "CLAIM",
+     "transactionType": "Claim",
+     "deleted": false,
+     "cells": [
+      {
+       "align": "LEFT",
+       "content": "The Rollin\u2019 Treys",
+       "leagueId": "fqj3m6m8murmhnko",
+       "rowspan": 1,
+       "key": "team",
+       "teamId": "t5zv7h5emurmhnn2"
+      },
+      {
+       "align": "LEFT",
+       "content": "0.00",
+       "key": "bid"
+      },
+      {
+       "content": "1",
+       "key": "priority"
+      },
+      {
+       "align": "LEFT",
+       "content": "Tue Oct 13, 2026, 11:00AM",
+       "rowspan": 1,
+       "key": "date"
+      },
+      {
+       "content": "1",
+       "key": "week"
+      }
+     ]
+    },
+    {
+     "scorer": {
+      "teamName": "Denver Nuggets",
+      "urlName": "demar-derozan",
+      "headshotUrl": "https://fantraximg.com/si/headshots/NBA/hs01eon_96_10.png",
+      "scorerId": "01eon",
+      "posIdsNoFlex": [
+       "303",
+       "304",
+       "306"
+      ],
+      "defaultPosId": "303",
+      "posShortNames": "SF,PF,F",
+      "team": false,
+      "icons": [
+       {
+        "tooltip": "Oct 23, 2:21 AM: DeRozan racked up 13 points (5-9 FG,...",
+        "typeId": "9"
+       }
+      ],
+      "rookie": false,
+      "minorsEligible": false,
+      "posIds": [
+       "303",
+       "304",
+       "306",
+       "307"
+      ],
+      "teamId": "40200",
+      "name": "DeMar DeRozan",
+      "teamShortName": "DEN",
+      "shortName": "D. DeRozan"
+     },
+     "resultCode": "EXECUTED",
+     "executed": true,
+     "result": {
+      "content": "Executed"
+     },
+     "claimType": "FA",
+     "numInGroup": 1,
+     "txSetId": "83tsn4v4mv62skh1",
+     "feesUsed": false,
+     "transactionCode": "CLAIM",
+     "transactionType": "Claim",
+     "deleted": false,
+     "cells": [
+      {
+       "align": "LEFT",
+       "content": "No Mercy, Just Usage Rate",
+       "leagueId": "fqj3m6m8murmhnko",
+       "rowspan": 1,
+       "key": "team",
+       "teamId": "0tjisxjpmurmhnn2"
+      },
+      {
+       "align": "LEFT",
+       "content": "0.00",
+       "key": "bid"
+      },
+      {
+       "content": "1",
+       "key": "priority"
+      },
+      {
+       "align": "LEFT",
+       "content": "Tue Oct 13, 2026, 11:00AM",
+       "rowspan": 1,
+       "key": "date"
+      },
+      {
+       "content": "1",
+       "key": "week"
+      }
+     ]
+    },
+    {
+     "scorer": {
+      "teamName": "San Antonio Spurs",
+      "urlName": "keldon-johnson",
+      "headshotUrl": "https://fantraximg.com/si/headshots/NBA/hs051p9_96_8.png",
+      "scorerId": "051p9",
+      "posIdsNoFlex": [
+       "301",
+       "302",
+       "303",
+       "306"
+      ],
+      "defaultPosId": "303",
+      "posShortNames": "SG,G,SF,F",
+      "team": false,
+      "icons": [
+       {
+        "tooltip": "Oct 23, 7:46 PM: Johnson (mouth) is available for...",
+        "typeId": "9"
+       }
+      ],
+      "rookie": false,
+      "minorsEligible": false,
+      "posIds": [
+       "301",
+       "302",
+       "303",
+       "306",
+       "307"
+      ],
+      "teamId": "40190",
+      "name": "Keldon Johnson",
+      "teamShortName": "SA",
+      "shortName": "K. Johnson"
+     },
+     "resultCode": "EXECUTED",
+     "executed": true,
+     "result": {
+      "content": "Executed"
+     },
+     "claimType": "FA",
+     "disabled": true,
+     "numInGroup": 1,
+     "txSetId": "n2kcndktmv4rzh9j",
+     "feesUsed": false,
+     "transactionCode": "CLAIM",
+     "transactionType": "Claim",
+     "deleted": false,
+     "cells": [
+      {
+       "align": "LEFT",
+       "content": "The 2026 Revenge Tour",
+       "leagueId": "fqj3m6m8murmhnko",
+       "rowspan": 1,
+       "key": "team",
+       "teamId": "p8lde4xbmusl24sh"
+      },
+      {
+       "align": "LEFT",
+       "content": "3.00",
+       "key": "bid"
+      },
+      {
+       "content": "1",
+       "key": "priority"
+      },
+      {
+       "align": "LEFT",
+       "content": "Mon Oct 12, 2026, 11:00AM",
+       "rowspan": 1,
+       "key": "date"
+      },
+      {
+       "content": "1",
+       "key": "week"
+      }
+     ]
+    },
+    {
+     "scorer": {
+      "teamName": "Charlotte Hornets",
+      "urlName": "moussa-diabate",
+      "headshotUrl": "https://fantraximg.com/si/headshots/NBA/hs06226_96_5.png",
+      "scorerId": "06226",
+      "posIdsNoFlex": [
+       "305"
+      ],
+      "defaultPosId": "305",
+      "posShortNames": "C",
+      "team": false,
+      "icons": [
+       {
+        "tooltip": "Oct 24, 1:27 AM: Diabate registered five points (2-2 FG,...",
+        "typeId": "9"
+       }
+      ],
+      "rookie": false,
+      "minorsEligible": false,
+      "posIds": [
+       "305",
+       "307"
+      ],
+      "teamId": "40110",
+      "name": "Moussa Diabate",
+      "teamShortName": "CHA",
+      "shortName": "M. Diabate"
+     },
+     "resultCode": "EXECUTED",
+     "executed": true,
+     "result": {
+      "content": "Executed"
+     },
+     "claimType": "FA",
+     "numInGroup": 1,
+     "txSetId": "qi67cjknmv56c86w",
+     "feesUsed": false,
+     "transactionCode": "CLAIM",
+     "transactionType": "Claim",
+     "deleted": false,
+     "cells": [
+      {
+       "align": "LEFT",
+       "content": "Suggs to be You",
+       "leagueId": "fqj3m6m8murmhnko",
+       "rowspan": 1,
+       "key": "team",
+       "teamId": "rdl7dlplmurmhnn2"
+      },
+      {
+       "align": "LEFT",
+       "content": "3.00",
+       "key": "bid"
+      },
+      {
+       "content": "1",
+       "key": "priority"
+      },
+      {
+       "align": "LEFT",
+       "content": "Mon Oct 12, 2026, 11:00AM",
+       "rowspan": 1,
+       "key": "date"
+      },
+      {
+       "content": "1",
+       "key": "week"
+      }
+     ]
+    },
+    {
+     "scorer": {
+      "teamName": "Golden State Warriors",
+      "urlName": "yaxel-lendeborg",
+      "headshotUrl": "https://fantraximg.com/si/headshots/NBA/hs076sx_96_1.png",
+      "scorerId": "076sx",
+      "posIdsNoFlex": [
+       "303",
+       "306"
+      ],
+      "defaultPosId": "303",
+      "posShortNames": "SF,F",
+      "team": false,
+      "icons": [
+       {
+        "tooltip": "Oct 24, 11:30 AM: Lendeborg accumulated 18 points (4-11...",
+        "typeId": "9"
+       }
+      ],
+      "rookie": true,
+      "minorsEligible": false,
+      "posIds": [
+       "303",
+       "306",
+       "307"
+      ],
+      "teamId": "40250",
+      "name": "Yaxel Lendeborg",
+      "teamShortName": "GS",
+      "shortName": "Y. Lendeborg"
+     },
+     "resultCode": "EXECUTED",
+     "executed": true,
+     "result": {
+      "content": "Executed"
+     },
+     "claimType": "FA",
+     "disabled": true,
+     "numInGroup": 1,
+     "txSetId": "d9nbg5hlmv5477gm",
+     "feesUsed": false,
+     "transactionCode": "CLAIM",
+     "transactionType": "Claim",
+     "deleted": false,
+     "cells": [
+      {
+       "align": "LEFT",
+       "content": "Bye Week",
+       "leagueId": "fqj3m6m8murmhnko",
+       "rowspan": 1,
+       "key": "team",
+       "teamId": "6wdc0v27murmhnn2"
+      },
+      {
+       "align": "LEFT",
+       "content": "2.00",
+       "key": "bid"
+      },
+      {
+       "content": "1",
+       "key": "priority"
+      },
+      {
+       "align": "LEFT",
+       "content": "Mon Oct 12, 2026, 11:00AM",
+       "rowspan": 1,
+       "key": "date"
+      },
+      {
+       "content": "1",
+       "key": "week"
+      }
+     ]
+    }
+   ]
+  }
+ }
+}

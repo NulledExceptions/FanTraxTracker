@@ -1,0 +1,17 @@
+{"responses": [{"data": {
+  "myTeamIds": ["tm5marc"],
+  "tables": [{
+    "scGroup": "ALL",
+    "header": {"cells": [
+      {"key": "sched_10/26", "shortName": "Mon 10/26", "eventStr": true},
+      {"key": "sched_10/27", "shortName": "Tue 10/27", "eventStr": true},
+      {"key": "sched_10/28", "shortName": "Wed 10/28", "eventStr": true}
+    ]},
+    "rows": [
+      {"scorer": {"scorerId": "p1", "name": "Some Player", "teamShortName": "CHI", "posShortNames": "PG"}, "posId": "300",
+       "cells": [{"content": "CHI 101<br/>@DET 99 F", "eventId": "e1"}, {"content": ""}, {"content": "MIL<br/>Wed 8:00PM", "eventId": "e2"}]},
+      {"scorer": {"scorerId": "p2", "name": "Other Player", "teamShortName": "PHO", "posShortNames": "C"}, "posId": "305",
+       "cells": [{"content": ""}, {"content": "@LAL<br/>Tue 10:00PM", "eventId": "e3"}, {"content": ""}]}
+    ]
+  }]
+}}]}
